@@ -67,6 +67,7 @@
         <select id="audio-select" class="audio-select"></select>
       </div>
       <audio id="main-audio-player" controls preload="none" class="audio-Element"></audio>
+      <audio id="tts-audio-player" preload="auto" playsinline class="hidden"></audio>
       <button id="btn-close-audio" class="icon-close-btn" title="收合播放器">✕</button>
     </div>
   </section>
@@ -120,7 +121,10 @@
             <div class="flashcard-face flashcard-front">
               <div class="face-top-tag">
                 <span id="front-tag-label">🖼️ 看圖猜單字</span>
-                <span class="flip-hint-pill">👆 點擊字卡翻面</span>
+                <div class="face-top-right">
+                  <button type="button" id="btn-card-speak-front" class="face-speak-btn" title="點擊聽單字發音">🔊 發音</button>
+                  <span class="flip-hint-pill">👆 點擊翻面</span>
+                </div>
               </div>
               <div class="card-image-box">
                 <img id="single-front-img" src="" alt="字卡正面" draggable="false" />
@@ -136,7 +140,10 @@
             <div class="flashcard-face flashcard-back">
               <div class="face-top-tag back-tag">
                 <span id="back-tag-label">🔤 英語單字解答</span>
-                <span class="flip-hint-pill">👆 點擊翻回正面</span>
+                <div class="face-top-right">
+                  <button type="button" id="btn-card-speak-back" class="face-speak-btn" title="點擊聽單字發音">🔊 發音</button>
+                  <span class="flip-hint-pill">👆 點擊翻面</span>
+                </div>
               </div>
               <div class="back-content-split">
                 <div class="back-handwritten-box">

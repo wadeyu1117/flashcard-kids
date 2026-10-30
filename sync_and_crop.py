@@ -6,10 +6,14 @@ pairs front/back flashcard sheet photos, refines/detects individual white cards,
 crops individual card images, and builds data/catalog.json.
 """
 
+import hashlib
 import json
 import os
+import re
 import sys
 import time
+import urllib.parse
+import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 import cv2
@@ -24,14 +28,66 @@ DATA_DIR = os.path.join(APP_DIR, "data")
 RAW_DIR = os.path.join(DATA_DIR, "raw")
 CARDS_DIR = os.path.join(DATA_DIR, "cards")
 AUDIO_DIR = os.path.join(DATA_DIR, "audio")
+TTS_DIR = os.path.join(DATA_DIR, "tts")
 MANIFEST_PATH = os.path.join(DATA_DIR, "drive_manifest.json")
 ANNOTATIONS_PATH = os.path.join(DATA_DIR, "vision_annotations.json")
 CATALOG_PATH = os.path.join(DATA_DIR, "catalog.json")
 
 
 def ensure_dirs():
-    for d in (DATA_DIR, RAW_DIR, CARDS_DIR, AUDIO_DIR):
+    for d in (DATA_DIR, RAW_DIR, CARDS_DIR, AUDIO_DIR, TTS_DIR):
         os.makedirs(d, exist_ok=True)
+
+
+def word_to_tts_slug(word: str) -> str:
+    clean = re.sub(r"[^a-zA-Z0-9]+", "_", word.strip().lower()).strip("_")
+    if not clean:
+        clean = "word"
+    h = hashlib.md5(word.strip().lower().encode("utf-8")).hexdigest()[:6]
+    return f"{clean}_{h}"
+
+
+def ensure_tts_files(words):
+    """Downloads normal and slow MP3 pronunciation files for all flashcard words."""
+    tasks = []
+    for w in sorted(set(w.strip() for w in words if w and w.strip())):
+        slug = word_to_tts_slug(w)
+        q_text = w.replace("/", ", ").strip()
+        normal_path = os.path.join(TTS_DIR, f"{slug}.mp3")
+        slow_path = os.path.join(TTS_DIR, f"{slug}_slow.mp3")
+        if not os.path.exists(normal_path) or os.path.getsize(normal_path) < 500:
+            tasks.append((q_text, "1", normal_path))
+        if not os.path.exists(slow_path) or os.path.getsize(slow_path) < 500:
+            tasks.append((q_text, "0.24", slow_path))
+
+    if not tasks:
+        return 0
+
+    def _fetch_tts(item):
+        q_text, spd, out_path = item
+        url = (
+            "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=en"
+            f"&ttsspeed={spd}&q={urllib.parse.quote(q_text)}"
+        )
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = resp.read()
+        if data and len(data) > 500:
+            with open(out_path, "wb") as f:
+                f.write(data)
+            return True
+        return False
+
+    ok_count = 0
+    with ThreadPoolExecutor(max_workers=10) as ex:
+        futs = [ex.submit(_fetch_tts, t) for t in tasks]
+        for fut in as_completed(futs):
+            try:
+                if fut.result():
+                    ok_count += 1
+            except Exception as e:
+                print(f"[TTS] Warning: {e}")
+    return ok_count
 
 
 def fetch_drive_manifest():
@@ -318,14 +374,18 @@ def build_catalog(sync_from_drive=True):
                 crop_w = word_img[wy0:wy1, wx0:wx1]
                 cv2.imwrite(word_crop_path, crop_w, [int(cv2.IMWRITE_JPEG_QUALITY), 92])
 
+            w_str = c.get("word", "").strip()
+            tts_slug = word_to_tts_slug(w_str)
             deck_cards.append({
                 "id": card_id,
                 "index": c_idx,
-                "word": c.get("word", "").strip(),
+                "word": w_str,
                 "subtext": c.get("subtext", "").strip(),
                 "zh": c.get("zh", "").strip(),
                 "pic_crop_url": f"data/cards/{pic_crop_name}",
                 "word_crop_url": f"data/cards/{word_crop_name}",
+                "tts_url": f"data/tts/{tts_slug}.mp3",
+                "tts_slow_url": f"data/tts/{tts_slug}_slow.mp3",
                 "pic_box_norm": p_box_norm,
                 "word_box_norm": w_box_norm,
             })
@@ -345,6 +405,9 @@ def build_catalog(sync_from_drive=True):
             "card_count": len(deck_cards),
             "cards": deck_cards,
         })
+
+    all_words = [c["word"] for d in decks for c in d["cards"] if c.get("word")]
+    ensure_tts_files(all_words)
 
     catalog = {
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),

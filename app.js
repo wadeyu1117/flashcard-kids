@@ -65,6 +65,7 @@
   const elAudioDrawer = document.getElementById("audio-drawer");
   const elAudioSelect = document.getElementById("audio-select");
   const elAudioPlayer = document.getElementById("main-audio-player");
+  const elTtsPlayer = document.getElementById("tts-audio-player") || new Audio();
 
   const elUnitModal = document.getElementById("unit-modal");
   const elUnitGrid = document.getElementById("unit-grid");
@@ -74,7 +75,17 @@
 
   // ==================== SOUND EFFECTS & TTS ====================
   let audioCtx = null;
-  function playEffect(type) {
+  let currentTtsSource = null;
+  let userHasInteracted = false;
+  const ttsBufferCache = new Map();
+
+  function ensureAudioUnlocked() {
+    userHasInteracted = true;
+    if ("audioSession" in navigator) {
+      try {
+        navigator.audioSession.type = "playback";
+      } catch (_) {}
+    }
     try {
       if (!audioCtx) {
         audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -82,6 +93,17 @@
       if (audioCtx.state === "suspended") {
         audioCtx.resume();
       }
+    } catch (_) {}
+  }
+
+  ["click", "touchstart", "keydown"].forEach((evt) => {
+    window.addEventListener(evt, ensureAudioUnlocked, { once: true, passive: true });
+  });
+
+  function playEffect(type) {
+    try {
+      ensureAudioUnlocked();
+      if (!audioCtx) return;
       const now = audioCtx.currentTime;
       const osc = audioCtx.createOscillator();
       const gain = audioCtx.createGain();
@@ -117,26 +139,129 @@
     } catch (_) {}
   }
 
-  function speakText(text, rate = 0.90) {
+  function setSpeakingIndicator(active, isSlow = false) {
+    const btnFront = document.getElementById("btn-card-speak-front");
+    const btnBack = document.getElementById("btn-card-speak-back");
+    const btnNorm = document.getElementById("btn-speak-normal");
+    const btnSlow = document.getElementById("btn-speak-slow");
+    if (btnFront) btnFront.classList.toggle("speaking", active);
+    if (btnBack) btnBack.classList.toggle("speaking", active);
+    if (btnNorm) btnNorm.classList.toggle("speaking", active && !isSlow);
+    if (btnSlow) btnSlow.classList.toggle("speaking", active && isSlow);
+  }
+
+  function fallbackWebSpeech(text, rate = 0.90) {
     if (!("speechSynthesis" in window) || !text) return;
     try {
       window.speechSynthesis.cancel();
-      // Clean text for speech
-      const clean = text.replace(/["[\]]/g, "").trim();
-      const utter = new SpeechSynthesisUtterance(clean);
-      utter.lang = "en-US";
-      utter.rate = rate;
-      utter.pitch = 1.02;
+      const clean = text.replace(/["[\]/]/g, " ").trim();
+      setTimeout(() => {
+        const utter = new SpeechSynthesisUtterance(clean);
+        utter.lang = "en-US";
+        utter.rate = rate;
+        utter.pitch = 1.02;
+        const voices = window.speechSynthesis.getVoices();
+        const preferred =
+          voices.find((v) => v.lang === "en-US" && /Google|Samantha|Natural|Microsoft Aria/i.test(v.name)) ||
+          voices.find((v) => v.lang.startsWith("en-US")) ||
+          voices.find((v) => v.lang.startsWith("en"));
+        if (preferred) utter.voice = preferred;
+        utter.onend = () => setSpeakingIndicator(false);
+        utter.onerror = () => setSpeakingIndicator(false);
+        window.speechSynthesis.speak(utter);
+      }, 30);
+    } catch (_) {
+      setSpeakingIndicator(false);
+    }
+  }
 
-      const voices = window.speechSynthesis.getVoices();
-      const preferred =
-        voices.find((v) => v.lang === "en-US" && /Google|Samantha|Natural|Microsoft Aria/i.test(v.name)) ||
-        voices.find((v) => v.lang.startsWith("en-US")) ||
-        voices.find((v) => v.lang.startsWith("en"));
-      if (preferred) utter.voice = preferred;
+  async function playMp3ViaWebAudio(url, textFallback, rate) {
+    try {
+      ensureAudioUnlocked();
+      if (!audioCtx) throw new Error("No AudioContext");
+      if (currentTtsSource) {
+        try {
+          currentTtsSource.stop();
+        } catch (_) {}
+        currentTtsSource = null;
+      }
+      let audioBuf = ttsBufferCache.get(url);
+      if (!audioBuf) {
+        const resp = await fetch(url);
+        if (!resp.ok) throw new Error("HTTP " + resp.status);
+        const arr = await resp.arrayBuffer();
+        audioBuf = await audioCtx.decodeAudioData(arr);
+        ttsBufferCache.set(url, audioBuf);
+      }
+      const src = audioCtx.createBufferSource();
+      src.buffer = audioBuf;
+      src.connect(audioCtx.destination);
+      src.onended = () => setSpeakingIndicator(false);
+      currentTtsSource = src;
+      src.start(0);
+    } catch (_) {
+      fallbackWebSpeech(textFallback, rate);
+    }
+  }
 
-      window.speechSynthesis.speak(utter);
-    } catch (_) {}
+  function speakText(cardOrText, rate = 0.90) {
+    ensureAudioUnlocked();
+    const isSlow = rate < 0.75;
+    let cardObj = null;
+    let wordStr = "";
+
+    if (cardOrText && typeof cardOrText === "object") {
+      cardObj = cardOrText;
+      wordStr = cardObj.word || "";
+    } else if (typeof cardOrText === "string") {
+      wordStr = cardOrText.trim();
+      cardObj = allCardsFlat.find((c) => c.word.toLowerCase() === wordStr.toLowerCase()) || null;
+    }
+
+    if (!wordStr) return;
+    const mp3Url = cardObj
+      ? resolveUrl(isSlow ? cardObj.tts_slow_url || cardObj.tts_url : cardObj.tts_url)
+      : "";
+
+    setSpeakingIndicator(true, isSlow);
+
+    if (mp3Url) {
+      try {
+        if (currentTtsSource) {
+          try {
+            currentTtsSource.stop();
+          } catch (_) {}
+          currentTtsSource = null;
+        }
+        elTtsPlayer.pause();
+        elTtsPlayer.src = mp3Url;
+        elTtsPlayer.playbackRate = 1.0;
+        elTtsPlayer.onended = () => setSpeakingIndicator(false);
+        elTtsPlayer.onerror = () => playMp3ViaWebAudio(mp3Url, wordStr, rate);
+        const playPromise = elTtsPlayer.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(() => {
+            playMp3ViaWebAudio(mp3Url, wordStr, rate);
+          });
+        }
+        return;
+      } catch (_) {
+        playMp3ViaWebAudio(mp3Url, wordStr, rate);
+        return;
+      }
+    }
+
+    fallbackWebSpeech(wordStr, rate);
+  }
+
+  function preloadCardAudio(card) {
+    if (!card) return;
+    [card.tts_url, card.tts_slow_url].forEach((u) => {
+      const url = resolveUrl(u);
+      if (url && !ttsBufferCache.has(url)) {
+        fetch(url).catch(() => {});
+      }
+    });
   }
 
   if ("speechSynthesis" in window) {
@@ -190,6 +315,8 @@
       deck.cards.forEach((c) => {
         c.pic_crop_url = resolveUrl(c.pic_crop_url);
         c.word_crop_url = resolveUrl(c.word_crop_url);
+        c.tts_url = resolveUrl(c.tts_url);
+        c.tts_slow_url = resolveUrl(c.tts_slow_url);
         allCardsFlat.push({
           ...c,
           deckIndex: dIdx,
@@ -295,9 +422,13 @@
   }
 
   // ==================== MODE 1: SINGLE CARD RENDER ====================
-  function renderCurrentCard() {
+  function renderCurrentCard(shouldSpeak = false) {
     if (!activeCards.length) return;
     const card = activeCards[currentCardIndex];
+    preloadCardAudio(card);
+    if (activeCards.length > 1) {
+      preloadCardAudio(activeCards[(currentCardIndex + 1) % activeCards.length]);
+    }
 
     // Reset flip state without jump
     isFlipped = false;
@@ -323,7 +454,7 @@
         dot.title = `${idx + 1}. ${c.word}`;
         dot.addEventListener("click", () => {
           currentCardIndex = idx;
-          renderCurrentCard();
+          renderCurrentCard(true);
         });
         elProgressDots.appendChild(dot);
       });
@@ -344,9 +475,10 @@
       elSingleBackImg.src = card.pic_crop_url;
       elFrontZhHint.textContent = card.zh || "";
       elBtnPeekZh.classList.remove("hidden");
-      if (autoSpeak) {
-        speakText(card.word, 0.90);
-      }
+    }
+
+    if (autoSpeak && (shouldSpeak || !frontIsPic) && userHasInteracted) {
+      speakText(card, 0.90);
     }
 
     elSingleWordMain.textContent = card.word;
@@ -373,21 +505,21 @@
     playEffect("flip");
 
     const card = activeCards[currentCardIndex];
-    if (isFlipped && frontIsPic && autoSpeak) {
-      speakText(card.word, 0.90);
+    if (autoSpeak) {
+      speakText(card, 0.90);
     }
   }
 
   function goPrevCard() {
     if (!activeCards.length) return;
     currentCardIndex = (currentCardIndex - 1 + activeCards.length) % activeCards.length;
-    renderCurrentCard();
+    renderCurrentCard(true);
   }
 
   function goNextCard() {
     if (!activeCards.length) return;
     currentCardIndex = (currentCardIndex + 1) % activeCards.length;
-    renderCurrentCard();
+    renderCurrentCard(true);
   }
 
   // ==================== MODE 2: INTERACTIVE SHEET VIEW ====================
@@ -437,7 +569,7 @@
         spot.classList.toggle("flipped", nowFlipped);
         playEffect("flip");
         if (nowFlipped) {
-          speakText(card.word, 0.90);
+          speakText(card, 0.90);
         }
       });
 
@@ -482,7 +614,7 @@
     });
 
     if (autoSpeak) {
-      speakText(target.word, 0.90);
+      speakText(target, 0.90);
     }
   }
 
@@ -502,7 +634,7 @@
       elFeedback.textContent = `🎉 太棒了！答對了：${quizCurrentCard.word} (${quizCurrentCard.zh})`;
       elFeedback.className = "quiz-feedback correct";
       playEffect("success");
-      speakText(quizCurrentCard.word, 0.92);
+      speakText(quizCurrentCard, 0.92);
 
       setTimeout(() => {
         startNextQuizQuestion();
@@ -514,7 +646,7 @@
       elFeedback.textContent = `💪 再試一次喔！聽聽看發音～`;
       elFeedback.className = "quiz-feedback wrong";
       playEffect("wrong");
-      speakText(quizCurrentCard.word, 0.85);
+      speakText(quizCurrentCard, 0.85);
     }
   }
 
@@ -599,8 +731,19 @@
   // ==================== EVENT LISTENERS ====================
   // Flip card
   elFlashcard3D.addEventListener("click", (e) => {
-    if (e.target.closest("#btn-peek-zh")) return;
+    if (e.target.closest("#btn-peek-zh") || e.target.closest(".face-speak-btn")) return;
     flipCurrentCard();
+  });
+
+  ["btn-card-speak-front", "btn-card-speak-back"].forEach((id) => {
+    const btn = document.getElementById(id);
+    if (btn) {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        if (!activeCards.length) return;
+        speakText(activeCards[currentCardIndex], 0.90);
+      });
+    }
   });
 
   elBtnPeekZh.addEventListener("click", (e) => {
@@ -617,12 +760,12 @@
   // Speak buttons
   document.getElementById("btn-speak-normal").addEventListener("click", () => {
     if (!activeCards.length) return;
-    speakText(activeCards[currentCardIndex].word, 0.90);
+    speakText(activeCards[currentCardIndex], 0.90);
   });
 
   document.getElementById("btn-speak-slow").addEventListener("click", () => {
     if (!activeCards.length) return;
-    speakText(activeCards[currentCardIndex].word, 0.55);
+    speakText(activeCards[currentCardIndex], 0.55);
   });
 
   // Star & Master buttons
@@ -712,7 +855,7 @@
 
   // Quiz speak button
   document.getElementById("btn-quiz-speak").addEventListener("click", () => {
-    if (quizCurrentCard) speakText(quizCurrentCard.word, 0.88);
+    if (quizCurrentCard) speakText(quizCurrentCard, 0.88);
   });
 
   // Audio Drawer

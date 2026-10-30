@@ -489,6 +489,46 @@ button {
   color: var(--primary);
 }
 
+.face-top-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.face-speak-btn {
+  background: var(--primary);
+  color: #ffffff;
+  border: 2px solid var(--primary-dark);
+  border-bottom-width: 3px;
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  box-shadow: 0 2px 6px rgba(37, 99, 235, 0.22);
+  transition: transform 0.1s, background 0.15s;
+}
+
+.face-speak-btn:hover {
+  background: var(--primary-dark);
+}
+
+.face-speak-btn:active,
+.face-speak-btn.speaking {
+  transform: scale(0.95);
+  background: var(--amber);
+  border-color: var(--amber-dark);
+}
+
+.ctrl-btn.speaking {
+  background: #fde68a !important;
+  border-color: var(--amber-dark) !important;
+  transform: scale(0.97);
+}
+
 .flip-hint-pill {
   background: var(--bg-sand);
   padding: 4px 10px;

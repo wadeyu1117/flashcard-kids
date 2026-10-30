@@ -1,4 +1,4 @@
-const CACHE_NAME = "flashcard-kids-v3";
+const CACHE_NAME = "flashcard-kids-v4";
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -28,8 +28,14 @@ self.addEventListener("fetch", (event) => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
 
-  // Network-first for catalog.json and HTML so new flashcards always show up
-  if (url.pathname.endsWith("catalog.json") || url.pathname.endsWith(".html") || url.pathname.endsWith("/")) {
+  // Network-first for catalog.json, HTML, JS, and CSS so updates take effect immediately
+  if (
+    url.pathname.endsWith("catalog.json") ||
+    url.pathname.endsWith(".html") ||
+    url.pathname.endsWith(".js") ||
+    url.pathname.endsWith(".css") ||
+    url.pathname.endsWith("/")
+  ) {
     event.respondWith(
       fetch(req)
         .then((res) => {

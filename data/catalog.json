@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30 19:02:49",
+  "updated_at": "2026-10-30 19:35:08",
   "folder_id": "1lZgQD2gynBy4saiiZObBVLOnY8vjxfDP",
   "new_files_downloaded": 0,
   "total_decks": 44,
@@ -70,6 +70,8 @@
           "zh": "搜救隊",
           "pic_crop_url": "data/cards/deck_01_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_01_card_01_word.jpg",
+          "tts_url": "data/tts/rescue_team_0c826e.mp3",
+          "tts_slow_url": "data/tts/rescue_team_0c826e_slow.mp3",
           "pic_box_norm": [
             28,
             0,
@@ -91,6 +93,8 @@
           "zh": "搜救犬",
           "pic_crop_url": "data/cards/deck_01_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_01_card_02_word.jpg",
+          "tts_url": "data/tts/rescue_dog_028a58.mp3",
+          "tts_slow_url": "data/tts/rescue_dog_028a58_slow.mp3",
           "pic_box_norm": [
             48,
             490,
@@ -112,6 +116,8 @@
           "zh": "消防隊長",
           "pic_crop_url": "data/cards/deck_01_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_01_card_03_word.jpg",
+          "tts_url": "data/tts/fire_chief_7f9725.mp3",
+          "tts_slow_url": "data/tts/fire_chief_7f9725_slow.mp3",
           "pic_box_norm": [
             496,
             0,
@@ -133,6 +139,8 @@
           "zh": "消防員",
           "pic_crop_url": "data/cards/deck_01_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_01_card_04_word.jpg",
+          "tts_url": "data/tts/fireman_4fe814.mp3",
+          "tts_slow_url": "data/tts/fireman_4fe814_slow.mp3",
           "pic_box_norm": [
             494,
             487,
@@ -169,6 +177,8 @@
           "zh": "法醫科學家",
           "pic_crop_url": "data/cards/deck_02_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_02_card_01_word.jpg",
+          "tts_url": "data/tts/forensic_scientist_7630fd.mp3",
+          "tts_slow_url": "data/tts/forensic_scientist_7630fd_slow.mp3",
           "pic_box_norm": [
             12,
             62,
@@ -190,6 +200,8 @@
           "zh": "偵探",
           "pic_crop_url": "data/cards/deck_02_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_02_card_02_word.jpg",
+          "tts_url": "data/tts/detective_4af05d.mp3",
+          "tts_slow_url": "data/tts/detective_4af05d_slow.mp3",
           "pic_box_norm": [
             17,
             534,
@@ -211,6 +223,8 @@
           "zh": "生物學家",
           "pic_crop_url": "data/cards/deck_02_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_02_card_03_word.jpg",
+          "tts_url": "data/tts/biologist_277515.mp3",
+          "tts_slow_url": "data/tts/biologist_277515_slow.mp3",
           "pic_box_norm": [
             236,
             45,
@@ -232,6 +246,8 @@
           "zh": "科學家",
           "pic_crop_url": "data/cards/deck_02_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_02_card_04_word.jpg",
+          "tts_url": "data/tts/scientist_eaf82f.mp3",
+          "tts_slow_url": "data/tts/scientist_eaf82f_slow.mp3",
           "pic_box_norm": [
             246,
             522,
@@ -253,6 +269,8 @@
           "zh": "牙醫助理",
           "pic_crop_url": "data/cards/deck_02_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_02_card_05_word.jpg",
+          "tts_url": "data/tts/dental_assistant_2062a2.mp3",
+          "tts_slow_url": "data/tts/dental_assistant_2062a2_slow.mp3",
           "pic_box_norm": [
             483,
             22,
@@ -274,6 +292,8 @@
           "zh": "牙醫",
           "pic_crop_url": "data/cards/deck_02_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_02_card_06_word.jpg",
+          "tts_url": "data/tts/dentist_0987c1.mp3",
+          "tts_slow_url": "data/tts/dentist_0987c1_slow.mp3",
           "pic_box_norm": [
             490,
             512,
@@ -295,6 +315,8 @@
           "zh": "法醫 (驗屍官)",
           "pic_crop_url": "data/cards/deck_02_card_07_pic.jpg",
           "word_crop_url": "data/cards/deck_02_card_07_word.jpg",
+          "tts_url": "data/tts/coroner_1d3bab.mp3",
+          "tts_slow_url": "data/tts/coroner_1d3bab_slow.mp3",
           "pic_box_norm": [
             724,
             0,
@@ -316,6 +338,8 @@
           "zh": "護理師",
           "pic_crop_url": "data/cards/deck_02_card_08_pic.jpg",
           "word_crop_url": "data/cards/deck_02_card_08_word.jpg",
+          "tts_url": "data/tts/nurse_0701aa.mp3",
+          "tts_slow_url": "data/tts/nurse_0701aa_slow.mp3",
           "pic_box_norm": [
             737,
             509,
@@ -352,6 +376,8 @@
           "zh": "濾水籃",
           "pic_crop_url": "data/cards/deck_03_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_03_card_01_word.jpg",
+          "tts_url": "data/tts/colander_ffff5c.mp3",
+          "tts_slow_url": "data/tts/colander_ffff5c_slow.mp3",
           "pic_box_norm": [
             118,
             82,
@@ -373,6 +399,8 @@
           "zh": "圍裙",
           "pic_crop_url": "data/cards/deck_03_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_03_card_02_word.jpg",
+          "tts_url": "data/tts/apron_c700b3.mp3",
+          "tts_slow_url": "data/tts/apron_c700b3_slow.mp3",
           "pic_box_norm": [
             462,
             69,
@@ -409,6 +437,8 @@
           "zh": "食物調理機",
           "pic_crop_url": "data/cards/deck_04_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_04_card_01_word.jpg",
+          "tts_url": "data/tts/food_processor_e9f811.mp3",
+          "tts_slow_url": "data/tts/food_processor_e9f811_slow.mp3",
           "pic_box_norm": [
             232,
             59,
@@ -430,6 +460,8 @@
           "zh": "製麵機",
           "pic_crop_url": "data/cards/deck_04_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_04_card_02_word.jpg",
+          "tts_url": "data/tts/pasta_maker_7937af.mp3",
+          "tts_slow_url": "data/tts/pasta_maker_7937af_slow.mp3",
           "pic_box_norm": [
             291,
             466,
@@ -451,6 +483,8 @@
           "zh": "料理溫度計",
           "pic_crop_url": "data/cards/deck_04_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_04_card_03_word.jpg",
+          "tts_url": "data/tts/temperature_gauge_17e9c1.mp3",
+          "tts_slow_url": "data/tts/temperature_gauge_17e9c1_slow.mp3",
           "pic_box_norm": [
             531,
             0,
@@ -472,6 +506,8 @@
           "zh": "食物夾",
           "pic_crop_url": "data/cards/deck_04_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_04_card_04_word.jpg",
+          "tts_url": "data/tts/tongs_904184.mp3",
+          "tts_slow_url": "data/tts/tongs_904184_slow.mp3",
           "pic_box_norm": [
             527,
             466,
@@ -508,6 +544,8 @@
           "zh": "中式竹蒸籠",
           "pic_crop_url": "data/cards/deck_05_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_05_card_01_word.jpg",
+          "tts_url": "data/tts/chinese_bamboo_steamer_31e9c9.mp3",
+          "tts_slow_url": "data/tts/chinese_bamboo_steamer_31e9c9_slow.mp3",
           "pic_box_norm": [
             12,
             13,
@@ -529,6 +567,8 @@
           "zh": "平底鍋",
           "pic_crop_url": "data/cards/deck_05_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_05_card_02_word.jpg",
+          "tts_url": "data/tts/frying_pan_14cb12.mp3",
+          "tts_slow_url": "data/tts/frying_pan_14cb12_slow.mp3",
           "pic_box_norm": [
             0,
             520,
@@ -550,6 +590,8 @@
           "zh": "泡麵",
           "pic_crop_url": "data/cards/deck_05_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_05_card_03_word.jpg",
+          "tts_url": "data/tts/instant_noodles_bd29be.mp3",
+          "tts_slow_url": "data/tts/instant_noodles_bd29be_slow.mp3",
           "pic_box_norm": [
             479,
             10,
@@ -571,6 +613,8 @@
           "zh": "油炸鍋",
           "pic_crop_url": "data/cards/deck_05_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_05_card_04_word.jpg",
+          "tts_url": "data/tts/deep_frier_f32e78.mp3",
+          "tts_slow_url": "data/tts/deep_frier_f32e78_slow.mp3",
           "pic_box_norm": [
             471,
             524,
@@ -607,6 +651,8 @@
           "zh": "烘焙紙",
           "pic_crop_url": "data/cards/deck_06_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_06_card_01_word.jpg",
+          "tts_url": "data/tts/confectioner_s_paper_cddce8.mp3",
+          "tts_slow_url": "data/tts/confectioner_s_paper_cddce8_slow.mp3",
           "pic_box_norm": [
             32,
             11,
@@ -628,6 +674,8 @@
           "zh": "披薩烤盤",
           "pic_crop_url": "data/cards/deck_06_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_06_card_02_word.jpg",
+          "tts_url": "data/tts/pizza_pan_bf9cbd.mp3",
+          "tts_slow_url": "data/tts/pizza_pan_bf9cbd_slow.mp3",
           "pic_box_norm": [
             0,
             498,
@@ -649,6 +697,8 @@
           "zh": "擀麵棍",
           "pic_crop_url": "data/cards/deck_06_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_06_card_03_word.jpg",
+          "tts_url": "data/tts/rolling_pin_0c89c3.mp3",
+          "tts_slow_url": "data/tts/rolling_pin_0c89c3_slow.mp3",
           "pic_box_norm": [
             345,
             15,
@@ -670,6 +720,8 @@
           "zh": "蛋糕烤模",
           "pic_crop_url": "data/cards/deck_06_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_06_card_04_word.jpg",
+          "tts_url": "data/tts/cake_pan_ef86ac.mp3",
+          "tts_slow_url": "data/tts/cake_pan_ef86ac_slow.mp3",
           "pic_box_norm": [
             322,
             501,
@@ -691,6 +743,8 @@
           "zh": "餅乾烤盤",
           "pic_crop_url": "data/cards/deck_06_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_06_card_05_word.jpg",
+          "tts_url": "data/tts/cookie_pan_126d88.mp3",
+          "tts_slow_url": "data/tts/cookie_pan_126d88_slow.mp3",
           "pic_box_norm": [
             659,
             0,
@@ -712,6 +766,8 @@
           "zh": "廚房計時器",
           "pic_crop_url": "data/cards/deck_06_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_06_card_06_word.jpg",
+          "tts_url": "data/tts/cooking_timer_47781a.mp3",
+          "tts_slow_url": "data/tts/cooking_timer_47781a_slow.mp3",
           "pic_box_norm": [
             659,
             494,
@@ -748,6 +804,8 @@
           "zh": "鹽與胡椒罐",
           "pic_crop_url": "data/cards/deck_07_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_07_card_01_word.jpg",
+          "tts_url": "data/tts/salt_pepper_shaker_2e698a.mp3",
+          "tts_slow_url": "data/tts/salt_pepper_shaker_2e698a_slow.mp3",
           "pic_box_norm": [
             53,
             19,
@@ -769,6 +827,8 @@
           "zh": "壓蒜器",
           "pic_crop_url": "data/cards/deck_07_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_07_card_02_word.jpg",
+          "tts_url": "data/tts/garlic_press_5096ff.mp3",
+          "tts_slow_url": "data/tts/garlic_press_5096ff_slow.mp3",
           "pic_box_norm": [
             72,
             545,
@@ -790,6 +850,8 @@
           "zh": "麵包籃 (餐包)",
           "pic_crop_url": "data/cards/deck_07_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_07_card_03_word.jpg",
+          "tts_url": "data/tts/bread_basket_e159e6.mp3",
+          "tts_slow_url": "data/tts/bread_basket_e159e6_slow.mp3",
           "pic_box_norm": [
             524,
             3,
@@ -811,6 +873,8 @@
           "zh": "肉槌",
           "pic_crop_url": "data/cards/deck_07_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_07_card_04_word.jpg",
+          "tts_url": "data/tts/meat_tenderizer_9da8a6.mp3",
+          "tts_slow_url": "data/tts/meat_tenderizer_9da8a6_slow.mp3",
           "pic_box_norm": [
             544,
             534,
@@ -847,6 +911,8 @@
           "zh": "香料 (香料架)",
           "pic_crop_url": "data/cards/deck_08_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_08_card_01_word.jpg",
+          "tts_url": "data/tts/spices_662c02.mp3",
+          "tts_slow_url": "data/tts/spices_662c02_slow.mp3",
           "pic_box_norm": [
             13,
             19,
@@ -868,6 +934,8 @@
           "zh": "餐巾 (紙餐巾)",
           "pic_crop_url": "data/cards/deck_08_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_08_card_02_word.jpg",
+          "tts_url": "data/tts/napkin_720106.mp3",
+          "tts_slow_url": "data/tts/napkin_720106_slow.mp3",
           "pic_box_norm": [
             25,
             514,
@@ -889,6 +957,8 @@
           "zh": "廚房毛巾 (擦碗巾)",
           "pic_crop_url": "data/cards/deck_08_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_08_card_03_word.jpg",
+          "tts_url": "data/tts/kitchen_towel_881985.mp3",
+          "tts_slow_url": "data/tts/kitchen_towel_881985_slow.mp3",
           "pic_box_norm": [
             327,
             16,
@@ -910,6 +980,8 @@
           "zh": "廚房紙巾",
           "pic_crop_url": "data/cards/deck_08_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_08_card_04_word.jpg",
+          "tts_url": "data/tts/paper_towels_1f21b8.mp3",
+          "tts_slow_url": "data/tts/paper_towels_1f21b8_slow.mp3",
           "pic_box_norm": [
             332,
             508,
@@ -931,6 +1003,8 @@
           "zh": "紅酒開瓶器",
           "pic_crop_url": "data/cards/deck_08_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_08_card_05_word.jpg",
+          "tts_url": "data/tts/corkscrew_f0577b.mp3",
+          "tts_slow_url": "data/tts/corkscrew_f0577b_slow.mp3",
           "pic_box_norm": [
             637,
             16,
@@ -952,6 +1026,8 @@
           "zh": "軟木塞",
           "pic_crop_url": "data/cards/deck_08_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_08_card_06_word.jpg",
+          "tts_url": "data/tts/cork_515480.mp3",
+          "tts_slow_url": "data/tts/cork_515480_slow.mp3",
           "pic_box_norm": [
             647,
             501,
@@ -988,6 +1064,8 @@
           "zh": "機車警察",
           "pic_crop_url": "data/cards/deck_09_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_09_card_01_word.jpg",
+          "tts_url": "data/tts/motorcycle_cop_f3d29f.mp3",
+          "tts_slow_url": "data/tts/motorcycle_cop_f3d29f_slow.mp3",
           "pic_box_norm": [
             0,
             12,
@@ -1009,6 +1087,8 @@
           "zh": "警察局長",
           "pic_crop_url": "data/cards/deck_09_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_09_card_02_word.jpg",
+          "tts_url": "data/tts/police_chief_a7fc5f.mp3",
+          "tts_slow_url": "data/tts/police_chief_a7fc5f_slow.mp3",
           "pic_box_norm": [
             8,
             508,
@@ -1030,6 +1110,8 @@
           "zh": "霹靂小組（特警隊）",
           "pic_crop_url": "data/cards/deck_09_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_09_card_03_word.jpg",
+          "tts_url": "data/tts/s_w_a_t_ecade5.mp3",
+          "tts_slow_url": "data/tts/s_w_a_t_ecade5_slow.mp3",
           "pic_box_norm": [
             315,
             0,
@@ -1051,6 +1133,8 @@
           "zh": "直升機警察",
           "pic_crop_url": "data/cards/deck_09_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_09_card_04_word.jpg",
+          "tts_url": "data/tts/helicopter_e29e13.mp3",
+          "tts_slow_url": "data/tts/helicopter_e29e13_slow.mp3",
           "pic_box_norm": [
             328,
             504,
@@ -1072,6 +1156,8 @@
           "zh": "警察",
           "pic_crop_url": "data/cards/deck_09_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_09_card_05_word.jpg",
+          "tts_url": "data/tts/police_814989.mp3",
+          "tts_slow_url": "data/tts/police_814989_slow.mp3",
           "pic_box_norm": [
             651,
             0,
@@ -1093,6 +1179,8 @@
           "zh": "國道警察（公路巡警）",
           "pic_crop_url": "data/cards/deck_09_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_09_card_06_word.jpg",
+          "tts_url": "data/tts/highway_patrolman_1ff7ed.mp3",
+          "tts_slow_url": "data/tts/highway_patrolman_1ff7ed_slow.mp3",
           "pic_box_norm": [
             653,
             496,
@@ -1129,6 +1217,8 @@
           "zh": "量匙",
           "pic_crop_url": "data/cards/deck_10_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_10_card_01_word.jpg",
+          "tts_url": "data/tts/measuring_spoons_19be72.mp3",
+          "tts_slow_url": "data/tts/measuring_spoons_19be72_slow.mp3",
           "pic_box_norm": [
             4,
             45,
@@ -1150,6 +1240,8 @@
           "zh": "電動削皮器",
           "pic_crop_url": "data/cards/deck_10_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_10_card_02_word.jpg",
+          "tts_url": "data/tts/electric_peeler_4e3f65.mp3",
+          "tts_slow_url": "data/tts/electric_peeler_4e3f65_slow.mp3",
           "pic_box_norm": [
             8,
             479,
@@ -1171,6 +1263,8 @@
           "zh": "胡桃鉗（堅果夾）",
           "pic_crop_url": "data/cards/deck_10_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_10_card_03_word.jpg",
+          "tts_url": "data/tts/nut_cracker_76636c.mp3",
+          "tts_slow_url": "data/tts/nut_cracker_76636c_slow.mp3",
           "pic_box_norm": [
             174,
             40,
@@ -1192,6 +1286,8 @@
           "zh": "量杯",
           "pic_crop_url": "data/cards/deck_10_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_10_card_04_word.jpg",
+          "tts_url": "data/tts/measuring_cup_a2c46c.mp3",
+          "tts_slow_url": "data/tts/measuring_cup_a2c46c_slow.mp3",
           "pic_box_norm": [
             175,
             491,
@@ -1213,6 +1309,8 @@
           "zh": "磨刀器",
           "pic_crop_url": "data/cards/deck_10_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_10_card_05_word.jpg",
+          "tts_url": "data/tts/knife_sharpener_8a4b82.mp3",
+          "tts_slow_url": "data/tts/knife_sharpener_8a4b82_slow.mp3",
           "pic_box_norm": [
             348,
             32,
@@ -1234,6 +1332,8 @@
           "zh": "磁吸刀架",
           "pic_crop_url": "data/cards/deck_10_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_10_card_06_word.jpg",
+          "tts_url": "data/tts/magnetic_knife_holder_d44b4b.mp3",
+          "tts_slow_url": "data/tts/magnetic_knife_holder_d44b4b_slow.mp3",
           "pic_box_norm": [
             355,
             471,
@@ -1255,6 +1355,8 @@
           "zh": "牛排刀",
           "pic_crop_url": "data/cards/deck_10_card_07_pic.jpg",
           "word_crop_url": "data/cards/deck_10_card_07_word.jpg",
+          "tts_url": "data/tts/steak_knife_86e16a.mp3",
+          "tts_slow_url": "data/tts/steak_knife_86e16a_slow.mp3",
           "pic_box_norm": [
             527,
             13,
@@ -1276,6 +1378,8 @@
           "zh": "筷子",
           "pic_crop_url": "data/cards/deck_10_card_08_pic.jpg",
           "word_crop_url": "data/cards/deck_10_card_08_word.jpg",
+          "tts_url": "data/tts/chopsticks_1c5572.mp3",
+          "tts_slow_url": "data/tts/chopsticks_1c5572_slow.mp3",
           "pic_box_norm": [
             533,
             464,
@@ -1297,6 +1401,8 @@
           "zh": "奶油刀",
           "pic_crop_url": "data/cards/deck_10_card_09_pic.jpg",
           "word_crop_url": "data/cards/deck_10_card_09_word.jpg",
+          "tts_url": "data/tts/butter_knife_28ae7f.mp3",
+          "tts_slow_url": "data/tts/butter_knife_28ae7f_slow.mp3",
           "pic_box_norm": [
             721,
             239,
@@ -1333,6 +1439,8 @@
           "zh": "馬鈴薯削皮器",
           "pic_crop_url": "data/cards/deck_11_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_11_card_01_word.jpg",
+          "tts_url": "data/tts/potato_peeler_9bb1a6.mp3",
+          "tts_slow_url": "data/tts/potato_peeler_9bb1a6_slow.mp3",
           "pic_box_norm": [
             0,
             349,
@@ -1354,6 +1462,8 @@
           "zh": "沙拉碗（與沙拉匙）",
           "pic_crop_url": "data/cards/deck_11_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_11_card_02_word.jpg",
+          "tts_url": "data/tts/salad_bowl_c3a945.mp3",
+          "tts_slow_url": "data/tts/salad_bowl_c3a945_slow.mp3",
           "pic_box_norm": [
             328,
             32,
@@ -1375,6 +1485,8 @@
           "zh": "打蛋器",
           "pic_crop_url": "data/cards/deck_11_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_11_card_03_word.jpg",
+          "tts_url": "data/tts/whisk_2e7990.mp3",
+          "tts_slow_url": "data/tts/whisk_2e7990_slow.mp3",
           "pic_box_norm": [
             149,
             657,
@@ -1396,6 +1508,8 @@
           "zh": "砧板（切菜板）",
           "pic_crop_url": "data/cards/deck_11_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_11_card_04_word.jpg",
+          "tts_url": "data/tts/cutting_board_6d9b78.mp3",
+          "tts_slow_url": "data/tts/cutting_board_6d9b78_slow.mp3",
           "pic_box_norm": [
             497,
             656,
@@ -1417,6 +1531,8 @@
           "zh": "壓泥器（馬鈴薯壓泥器）",
           "pic_crop_url": "data/cards/deck_11_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_11_card_05_word.jpg",
+          "tts_url": "data/tts/masher_39217e.mp3",
+          "tts_slow_url": "data/tts/masher_39217e_slow.mp3",
           "pic_box_norm": [
             672,
             342,
@@ -1453,6 +1569,8 @@
           "zh": "罐頭（鐵罐）",
           "pic_crop_url": "data/cards/deck_12_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_12_card_01_word.jpg",
+          "tts_url": "data/tts/can_2c61eb.mp3",
+          "tts_slow_url": "data/tts/can_2c61eb_slow.mp3",
           "pic_box_norm": [
             4,
             533,
@@ -1474,6 +1592,8 @@
           "zh": "開瓶器",
           "pic_crop_url": "data/cards/deck_12_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_12_card_02_word.jpg",
+          "tts_url": "data/tts/bottle_opener_30e10f.mp3",
+          "tts_slow_url": "data/tts/bottle_opener_30e10f_slow.mp3",
           "pic_box_norm": [
             330,
             0,
@@ -1495,6 +1615,8 @@
           "zh": "披薩刀（披薩滾輪刀）",
           "pic_crop_url": "data/cards/deck_12_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_12_card_03_word.jpg",
+          "tts_url": "data/tts/pizza_cutter_723824.mp3",
+          "tts_slow_url": "data/tts/pizza_cutter_723824_slow.mp3",
           "pic_box_norm": [
             328,
             532,
@@ -1516,6 +1638,8 @@
           "zh": "瓶子",
           "pic_crop_url": "data/cards/deck_12_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_12_card_04_word.jpg",
+          "tts_url": "data/tts/bottle_3a385a.mp3",
+          "tts_slow_url": "data/tts/bottle_3a385a_slow.mp3",
           "pic_box_norm": [
             657,
             0,
@@ -1537,6 +1661,8 @@
           "zh": "開罐器",
           "pic_crop_url": "data/cards/deck_12_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_12_card_05_word.jpg",
+          "tts_url": "data/tts/can_opener_6d6819.mp3",
+          "tts_slow_url": "data/tts/can_opener_6d6819_slow.mp3",
           "pic_box_norm": [
             653,
             538,
@@ -1573,6 +1699,8 @@
           "zh": "二頭肌",
           "pic_crop_url": "data/cards/deck_13_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_13_card_01_word.jpg",
+          "tts_url": "data/tts/bicep_af7c7e.mp3",
+          "tts_slow_url": "data/tts/bicep_af7c7e_slow.mp3",
           "pic_box_norm": [
             25,
             0,
@@ -1594,6 +1722,8 @@
           "zh": "手臂骨折",
           "pic_crop_url": "data/cards/deck_13_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_13_card_02_word.jpg",
+          "tts_url": "data/tts/broken_arm_c38f90.mp3",
+          "tts_slow_url": "data/tts/broken_arm_c38f90_slow.mp3",
           "pic_box_norm": [
             40,
             480,
@@ -1615,6 +1745,8 @@
           "zh": "脊椎",
           "pic_crop_url": "data/cards/deck_13_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_13_card_03_word.jpg",
+          "tts_url": "data/tts/spine_a35ecf.mp3",
+          "tts_slow_url": "data/tts/spine_a35ecf_slow.mp3",
           "pic_box_norm": [
             359,
             0,
@@ -1636,6 +1768,8 @@
           "zh": "莫霍克龐克頭",
           "pic_crop_url": "data/cards/deck_13_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_13_card_04_word.jpg",
+          "tts_url": "data/tts/mohawk_9e587f.mp3",
+          "tts_slow_url": "data/tts/mohawk_9e587f_slow.mp3",
           "pic_box_norm": [
             363,
             484,
@@ -1657,6 +1791,8 @@
           "zh": "骨骼與骷髏",
           "pic_crop_url": "data/cards/deck_13_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_13_card_05_word.jpg",
+          "tts_url": "data/tts/skeleton_84df07.mp3",
+          "tts_slow_url": "data/tts/skeleton_84df07_slow.mp3",
           "pic_box_norm": [
             667,
             0,
@@ -1693,6 +1829,8 @@
           "zh": "腋下",
           "pic_crop_url": "data/cards/deck_14_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_14_card_01_word.jpg",
+          "tts_url": "data/tts/armpit_84cbc9.mp3",
+          "tts_slow_url": "data/tts/armpit_84cbc9_slow.mp3",
           "pic_box_norm": [
             27,
             4,
@@ -1714,6 +1852,8 @@
           "zh": "脖子",
           "pic_crop_url": "data/cards/deck_14_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_14_card_02_word.jpg",
+          "tts_url": "data/tts/neck_45fe7e.mp3",
+          "tts_slow_url": "data/tts/neck_45fe7e_slow.mp3",
           "pic_box_norm": [
             28,
             521,
@@ -1735,6 +1875,8 @@
           "zh": "大腿",
           "pic_crop_url": "data/cards/deck_14_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_14_card_03_word.jpg",
+          "tts_url": "data/tts/thighs_e4741f.mp3",
+          "tts_slow_url": "data/tts/thighs_e4741f_slow.mp3",
           "pic_box_norm": [
             347,
             12,
@@ -1756,6 +1898,8 @@
           "zh": "肌肉",
           "pic_crop_url": "data/cards/deck_14_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_14_card_04_word.jpg",
+          "tts_url": "data/tts/muscles_b6a76f.mp3",
+          "tts_slow_url": "data/tts/muscles_b6a76f_slow.mp3",
           "pic_box_norm": [
             343,
             517,
@@ -1777,6 +1921,8 @@
           "zh": "青春痘",
           "pic_crop_url": "data/cards/deck_14_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_14_card_05_word.jpg",
+          "tts_url": "data/tts/pimple_523786.mp3",
+          "tts_slow_url": "data/tts/pimple_523786_slow.mp3",
           "pic_box_norm": [
             667,
             8,
@@ -1798,6 +1944,8 @@
           "zh": "小腿肚",
           "pic_crop_url": "data/cards/deck_14_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_14_card_06_word.jpg",
+          "tts_url": "data/tts/calfs_5a07f2.mp3",
+          "tts_slow_url": "data/tts/calfs_5a07f2_slow.mp3",
           "pic_box_norm": [
             668,
             517,
@@ -1834,6 +1982,8 @@
           "zh": "燉牛肉",
           "pic_crop_url": "data/cards/deck_15_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_15_card_01_word.jpg",
+          "tts_url": "data/tts/beef_stew_45f5a2.mp3",
+          "tts_slow_url": "data/tts/beef_stew_45f5a2_slow.mp3",
           "pic_box_norm": [
             30,
             0,
@@ -1855,6 +2005,8 @@
           "zh": "烤牛肉",
           "pic_crop_url": "data/cards/deck_15_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_15_card_02_word.jpg",
+          "tts_url": "data/tts/roast_beef_afbc78.mp3",
+          "tts_slow_url": "data/tts/roast_beef_afbc78_slow.mp3",
           "pic_box_norm": [
             29,
             508,
@@ -1876,6 +2028,8 @@
           "zh": "煙燻牛胸肉",
           "pic_crop_url": "data/cards/deck_15_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_15_card_03_word.jpg",
+          "tts_url": "data/tts/smoked_brisket_35ab11.mp3",
+          "tts_slow_url": "data/tts/smoked_brisket_35ab11_slow.mp3",
           "pic_box_norm": [
             366,
             0,
@@ -1897,6 +2051,8 @@
           "zh": "香煎紅蘿蔔",
           "pic_crop_url": "data/cards/deck_15_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_15_card_04_word.jpg",
+          "tts_url": "data/tts/sauteed_carrots_0efe0c.mp3",
+          "tts_slow_url": "data/tts/sauteed_carrots_0efe0c_slow.mp3",
           "pic_box_norm": [
             353,
             507,
@@ -1918,6 +2074,8 @@
           "zh": "辣味肉醬豆",
           "pic_crop_url": "data/cards/deck_15_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_15_card_05_word.jpg",
+          "tts_url": "data/tts/chilli_ce64d4.mp3",
+          "tts_slow_url": "data/tts/chilli_ce64d4_slow.mp3",
           "pic_box_norm": [
             678,
             504,
@@ -1954,6 +2112,8 @@
           "zh": "鹹牛肉三明治",
           "pic_crop_url": "data/cards/deck_16_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_16_card_01_word.jpg",
+          "tts_url": "data/tts/corn_beef_sandwich_be9f87.mp3",
+          "tts_slow_url": "data/tts/corn_beef_sandwich_be9f87_slow.mp3",
           "pic_box_norm": [
             23,
             0,
@@ -1975,6 +2135,8 @@
           "zh": "煙燻鹹牛肉三明治",
           "pic_crop_url": "data/cards/deck_16_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_16_card_02_word.jpg",
+          "tts_url": "data/tts/pastrami_sandwich_42723a.mp3",
+          "tts_slow_url": "data/tts/pastrami_sandwich_42723a_slow.mp3",
           "pic_box_norm": [
             28,
             521,
@@ -1996,6 +2158,8 @@
           "zh": "魯賓三明治",
           "pic_crop_url": "data/cards/deck_16_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_16_card_03_word.jpg",
+          "tts_url": "data/tts/reuben_sandwich_7f249b.mp3",
+          "tts_slow_url": "data/tts/reuben_sandwich_7f249b_slow.mp3",
           "pic_box_norm": [
             318,
             136,
@@ -2017,6 +2181,8 @@
           "zh": "法式沾汁牛肉三明治",
           "pic_crop_url": "data/cards/deck_16_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_16_card_04_word.jpg",
+          "tts_url": "data/tts/french_dip_6737d6.mp3",
+          "tts_slow_url": "data/tts/french_dip_6737d6_slow.mp3",
           "pic_box_norm": [
             321,
             526,
@@ -2038,6 +2204,8 @@
           "zh": "費城起司牛肉堡",
           "pic_crop_url": "data/cards/deck_16_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_16_card_05_word.jpg",
+          "tts_url": "data/tts/philly_cheese_steak_3e14de.mp3",
+          "tts_slow_url": "data/tts/philly_cheese_steak_3e14de_slow.mp3",
           "pic_box_norm": [
             691,
             245,
@@ -2074,6 +2242,8 @@
           "zh": "墨西哥玉米片",
           "pic_crop_url": "data/cards/deck_17_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_17_card_01_word.jpg",
+          "tts_url": "data/tts/nachos_08b54e.mp3",
+          "tts_slow_url": "data/tts/nachos_08b54e_slow.mp3",
           "pic_box_norm": [
             8,
             0,
@@ -2095,6 +2265,8 @@
           "zh": "西班牙風味飯",
           "pic_crop_url": "data/cards/deck_17_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_17_card_02_word.jpg",
+          "tts_url": "data/tts/spanish_rice_982e1f.mp3",
+          "tts_slow_url": "data/tts/spanish_rice_982e1f_slow.mp3",
           "pic_box_norm": [
             24,
             503,
@@ -2116,6 +2288,8 @@
           "zh": "安琪拉達捲餅",
           "pic_crop_url": "data/cards/deck_17_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_17_card_03_word.jpg",
+          "tts_url": "data/tts/enchiladas_cad255.mp3",
+          "tts_slow_url": "data/tts/enchiladas_cad255_slow.mp3",
           "pic_box_norm": [
             327,
             0,
@@ -2137,6 +2311,8 @@
           "zh": "墨西哥炸豆泥",
           "pic_crop_url": "data/cards/deck_17_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_17_card_04_word.jpg",
+          "tts_url": "data/tts/refried_beans_d887d4.mp3",
+          "tts_slow_url": "data/tts/refried_beans_d887d4_slow.mp3",
           "pic_box_norm": [
             344,
             491,
@@ -2158,6 +2334,8 @@
           "zh": "炸起司墨西哥辣椒",
           "pic_crop_url": "data/cards/deck_17_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_17_card_05_word.jpg",
+          "tts_url": "data/tts/jalapeno_poppers_72df76.mp3",
+          "tts_slow_url": "data/tts/jalapeno_poppers_72df76_slow.mp3",
           "pic_box_norm": [
             640,
             0,
@@ -2179,6 +2357,8 @@
           "zh": "牛肉墨西哥捲餅",
           "pic_crop_url": "data/cards/deck_17_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_17_card_06_word.jpg",
+          "tts_url": "data/tts/beef_burrito_96b47c.mp3",
+          "tts_slow_url": "data/tts/beef_burrito_96b47c_slow.mp3",
           "pic_box_norm": [
             658,
             491,
@@ -2215,6 +2395,8 @@
           "zh": "塔可沙拉",
           "pic_crop_url": "data/cards/deck_18_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_18_card_01_word.jpg",
+          "tts_url": "data/tts/taco_salad_bffaee.mp3",
+          "tts_slow_url": "data/tts/taco_salad_bffaee_slow.mp3",
           "pic_box_norm": [
             7,
             18,
@@ -2236,6 +2418,8 @@
           "zh": "墨西哥烤玉米餅",
           "pic_crop_url": "data/cards/deck_18_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_18_card_02_word.jpg",
+          "tts_url": "data/tts/tostada_a57814.mp3",
+          "tts_slow_url": "data/tts/tostada_a57814_slow.mp3",
           "pic_box_norm": [
             12,
             525,
@@ -2257,6 +2441,8 @@
           "zh": "魚肉塔可餅",
           "pic_crop_url": "data/cards/deck_18_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_18_card_03_word.jpg",
+          "tts_url": "data/tts/fish_taco_1b04f5.mp3",
+          "tts_slow_url": "data/tts/fish_taco_1b04f5_slow.mp3",
           "pic_box_norm": [
             257,
             22,
@@ -2278,6 +2464,8 @@
           "zh": "牛肉脆皮塔可餅",
           "pic_crop_url": "data/cards/deck_18_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_18_card_04_word.jpg",
+          "tts_url": "data/tts/taco_f869ce.mp3",
+          "tts_slow_url": "data/tts/taco_f869ce_slow.mp3",
           "pic_box_norm": [
             259,
             528,
@@ -2299,6 +2487,8 @@
           "zh": "墨西哥捲餅",
           "pic_crop_url": "data/cards/deck_18_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_18_card_05_word.jpg",
+          "tts_url": "data/tts/burrito_0736dd.mp3",
+          "tts_slow_url": "data/tts/burrito_0736dd_slow.mp3",
           "pic_box_norm": [
             499,
             10,
@@ -2320,6 +2510,8 @@
           "zh": "起司墨西哥餡餅",
           "pic_crop_url": "data/cards/deck_18_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_18_card_06_word.jpg",
+          "tts_url": "data/tts/cheese_quesadilla_0ed671.mp3",
+          "tts_slow_url": "data/tts/cheese_quesadilla_0ed671_slow.mp3",
           "pic_box_norm": [
             502,
             517,
@@ -2341,6 +2533,8 @@
           "zh": "豆泥墨西哥捲餅",
           "pic_crop_url": "data/cards/deck_18_card_07_pic.jpg",
           "word_crop_url": "data/cards/deck_18_card_07_word.jpg",
+          "tts_url": "data/tts/bean_burrito_2744cc.mp3",
+          "tts_slow_url": "data/tts/bean_burrito_2744cc_slow.mp3",
           "pic_box_norm": [
             748,
             11,
@@ -2377,6 +2571,8 @@
           "zh": "雀斑",
           "pic_crop_url": "data/cards/deck_19_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_19_card_01_word.jpg",
+          "tts_url": "data/tts/freckles_d15f9f.mp3",
+          "tts_slow_url": "data/tts/freckles_d15f9f_slow.mp3",
           "pic_box_norm": [
             87,
             14,
@@ -2398,6 +2594,8 @@
           "zh": "沒牙齒的",
           "pic_crop_url": "data/cards/deck_19_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_19_card_02_word.jpg",
+          "tts_url": "data/tts/toothless_50fffd.mp3",
+          "tts_slow_url": "data/tts/toothless_50fffd_slow.mp3",
           "pic_box_norm": [
             88,
             504,
@@ -2419,6 +2617,8 @@
           "zh": "嘴巴",
           "pic_crop_url": "data/cards/deck_19_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_19_card_03_word.jpg",
+          "tts_url": "data/tts/mouth_cb5786.mp3",
+          "tts_slow_url": "data/tts/mouth_cb5786_slow.mp3",
           "pic_box_norm": [
             377,
             28,
@@ -2440,6 +2640,8 @@
           "zh": "喉嚨",
           "pic_crop_url": "data/cards/deck_19_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_19_card_04_word.jpg",
+          "tts_url": "data/tts/throat_509763.mp3",
+          "tts_slow_url": "data/tts/throat_509763_slow.mp3",
           "pic_box_norm": [
             377,
             520,
@@ -2461,6 +2663,8 @@
           "zh": "眼淚",
           "pic_crop_url": "data/cards/deck_19_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_19_card_05_word.jpg",
+          "tts_url": "data/tts/tears_510785.mp3",
+          "tts_slow_url": "data/tts/tears_510785_slow.mp3",
           "pic_box_norm": [
             666,
             19,
@@ -2482,6 +2686,8 @@
           "zh": "骨頭",
           "pic_crop_url": "data/cards/deck_19_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_19_card_06_word.jpg",
+          "tts_url": "data/tts/bones_775f17.mp3",
+          "tts_slow_url": "data/tts/bones_775f17_slow.mp3",
           "pic_box_norm": [
             665,
             526,
@@ -2518,6 +2724,8 @@
           "zh": "義式潛艇堡",
           "pic_crop_url": "data/cards/deck_20_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_20_card_01_word.jpg",
+          "tts_url": "data/tts/italian_submarine_sandwich_ead962.mp3",
+          "tts_slow_url": "data/tts/italian_submarine_sandwich_ead962_slow.mp3",
           "pic_box_norm": [
             28,
             0,
@@ -2539,6 +2747,8 @@
           "zh": "潛艇堡三明治",
           "pic_crop_url": "data/cards/deck_20_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_20_card_02_word.jpg",
+          "tts_url": "data/tts/sub_sandwich_b22941.mp3",
+          "tts_slow_url": "data/tts/sub_sandwich_b22941_slow.mp3",
           "pic_box_norm": [
             31,
             514,
@@ -2560,6 +2770,8 @@
           "zh": "費城起司牛肉堡",
           "pic_crop_url": "data/cards/deck_20_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_20_card_03_word.jpg",
+          "tts_url": "data/tts/philly_cheese_steak_3e14de.mp3",
+          "tts_slow_url": "data/tts/philly_cheese_steak_3e14de_slow.mp3",
           "pic_box_norm": [
             354,
             8,
@@ -2581,6 +2793,8 @@
           "zh": "起司烤雞肉沙拉三明治",
           "pic_crop_url": "data/cards/deck_20_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_20_card_04_word.jpg",
+          "tts_url": "data/tts/chicken_salad_melt_71f57a.mp3",
+          "tts_slow_url": "data/tts/chicken_salad_melt_71f57a_slow.mp3",
           "pic_box_norm": [
             364,
             519,
@@ -2602,6 +2816,8 @@
           "zh": "台式豬肉漢堡",
           "pic_crop_url": "data/cards/deck_20_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_20_card_05_word.jpg",
+          "tts_url": "data/tts/taiwanese_pork_burger_05d9fa.mp3",
+          "tts_slow_url": "data/tts/taiwanese_pork_burger_05d9fa_slow.mp3",
           "pic_box_norm": [
             675,
             9,
@@ -2638,6 +2854,8 @@
           "zh": "烤全雞",
           "pic_crop_url": "data/cards/deck_21_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_21_card_01_word.jpg",
+          "tts_url": "data/tts/roast_chicken_74682a.mp3",
+          "tts_slow_url": "data/tts/roast_chicken_74682a_slow.mp3",
           "pic_box_norm": [
             15,
             0,
@@ -2659,6 +2877,8 @@
           "zh": "烤火雞 (火雞填料)",
           "pic_crop_url": "data/cards/deck_21_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_21_card_02_word.jpg",
+          "tts_url": "data/tts/roast_turkey_fee3fa.mp3",
+          "tts_slow_url": "data/tts/roast_turkey_fee3fa_slow.mp3",
           "pic_box_norm": [
             23,
             546,
@@ -2680,6 +2900,8 @@
           "zh": "肉汁醬",
           "pic_crop_url": "data/cards/deck_21_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_21_card_03_word.jpg",
+          "tts_url": "data/tts/gravy_8cf7b8.mp3",
+          "tts_slow_url": "data/tts/gravy_8cf7b8_slow.mp3",
           "pic_box_norm": [
             514,
             0,
@@ -2701,6 +2923,8 @@
           "zh": "雞尾酒大蝦",
           "pic_crop_url": "data/cards/deck_21_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_21_card_04_word.jpg",
+          "tts_url": "data/tts/jumbo_shrimp_cocktail_9890d2.mp3",
+          "tts_slow_url": "data/tts/jumbo_shrimp_cocktail_9890d2_slow.mp3",
           "pic_box_norm": [
             454,
             611,
@@ -2737,6 +2961,8 @@
           "zh": "義式潛艇堡",
           "pic_crop_url": "data/cards/deck_22_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_22_card_01_word.jpg",
+          "tts_url": "data/tts/italian_submarine_sandwich_ead962.mp3",
+          "tts_slow_url": "data/tts/italian_submarine_sandwich_ead962_slow.mp3",
           "pic_box_norm": [
             27,
             0,
@@ -2758,6 +2984,8 @@
           "zh": "潛艇堡三明治",
           "pic_crop_url": "data/cards/deck_22_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_22_card_02_word.jpg",
+          "tts_url": "data/tts/sub_sandwich_b22941.mp3",
+          "tts_slow_url": "data/tts/sub_sandwich_b22941_slow.mp3",
           "pic_box_norm": [
             31,
             514,
@@ -2779,6 +3007,8 @@
           "zh": "費城起司牛肉堡",
           "pic_crop_url": "data/cards/deck_22_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_22_card_03_word.jpg",
+          "tts_url": "data/tts/philly_cheese_steak_3e14de.mp3",
+          "tts_slow_url": "data/tts/philly_cheese_steak_3e14de_slow.mp3",
           "pic_box_norm": [
             353,
             8,
@@ -2800,6 +3030,8 @@
           "zh": "融化起司雞肉沙拉三明治",
           "pic_crop_url": "data/cards/deck_22_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_22_card_04_word.jpg",
+          "tts_url": "data/tts/chicken_salad_melt_71f57a.mp3",
+          "tts_slow_url": "data/tts/chicken_salad_melt_71f57a_slow.mp3",
           "pic_box_norm": [
             363,
             519,
@@ -2821,6 +3053,8 @@
           "zh": "台式豬肉漢堡",
           "pic_crop_url": "data/cards/deck_22_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_22_card_05_word.jpg",
+          "tts_url": "data/tts/taiwanese_pork_burger_05d9fa.mp3",
+          "tts_slow_url": "data/tts/taiwanese_pork_burger_05d9fa_slow.mp3",
           "pic_box_norm": [
             675,
             9,
@@ -2857,6 +3091,8 @@
           "zh": "眉毛",
           "pic_crop_url": "data/cards/deck_23_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_23_card_01_word.jpg",
+          "tts_url": "data/tts/eyebrows_a0e6fb.mp3",
+          "tts_slow_url": "data/tts/eyebrows_a0e6fb_slow.mp3",
           "pic_box_norm": [
             61,
             30,
@@ -2878,6 +3114,8 @@
           "zh": "額頭",
           "pic_crop_url": "data/cards/deck_23_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_23_card_02_word.jpg",
+          "tts_url": "data/tts/forehead_ac0fd1.mp3",
+          "tts_slow_url": "data/tts/forehead_ac0fd1_slow.mp3",
           "pic_box_norm": [
             57,
             503,
@@ -2899,6 +3137,8 @@
           "zh": "睫毛",
           "pic_crop_url": "data/cards/deck_23_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_23_card_03_word.jpg",
+          "tts_url": "data/tts/eyelashes_66b4b9.mp3",
+          "tts_slow_url": "data/tts/eyelashes_66b4b9_slow.mp3",
           "pic_box_norm": [
             522,
             15,
@@ -2920,6 +3160,8 @@
           "zh": "頭",
           "pic_crop_url": "data/cards/deck_23_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_23_card_04_word.jpg",
+          "tts_url": "data/tts/head_96e89a.mp3",
+          "tts_slow_url": "data/tts/head_96e89a_slow.mp3",
           "pic_box_norm": [
             522,
             500,
@@ -2956,6 +3198,8 @@
           "zh": "烘烤雞肉",
           "pic_crop_url": "data/cards/deck_24_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_24_card_01_word.jpg",
+          "tts_url": "data/tts/baked_chicken_5795fe.mp3",
+          "tts_slow_url": "data/tts/baked_chicken_5795fe_slow.mp3",
           "pic_box_norm": [
             0,
             0,
@@ -2977,6 +3221,8 @@
           "zh": "BBQ烤雞",
           "pic_crop_url": "data/cards/deck_24_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_24_card_02_word.jpg",
+          "tts_url": "data/tts/bbq_chicken_7dc1c6.mp3",
+          "tts_slow_url": "data/tts/bbq_chicken_7dc1c6_slow.mp3",
           "pic_box_norm": [
             0,
             515,
@@ -2998,6 +3244,8 @@
           "zh": "美式漢堡肉排",
           "pic_crop_url": "data/cards/deck_24_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_24_card_03_word.jpg",
+          "tts_url": "data/tts/meatloaf_6d7230.mp3",
+          "tts_slow_url": "data/tts/meatloaf_6d7230_slow.mp3",
           "pic_box_norm": [
             504,
             0,
@@ -3019,6 +3267,8 @@
           "zh": "美式烤豬肋排",
           "pic_crop_url": "data/cards/deck_24_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_24_card_04_word.jpg",
+          "tts_url": "data/tts/bbq_ribs_714a8e.mp3",
+          "tts_slow_url": "data/tts/bbq_ribs_714a8e_slow.mp3",
           "pic_box_norm": [
             515,
             513,
@@ -3055,6 +3305,8 @@
           "zh": "血液",
           "pic_crop_url": "data/cards/deck_25_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_25_card_01_word.jpg",
+          "tts_url": "data/tts/blood_6b1579.mp3",
+          "tts_slow_url": "data/tts/blood_6b1579_slow.mp3",
           "pic_box_norm": [
             186,
             14,
@@ -3076,6 +3328,8 @@
           "zh": "充血的眼睛",
           "pic_crop_url": "data/cards/deck_25_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_25_card_02_word.jpg",
+          "tts_url": "data/tts/bloodshot_eyes_6f5441.mp3",
+          "tts_slow_url": "data/tts/bloodshot_eyes_6f5441_slow.mp3",
           "pic_box_norm": [
             192,
             528,
@@ -3097,6 +3351,8 @@
           "zh": "黑眼圈 (眼睛瘀青)",
           "pic_crop_url": "data/cards/deck_25_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_25_card_03_word.jpg",
+          "tts_url": "data/tts/black_eye_f80906.mp3",
+          "tts_slow_url": "data/tts/black_eye_f80906_slow.mp3",
           "pic_box_norm": [
             405,
             25,
@@ -3118,6 +3374,8 @@
           "zh": "眼睛",
           "pic_crop_url": "data/cards/deck_25_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_25_card_04_word.jpg",
+          "tts_url": "data/tts/eyes_a310e7.mp3",
+          "tts_slow_url": "data/tts/eyes_a310e7_slow.mp3",
           "pic_box_norm": [
             406,
             527,
@@ -3139,6 +3397,8 @@
           "zh": "眼球",
           "pic_crop_url": "data/cards/deck_25_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_25_card_05_word.jpg",
+          "tts_url": "data/tts/eyeball_8c8b0f.mp3",
+          "tts_slow_url": "data/tts/eyeball_8c8b0f_slow.mp3",
           "pic_box_norm": [
             616,
             259,
@@ -3175,6 +3435,8 @@
           "zh": "丁骨牛排",
           "pic_crop_url": "data/cards/deck_26_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_26_card_01_word.jpg",
+          "tts_url": "data/tts/t_bone_steak_cbfd55.mp3",
+          "tts_slow_url": "data/tts/t_bone_steak_cbfd55_slow.mp3",
           "pic_box_norm": [
             17,
             0,
@@ -3196,6 +3458,8 @@
           "zh": "沙朗牛排",
           "pic_crop_url": "data/cards/deck_26_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_26_card_02_word.jpg",
+          "tts_url": "data/tts/sirloin_steak_4fefc3.mp3",
+          "tts_slow_url": "data/tts/sirloin_steak_4fefc3_slow.mp3",
           "pic_box_norm": [
             37,
             536,
@@ -3217,6 +3481,8 @@
           "zh": "烤雞胸肉",
           "pic_crop_url": "data/cards/deck_26_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_26_card_03_word.jpg",
+          "tts_url": "data/tts/grilled_chicken_breast_89c67a.mp3",
+          "tts_slow_url": "data/tts/grilled_chicken_breast_89c67a_slow.mp3",
           "pic_box_norm": [
             351,
             0,
@@ -3238,6 +3504,8 @@
           "zh": "菲力牛排",
           "pic_crop_url": "data/cards/deck_26_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_26_card_04_word.jpg",
+          "tts_url": "data/tts/filet_mignon_steak_b992d5.mp3",
+          "tts_slow_url": "data/tts/filet_mignon_steak_b992d5_slow.mp3",
           "pic_box_norm": [
             366,
             549,
@@ -3259,6 +3527,8 @@
           "zh": "烤豬排",
           "pic_crop_url": "data/cards/deck_26_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_26_card_05_word.jpg",
+          "tts_url": "data/tts/pork_chops_97ebd4.mp3",
+          "tts_slow_url": "data/tts/pork_chops_97ebd4_slow.mp3",
           "pic_box_norm": [
             698,
             0,
@@ -3280,6 +3550,8 @@
           "zh": "海陸大餐",
           "pic_crop_url": "data/cards/deck_26_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_26_card_06_word.jpg",
+          "tts_url": "data/tts/turf_and_surf_e0c3e9.mp3",
+          "tts_slow_url": "data/tts/turf_and_surf_e0c3e9_slow.mp3",
           "pic_box_norm": [
             690,
             539,
@@ -3316,6 +3588,8 @@
           "zh": "臉",
           "pic_crop_url": "data/cards/deck_27_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_27_card_01_word.jpg",
+          "tts_url": "data/tts/face_d5ca32.mp3",
+          "tts_slow_url": "data/tts/face_d5ca32_slow.mp3",
           "pic_box_norm": [
             42,
             10,
@@ -3337,6 +3611,8 @@
           "zh": "白化症者",
           "pic_crop_url": "data/cards/deck_27_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_27_card_02_word.jpg",
+          "tts_url": "data/tts/albino_cbe785.mp3",
+          "tts_slow_url": "data/tts/albino_cbe785_slow.mp3",
           "pic_box_norm": [
             37,
             365,
@@ -3358,6 +3634,8 @@
           "zh": "長髮",
           "pic_crop_url": "data/cards/deck_27_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_27_card_03_word.jpg",
+          "tts_url": "data/tts/long_hair_235a59.mp3",
+          "tts_slow_url": "data/tts/long_hair_235a59_slow.mp3",
           "pic_box_norm": [
             31,
             708,
@@ -3379,6 +3657,8 @@
           "zh": "鬍渣",
           "pic_crop_url": "data/cards/deck_27_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_27_card_04_word.jpg",
+          "tts_url": "data/tts/facial_stubble_cbcd58.mp3",
+          "tts_slow_url": "data/tts/facial_stubble_cbcd58_slow.mp3",
           "pic_box_norm": [
             270,
             8,
@@ -3400,6 +3680,8 @@
           "zh": "八字鬍 (上唇鬍)",
           "pic_crop_url": "data/cards/deck_27_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_27_card_05_word.jpg",
+          "tts_url": "data/tts/mustache_a33173.mp3",
+          "tts_slow_url": "data/tts/mustache_a33173_slow.mp3",
           "pic_box_norm": [
             264,
             364,
@@ -3421,6 +3703,8 @@
           "zh": "絡腮鬍 (大鬍子)",
           "pic_crop_url": "data/cards/deck_27_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_27_card_06_word.jpg",
+          "tts_url": "data/tts/beard_d83559.mp3",
+          "tts_slow_url": "data/tts/beard_d83559_slow.mp3",
           "pic_box_norm": [
             262,
             721,
@@ -3442,6 +3726,8 @@
           "zh": "山羊鬍",
           "pic_crop_url": "data/cards/deck_27_card_07_pic.jpg",
           "word_crop_url": "data/cards/deck_27_card_07_word.jpg",
+          "tts_url": "data/tts/goatee_37f15e.mp3",
+          "tts_slow_url": "data/tts/goatee_37f15e_slow.mp3",
           "pic_box_norm": [
             486,
             9,
@@ -3463,6 +3749,8 @@
           "zh": "鬢角",
           "pic_crop_url": "data/cards/deck_27_card_08_pic.jpg",
           "word_crop_url": "data/cards/deck_27_card_08_word.jpg",
+          "tts_url": "data/tts/side_burns_322a06.mp3",
+          "tts_slow_url": "data/tts/side_burns_322a06_slow.mp3",
           "pic_box_norm": [
             474,
             366,
@@ -3484,6 +3772,8 @@
           "zh": "懷孕的",
           "pic_crop_url": "data/cards/deck_27_card_09_pic.jpg",
           "word_crop_url": "data/cards/deck_27_card_09_word.jpg",
+          "tts_url": "data/tts/pregnant_c7f522.mp3",
+          "tts_slow_url": "data/tts/pregnant_c7f522_slow.mp3",
           "pic_box_norm": [
             479,
             713,
@@ -3505,6 +3795,8 @@
           "zh": "腸子",
           "pic_crop_url": "data/cards/deck_27_card_10_pic.jpg",
           "word_crop_url": "data/cards/deck_27_card_10_word.jpg",
+          "tts_url": "data/tts/intestines_e809cc.mp3",
+          "tts_slow_url": "data/tts/intestines_e809cc_slow.mp3",
           "pic_box_norm": [
             710,
             0,
@@ -3541,6 +3833,8 @@
           "zh": "腰部",
           "pic_crop_url": "data/cards/deck_28_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_28_card_01_word.jpg",
+          "tts_url": "data/tts/waist_54680c.mp3",
+          "tts_slow_url": "data/tts/waist_54680c_slow.mp3",
           "pic_box_norm": [
             45,
             0,
@@ -3562,6 +3856,8 @@
           "zh": "心臟",
           "pic_crop_url": "data/cards/deck_28_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_28_card_02_word.jpg",
+          "tts_url": "data/tts/heart_318993.mp3",
+          "tts_slow_url": "data/tts/heart_318993_slow.mp3",
           "pic_box_norm": [
             47,
             550,
@@ -3583,6 +3879,8 @@
           "zh": "肺臟",
           "pic_crop_url": "data/cards/deck_28_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_28_card_03_word.jpg",
+          "tts_url": "data/tts/lungs_909729.mp3",
+          "tts_slow_url": "data/tts/lungs_909729_slow.mp3",
           "pic_box_norm": [
             345,
             0,
@@ -3604,6 +3902,8 @@
           "zh": "汗水",
           "pic_crop_url": "data/cards/deck_28_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_28_card_04_word.jpg",
+          "tts_url": "data/tts/sweat_b094bf.mp3",
+          "tts_slow_url": "data/tts/sweat_b094bf_slow.mp3",
           "pic_box_norm": [
             341,
             542,
@@ -3625,6 +3925,8 @@
           "zh": "皺紋",
           "pic_crop_url": "data/cards/deck_28_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_28_card_05_word.jpg",
+          "tts_url": "data/tts/wrinkles_1de285.mp3",
+          "tts_slow_url": "data/tts/wrinkles_1de285_slow.mp3",
           "pic_box_norm": [
             650,
             0,
@@ -3661,6 +3963,8 @@
           "zh": "石榴",
           "pic_crop_url": "data/cards/deck_29_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_29_card_01_word.jpg",
+          "tts_url": "data/tts/pomegranate_cd2765.mp3",
+          "tts_slow_url": "data/tts/pomegranate_cd2765_slow.mp3",
           "pic_box_norm": [
             43,
             19,
@@ -3682,6 +3986,8 @@
           "zh": "椰棗",
           "pic_crop_url": "data/cards/deck_29_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_29_card_02_word.jpg",
+          "tts_url": "data/tts/date_5fc732.mp3",
+          "tts_slow_url": "data/tts/date_5fc732_slow.mp3",
           "pic_box_norm": [
             46,
             540,
@@ -3703,6 +4009,8 @@
           "zh": "酪梨",
           "pic_crop_url": "data/cards/deck_29_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_29_card_03_word.jpg",
+          "tts_url": "data/tts/avocado_6118fd.mp3",
+          "tts_slow_url": "data/tts/avocado_6118fd_slow.mp3",
           "pic_box_norm": [
             355,
             26,
@@ -3724,6 +4032,8 @@
           "zh": "柿子",
           "pic_crop_url": "data/cards/deck_29_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_29_card_04_word.jpg",
+          "tts_url": "data/tts/persimmon_6cd0ec.mp3",
+          "tts_slow_url": "data/tts/persimmon_6cd0ec_slow.mp3",
           "pic_box_norm": [
             348,
             536,
@@ -3745,6 +4055,8 @@
           "zh": "西洋梨",
           "pic_crop_url": "data/cards/deck_29_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_29_card_05_word.jpg",
+          "tts_url": "data/tts/pear_8893dc.mp3",
+          "tts_slow_url": "data/tts/pear_8893dc_slow.mp3",
           "pic_box_norm": [
             662,
             27,
@@ -3766,6 +4078,8 @@
           "zh": "杏桃",
           "pic_crop_url": "data/cards/deck_29_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_29_card_06_word.jpg",
+          "tts_url": "data/tts/apricot_f9f33d.mp3",
+          "tts_slow_url": "data/tts/apricot_f9f33d_slow.mp3",
           "pic_box_norm": [
             663,
             529,
@@ -3802,6 +4116,8 @@
           "zh": "蔓越莓",
           "pic_crop_url": "data/cards/deck_30_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_30_card_01_word.jpg",
+          "tts_url": "data/tts/cranberry_5a0fdd.mp3",
+          "tts_slow_url": "data/tts/cranberry_5a0fdd_slow.mp3",
           "pic_box_norm": [
             7,
             13,
@@ -3823,6 +4139,8 @@
           "zh": "藍莓",
           "pic_crop_url": "data/cards/deck_30_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_30_card_02_word.jpg",
+          "tts_url": "data/tts/blueberry_8bea73.mp3",
+          "tts_slow_url": "data/tts/blueberry_8bea73_slow.mp3",
           "pic_box_norm": [
             9,
             539,
@@ -3844,6 +4162,8 @@
           "zh": "黑莓",
           "pic_crop_url": "data/cards/deck_30_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_30_card_03_word.jpg",
+          "tts_url": "data/tts/blackberry_93cc6c.mp3",
+          "tts_slow_url": "data/tts/blackberry_93cc6c_slow.mp3",
           "pic_box_norm": [
             338,
             0,
@@ -3865,6 +4185,8 @@
           "zh": "波森莓",
           "pic_crop_url": "data/cards/deck_30_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_30_card_04_word.jpg",
+          "tts_url": "data/tts/boysenberry_916ce7.mp3",
+          "tts_slow_url": "data/tts/boysenberry_916ce7_slow.mp3",
           "pic_box_norm": [
             345,
             537,
@@ -3886,6 +4208,8 @@
           "zh": "桑椹",
           "pic_crop_url": "data/cards/deck_30_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_30_card_05_word.jpg",
+          "tts_url": "data/tts/mulberry_a728bc.mp3",
+          "tts_slow_url": "data/tts/mulberry_a728bc_slow.mp3",
           "pic_box_norm": [
             664,
             0,
@@ -3907,6 +4231,8 @@
           "zh": "覆盆子",
           "pic_crop_url": "data/cards/deck_30_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_30_card_06_word.jpg",
+          "tts_url": "data/tts/raspberry_b89749.mp3",
+          "tts_slow_url": "data/tts/raspberry_b89749_slow.mp3",
           "pic_box_norm": [
             671,
             522,
@@ -3943,6 +4269,8 @@
           "zh": "腿",
           "pic_crop_url": "data/cards/deck_31_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_31_card_01_word.jpg",
+          "tts_url": "data/tts/legs_86acde.mp3",
+          "tts_slow_url": "data/tts/legs_86acde_slow.mp3",
           "pic_box_norm": [
             88,
             0,
@@ -3964,6 +4292,8 @@
           "zh": "靜脈",
           "pic_crop_url": "data/cards/deck_31_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_31_card_02_word.jpg",
+          "tts_url": "data/tts/veins_658272.mp3",
+          "tts_slow_url": "data/tts/veins_658272_slow.mp3",
           "pic_box_norm": [
             97,
             509,
@@ -3985,6 +4315,8 @@
           "zh": "手臂",
           "pic_crop_url": "data/cards/deck_31_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_31_card_03_word.jpg",
+          "tts_url": "data/tts/arms_a541ac.mp3",
+          "tts_slow_url": "data/tts/arms_a541ac_slow.mp3",
           "pic_box_norm": [
             340,
             0,
@@ -4006,6 +4338,8 @@
           "zh": "肩膀",
           "pic_crop_url": "data/cards/deck_31_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_31_card_04_word.jpg",
+          "tts_url": "data/tts/shoulder_7a069c.mp3",
+          "tts_slow_url": "data/tts/shoulder_7a069c_slow.mp3",
           "pic_box_norm": [
             337,
             508,
@@ -4027,6 +4361,8 @@
           "zh": "背部",
           "pic_crop_url": "data/cards/deck_31_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_31_card_05_word.jpg",
+          "tts_url": "data/tts/back_469bba.mp3",
+          "tts_slow_url": "data/tts/back_469bba_slow.mp3",
           "pic_box_norm": [
             581,
             0,
@@ -4048,6 +4384,8 @@
           "zh": "前臂",
           "pic_crop_url": "data/cards/deck_31_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_31_card_06_word.jpg",
+          "tts_url": "data/tts/forearm_12a0fe.mp3",
+          "tts_slow_url": "data/tts/forearm_12a0fe_slow.mp3",
           "pic_box_norm": [
             588,
             500,
@@ -4084,6 +4422,8 @@
           "zh": "手指",
           "pic_crop_url": "data/cards/deck_32_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_32_card_01_word.jpg",
+          "tts_url": "data/tts/fingers_fbf298.mp3",
+          "tts_slow_url": "data/tts/fingers_fbf298_slow.mp3",
           "pic_box_norm": [
             22,
             158,
@@ -4105,6 +4445,8 @@
           "zh": "雙手",
           "pic_crop_url": "data/cards/deck_32_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_32_card_02_word.jpg",
+          "tts_url": "data/tts/hands_6c8d61.mp3",
+          "tts_slow_url": "data/tts/hands_6c8d61_slow.mp3",
           "pic_box_norm": [
             31,
             408,
@@ -4126,6 +4468,8 @@
           "zh": "腳踝",
           "pic_crop_url": "data/cards/deck_32_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_32_card_03_word.jpg",
+          "tts_url": "data/tts/ankle_12a085.mp3",
+          "tts_slow_url": "data/tts/ankle_12a085_slow.mp3",
           "pic_box_norm": [
             31,
             650,
@@ -4147,6 +4491,8 @@
           "zh": "手掌",
           "pic_crop_url": "data/cards/deck_32_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_32_card_04_word.jpg",
+          "tts_url": "data/tts/palm_4ab4ac.mp3",
+          "tts_slow_url": "data/tts/palm_4ab4ac_slow.mp3",
           "pic_box_norm": [
             363,
             150,
@@ -4168,6 +4514,8 @@
           "zh": "大拇指",
           "pic_crop_url": "data/cards/deck_32_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_32_card_05_word.jpg",
+          "tts_url": "data/tts/thumb_f12105.mp3",
+          "tts_slow_url": "data/tts/thumb_f12105_slow.mp3",
           "pic_box_norm": [
             361,
             405,
@@ -4189,6 +4537,8 @@
           "zh": "腳跟",
           "pic_crop_url": "data/cards/deck_32_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_32_card_06_word.jpg",
+          "tts_url": "data/tts/heel_649be8.mp3",
+          "tts_slow_url": "data/tts/heel_649be8_slow.mp3",
           "pic_box_norm": [
             361,
             644,
@@ -4210,6 +4560,8 @@
           "zh": "掌紋",
           "pic_crop_url": "data/cards/deck_32_card_07_pic.jpg",
           "word_crop_url": "data/cards/deck_32_card_07_word.jpg",
+          "tts_url": "data/tts/handlines_7e3a78.mp3",
+          "tts_slow_url": "data/tts/handlines_7e3a78_slow.mp3",
           "pic_box_norm": [
             693,
             140,
@@ -4231,6 +4583,8 @@
           "zh": "手腕",
           "pic_crop_url": "data/cards/deck_32_card_08_pic.jpg",
           "word_crop_url": "data/cards/deck_32_card_08_word.jpg",
+          "tts_url": "data/tts/wrist_5f412b.mp3",
+          "tts_slow_url": "data/tts/wrist_5f412b_slow.mp3",
           "pic_box_norm": [
             671,
             394,
@@ -4267,6 +4621,8 @@
           "zh": "嘴唇",
           "pic_crop_url": "data/cards/deck_33_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_33_card_01_word.jpg",
+          "tts_url": "data/tts/lips_f6e924.mp3",
+          "tts_slow_url": "data/tts/lips_f6e924_slow.mp3",
           "pic_box_norm": [
             128,
             4,
@@ -4288,6 +4644,8 @@
           "zh": "大腦",
           "pic_crop_url": "data/cards/deck_33_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_33_card_02_word.jpg",
+          "tts_url": "data/tts/brain_8b3737.mp3",
+          "tts_slow_url": "data/tts/brain_8b3737_slow.mp3",
           "pic_box_norm": [
             152,
             532,
@@ -4309,6 +4667,8 @@
           "zh": "肚子",
           "pic_crop_url": "data/cards/deck_33_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_33_card_03_word.jpg",
+          "tts_url": "data/tts/belly_fa83f4.mp3",
+          "tts_slow_url": "data/tts/belly_fa83f4_slow.mp3",
           "pic_box_norm": [
             354,
             7,
@@ -4330,6 +4690,8 @@
           "zh": "肚臍",
           "pic_crop_url": "data/cards/deck_33_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_33_card_04_word.jpg",
+          "tts_url": "data/tts/belly_button_4d9397.mp3",
+          "tts_slow_url": "data/tts/belly_button_4d9397_slow.mp3",
           "pic_box_norm": [
             365,
             546,
@@ -4351,6 +4713,8 @@
           "zh": "乳頭",
           "pic_crop_url": "data/cards/deck_33_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_33_card_05_word.jpg",
+          "tts_url": "data/tts/nipple_5f44c2.mp3",
+          "tts_slow_url": "data/tts/nipple_5f44c2_slow.mp3",
           "pic_box_norm": [
             578,
             0,
@@ -4372,6 +4736,8 @@
           "zh": "胸部",
           "pic_crop_url": "data/cards/deck_33_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_33_card_06_word.jpg",
+          "tts_url": "data/tts/chest_14952e.mp3",
+          "tts_slow_url": "data/tts/chest_14952e_slow.mp3",
           "pic_box_norm": [
             591,
             510,
@@ -4408,6 +4774,8 @@
           "zh": "皮膚",
           "pic_crop_url": "data/cards/deck_34_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_34_card_01_word.jpg",
+          "tts_url": "data/tts/skin_37c24a.mp3",
+          "tts_slow_url": "data/tts/skin_37c24a_slow.mp3",
           "pic_box_norm": [
             144,
             0,
@@ -4429,6 +4797,8 @@
           "zh": "耳朵",
           "pic_crop_url": "data/cards/deck_34_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_34_card_02_word.jpg",
+          "tts_url": "data/tts/ear_d8ff99.mp3",
+          "tts_slow_url": "data/tts/ear_d8ff99_slow.mp3",
           "pic_box_norm": [
             150,
             330,
@@ -4450,6 +4820,8 @@
           "zh": "耳垢",
           "pic_crop_url": "data/cards/deck_34_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_34_card_03_word.jpg",
+          "tts_url": "data/tts/ear_wax_d04bc7.mp3",
+          "tts_slow_url": "data/tts/ear_wax_d04bc7_slow.mp3",
           "pic_box_norm": [
             148,
             678,
@@ -4471,6 +4843,8 @@
           "zh": "光頭",
           "pic_crop_url": "data/cards/deck_34_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_34_card_04_word.jpg",
+          "tts_url": "data/tts/bald_ff9bb8.mp3",
+          "tts_slow_url": "data/tts/bald_ff9bb8_slow.mp3",
           "pic_box_norm": [
             396,
             0,
@@ -4492,6 +4866,8 @@
           "zh": "舌頭",
           "pic_crop_url": "data/cards/deck_34_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_34_card_05_word.jpg",
+          "tts_url": "data/tts/tongue_cc9954.mp3",
+          "tts_slow_url": "data/tts/tongue_cc9954_slow.mp3",
           "pic_box_norm": [
             399,
             341,
@@ -4513,6 +4889,8 @@
           "zh": "鼻毛",
           "pic_crop_url": "data/cards/deck_34_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_34_card_06_word.jpg",
+          "tts_url": "data/tts/nose_hair_af24ae.mp3",
+          "tts_slow_url": "data/tts/nose_hair_af24ae_slow.mp3",
           "pic_box_norm": [
             389,
             671,
@@ -4534,6 +4912,8 @@
           "zh": "牙齒",
           "pic_crop_url": "data/cards/deck_34_card_07_pic.jpg",
           "word_crop_url": "data/cards/deck_34_card_07_word.jpg",
+          "tts_url": "data/tts/tooth_28b26b.mp3",
+          "tts_slow_url": "data/tts/tooth_28b26b_slow.mp3",
           "pic_box_norm": [
             651,
             3,
@@ -4555,6 +4935,8 @@
           "zh": "屁股",
           "pic_crop_url": "data/cards/deck_34_card_08_pic.jpg",
           "word_crop_url": "data/cards/deck_34_card_08_word.jpg",
+          "tts_url": "data/tts/butt_31d7c3.mp3",
+          "tts_slow_url": "data/tts/butt_31d7c3_slow.mp3",
           "pic_box_norm": [
             645,
             334,
@@ -4576,6 +4958,8 @@
           "zh": "淺色皮膚 / 深色皮膚",
           "pic_crop_url": "data/cards/deck_34_card_09_pic.jpg",
           "word_crop_url": "data/cards/deck_34_card_09_word.jpg",
+          "tts_url": "data/tts/light_skin_dark_skin_e50571.mp3",
+          "tts_slow_url": "data/tts/light_skin_dark_skin_e50571_slow.mp3",
           "pic_box_norm": [
             641,
             657,
@@ -4612,6 +4996,8 @@
           "zh": "喜歡",
           "pic_crop_url": "data/cards/deck_35_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_35_card_01_word.jpg",
+          "tts_url": "data/tts/like_be1ab1.mp3",
+          "tts_slow_url": "data/tts/like_be1ab1_slow.mp3",
           "pic_box_norm": [
             275,
             106,
@@ -4633,6 +5019,8 @@
           "zh": "看起來像",
           "pic_crop_url": "data/cards/deck_35_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_35_card_02_word.jpg",
+          "tts_url": "data/tts/looks_like_51185a.mp3",
+          "tts_slow_url": "data/tts/looks_like_51185a_slow.mp3",
           "pic_box_norm": [
             283,
             540,
@@ -4654,6 +5042,8 @@
           "zh": "不喜歡",
           "pic_crop_url": "data/cards/deck_35_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_35_card_03_word.jpg",
+          "tts_url": "data/tts/dislike_bc8b79.mp3",
+          "tts_slow_url": "data/tts/dislike_bc8b79_slow.mp3",
           "pic_box_norm": [
             467,
             40,
@@ -4675,6 +5065,8 @@
           "zh": "思考 / 認為",
           "pic_crop_url": "data/cards/deck_35_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_35_card_04_word.jpg",
+          "tts_url": "data/tts/thinks_a8f311.mp3",
+          "tts_slow_url": "data/tts/thinks_a8f311_slow.mp3",
           "pic_box_norm": [
             467,
             506,
@@ -4696,6 +5088,8 @@
           "zh": "我不這麼認為⋯⋯ (好主意)",
           "pic_crop_url": "data/cards/deck_35_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_35_card_05_word.jpg",
+          "tts_url": "data/tts/i_don_t_think_so_0c3bf1.mp3",
+          "tts_slow_url": "data/tts/i_don_t_think_so_0c3bf1_slow.mp3",
           "pic_box_norm": [
             695,
             0,
@@ -4717,6 +5111,8 @@
           "zh": "聽 (聽見)",
           "pic_crop_url": "data/cards/deck_35_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_35_card_06_word.jpg",
+          "tts_url": "data/tts/listen_839d72.mp3",
+          "tts_slow_url": "data/tts/listen_839d72_slow.mp3",
           "pic_box_norm": [
             718,
             498,
@@ -4753,6 +5149,8 @@
           "zh": "炸魷魚圈",
           "pic_crop_url": "data/cards/deck_36_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_36_card_01_word.jpg",
+          "tts_url": "data/tts/deep_fried_calamari_bb7f93.mp3",
+          "tts_slow_url": "data/tts/deep_fried_calamari_bb7f93_slow.mp3",
           "pic_box_norm": [
             157,
             43,
@@ -4774,6 +5172,8 @@
           "zh": "炸薯球",
           "pic_crop_url": "data/cards/deck_36_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_36_card_02_word.jpg",
+          "tts_url": "data/tts/tater_tots_860b0f.mp3",
+          "tts_slow_url": "data/tts/tater_tots_860b0f_slow.mp3",
           "pic_box_norm": [
             176,
             473,
@@ -4795,6 +5195,8 @@
           "zh": "熱狗燉豆",
           "pic_crop_url": "data/cards/deck_36_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_36_card_03_word.jpg",
+          "tts_url": "data/tts/beans_franks_a8b4f0.mp3",
+          "tts_slow_url": "data/tts/beans_franks_a8b4f0_slow.mp3",
           "pic_box_norm": [
             437,
             0,
@@ -4816,6 +5218,8 @@
           "zh": "炸魚條",
           "pic_crop_url": "data/cards/deck_36_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_36_card_04_word.jpg",
+          "tts_url": "data/tts/fish_sticks_bf8558.mp3",
+          "tts_slow_url": "data/tts/fish_sticks_bf8558_slow.mp3",
           "pic_box_norm": [
             402,
             509,
@@ -4837,6 +5241,8 @@
           "zh": "起司通心粉",
           "pic_crop_url": "data/cards/deck_36_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_36_card_05_word.jpg",
+          "tts_url": "data/tts/mac_n_cheese_972464.mp3",
+          "tts_slow_url": "data/tts/mac_n_cheese_972464_slow.mp3",
           "pic_box_norm": [
             668,
             0,
@@ -4858,6 +5264,8 @@
           "zh": "烤豆子",
           "pic_crop_url": "data/cards/deck_36_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_36_card_06_word.jpg",
+          "tts_url": "data/tts/baked_beans_496a79.mp3",
+          "tts_slow_url": "data/tts/baked_beans_496a79_slow.mp3",
           "pic_box_norm": [
             677,
             493,
@@ -4894,6 +5302,8 @@
           "zh": "起司肉醬熱狗",
           "pic_crop_url": "data/cards/deck_37_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_37_card_01_word.jpg",
+          "tts_url": "data/tts/chilli_cheese_dog_11b568.mp3",
+          "tts_slow_url": "data/tts/chilli_cheese_dog_11b568_slow.mp3",
           "pic_box_norm": [
             336,
             0,
@@ -4915,6 +5325,8 @@
           "zh": "辣肉醬熱狗",
           "pic_crop_url": "data/cards/deck_37_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_37_card_02_word.jpg",
+          "tts_url": "data/tts/chilli_dog_c903f8.mp3",
+          "tts_slow_url": "data/tts/chilli_dog_c903f8_slow.mp3",
           "pic_box_norm": [
             338,
             520,
@@ -4936,6 +5348,8 @@
           "zh": "熱狗（加黃芥末醬）",
           "pic_crop_url": "data/cards/deck_37_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_37_card_03_word.jpg",
+          "tts_url": "data/tts/hot_dog_df318b.mp3",
+          "tts_slow_url": "data/tts/hot_dog_df318b_slow.mp3",
           "pic_box_norm": [
             608,
             0,
@@ -4957,6 +5371,8 @@
           "zh": "美式熱狗棒",
           "pic_crop_url": "data/cards/deck_37_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_37_card_04_word.jpg",
+          "tts_url": "data/tts/corn_dog_1f2f49.mp3",
+          "tts_slow_url": "data/tts/corn_dog_1f2f49_slow.mp3",
           "pic_box_norm": [
             614,
             510,
@@ -4993,6 +5409,8 @@
           "zh": "薯條",
           "pic_crop_url": "data/cards/deck_38_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_38_card_01_word.jpg",
+          "tts_url": "data/tts/french_fries_c842f1.mp3",
+          "tts_slow_url": "data/tts/french_fries_c842f1_slow.mp3",
           "pic_box_norm": [
             63,
             0,
@@ -5014,6 +5432,8 @@
           "zh": "起司肉醬薯條",
           "pic_crop_url": "data/cards/deck_38_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_38_card_02_word.jpg",
+          "tts_url": "data/tts/chilli_cheese_fries_ae13d0.mp3",
+          "tts_slow_url": "data/tts/chilli_cheese_fries_ae13d0_slow.mp3",
           "pic_box_norm": [
             67,
             574,
@@ -5035,6 +5455,8 @@
           "zh": "炸雞",
           "pic_crop_url": "data/cards/deck_38_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_38_card_03_word.jpg",
+          "tts_url": "data/tts/fried_chicken_dede58.mp3",
+          "tts_slow_url": "data/tts/fried_chicken_dede58_slow.mp3",
           "pic_box_norm": [
             282,
             12,
@@ -5056,6 +5478,8 @@
           "zh": "炸魚薯條",
           "pic_crop_url": "data/cards/deck_38_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_38_card_04_word.jpg",
+          "tts_url": "data/tts/fish_chips_3a0118.mp3",
+          "tts_slow_url": "data/tts/fish_chips_3a0118_slow.mp3",
           "pic_box_norm": [
             292,
             548,
@@ -5077,6 +5501,8 @@
           "zh": "水牛城辣雞翅",
           "pic_crop_url": "data/cards/deck_38_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_38_card_05_word.jpg",
+          "tts_url": "data/tts/buffalo_chicken_wings_eea5b6.mp3",
+          "tts_slow_url": "data/tts/buffalo_chicken_wings_eea5b6_slow.mp3",
           "pic_box_norm": [
             501,
             0,
@@ -5098,6 +5524,8 @@
           "zh": "炸雞腿",
           "pic_crop_url": "data/cards/deck_38_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_38_card_06_word.jpg",
+          "tts_url": "data/tts/chicken_leg_37109f.mp3",
+          "tts_slow_url": "data/tts/chicken_leg_37109f_slow.mp3",
           "pic_box_norm": [
             502,
             517,
@@ -5119,6 +5547,8 @@
           "zh": "洋蔥圈",
           "pic_crop_url": "data/cards/deck_38_card_07_pic.jpg",
           "word_crop_url": "data/cards/deck_38_card_07_word.jpg",
+          "tts_url": "data/tts/onion_rings_aa6559.mp3",
+          "tts_slow_url": "data/tts/onion_rings_aa6559_slow.mp3",
           "pic_box_norm": [
             742,
             0,
@@ -5155,6 +5585,8 @@
           "zh": "培根起司漢堡",
           "pic_crop_url": "data/cards/deck_39_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_39_card_01_word.jpg",
+          "tts_url": "data/tts/bacon_cheese_burger_e8560d.mp3",
+          "tts_slow_url": "data/tts/bacon_cheese_burger_e8560d_slow.mp3",
           "pic_box_norm": [
             0,
             185,
@@ -5176,6 +5608,8 @@
           "zh": "美式肉醬漢堡",
           "pic_crop_url": "data/cards/deck_39_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_39_card_02_word.jpg",
+          "tts_url": "data/tts/sloppy_joe_7d626d.mp3",
+          "tts_slow_url": "data/tts/sloppy_joe_7d626d_slow.mp3",
           "pic_box_norm": [
             17,
             424,
@@ -5197,6 +5631,8 @@
           "zh": "手撕豬肉堡",
           "pic_crop_url": "data/cards/deck_39_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_39_card_03_word.jpg",
+          "tts_url": "data/tts/pulled_pork_sandwich_b07859.mp3",
+          "tts_slow_url": "data/tts/pulled_pork_sandwich_b07859_slow.mp3",
           "pic_box_norm": [
             30,
             668,
@@ -5218,6 +5654,8 @@
           "zh": "BBQ烤肉醬雞肉堡",
           "pic_crop_url": "data/cards/deck_39_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_39_card_04_word.jpg",
+          "tts_url": "data/tts/barbq_chicken_burger_839e39.mp3",
+          "tts_slow_url": "data/tts/barbq_chicken_burger_839e39_slow.mp3",
           "pic_box_norm": [
             324,
             155,
@@ -5239,6 +5677,8 @@
           "zh": "起司漢堡",
           "pic_crop_url": "data/cards/deck_39_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_39_card_05_word.jpg",
+          "tts_url": "data/tts/cheese_burger_a109ce.mp3",
+          "tts_slow_url": "data/tts/cheese_burger_a109ce_slow.mp3",
           "pic_box_norm": [
             327,
             430,
@@ -5260,6 +5700,8 @@
           "zh": "雙層起司漢堡",
           "pic_crop_url": "data/cards/deck_39_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_39_card_06_word.jpg",
+          "tts_url": "data/tts/double_cheese_burger_7ee14f.mp3",
+          "tts_slow_url": "data/tts/double_cheese_burger_7ee14f_slow.mp3",
           "pic_box_norm": [
             359,
             677,
@@ -5281,6 +5723,8 @@
           "zh": "鱈魚堡（麥香魚）",
           "pic_crop_url": "data/cards/deck_39_card_07_pic.jpg",
           "word_crop_url": "data/cards/deck_39_card_07_word.jpg",
+          "tts_url": "data/tts/fish_burger_6f2475.mp3",
+          "tts_slow_url": "data/tts/fish_burger_6f2475_slow.mp3",
           "pic_box_norm": [
             677,
             151,
@@ -5302,6 +5746,8 @@
           "zh": "麥克雞塊",
           "pic_crop_url": "data/cards/deck_39_card_08_pic.jpg",
           "word_crop_url": "data/cards/deck_39_card_08_word.jpg",
+          "tts_url": "data/tts/chicken_nuggets_ac017b.mp3",
+          "tts_slow_url": "data/tts/chicken_nuggets_ac017b_slow.mp3",
           "pic_box_norm": [
             691,
             433,
@@ -5323,6 +5769,8 @@
           "zh": "咔啦脆雞堡",
           "pic_crop_url": "data/cards/deck_39_card_09_pic.jpg",
           "word_crop_url": "data/cards/deck_39_card_09_word.jpg",
+          "tts_url": "data/tts/fried_chicken_burger_524ddf.mp3",
+          "tts_slow_url": "data/tts/fried_chicken_burger_524ddf_slow.mp3",
           "pic_box_norm": [
             671,
             677,
@@ -5359,6 +5807,8 @@
           "zh": "義式濃縮咖啡",
           "pic_crop_url": "data/cards/deck_40_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_40_card_01_word.jpg",
+          "tts_url": "data/tts/espresso_a2cc65.mp3",
+          "tts_slow_url": "data/tts/espresso_a2cc65_slow.mp3",
           "pic_box_norm": [
             348,
             0,
@@ -5380,6 +5830,8 @@
           "zh": "美式咖啡（咖啡豆）",
           "pic_crop_url": "data/cards/deck_40_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_40_card_02_word.jpg",
+          "tts_url": "data/tts/coffee_24eb05.mp3",
+          "tts_slow_url": "data/tts/coffee_24eb05_slow.mp3",
           "pic_box_norm": [
             359,
             549,
@@ -5401,6 +5853,8 @@
           "zh": "卡布奇諾",
           "pic_crop_url": "data/cards/deck_40_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_40_card_03_word.jpg",
+          "tts_url": "data/tts/cappuccino_884201.mp3",
+          "tts_slow_url": "data/tts/cappuccino_884201_slow.mp3",
           "pic_box_norm": [
             582,
             0,
@@ -5422,6 +5876,8 @@
           "zh": "拿鐵咖啡",
           "pic_crop_url": "data/cards/deck_40_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_40_card_04_word.jpg",
+          "tts_url": "data/tts/latte_c18c81.mp3",
+          "tts_slow_url": "data/tts/latte_c18c81_slow.mp3",
           "pic_box_norm": [
             596,
             517,
@@ -5458,6 +5914,8 @@
           "zh": "美式鬆餅",
           "pic_crop_url": "data/cards/deck_41_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_41_card_01_word.jpg",
+          "tts_url": "data/tts/pancakes_d18338.mp3",
+          "tts_slow_url": "data/tts/pancakes_d18338_slow.mp3",
           "pic_box_norm": [
             188,
             0,
@@ -5479,6 +5937,8 @@
           "zh": "格子鬆餅",
           "pic_crop_url": "data/cards/deck_41_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_41_card_02_word.jpg",
+          "tts_url": "data/tts/waffle_a3999b.mp3",
+          "tts_slow_url": "data/tts/waffle_a3999b_slow.mp3",
           "pic_box_norm": [
             195,
             549,
@@ -5500,6 +5960,8 @@
           "zh": "肉桂捲",
           "pic_crop_url": "data/cards/deck_41_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_41_card_03_word.jpg",
+          "tts_url": "data/tts/cinnamon_bun_f80767.mp3",
+          "tts_slow_url": "data/tts/cinnamon_bun_f80767_slow.mp3",
           "pic_box_norm": [
             425,
             0,
@@ -5521,6 +5983,8 @@
           "zh": "柳橙汁",
           "pic_crop_url": "data/cards/deck_41_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_41_card_04_word.jpg",
+          "tts_url": "data/tts/orange_juice_8c24f1.mp3",
+          "tts_slow_url": "data/tts/orange_juice_8c24f1_slow.mp3",
           "pic_box_norm": [
             439,
             530,
@@ -5542,6 +6006,8 @@
           "zh": "優格",
           "pic_crop_url": "data/cards/deck_41_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_41_card_05_word.jpg",
+          "tts_url": "data/tts/yogurt_623fcd.mp3",
+          "tts_slow_url": "data/tts/yogurt_623fcd_slow.mp3",
           "pic_box_norm": [
             665,
             0,
@@ -5578,6 +6044,8 @@
           "zh": "茄子",
           "pic_crop_url": "data/cards/deck_42_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_42_card_01_word.jpg",
+          "tts_url": "data/tts/eggplant_4afba5.mp3",
+          "tts_slow_url": "data/tts/eggplant_4afba5_slow.mp3",
           "pic_box_norm": [
             0,
             94,
@@ -5599,6 +6067,8 @@
           "zh": "蘆筍",
           "pic_crop_url": "data/cards/deck_42_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_42_card_02_word.jpg",
+          "tts_url": "data/tts/asparagus_080902.mp3",
+          "tts_slow_url": "data/tts/asparagus_080902_slow.mp3",
           "pic_box_norm": [
             224,
             86,
@@ -5620,6 +6090,8 @@
           "zh": "青蔥",
           "pic_crop_url": "data/cards/deck_42_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_42_card_03_word.jpg",
+          "tts_url": "data/tts/spring_onion_62547a.mp3",
+          "tts_slow_url": "data/tts/spring_onion_62547a_slow.mp3",
           "pic_box_norm": [
             231,
             250,
@@ -5641,6 +6113,8 @@
           "zh": "南瓜",
           "pic_crop_url": "data/cards/deck_42_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_42_card_04_word.jpg",
+          "tts_url": "data/tts/summer_pumpkin_2aca6a.mp3",
+          "tts_slow_url": "data/tts/summer_pumpkin_2aca6a_slow.mp3",
           "pic_box_norm": [
             242,
             418,
@@ -5662,6 +6136,8 @@
           "zh": "地瓜 (番薯)",
           "pic_crop_url": "data/cards/deck_42_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_42_card_05_word.jpg",
+          "tts_url": "data/tts/sweet_potato_29193d.mp3",
+          "tts_slow_url": "data/tts/sweet_potato_29193d_slow.mp3",
           "pic_box_norm": [
             233,
             568,
@@ -5683,6 +6159,8 @@
           "zh": "絲瓜",
           "pic_crop_url": "data/cards/deck_42_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_42_card_06_word.jpg",
+          "tts_url": "data/tts/loofah_cc7797.mp3",
+          "tts_slow_url": "data/tts/loofah_cc7797_slow.mp3",
           "pic_box_norm": [
             225,
             731,
@@ -5704,6 +6182,8 @@
           "zh": "菠菜",
           "pic_crop_url": "data/cards/deck_42_card_07_pic.jpg",
           "word_crop_url": "data/cards/deck_42_card_07_word.jpg",
+          "tts_url": "data/tts/spinach_76aba9.mp3",
+          "tts_slow_url": "data/tts/spinach_76aba9_slow.mp3",
           "pic_box_norm": [
             484,
             74,
@@ -5725,6 +6205,8 @@
           "zh": "竹筍",
           "pic_crop_url": "data/cards/deck_42_card_08_pic.jpg",
           "word_crop_url": "data/cards/deck_42_card_08_word.jpg",
+          "tts_url": "data/tts/bamboo_shoot_d3e03f.mp3",
+          "tts_slow_url": "data/tts/bamboo_shoot_d3e03f_slow.mp3",
           "pic_box_norm": [
             499,
             242,
@@ -5746,6 +6228,8 @@
           "zh": "甜椒",
           "pic_crop_url": "data/cards/deck_42_card_09_pic.jpg",
           "word_crop_url": "data/cards/deck_42_card_09_word.jpg",
+          "tts_url": "data/tts/bell_peppers_f04102.mp3",
+          "tts_slow_url": "data/tts/bell_peppers_f04102_slow.mp3",
           "pic_box_norm": [
             505,
             412,
@@ -5767,6 +6251,8 @@
           "zh": "白蘿蔔",
           "pic_crop_url": "data/cards/deck_42_card_10_pic.jpg",
           "word_crop_url": "data/cards/deck_42_card_10_word.jpg",
+          "tts_url": "data/tts/white_radish_8a429e.mp3",
+          "tts_slow_url": "data/tts/white_radish_8a429e_slow.mp3",
           "pic_box_norm": [
             497,
             587,
@@ -5788,6 +6274,8 @@
           "zh": "苦瓜",
           "pic_crop_url": "data/cards/deck_42_card_11_pic.jpg",
           "word_crop_url": "data/cards/deck_42_card_11_word.jpg",
+          "tts_url": "data/tts/bitter_melon_33e603.mp3",
+          "tts_slow_url": "data/tts/bitter_melon_33e603_slow.mp3",
           "pic_box_norm": [
             505,
             742,
@@ -5809,6 +6297,8 @@
           "zh": "四季豆",
           "pic_crop_url": "data/cards/deck_42_card_12_pic.jpg",
           "word_crop_url": "data/cards/deck_42_card_12_word.jpg",
+          "tts_url": "data/tts/string_beans_8ad355.mp3",
+          "tts_slow_url": "data/tts/string_beans_8ad355_slow.mp3",
           "pic_box_norm": [
             796,
             41,
@@ -5830,6 +6320,8 @@
           "zh": "高麗菜 (包心菜)",
           "pic_crop_url": "data/cards/deck_42_card_13_pic.jpg",
           "word_crop_url": "data/cards/deck_42_card_13_word.jpg",
+          "tts_url": "data/tts/cabbage_b3188a.mp3",
+          "tts_slow_url": "data/tts/cabbage_b3188a_slow.mp3",
           "pic_box_norm": [
             802,
             229,
@@ -5851,6 +6343,8 @@
           "zh": "大白菜",
           "pic_crop_url": "data/cards/deck_42_card_14_pic.jpg",
           "word_crop_url": "data/cards/deck_42_card_14_word.jpg",
+          "tts_url": "data/tts/chinese_cabbage_11463b.mp3",
+          "tts_slow_url": "data/tts/chinese_cabbage_11463b_slow.mp3",
           "pic_box_norm": [
             792,
             417,
@@ -5872,6 +6366,8 @@
           "zh": "芋頭",
           "pic_crop_url": "data/cards/deck_42_card_15_pic.jpg",
           "word_crop_url": "data/cards/deck_42_card_15_word.jpg",
+          "tts_url": "data/tts/taro_3886bc.mp3",
+          "tts_slow_url": "data/tts/taro_3886bc_slow.mp3",
           "pic_box_norm": [
             776,
             597,
@@ -5893,6 +6389,8 @@
           "zh": "青花菜",
           "pic_crop_url": "data/cards/deck_42_card_16_pic.jpg",
           "word_crop_url": "data/cards/deck_42_card_16_word.jpg",
+          "tts_url": "data/tts/broccoli_fb8da6.mp3",
+          "tts_slow_url": "data/tts/broccoli_fb8da6_slow.mp3",
           "pic_box_norm": [
             754,
             763,
@@ -5929,6 +6427,8 @@
           "zh": "奶油乳酪貝果",
           "pic_crop_url": "data/cards/deck_43_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_43_card_01_word.jpg",
+          "tts_url": "data/tts/cream_cheese_bagel_0e8fca.mp3",
+          "tts_slow_url": "data/tts/cream_cheese_bagel_0e8fca_slow.mp3",
           "pic_box_norm": [
             140,
             82,
@@ -5950,6 +6450,8 @@
           "zh": "英式瑪芬",
           "pic_crop_url": "data/cards/deck_43_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_43_card_02_word.jpg",
+          "tts_url": "data/tts/english_muffin_232232.mp3",
+          "tts_slow_url": "data/tts/english_muffin_232232_slow.mp3",
           "pic_box_norm": [
             152,
             522,
@@ -5971,6 +6473,8 @@
           "zh": "法式吐司",
           "pic_crop_url": "data/cards/deck_43_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_43_card_03_word.jpg",
+          "tts_url": "data/tts/french_toast_b26610.mp3",
+          "tts_slow_url": "data/tts/french_toast_b26610_slow.mp3",
           "pic_box_norm": [
             280,
             58,
@@ -5992,6 +6496,8 @@
           "zh": "早餐貝果三明治",
           "pic_crop_url": "data/cards/deck_43_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_43_card_04_word.jpg",
+          "tts_url": "data/tts/breakfast_bagel_1dbc8a.mp3",
+          "tts_slow_url": "data/tts/breakfast_bagel_1dbc8a_slow.mp3",
           "pic_box_norm": [
             281,
             576,
@@ -6013,6 +6519,8 @@
           "zh": "早餐可頌三明治",
           "pic_crop_url": "data/cards/deck_43_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_43_card_05_word.jpg",
+          "tts_url": "data/tts/breakfast_croissant_391076.mp3",
+          "tts_slow_url": "data/tts/breakfast_croissant_391076_slow.mp3",
           "pic_box_norm": [
             471,
             0,
@@ -6034,6 +6542,8 @@
           "zh": "烤吐司",
           "pic_crop_url": "data/cards/deck_43_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_43_card_06_word.jpg",
+          "tts_url": "data/tts/toast_4f2900.mp3",
+          "tts_slow_url": "data/tts/toast_4f2900_slow.mp3",
           "pic_box_norm": [
             488,
             535,
@@ -6055,6 +6565,8 @@
           "zh": "可頌 (牛角麵包)",
           "pic_crop_url": "data/cards/deck_43_card_07_pic.jpg",
           "word_crop_url": "data/cards/deck_43_card_07_word.jpg",
+          "tts_url": "data/tts/croissant_1d3cf1.mp3",
+          "tts_slow_url": "data/tts/croissant_1d3cf1_slow.mp3",
           "pic_box_norm": [
             678,
             0,
@@ -6076,6 +6588,8 @@
           "zh": "原味貝果",
           "pic_crop_url": "data/cards/deck_43_card_08_pic.jpg",
           "word_crop_url": "data/cards/deck_43_card_08_word.jpg",
+          "tts_url": "data/tts/bagel_6f6ac3.mp3",
+          "tts_slow_url": "data/tts/bagel_6f6ac3_slow.mp3",
           "pic_box_norm": [
             710,
             586,
@@ -6112,6 +6626,8 @@
           "zh": "培根",
           "pic_crop_url": "data/cards/deck_44_card_01_pic.jpg",
           "word_crop_url": "data/cards/deck_44_card_01_word.jpg",
+          "tts_url": "data/tts/bacon_781325.mp3",
+          "tts_slow_url": "data/tts/bacon_781325_slow.mp3",
           "pic_box_norm": [
             238,
             133,
@@ -6133,6 +6649,8 @@
           "zh": "水波蛋",
           "pic_crop_url": "data/cards/deck_44_card_02_pic.jpg",
           "word_crop_url": "data/cards/deck_44_card_02_word.jpg",
+          "tts_url": "data/tts/poached_egg_9ce5ef.mp3",
+          "tts_slow_url": "data/tts/poached_egg_9ce5ef_slow.mp3",
           "pic_box_norm": [
             249,
             527,
@@ -6154,6 +6672,8 @@
           "zh": "太陽蛋 (單面荷包蛋)",
           "pic_crop_url": "data/cards/deck_44_card_03_pic.jpg",
           "word_crop_url": "data/cards/deck_44_card_03_word.jpg",
+          "tts_url": "data/tts/eggs_ab92d9.mp3",
+          "tts_slow_url": "data/tts/eggs_ab92d9_slow.mp3",
           "pic_box_norm": [
             381,
             112,
@@ -6175,6 +6695,8 @@
           "zh": "歐姆蛋 (煎蛋捲)",
           "pic_crop_url": "data/cards/deck_44_card_04_pic.jpg",
           "word_crop_url": "data/cards/deck_44_card_04_word.jpg",
+          "tts_url": "data/tts/omelet_844b30.mp3",
+          "tts_slow_url": "data/tts/omelet_844b30_slow.mp3",
           "pic_box_norm": [
             383,
             499,
@@ -6196,6 +6718,8 @@
           "zh": "加拿大培根 (火腿片)",
           "pic_crop_url": "data/cards/deck_44_card_05_pic.jpg",
           "word_crop_url": "data/cards/deck_44_card_05_word.jpg",
+          "tts_url": "data/tts/canadian_bacon_a7fb68.mp3",
+          "tts_slow_url": "data/tts/canadian_bacon_a7fb68_slow.mp3",
           "pic_box_norm": [
             537,
             61,
@@ -6217,6 +6741,8 @@
           "zh": "水煮蛋",
           "pic_crop_url": "data/cards/deck_44_card_06_pic.jpg",
           "word_crop_url": "data/cards/deck_44_card_06_word.jpg",
+          "tts_url": "data/tts/hard_boiled_eggs_27505f.mp3",
+          "tts_slow_url": "data/tts/hard_boiled_eggs_27505f_slow.mp3",
           "pic_box_norm": [
             539,
             482,
@@ -6238,6 +6764,8 @@
           "zh": "美式炒蛋",
           "pic_crop_url": "data/cards/deck_44_card_07_pic.jpg",
           "word_crop_url": "data/cards/deck_44_card_07_word.jpg",
+          "tts_url": "data/tts/scrambled_eggs_89dc99.mp3",
+          "tts_slow_url": "data/tts/scrambled_eggs_89dc99_slow.mp3",
           "pic_box_norm": [
             717,
             18,
@@ -6259,6 +6787,8 @@
           "zh": "荷包蛋",
           "pic_crop_url": "data/cards/deck_44_card_08_pic.jpg",
           "word_crop_url": "data/cards/deck_44_card_08_word.jpg",
+          "tts_url": "data/tts/fried_egg_a45d01.mp3",
+          "tts_slow_url": "data/tts/fried_egg_a45d01_slow.mp3",
           "pic_box_norm": [
             707,
             452,
