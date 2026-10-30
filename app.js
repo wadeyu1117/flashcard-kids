@@ -152,6 +152,11 @@
     }, duration);
   }
 
+  function resolveUrl(u) {
+    if (!u) return "";
+    return u.replace(/^\/+/, "").replace(/#/g, "%23");
+  }
+
   function saveProgress() {
     localStorage.setItem(STORAGE_STARRED, JSON.stringify([...starredSet]));
     localStorage.setItem(STORAGE_MASTERED, JSON.stringify([...masteredSet]));
@@ -180,7 +185,11 @@
     allCardsFlat = [];
     if (!catalog || !catalog.decks) return;
     catalog.decks.forEach((deck, dIdx) => {
+      deck.pic_sheet_url = resolveUrl(deck.pic_sheet_url);
+      deck.word_sheet_url = resolveUrl(deck.word_sheet_url);
       deck.cards.forEach((c) => {
+        c.pic_crop_url = resolveUrl(c.pic_crop_url);
+        c.word_crop_url = resolveUrl(c.word_crop_url);
         allCardsFlat.push({
           ...c,
           deckIndex: dIdx,
@@ -205,6 +214,7 @@
     if (!catalog || !catalog.audio_tracks) return;
     elAudioSelect.innerHTML = "";
     catalog.audio_tracks.forEach((tr) => {
+      tr.url = resolveUrl(tr.url);
       const opt = document.createElement("option");
       opt.value = tr.url;
       opt.textContent = tr.title;
