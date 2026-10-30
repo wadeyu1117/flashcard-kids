@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Teacher Z 英語字卡小教室 ✨</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Noto+Sans+TC:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Top Navigation Header -->
+  <header class="top-bar">
+    <div class="brand-group">
+      <button id="btn-open-drawer" class="unit-picker-btn" title="選擇字卡單元">
+        <span class="unit-icon">📚</span>
+        <div class="unit-picker-text">
+          <span id="current-unit-badge" class="unit-badge">單元載入中...</span>
+          <span id="current-unit-title" class="unit-name">請稍候</span>
+        </div>
+        <span class="dropdown-arrow">▼</span>
+      </button>
+    </div>
+
+    <!-- Center Mode Switcher -->
+    <nav class="mode-tabs" aria-label="學習模式">
+      <button class="mode-tab active" data-mode="single">
+        <span class="tab-emoji">🃏</span>
+        <span>單張字卡</span>
+      </button>
+      <button class="mode-tab" data-mode="sheet">
+        <span class="tab-emoji">🖼️</span>
+        <span>整頁桌面</span>
+      </button>
+      <button class="mode-tab" data-mode="quiz">
+        <span class="tab-emoji">🎯</span>
+        <span>小測驗</span>
+      </button>
+    </nav>
+
+    <!-- Right Utilities -->
+    <div class="right-actions">
+      <button id="btn-toggle-audio" class="action-pill audio-pill" title="課堂 MP3 聽力播放">
+        <span>🎧</span>
+        <span class="hide-sm">聽力 CD</span>
+      </button>
+      <button id="btn-sync-drive" class="action-pill sync-pill" title="從 Google Drive 同步最新字卡">
+        <span id="sync-icon">🔄</span>
+        <span class="hide-sm">同步更新</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Collapsible MP3 Audio Bar -->
+  <section id="audio-drawer" class="audio-bar hidden">
+    <div class="audio-bar-inner">
+      <div class="audio-title-group">
+        <span class="audio-badge">🎵 課堂聽力練習</span>
+        <select id="audio-select" class="audio-select"></select>
+      </div>
+      <audio id="main-audio-player" controls preload="none" class="audio-Element"></audio>
+      <button id="btn-close-audio" class="icon-close-btn" title="收合播放器">✕</button>
+    </div>
+  </section>
+
+  <!-- Deck Filter Sub-bar (All Units / Starred Review / Shuffle All) -->
+  <section class="sub-toolbar">
+    <div class="filter-pills">
+      <button class="filter-pill active" data-filter="unit" id="pill-unit">
+        📖 本單元 (<span id="count-unit">0</span>張)
+      </button>
+      <button class="filter-pill" data-filter="starred" id="pill-starred">
+        ⭐ 重點複習 (<span id="count-starred">0</span>張)
+      </button>
+      <button class="filter-pill" data-filter="random" id="pill-random">
+        🔀 全部隨機抽卡 (<span id="count-total">0</span>張)
+      </button>
+    </div>
+
+    <div class="view-options">
+      <button id="btn-front-side" class="toggle-chip" title="切換正面要先看圖片還是先看單字">
+        🖼️ 先看圖片
+      </button>
+      <button id="btn-auto-speak" class="toggle-chip active" title="翻到單字面時自動朗讀發音">
+        🔊 自動發音：開
+      </button>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT AREA -->
+  <main class="main-stage">
+
+    <!-- ==================== MODE 1: SINGLE BIG FLASHCARD ==================== -->
+    <section id="view-single" class="mode-view active">
+      <div class="progress-row">
+        <div class="progress-counter">
+          第 <strong id="card-pos-current">1</strong> / <span id="card-pos-total">1</span> 張
+        </div>
+        <div id="progress-dots" class="progress-dots"></div>
+        <div class="mastered-counter">
+          ✅ 已學會 <strong id="unit-mastered-count">0</strong> 張
+        </div>
+      </div>
+
+      <!-- 3D Flip Card Stage -->
+      <div class="card-stage-wrapper">
+        <button id="btn-prev-side" class="side-nav-btn prev" title="上一張 (左方向鍵)">◀</button>
+
+        <div id="flashcard-3d" class="flashcard-container" tabindex="0" role="button" aria-label="點擊翻面">
+          <div id="flashcard-inner" class="flashcard-inner">
+            <!-- Front Face -->
+            <div class="flashcard-face flashcard-front">
+              <div class="face-top-tag">
+                <span id="front-tag-label">🖼️ 看圖猜單字</span>
+                <span class="flip-hint-pill">👆 點擊字卡翻面</span>
+              </div>
+              <div class="card-image-box">
+                <img id="single-front-img" src="" alt="字卡正面" draggable="false" />
+              </div>
+              <div class="face-bottom-bar">
+                <button id="btn-peek-zh" class="hint-btn" type="button">
+                  💡 中文提示：<span id="front-zh-hint" class="blurred-hint">點擊查看</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Back Face -->
+            <div class="flashcard-face flashcard-back">
+              <div class="face-top-tag back-tag">
+                <span id="back-tag-label">🔤 英語單字解答</span>
+                <span class="flip-hint-pill">👆 點擊翻回正面</span>
+              </div>
+              <div class="back-content-split">
+                <div class="back-handwritten-box">
+                  <img id="single-back-img" src="" alt="手寫字卡反面" draggable="false" />
+                </div>
+                <div class="back-text-panel">
+                  <div id="single-word-main" class="word-main">Word</div>
+                  <div id="single-word-sub" class="word-sub"></div>
+                  <div id="single-word-zh" class="word-zh">中文意思</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button id="btn-next-side" class="side-nav-btn next" title="下一張 (右方向鍵)">▶</button>
+      </div>
+
+      <!-- Kid-Friendly Big Bottom Controls -->
+      <div class="bottom-controls">
+        <button id="btn-prev-bottom" class="ctrl-btn nav-ctrl">
+          <span class="ctrl-icon">⬅️</span>
+          <span>上一張</span>
+        </button>
+
+        <button id="btn-speak-normal" class="ctrl-btn speak-ctrl">
+          <span class="ctrl-icon">🔊</span>
+          <span>正常發音</span>
+        </button>
+
+        <button id="btn-speak-slow" class="ctrl-btn slow-ctrl">
+          <span class="ctrl-icon">🐢</span>
+          <span>慢速跟讀</span>
+        </button>
+
+        <button id="btn-flip-card" class="ctrl-btn flip-ctrl">
+          <span class="ctrl-icon">🔄</span>
+          <span>翻面</span>
+        </button>
+
+        <button id="btn-star-card" class="ctrl-btn star-ctrl">
+          <span class="ctrl-icon" id="star-icon">☆</span>
+          <span id="star-label">加入複習</span>
+        </button>
+
+        <button id="btn-master-card" class="ctrl-btn master-ctrl">
+          <span class="ctrl-icon" id="master-icon">⬜</span>
+          <span id="master-label">學會了</span>
+        </button>
+
+        <button id="btn-next-bottom" class="ctrl-btn nav-ctrl">
+          <span class="ctrl-icon">➡️</span>
+          <span>下一張</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ==================== MODE 2: INTERACTIVE SHEET VIEW ==================== -->
+    <section id="view-sheet" class="mode-view">
+      <div class="sheet-toolbar">
+        <div class="sheet-instruction">
+          👆 <strong>點選桌面上的任一張字卡</strong>即可原地翻面並聽發音！
+        </div>
+        <div class="sheet-actions">
+          <button id="btn-sheet-flip-all" class="sheet-btn primary">🔄 全部翻面</button>
+          <button id="btn-sheet-reset" class="sheet-btn">↩️ 全部蓋回</button>
+          <button id="btn-sheet-sidebyside" class="sheet-btn">👁️ 雙頁並列對照</button>
+        </div>
+      </div>
+
+      <!-- Interactive Overlay Container -->
+      <div id="sheet-interactive-wrap" class="sheet-stage">
+        <div id="sheet-board" class="sheet-board">
+          <img id="sheet-base-img" src="" alt="整頁字卡桌面" draggable="false" />
+          <div id="sheet-hotspots" class="sheet-hotspots"></div>
+        </div>
+
+        <!-- Optional Side-by-side Second Sheet -->
+        <div id="sheet-second-board" class="sheet-board hidden">
+          <img id="sheet-second-img" src="" alt="整頁字卡對照面" draggable="false" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== MODE 3: FUN 4-CHOICE QUIZ ==================== -->
+    <section id="view-quiz" class="mode-view">
+      <div class="quiz-header">
+        <div class="quiz-score-pill">
+          🏆 答對：<strong id="quiz-score">0</strong> 題 ｜ 🔥 連續答對：<strong id="quiz-streak">0</strong>
+        </div>
+        <button id="btn-quiz-speak" class="quiz-audio-btn">🔊 再聽一次題目發音</button>
+      </div>
+
+      <div class="quiz-body">
+        <div class="quiz-prompt-card">
+          <img id="quiz-img" src="" alt="測驗圖片" />
+          <div id="quiz-zh-prompt" class="quiz-zh-badge">請選出對應的英文單字</div>
+        </div>
+
+        <div id="quiz-Feedback" class="quiz-feedback hidden"></div>
+
+        <div id="quiz-options" class="quiz-options-grid"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Unit Selection Drawer Modal -->
+  <div id="unit-modal" class="modal-backdrop hidden">
+    <div class="modal-panel">
+      <div class="modal-header">
+        <div>
+          <h2>📚 選擇字卡單元</h2>
+          <p class="modal-subtitle">從 Google Drive 自動同步，共 <span id="modal-deck-count">44</span> 個單元</p>
+        </div>
+        <div class="modal-header-right">
+          <input id="unit-search-input" type="search" placeholder="🔍 搜尋單字或主題..." class="unit-search" />
+          <button id="btn-close-modal" class="icon-close-btn">✕</button>
+        </div>
+      </div>
+      <div id="unit-grid" class="unit-grid"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

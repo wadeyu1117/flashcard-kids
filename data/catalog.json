@@ -1,0 +1,6278 @@
+{
+  "updated_at": "2026-10-30 17:37:04",
+  "folder_id": "1lZgQD2gynBy4saiiZObBVLOnY8vjxfDP",
+  "new_files_downloaded": 0,
+  "total_decks": 44,
+  "total_cards": 265,
+  "audio_tracks": [
+    {
+      "id": "1xrdtQTR4aT7I0qwNVXsJSAH7lA_mZ6xn",
+      "name": "01 Kasukabe Bootleg Disc.mp3",
+      "title": "01 Kasukabe Bootleg Disc",
+      "url": "data/audio/1xrdtQTR4aT7I0qwNVXsJSAH7lA_mZ6xn_01 Kasukabe Bootleg Disc.mp3",
+      "created_time": "2025-09-05T01:58:41.426Z"
+    },
+    {
+      "id": "1sZXm1hrfxwrF_Jw5Q_uvubqv20YlwURq",
+      "name": "Teacher Z - CD 2.mp3",
+      "title": "Teacher Z - CD 2",
+      "url": "data/audio/1sZXm1hrfxwrF_Jw5Q_uvubqv20YlwURq_Teacher Z - CD 2.mp3",
+      "created_time": "2026-01-21T07:10:19.547Z"
+    },
+    {
+      "id": "1iORVnqaNYTmW5IJ1gOyis37zMbUfocwA",
+      "name": "CD#3.mp3",
+      "title": "CD#3",
+      "url": "data/audio/1iORVnqaNYTmW5IJ1gOyis37zMbUfocwA_CD#3.mp3",
+      "created_time": "2026-06-24T08:56:27.469Z"
+    },
+    {
+      "id": "14rkQet2FK4lW0isziTNR0SVbBI8QbO8X",
+      "name": "paragraph#3.mp3",
+      "title": "paragraph#3",
+      "url": "data/audio/14rkQet2FK4lW0isziTNR0SVbBI8QbO8X_paragraph#3.mp3",
+      "created_time": "2026-06-24T08:56:27.677Z"
+    },
+    {
+      "id": "1Wu7PTGpKlB0WQ5vcdVSdb7_0lLdulXGh",
+      "name": "Paragraph#4.mp3",
+      "title": "Paragraph#4",
+      "url": "data/audio/1Wu7PTGpKlB0WQ5vcdVSdb7_0lLdulXGh_Paragraph#4.mp3",
+      "created_time": "2026-07-05T13:02:14.528Z"
+    },
+    {
+      "id": "1QGv9NDQARGLDdUXEQysZDaXZ_kvz4SKQ",
+      "name": "paragraph #5.mp3",
+      "title": "paragraph #5",
+      "url": "data/audio/1QGv9NDQARGLDdUXEQysZDaXZ_kvz4SKQ_paragraph #5.mp3",
+      "created_time": "2026-09-06T10:01:29.602Z"
+    }
+  ],
+  "decks": [
+    {
+      "id": "deck_01",
+      "pair_num": 1,
+      "unit_number": 44,
+      "date": "2026-10-16",
+      "title_en": "Emergency & Rescue",
+      "title_zh": "救援與消防",
+      "pic_sheet_url": "data/raw/1OuxDAVVTiP9ZACsenzh14_ZYXbIF1I0J.jpg",
+      "word_sheet_url": "data/raw/1LYTwaW_8Qgv072Ju3vfxkRth6IqGgnut.jpg",
+      "pic_aspect": 1.2632,
+      "word_aspect": 1.243,
+      "card_count": 4,
+      "cards": [
+        {
+          "id": "deck_01_card_01",
+          "index": 1,
+          "word": "Rescue Team",
+          "subtext": "(Rescuer)",
+          "zh": "搜救隊",
+          "pic_crop_url": "data/cards/deck_01_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_01_card_01_word.jpg",
+          "pic_box_norm": [
+            28,
+            0,
+            479,
+            483
+          ],
+          "word_box_norm": [
+            31,
+            7,
+            489,
+            506
+          ]
+        },
+        {
+          "id": "deck_01_card_02",
+          "index": 2,
+          "word": "Rescue Dog",
+          "subtext": "",
+          "zh": "搜救犬",
+          "pic_crop_url": "data/cards/deck_01_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_01_card_02_word.jpg",
+          "pic_box_norm": [
+            48,
+            490,
+            488,
+            969
+          ],
+          "word_box_norm": [
+            56,
+            517,
+            505,
+            1000
+          ]
+        },
+        {
+          "id": "deck_01_card_03",
+          "index": 3,
+          "word": "Fire Chief",
+          "subtext": "",
+          "zh": "消防隊長",
+          "pic_crop_url": "data/cards/deck_01_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_01_card_03_word.jpg",
+          "pic_box_norm": [
+            496,
+            0,
+            954,
+            480
+          ],
+          "word_box_norm": [
+            488,
+            1,
+            943,
+            503
+          ]
+        },
+        {
+          "id": "deck_01_card_04",
+          "index": 4,
+          "word": "Fireman",
+          "subtext": "(Firemen)",
+          "zh": "消防員",
+          "pic_crop_url": "data/cards/deck_01_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_01_card_04_word.jpg",
+          "pic_box_norm": [
+            494,
+            487,
+            952,
+            970
+          ],
+          "word_box_norm": [
+            498,
+            514,
+            956,
+            1000
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_02",
+      "pair_num": 2,
+      "unit_number": 43,
+      "date": "2026-10-04",
+      "title_en": "Science & Medical Jobs",
+      "title_zh": "科學與醫療職業",
+      "pic_sheet_url": "data/raw/1mT0PNQ7KYdtHVTTR4l0uq2_XFvzSxxTv.jpg",
+      "word_sheet_url": "data/raw/1tnidVlylETFvwWwTClJxQhASre8XYrJZ.jpg",
+      "pic_aspect": 0.6844,
+      "word_aspect": 0.6555,
+      "card_count": 8,
+      "cards": [
+        {
+          "id": "deck_02_card_01",
+          "index": 1,
+          "word": "Forensic Scientist",
+          "subtext": "",
+          "zh": "法醫科學家",
+          "pic_crop_url": "data/cards/deck_02_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_02_card_01_word.jpg",
+          "pic_box_norm": [
+            12,
+            62,
+            236,
+            514
+          ],
+          "word_box_norm": [
+            28,
+            5,
+            259,
+            483
+          ]
+        },
+        {
+          "id": "deck_02_card_02",
+          "index": 2,
+          "word": "Detective",
+          "subtext": "(P.I. - Private Investigator)",
+          "zh": "偵探",
+          "pic_crop_url": "data/cards/deck_02_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_02_card_02_word.jpg",
+          "pic_box_norm": [
+            17,
+            534,
+            239,
+            994
+          ],
+          "word_box_norm": [
+            30,
+            498,
+            259,
+            979
+          ]
+        },
+        {
+          "id": "deck_02_card_03",
+          "index": 3,
+          "word": "Biologist",
+          "subtext": "",
+          "zh": "生物學家",
+          "pic_crop_url": "data/cards/deck_02_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_02_card_03_word.jpg",
+          "pic_box_norm": [
+            236,
+            45,
+            475,
+            511
+          ],
+          "word_box_norm": [
+            270,
+            15,
+            499,
+            489
+          ]
+        },
+        {
+          "id": "deck_02_card_04",
+          "index": 4,
+          "word": "Scientist",
+          "subtext": "",
+          "zh": "科學家",
+          "pic_crop_url": "data/cards/deck_02_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_02_card_04_word.jpg",
+          "pic_box_norm": [
+            246,
+            522,
+            476,
+            977
+          ],
+          "word_box_norm": [
+            269,
+            495,
+            498,
+            974
+          ]
+        },
+        {
+          "id": "deck_02_card_05",
+          "index": 5,
+          "word": "Dental Assistant",
+          "subtext": "",
+          "zh": "牙醫助理",
+          "pic_crop_url": "data/cards/deck_02_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_02_card_05_word.jpg",
+          "pic_box_norm": [
+            483,
+            22,
+            725,
+            492
+          ],
+          "word_box_norm": [
+            505,
+            8,
+            736,
+            483
+          ]
+        },
+        {
+          "id": "deck_02_card_06",
+          "index": 6,
+          "word": "Dentist",
+          "subtext": "",
+          "zh": "牙醫",
+          "pic_crop_url": "data/cards/deck_02_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_02_card_06_word.jpg",
+          "pic_box_norm": [
+            490,
+            512,
+            720,
+            968
+          ],
+          "word_box_norm": [
+            502,
+            494,
+            732,
+            973
+          ]
+        },
+        {
+          "id": "deck_02_card_07",
+          "index": 7,
+          "word": "Coroner",
+          "subtext": "",
+          "zh": "法醫 (驗屍官)",
+          "pic_crop_url": "data/cards/deck_02_card_07_pic.jpg",
+          "word_crop_url": "data/cards/deck_02_card_07_word.jpg",
+          "pic_box_norm": [
+            724,
+            0,
+            969,
+            467
+          ],
+          "word_box_norm": [
+            735,
+            8,
+            976,
+            488
+          ]
+        },
+        {
+          "id": "deck_02_card_08",
+          "index": 8,
+          "word": "Nurse",
+          "subtext": "",
+          "zh": "護理師",
+          "pic_crop_url": "data/cards/deck_02_card_08_pic.jpg",
+          "word_crop_url": "data/cards/deck_02_card_08_word.jpg",
+          "pic_box_norm": [
+            737,
+            509,
+            976,
+            972
+          ],
+          "word_box_norm": [
+            742,
+            498,
+            975,
+            976
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_03",
+      "pair_num": 3,
+      "unit_number": 42,
+      "date": "2026-10-02",
+      "title_en": "Cooking & Kitchen Gear",
+      "title_zh": "下廚與廚房用品",
+      "pic_sheet_url": "data/raw/1EfNhMCs9mJ182pMEhu4BI7HM3vDyC0GV.jpg",
+      "word_sheet_url": "data/raw/1W3hiQXwvKZ7FaSW3YNrSakfWG5K1WIp5.jpg",
+      "pic_aspect": 0.564,
+      "word_aspect": 0.564,
+      "card_count": 2,
+      "cards": [
+        {
+          "id": "deck_03_card_01",
+          "index": 1,
+          "word": "Colander",
+          "subtext": "",
+          "zh": "濾水籃",
+          "pic_crop_url": "data/cards/deck_03_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_03_card_01_word.jpg",
+          "pic_box_norm": [
+            118,
+            82,
+            455,
+            921
+          ],
+          "word_box_norm": [
+            103,
+            84,
+            470,
+            980
+          ]
+        },
+        {
+          "id": "deck_03_card_02",
+          "index": 2,
+          "word": "Apron",
+          "subtext": "(Cooking... Baking... Kitchen...)",
+          "zh": "圍裙",
+          "pic_crop_url": "data/cards/deck_03_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_03_card_02_word.jpg",
+          "pic_box_norm": [
+            462,
+            69,
+            825,
+            933
+          ],
+          "word_box_norm": [
+            477,
+            75,
+            860,
+            978
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_04",
+      "pair_num": 4,
+      "unit_number": 41,
+      "date": "2026-09-30",
+      "title_en": "Kitchen Appliances & Tools",
+      "title_zh": "廚房電器與工具",
+      "pic_sheet_url": "data/raw/1CK_QrDgRkOuumf4GyCRUVxWWTevzH0Js.jpg",
+      "word_sheet_url": "data/raw/1pq3spRRGcQtDxFqV7NrOVqDMjnn2rw4n.jpg",
+      "pic_aspect": 0.564,
+      "word_aspect": 0.564,
+      "card_count": 4,
+      "cards": [
+        {
+          "id": "deck_04_card_01",
+          "index": 1,
+          "word": "Food Processor",
+          "subtext": "",
+          "zh": "食物調理機",
+          "pic_crop_url": "data/cards/deck_04_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_04_card_01_word.jpg",
+          "pic_box_norm": [
+            232,
+            59,
+            528,
+            451
+          ],
+          "word_box_norm": [
+            194,
+            99,
+            477,
+            467
+          ]
+        },
+        {
+          "id": "deck_04_card_02",
+          "index": 2,
+          "word": "Pasta Maker",
+          "subtext": "",
+          "zh": "製麵機",
+          "pic_crop_url": "data/cards/deck_04_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_04_card_02_word.jpg",
+          "pic_box_norm": [
+            291,
+            466,
+            505,
+            985
+          ],
+          "word_box_norm": [
+            272,
+            483,
+            477,
+            971
+          ]
+        },
+        {
+          "id": "deck_04_card_03",
+          "index": 3,
+          "word": "Temperature Gauge",
+          "subtext": "(Meat Temperature Gauge)",
+          "zh": "料理溫度計",
+          "pic_crop_url": "data/cards/deck_04_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_04_card_03_word.jpg",
+          "pic_box_norm": [
+            531,
+            0,
+            757,
+            474
+          ],
+          "word_box_norm": [
+            485,
+            0,
+            690,
+            489
+          ]
+        },
+        {
+          "id": "deck_04_card_04",
+          "index": 4,
+          "word": "Tongs",
+          "subtext": "(Salad Tongs)",
+          "zh": "食物夾",
+          "pic_crop_url": "data/cards/deck_04_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_04_card_04_word.jpg",
+          "pic_box_norm": [
+            527,
+            466,
+            751,
+            994
+          ],
+          "word_box_norm": [
+            484,
+            490,
+            687,
+            974
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_05",
+      "pair_num": 5,
+      "unit_number": 40,
+      "date": "2026-09-16",
+      "title_en": "Cooking & Kitchenware",
+      "title_zh": "烹飪與鍋具",
+      "pic_sheet_url": "data/raw/1ghelMe81Sr8rQ8LC7w0O2BzyiYeSVFZR.jpg",
+      "word_sheet_url": "data/raw/1PgcQ_t6WyyaFhP8ZvcM0kqiwJ3dbF4Dc.jpg",
+      "pic_aspect": 1.2796,
+      "word_aspect": 1.2177,
+      "card_count": 4,
+      "cards": [
+        {
+          "id": "deck_05_card_01",
+          "index": 1,
+          "word": "Chinese Bamboo Steamer",
+          "subtext": "",
+          "zh": "中式竹蒸籠",
+          "pic_crop_url": "data/cards/deck_05_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_05_card_01_word.jpg",
+          "pic_box_norm": [
+            12,
+            13,
+            465,
+            512
+          ],
+          "word_box_norm": [
+            38,
+            7,
+            492,
+            527
+          ]
+        },
+        {
+          "id": "deck_05_card_02",
+          "index": 2,
+          "word": "Frying Pan",
+          "subtext": "",
+          "zh": "平底鍋",
+          "pic_crop_url": "data/cards/deck_05_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_05_card_02_word.jpg",
+          "pic_box_norm": [
+            0,
+            520,
+            456,
+            1000
+          ],
+          "word_box_norm": [
+            22,
+            526,
+            483,
+            1000
+          ]
+        },
+        {
+          "id": "deck_05_card_03",
+          "index": 3,
+          "word": "Instant Noodles",
+          "subtext": "",
+          "zh": "泡麵",
+          "pic_crop_url": "data/cards/deck_05_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_05_card_03_word.jpg",
+          "pic_box_norm": [
+            479,
+            10,
+            977,
+            518
+          ],
+          "word_box_norm": [
+            499,
+            10,
+            983,
+            539
+          ]
+        },
+        {
+          "id": "deck_05_card_04",
+          "index": 4,
+          "word": "Deep Frier",
+          "subtext": "",
+          "zh": "油炸鍋",
+          "pic_crop_url": "data/cards/deck_05_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_05_card_04_word.jpg",
+          "pic_box_norm": [
+            471,
+            524,
+            955,
+            1000
+          ],
+          "word_box_norm": [
+            495,
+            533,
+            974,
+            1000
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_06",
+      "pair_num": 6,
+      "unit_number": 39,
+      "date": "2026-09-11",
+      "title_en": "Baking Tools & Pans",
+      "title_zh": "烘焙工具與烤盤",
+      "pic_sheet_url": "data/raw/1qoHl11TIAbb6lA8szQPrHS3ydoMW07lC.jpg",
+      "word_sheet_url": "data/raw/14v-tM5gHzE7jbGYfKILXm0oyA8V7_tne.jpg",
+      "pic_aspect": 0.8778,
+      "word_aspect": 0.842,
+      "card_count": 6,
+      "cards": [
+        {
+          "id": "deck_06_card_01",
+          "index": 1,
+          "word": "Confectioner's Paper",
+          "subtext": "(baking paper)",
+          "zh": "烘焙紙",
+          "pic_crop_url": "data/cards/deck_06_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_06_card_01_word.jpg",
+          "pic_box_norm": [
+            32,
+            11,
+            339,
+            479
+          ],
+          "word_box_norm": [
+            27,
+            11,
+            325,
+            481
+          ]
+        },
+        {
+          "id": "deck_06_card_02",
+          "index": 2,
+          "word": "Pizza Pan",
+          "subtext": "",
+          "zh": "披薩烤盤",
+          "pic_crop_url": "data/cards/deck_06_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_06_card_02_word.jpg",
+          "pic_box_norm": [
+            0,
+            498,
+            323,
+            1000
+          ],
+          "word_box_norm": [
+            17,
+            491,
+            325,
+            996
+          ]
+        },
+        {
+          "id": "deck_06_card_03",
+          "index": 3,
+          "word": "Rolling Pin",
+          "subtext": "",
+          "zh": "擀麵棍",
+          "pic_crop_url": "data/cards/deck_06_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_06_card_03_word.jpg",
+          "pic_box_norm": [
+            345,
+            15,
+            656,
+            492
+          ],
+          "word_box_norm": [
+            341,
+            5,
+            639,
+            483
+          ]
+        },
+        {
+          "id": "deck_06_card_04",
+          "index": 4,
+          "word": "Cake Pan",
+          "subtext": "",
+          "zh": "蛋糕烤模",
+          "pic_crop_url": "data/cards/deck_06_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_06_card_04_word.jpg",
+          "pic_box_norm": [
+            322,
+            501,
+            652,
+            1000
+          ],
+          "word_box_norm": [
+            339,
+            496,
+            652,
+            1000
+          ]
+        },
+        {
+          "id": "deck_06_card_05",
+          "index": 5,
+          "word": "Cookie Pan",
+          "subtext": "(cookie sheet)",
+          "zh": "餅乾烤盤",
+          "pic_crop_url": "data/cards/deck_06_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_06_card_05_word.jpg",
+          "pic_box_norm": [
+            659,
+            0,
+            1000,
+            480
+          ],
+          "word_box_norm": [
+            660,
+            0,
+            986,
+            472
+          ]
+        },
+        {
+          "id": "deck_06_card_06",
+          "index": 6,
+          "word": "Cooking Timer",
+          "subtext": "(Baking Timer)",
+          "zh": "廚房計時器",
+          "pic_crop_url": "data/cards/deck_06_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_06_card_06_word.jpg",
+          "pic_box_norm": [
+            659,
+            494,
+            1000,
+            1000
+          ],
+          "word_box_norm": [
+            669,
+            495,
+            1000,
+            1000
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_07",
+      "pair_num": 7,
+      "unit_number": 38,
+      "date": "2026-09-02",
+      "title_en": "Kitchen & Dining Tools",
+      "title_zh": "餐桌與廚房工具",
+      "pic_sheet_url": "data/raw/1-Mb98xQWVdJX5LyQNnCu-abaDXc5b5CL.jpg",
+      "word_sheet_url": "data/raw/1fyQ2s8YTvY9a9V6CIUnGZBr1RjM28CIj.jpg",
+      "pic_aspect": 1.1677,
+      "word_aspect": 1.1943,
+      "card_count": 4,
+      "cards": [
+        {
+          "id": "deck_07_card_01",
+          "index": 1,
+          "word": "Salt & Pepper Shaker",
+          "subtext": "",
+          "zh": "鹽與胡椒罐",
+          "pic_crop_url": "data/cards/deck_07_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_07_card_01_word.jpg",
+          "pic_box_norm": [
+            53,
+            19,
+            480,
+            516
+          ],
+          "word_box_norm": [
+            69,
+            22,
+            482,
+            489
+          ]
+        },
+        {
+          "id": "deck_07_card_02",
+          "index": 2,
+          "word": "Garlic Press",
+          "subtext": "",
+          "zh": "壓蒜器",
+          "pic_crop_url": "data/cards/deck_07_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_07_card_02_word.jpg",
+          "pic_box_norm": [
+            72,
+            545,
+            494,
+            1000
+          ],
+          "word_box_norm": [
+            77,
+            509,
+            483,
+            976
+          ]
+        },
+        {
+          "id": "deck_07_card_03",
+          "index": 3,
+          "word": "Bread Basket",
+          "subtext": "(Dinner Rolls)",
+          "zh": "麵包籃 (餐包)",
+          "pic_crop_url": "data/cards/deck_07_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_07_card_03_word.jpg",
+          "pic_box_norm": [
+            524,
+            3,
+            962,
+            505
+          ],
+          "word_box_norm": [
+            520,
+            27,
+            930,
+            489
+          ]
+        },
+        {
+          "id": "deck_07_card_04",
+          "index": 4,
+          "word": "Meat Tenderizer",
+          "subtext": "",
+          "zh": "肉槌",
+          "pic_crop_url": "data/cards/deck_07_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_07_card_04_word.jpg",
+          "pic_box_norm": [
+            544,
+            534,
+            972,
+            1000
+          ],
+          "word_box_norm": [
+            522,
+            493,
+            943,
+            961
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_08",
+      "pair_num": 8,
+      "unit_number": 37,
+      "date": "2026-09-02",
+      "title_en": "Kitchen Supplies & Towels",
+      "title_zh": "廚房用品與紙巾",
+      "pic_sheet_url": "data/raw/1N2F-MKi3LQGGYWu1OyFUxRZSrM3GSujn.jpg",
+      "word_sheet_url": "data/raw/1Bw-GKFXKz0Vt5ZOexPwIaRJPlx4ge14P.jpg",
+      "pic_aspect": 0.8744,
+      "word_aspect": 0.8141,
+      "card_count": 6,
+      "cards": [
+        {
+          "id": "deck_08_card_01",
+          "index": 1,
+          "word": "Spices",
+          "subtext": "(Spice rack)",
+          "zh": "香料 (香料架)",
+          "pic_crop_url": "data/cards/deck_08_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_08_card_01_word.jpg",
+          "pic_box_norm": [
+            13,
+            19,
+            334,
+            511
+          ],
+          "word_box_norm": [
+            47,
+            6,
+            349,
+            507
+          ]
+        },
+        {
+          "id": "deck_08_card_02",
+          "index": 2,
+          "word": "Napkin",
+          "subtext": "(Paper napkin \"Dinner napkin\")",
+          "zh": "餐巾 (紙餐巾)",
+          "pic_crop_url": "data/cards/deck_08_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_08_card_02_word.jpg",
+          "pic_box_norm": [
+            25,
+            514,
+            339,
+            996
+          ],
+          "word_box_norm": [
+            57,
+            509,
+            352,
+            996
+          ]
+        },
+        {
+          "id": "deck_08_card_03",
+          "index": 3,
+          "word": "Kitchen Towel",
+          "subtext": "(dish Towel)",
+          "zh": "廚房毛巾 (擦碗巾)",
+          "pic_crop_url": "data/cards/deck_08_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_08_card_03_word.jpg",
+          "pic_box_norm": [
+            327,
+            16,
+            642,
+            506
+          ],
+          "word_box_norm": [
+            350,
+            2,
+            647,
+            504
+          ]
+        },
+        {
+          "id": "deck_08_card_04",
+          "index": 4,
+          "word": "Paper Towels",
+          "subtext": "",
+          "zh": "廚房紙巾",
+          "pic_crop_url": "data/cards/deck_08_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_08_card_04_word.jpg",
+          "pic_box_norm": [
+            332,
+            508,
+            645,
+            993
+          ],
+          "word_box_norm": [
+            354,
+            503,
+            653,
+            998
+          ]
+        },
+        {
+          "id": "deck_08_card_05",
+          "index": 5,
+          "word": "Corkscrew",
+          "subtext": "",
+          "zh": "紅酒開瓶器",
+          "pic_crop_url": "data/cards/deck_08_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_08_card_05_word.jpg",
+          "pic_box_norm": [
+            637,
+            16,
+            951,
+            505
+          ],
+          "word_box_norm": [
+            652,
+            0,
+            951,
+            500
+          ]
+        },
+        {
+          "id": "deck_08_card_06",
+          "index": 6,
+          "word": "Cork",
+          "subtext": "",
+          "zh": "軟木塞",
+          "pic_crop_url": "data/cards/deck_08_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_08_card_06_word.jpg",
+          "pic_box_norm": [
+            647,
+            501,
+            962,
+            987
+          ],
+          "word_box_norm": [
+            656,
+            498,
+            960,
+            998
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_09",
+      "pair_num": 9,
+      "unit_number": 36,
+      "date": "2026-08-12",
+      "title_en": "Police Officers",
+      "title_zh": "警察與執法人員",
+      "pic_sheet_url": "data/raw/1oPwo6HTgfKkqaI_-9Pn1NMK-9GSwiEp6.jpg",
+      "word_sheet_url": "data/raw/1otTDdjgVv51RHcjVMVQRkaWYZQLJ_ZvT.jpg",
+      "pic_aspect": 0.8995,
+      "word_aspect": 0.8935,
+      "card_count": 6,
+      "cards": [
+        {
+          "id": "deck_09_card_01",
+          "index": 1,
+          "word": "Motorcycle Cop",
+          "subtext": "",
+          "zh": "機車警察",
+          "pic_crop_url": "data/cards/deck_09_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_09_card_01_word.jpg",
+          "pic_box_norm": [
+            0,
+            12,
+            321,
+            511
+          ],
+          "word_box_norm": [
+            8,
+            42,
+            312,
+            512
+          ]
+        },
+        {
+          "id": "deck_09_card_02",
+          "index": 2,
+          "word": "Police Chief",
+          "subtext": "(Chief of Police)",
+          "zh": "警察局長",
+          "pic_crop_url": "data/cards/deck_09_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_09_card_02_word.jpg",
+          "pic_box_norm": [
+            8,
+            508,
+            328,
+            981
+          ],
+          "word_box_norm": [
+            14,
+            512,
+            315,
+            978
+          ]
+        },
+        {
+          "id": "deck_09_card_03",
+          "index": 3,
+          "word": "S.W.A.T.",
+          "subtext": "(Police)",
+          "zh": "霹靂小組（特警隊）",
+          "pic_crop_url": "data/cards/deck_09_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_09_card_03_word.jpg",
+          "pic_box_norm": [
+            315,
+            0,
+            643,
+            505
+          ],
+          "word_box_norm": [
+            330,
+            41,
+            640,
+            515
+          ]
+        },
+        {
+          "id": "deck_09_card_04",
+          "index": 4,
+          "word": "Helicopter",
+          "subtext": "(policeman)",
+          "zh": "直升機警察",
+          "pic_crop_url": "data/cards/deck_09_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_09_card_04_word.jpg",
+          "pic_box_norm": [
+            328,
+            504,
+            645,
+            981
+          ],
+          "word_box_norm": [
+            335,
+            514,
+            644,
+            983
+          ]
+        },
+        {
+          "id": "deck_09_card_05",
+          "index": 5,
+          "word": "Police",
+          "subtext": "(Policeman) (Policemen)",
+          "zh": "警察",
+          "pic_crop_url": "data/cards/deck_09_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_09_card_05_word.jpg",
+          "pic_box_norm": [
+            651,
+            0,
+            1000,
+            498
+          ],
+          "word_box_norm": [
+            657,
+            32,
+            988,
+            514
+          ]
+        },
+        {
+          "id": "deck_09_card_06",
+          "index": 6,
+          "word": "Highway Patrolman",
+          "subtext": "",
+          "zh": "國道警察（公路巡警）",
+          "pic_crop_url": "data/cards/deck_09_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_09_card_06_word.jpg",
+          "pic_box_norm": [
+            653,
+            496,
+            996,
+            980
+          ],
+          "word_box_norm": [
+            656,
+            508,
+            988,
+            982
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_10",
+      "pair_num": 10,
+      "unit_number": 35,
+      "date": "2026-08-07",
+      "title_en": "Kitchen Utensils & Knives",
+      "title_zh": "廚房用具與刀具",
+      "pic_sheet_url": "data/raw/1XhFew1buqMZAfORWkSDxqf7aOZPWVl7B.jpg",
+      "word_sheet_url": "data/raw/10GJ0-kqo2Y4Kt63b48w29UrrDHllIwmI.jpg",
+      "pic_aspect": 0.564,
+      "word_aspect": 0.5719,
+      "card_count": 9,
+      "cards": [
+        {
+          "id": "deck_10_card_01",
+          "index": 1,
+          "word": "Measuring Spoons",
+          "subtext": "",
+          "zh": "量匙",
+          "pic_crop_url": "data/cards/deck_10_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_10_card_01_word.jpg",
+          "pic_box_norm": [
+            4,
+            45,
+            181,
+            499
+          ],
+          "word_box_norm": [
+            17,
+            41,
+            236,
+            532
+          ]
+        },
+        {
+          "id": "deck_10_card_02",
+          "index": 2,
+          "word": "Electric Peeler",
+          "subtext": "",
+          "zh": "電動削皮器",
+          "pic_crop_url": "data/cards/deck_10_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_10_card_02_word.jpg",
+          "pic_box_norm": [
+            8,
+            479,
+            186,
+            938
+          ],
+          "word_box_norm": [
+            25,
+            499,
+            246,
+            1000
+          ]
+        },
+        {
+          "id": "deck_10_card_03",
+          "index": 3,
+          "word": "Nut Cracker",
+          "subtext": "",
+          "zh": "胡桃鉗（堅果夾）",
+          "pic_crop_url": "data/cards/deck_10_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_10_card_03_word.jpg",
+          "pic_box_norm": [
+            174,
+            40,
+            360,
+            500
+          ],
+          "word_box_norm": [
+            226,
+            37,
+            434,
+            518
+          ]
+        },
+        {
+          "id": "deck_10_card_04",
+          "index": 4,
+          "word": "Measuring Cup",
+          "subtext": "",
+          "zh": "量杯",
+          "pic_crop_url": "data/cards/deck_10_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_10_card_04_word.jpg",
+          "pic_box_norm": [
+            175,
+            491,
+            367,
+            955
+          ],
+          "word_box_norm": [
+            228,
+            496,
+            439,
+            981
+          ]
+        },
+        {
+          "id": "deck_10_card_05",
+          "index": 5,
+          "word": "Knife Sharpener",
+          "subtext": "",
+          "zh": "磨刀器",
+          "pic_crop_url": "data/cards/deck_10_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_10_card_05_word.jpg",
+          "pic_box_norm": [
+            348,
+            32,
+            539,
+            496
+          ],
+          "word_box_norm": [
+            423,
+            42,
+            620,
+            514
+          ]
+        },
+        {
+          "id": "deck_10_card_06",
+          "index": 6,
+          "word": "Magnetic Knife Holder",
+          "subtext": "",
+          "zh": "磁吸刀架",
+          "pic_crop_url": "data/cards/deck_10_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_10_card_06_word.jpg",
+          "pic_box_norm": [
+            355,
+            471,
+            550,
+            938
+          ],
+          "word_box_norm": [
+            427,
+            496,
+            630,
+            978
+          ]
+        },
+        {
+          "id": "deck_10_card_07",
+          "index": 7,
+          "word": "Steak Knife",
+          "subtext": "",
+          "zh": "牛排刀",
+          "pic_crop_url": "data/cards/deck_10_card_07_pic.jpg",
+          "word_crop_url": "data/cards/deck_10_card_07_word.jpg",
+          "pic_box_norm": [
+            527,
+            13,
+            727,
+            484
+          ],
+          "word_box_norm": [
+            618,
+            44,
+            817,
+            515
+          ]
+        },
+        {
+          "id": "deck_10_card_08",
+          "index": 8,
+          "word": "Chopsticks",
+          "subtext": "",
+          "zh": "筷子",
+          "pic_crop_url": "data/cards/deck_10_card_08_pic.jpg",
+          "word_crop_url": "data/cards/deck_10_card_08_word.jpg",
+          "pic_box_norm": [
+            533,
+            464,
+            738,
+            938
+          ],
+          "word_box_norm": [
+            618,
+            497,
+            823,
+            972
+          ]
+        },
+        {
+          "id": "deck_10_card_09",
+          "index": 9,
+          "word": "Butter Knife",
+          "subtext": "",
+          "zh": "奶油刀",
+          "pic_crop_url": "data/cards/deck_10_card_09_pic.jpg",
+          "word_crop_url": "data/cards/deck_10_card_09_word.jpg",
+          "pic_box_norm": [
+            721,
+            239,
+            930,
+            713
+          ],
+          "word_box_norm": [
+            807,
+            255,
+            1000,
+            711
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_11",
+      "pair_num": 11,
+      "unit_number": 34,
+      "date": "2026-07-31",
+      "title_en": "Kitchen #1",
+      "title_zh": "廚房用具 (一)",
+      "pic_sheet_url": "data/raw/1TXaYopcu8mfeNHLy9Vu0cXKdUk90Q9vc.jpg",
+      "word_sheet_url": "data/raw/13jNk9fep1Et2zMoyaO05tpuvaRDYQDin.jpg",
+      "pic_aspect": 1.4233,
+      "word_aspect": 1.3094,
+      "card_count": 5,
+      "cards": [
+        {
+          "id": "deck_11_card_01",
+          "index": 1,
+          "word": "Potato Peeler",
+          "subtext": "",
+          "zh": "馬鈴薯削皮器",
+          "pic_crop_url": "data/cards/deck_11_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_11_card_01_word.jpg",
+          "pic_box_norm": [
+            0,
+            349,
+            297,
+            649
+          ],
+          "word_box_norm": [
+            4,
+            342,
+            303,
+            651
+          ]
+        },
+        {
+          "id": "deck_11_card_02",
+          "index": 2,
+          "word": "Salad Bowl",
+          "subtext": "(Salad Spoons)",
+          "zh": "沙拉碗（與沙拉匙）",
+          "pic_crop_url": "data/cards/deck_11_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_11_card_02_word.jpg",
+          "pic_box_norm": [
+            328,
+            32,
+            651,
+            346
+          ],
+          "word_box_norm": [
+            293,
+            24,
+            604,
+            342
+          ]
+        },
+        {
+          "id": "deck_11_card_03",
+          "index": 3,
+          "word": "Whisk",
+          "subtext": "(Baking Whisk \"Egg Whisk\")",
+          "zh": "打蛋器",
+          "pic_crop_url": "data/cards/deck_11_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_11_card_03_word.jpg",
+          "pic_box_norm": [
+            149,
+            657,
+            458,
+            961
+          ],
+          "word_box_norm": [
+            205,
+            662,
+            510,
+            980
+          ]
+        },
+        {
+          "id": "deck_11_card_04",
+          "index": 4,
+          "word": "Cutting Board",
+          "subtext": "(Chopping Board)",
+          "zh": "砧板（切菜板）",
+          "pic_crop_url": "data/cards/deck_11_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_11_card_04_word.jpg",
+          "pic_box_norm": [
+            497,
+            656,
+            820,
+            965
+          ],
+          "word_box_norm": [
+            549,
+            678,
+            855,
+            995
+          ]
+        },
+        {
+          "id": "deck_11_card_05",
+          "index": 5,
+          "word": "Masher",
+          "subtext": "(potato masher)",
+          "zh": "壓泥器（馬鈴薯壓泥器）",
+          "pic_crop_url": "data/cards/deck_11_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_11_card_05_word.jpg",
+          "pic_box_norm": [
+            672,
+            342,
+            1000,
+            656
+          ],
+          "word_box_norm": [
+            703,
+            342,
+            1000,
+            656
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_12",
+      "pair_num": 12,
+      "unit_number": 33,
+      "date": "2026-07-29",
+      "title_en": "Kitchen #1",
+      "title_zh": "廚房用具 (一)",
+      "pic_sheet_url": "data/raw/1AORu2mg6o7buPRJQZR8VPpwBNYLItmeu.jpg",
+      "word_sheet_url": "data/raw/1r4gAUbcc3XwSOYcXKu6-EMdBC0ut2McV.jpg",
+      "pic_aspect": 0.8484,
+      "word_aspect": 0.8988,
+      "card_count": 5,
+      "cards": [
+        {
+          "id": "deck_12_card_01",
+          "index": 1,
+          "word": "Can",
+          "subtext": "",
+          "zh": "罐頭（鐵罐）",
+          "pic_crop_url": "data/cards/deck_12_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_12_card_01_word.jpg",
+          "pic_box_norm": [
+            4,
+            533,
+            332,
+            1000
+          ],
+          "word_box_norm": [
+            30,
+            512,
+            337,
+            976
+          ]
+        },
+        {
+          "id": "deck_12_card_02",
+          "index": 2,
+          "word": "Bottle Opener",
+          "subtext": "",
+          "zh": "開瓶器",
+          "pic_crop_url": "data/cards/deck_12_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_12_card_02_word.jpg",
+          "pic_box_norm": [
+            330,
+            0,
+            656,
+            508
+          ],
+          "word_box_norm": [
+            347,
+            44,
+            658,
+            514
+          ]
+        },
+        {
+          "id": "deck_12_card_03",
+          "index": 3,
+          "word": "Pizza Cutter",
+          "subtext": "",
+          "zh": "披薩刀（披薩滾輪刀）",
+          "pic_crop_url": "data/cards/deck_12_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_12_card_03_word.jpg",
+          "pic_box_norm": [
+            328,
+            532,
+            649,
+            1000
+          ],
+          "word_box_norm": [
+            345,
+            515,
+            656,
+            980
+          ]
+        },
+        {
+          "id": "deck_12_card_04",
+          "index": 4,
+          "word": "Bottle",
+          "subtext": "",
+          "zh": "瓶子",
+          "pic_crop_url": "data/cards/deck_12_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_12_card_04_word.jpg",
+          "pic_box_norm": [
+            657,
+            0,
+            984,
+            515
+          ],
+          "word_box_norm": [
+            658,
+            47,
+            968,
+            516
+          ]
+        },
+        {
+          "id": "deck_12_card_05",
+          "index": 5,
+          "word": "Can Opener",
+          "subtext": "",
+          "zh": "開罐器",
+          "pic_crop_url": "data/cards/deck_12_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_12_card_05_word.jpg",
+          "pic_box_norm": [
+            653,
+            538,
+            980,
+            1000
+          ],
+          "word_box_norm": [
+            655,
+            525,
+            964,
+            991
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_13",
+      "pair_num": 13,
+      "unit_number": 32,
+      "date": "2026-06-26",
+      "title_en": "Body & Bones",
+      "title_zh": "身體與骨骼",
+      "pic_sheet_url": "data/raw/1GeLM0aIF3n5vd1FNkhJpDIHQlbskEZig.jpg",
+      "word_sheet_url": "data/raw/1aHB52dJ1N6uSYmqyQ2u9N9Sr0yxyJWeE.jpg",
+      "pic_aspect": 0.8322,
+      "word_aspect": 0.8491,
+      "card_count": 5,
+      "cards": [
+        {
+          "id": "deck_13_card_01",
+          "index": 1,
+          "word": "Bicep",
+          "subtext": "",
+          "zh": "二頭肌",
+          "pic_crop_url": "data/cards/deck_13_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_13_card_01_word.jpg",
+          "pic_box_norm": [
+            25,
+            0,
+            348,
+            473
+          ],
+          "word_box_norm": [
+            39,
+            0,
+            346,
+            475
+          ]
+        },
+        {
+          "id": "deck_13_card_02",
+          "index": 2,
+          "word": "Broken Arm",
+          "subtext": "(cast)",
+          "zh": "手臂骨折",
+          "pic_crop_url": "data/cards/deck_13_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_13_card_02_word.jpg",
+          "pic_box_norm": [
+            40,
+            480,
+            350,
+            965
+          ],
+          "word_box_norm": [
+            43,
+            484,
+            347,
+            971
+          ]
+        },
+        {
+          "id": "deck_13_card_03",
+          "index": 3,
+          "word": "Spine",
+          "subtext": "(Backbone)",
+          "zh": "脊椎",
+          "pic_crop_url": "data/cards/deck_13_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_13_card_03_word.jpg",
+          "pic_box_norm": [
+            359,
+            0,
+            661,
+            474
+          ],
+          "word_box_norm": [
+            360,
+            3,
+            656,
+            479
+          ]
+        },
+        {
+          "id": "deck_13_card_04",
+          "index": 4,
+          "word": "Mohawk",
+          "subtext": "(Punk Hair)",
+          "zh": "莫霍克龐克頭",
+          "pic_crop_url": "data/cards/deck_13_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_13_card_04_word.jpg",
+          "pic_box_norm": [
+            363,
+            484,
+            659,
+            960
+          ],
+          "word_box_norm": [
+            362,
+            485,
+            661,
+            963
+          ]
+        },
+        {
+          "id": "deck_13_card_05",
+          "index": 5,
+          "word": "Skeleton",
+          "subtext": "",
+          "zh": "骨骼與骷髏",
+          "pic_crop_url": "data/cards/deck_13_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_13_card_05_word.jpg",
+          "pic_box_norm": [
+            667,
+            0,
+            974,
+            464
+          ],
+          "word_box_norm": [
+            670,
+            11,
+            978,
+            486
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_14",
+      "pair_num": 14,
+      "unit_number": 31,
+      "date": "2026-06-26",
+      "title_en": "Body Parts & Muscles",
+      "title_zh": "身體部位與肌肉",
+      "pic_sheet_url": "data/raw/19qjX1P0ch3wbLfDqofZYnm0bgY4v_Cmr.jpg",
+      "word_sheet_url": "data/raw/1Rs6A02K-1B6kA0oyaCx-t2dqPwxZoaoc.jpg",
+      "pic_aspect": 0.8478,
+      "word_aspect": 0.8639,
+      "card_count": 6,
+      "cards": [
+        {
+          "id": "deck_14_card_01",
+          "index": 1,
+          "word": "Armpit",
+          "subtext": "\"BO\" Body Odor",
+          "zh": "腋下",
+          "pic_crop_url": "data/cards/deck_14_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_14_card_01_word.jpg",
+          "pic_box_norm": [
+            27,
+            4,
+            333,
+            481
+          ],
+          "word_box_norm": [
+            27,
+            35,
+            335,
+            511
+          ]
+        },
+        {
+          "id": "deck_14_card_02",
+          "index": 2,
+          "word": "Neck",
+          "subtext": "",
+          "zh": "脖子",
+          "pic_crop_url": "data/cards/deck_14_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_14_card_02_word.jpg",
+          "pic_box_norm": [
+            28,
+            521,
+            335,
+            999
+          ],
+          "word_box_norm": [
+            25,
+            523,
+            335,
+            1000
+          ]
+        },
+        {
+          "id": "deck_14_card_03",
+          "index": 3,
+          "word": "Thighs",
+          "subtext": "",
+          "zh": "大腿",
+          "pic_crop_url": "data/cards/deck_14_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_14_card_03_word.jpg",
+          "pic_box_norm": [
+            347,
+            12,
+            643,
+            484
+          ],
+          "word_box_norm": [
+            342,
+            39,
+            643,
+            513
+          ]
+        },
+        {
+          "id": "deck_14_card_04",
+          "index": 4,
+          "word": "Muscles",
+          "subtext": "\"Muscular\" (In Shape)",
+          "zh": "肌肉",
+          "pic_crop_url": "data/cards/deck_14_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_14_card_04_word.jpg",
+          "pic_box_norm": [
+            343,
+            517,
+            643,
+            995
+          ],
+          "word_box_norm": [
+            345,
+            520,
+            649,
+            995
+          ]
+        },
+        {
+          "id": "deck_14_card_05",
+          "index": 5,
+          "word": "Pimple",
+          "subtext": "(Pop a pimple)",
+          "zh": "青春痘",
+          "pic_crop_url": "data/cards/deck_14_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_14_card_05_word.jpg",
+          "pic_box_norm": [
+            667,
+            8,
+            969,
+            475
+          ],
+          "word_box_norm": [
+            656,
+            31,
+            971,
+            508
+          ]
+        },
+        {
+          "id": "deck_14_card_06",
+          "index": 6,
+          "word": "Calfs",
+          "subtext": "",
+          "zh": "小腿肚",
+          "pic_crop_url": "data/cards/deck_14_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_14_card_06_word.jpg",
+          "pic_box_norm": [
+            668,
+            517,
+            971,
+            988
+          ],
+          "word_box_norm": [
+            657,
+            519,
+            977,
+            994
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_15",
+      "pair_num": 15,
+      "unit_number": 30,
+      "date": "2026-06-26",
+      "title_en": "Beef Dishes & Sides",
+      "title_zh": "牛肉料理與配菜",
+      "pic_sheet_url": "data/raw/1k0VwDPxUCspdaQurJcUorQeg_P1g95qu.jpg",
+      "word_sheet_url": "data/raw/19-4RSiQWeo8sHXdIf4h3ZXsvR3F4fWAh.jpg",
+      "pic_aspect": 0.8136,
+      "word_aspect": 0.8906,
+      "card_count": 5,
+      "cards": [
+        {
+          "id": "deck_15_card_01",
+          "index": 1,
+          "word": "Beef Stew",
+          "subtext": "",
+          "zh": "燉牛肉",
+          "pic_crop_url": "data/cards/deck_15_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_15_card_01_word.jpg",
+          "pic_box_norm": [
+            30,
+            0,
+            344,
+            488
+          ],
+          "word_box_norm": [
+            7,
+            38,
+            309,
+            500
+          ]
+        },
+        {
+          "id": "deck_15_card_02",
+          "index": 2,
+          "word": "Roast Beef",
+          "subtext": "",
+          "zh": "烤牛肉",
+          "pic_crop_url": "data/cards/deck_15_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_15_card_02_word.jpg",
+          "pic_box_norm": [
+            29,
+            508,
+            333,
+            1000
+          ],
+          "word_box_norm": [
+            17,
+            518,
+            315,
+            968
+          ]
+        },
+        {
+          "id": "deck_15_card_03",
+          "index": 3,
+          "word": "Smoked Brisket",
+          "subtext": "(Texas)",
+          "zh": "煙燻牛胸肉",
+          "pic_crop_url": "data/cards/deck_15_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_15_card_03_word.jpg",
+          "pic_box_norm": [
+            366,
+            0,
+            663,
+            497
+          ],
+          "word_box_norm": [
+            328,
+            40,
+            626,
+            498
+          ]
+        },
+        {
+          "id": "deck_15_card_04",
+          "index": 4,
+          "word": "Sauteed Carrots",
+          "subtext": "(Grilled)",
+          "zh": "香煎紅蘿蔔",
+          "pic_crop_url": "data/cards/deck_15_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_15_card_04_word.jpg",
+          "pic_box_norm": [
+            353,
+            507,
+            651,
+            1000
+          ],
+          "word_box_norm": [
+            335,
+            517,
+            632,
+            972
+          ]
+        },
+        {
+          "id": "deck_15_card_05",
+          "index": 5,
+          "word": "Chilli",
+          "subtext": "(Chilli Beans) (Chilli Con Carne)",
+          "zh": "辣味肉醬豆",
+          "pic_crop_url": "data/cards/deck_15_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_15_card_05_word.jpg",
+          "pic_box_norm": [
+            678,
+            504,
+            984,
+            996
+          ],
+          "word_box_norm": [
+            657,
+            513,
+            973,
+            974
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_16",
+      "pair_num": 16,
+      "unit_number": 29,
+      "date": "2026-06-10",
+      "title_en": "Deli Beef Sandwiches",
+      "title_zh": "經典牛肉三明治",
+      "pic_sheet_url": "data/raw/1WyV2WsZ4WVAgwfUyNlbsMUjRFMPfBx8b.jpg",
+      "word_sheet_url": "data/raw/16PEefwF3o53p_zLY81hb3CdlKD1IgIxN.jpg",
+      "pic_aspect": 0.7187,
+      "word_aspect": 0.7676,
+      "card_count": 5,
+      "cards": [
+        {
+          "id": "deck_16_card_01",
+          "index": 1,
+          "word": "Corn Beef Sandwich",
+          "subtext": "",
+          "zh": "鹹牛肉三明治",
+          "pic_crop_url": "data/cards/deck_16_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_16_card_01_word.jpg",
+          "pic_box_norm": [
+            23,
+            0,
+            307,
+            527
+          ],
+          "word_box_norm": [
+            40,
+            11,
+            308,
+            490
+          ]
+        },
+        {
+          "id": "deck_16_card_02",
+          "index": 2,
+          "word": "Pastrami Sandwich",
+          "subtext": "",
+          "zh": "煙燻鹹牛肉三明治",
+          "pic_crop_url": "data/cards/deck_16_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_16_card_02_word.jpg",
+          "pic_box_norm": [
+            28,
+            521,
+            311,
+            1000
+          ],
+          "word_box_norm": [
+            46,
+            500,
+            315,
+            976
+          ]
+        },
+        {
+          "id": "deck_16_card_03",
+          "index": 3,
+          "word": "Reuben Sandwich",
+          "subtext": "(Sauerkraut)",
+          "zh": "魯賓三明治",
+          "pic_crop_url": "data/cards/deck_16_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_16_card_03_word.jpg",
+          "pic_box_norm": [
+            318,
+            136,
+            691,
+            519
+          ],
+          "word_box_norm": [
+            311,
+            130,
+            680,
+            486
+          ]
+        },
+        {
+          "id": "deck_16_card_04",
+          "index": 4,
+          "word": "French Dip",
+          "subtext": "(Sandwich)",
+          "zh": "法式沾汁牛肉三明治",
+          "pic_crop_url": "data/cards/deck_16_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_16_card_04_word.jpg",
+          "pic_box_norm": [
+            321,
+            526,
+            689,
+            901
+          ],
+          "word_box_norm": [
+            311,
+            501,
+            679,
+            852
+          ]
+        },
+        {
+          "id": "deck_16_card_05",
+          "index": 5,
+          "word": "Philly Cheese Steak",
+          "subtext": "",
+          "zh": "費城起司牛肉堡",
+          "pic_crop_url": "data/cards/deck_16_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_16_card_05_word.jpg",
+          "pic_box_norm": [
+            691,
+            245,
+            969,
+            765
+          ],
+          "word_box_norm": [
+            687,
+            240,
+            974,
+            738
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_17",
+      "pair_num": 17,
+      "unit_number": 28,
+      "date": "2026-06-03",
+      "title_en": "Mexican Food #1",
+      "title_zh": "墨西哥料理 (一)",
+      "pic_sheet_url": "data/raw/1PXGu4v2nVX6YfRDZs_QmM-aDzfYNxUNE.jpg",
+      "word_sheet_url": "data/raw/1wSa5yCA77UaIGGdGKWg32FijRHS10FB4.jpg",
+      "pic_aspect": 0.7913,
+      "word_aspect": 0.8449,
+      "card_count": 6,
+      "cards": [
+        {
+          "id": "deck_17_card_01",
+          "index": 1,
+          "word": "Nachos",
+          "subtext": "",
+          "zh": "墨西哥玉米片",
+          "pic_crop_url": "data/cards/deck_17_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_17_card_01_word.jpg",
+          "pic_box_norm": [
+            8,
+            0,
+            335,
+            503
+          ],
+          "word_box_norm": [
+            15,
+            6,
+            316,
+            475
+          ]
+        },
+        {
+          "id": "deck_17_card_02",
+          "index": 2,
+          "word": "Spanish Rice",
+          "subtext": "",
+          "zh": "西班牙風味飯",
+          "pic_crop_url": "data/cards/deck_17_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_17_card_02_word.jpg",
+          "pic_box_norm": [
+            24,
+            503,
+            342,
+            1000
+          ],
+          "word_box_norm": [
+            20,
+            504,
+            319,
+            981
+          ]
+        },
+        {
+          "id": "deck_17_card_03",
+          "index": 3,
+          "word": "Enchiladas",
+          "subtext": "",
+          "zh": "安琪拉達捲餅",
+          "pic_crop_url": "data/cards/deck_17_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_17_card_03_word.jpg",
+          "pic_box_norm": [
+            327,
+            0,
+            645,
+            493
+          ],
+          "word_box_norm": [
+            348,
+            8,
+            638,
+            472
+          ]
+        },
+        {
+          "id": "deck_17_card_04",
+          "index": 4,
+          "word": "Refried Beans",
+          "subtext": "",
+          "zh": "墨西哥炸豆泥",
+          "pic_crop_url": "data/cards/deck_17_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_17_card_04_word.jpg",
+          "pic_box_norm": [
+            344,
+            491,
+            659,
+            1000
+          ],
+          "word_box_norm": [
+            342,
+            511,
+            634,
+            985
+          ]
+        },
+        {
+          "id": "deck_17_card_05",
+          "index": 5,
+          "word": "Jalapeno Poppers",
+          "subtext": "",
+          "zh": "炸起司墨西哥辣椒",
+          "pic_crop_url": "data/cards/deck_17_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_17_card_05_word.jpg",
+          "pic_box_norm": [
+            640,
+            0,
+            966,
+            472
+          ],
+          "word_box_norm": [
+            669,
+            14,
+            972,
+            480
+          ]
+        },
+        {
+          "id": "deck_17_card_06",
+          "index": 6,
+          "word": "Beef Burrito",
+          "subtext": "(Meat Burrito)",
+          "zh": "牛肉墨西哥捲餅",
+          "pic_crop_url": "data/cards/deck_17_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_17_card_06_word.jpg",
+          "pic_box_norm": [
+            658,
+            491,
+            979,
+            1000
+          ],
+          "word_box_norm": [
+            664,
+            507,
+            971,
+            981
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_18",
+      "pair_num": 18,
+      "unit_number": 27,
+      "date": "2026-06-03",
+      "title_en": "Tacos & Burritos",
+      "title_zh": "塔可與墨西哥捲餅",
+      "pic_sheet_url": "data/raw/1WXv2C4q_1XxM7L98SgyEUXI3wqLhZyBX.jpg",
+      "word_sheet_url": "data/raw/1no2Xg6y44oUYmsgQjASP-KzrPC2x6TxS.jpg",
+      "pic_aspect": 0.6882,
+      "word_aspect": 0.6637,
+      "card_count": 7,
+      "cards": [
+        {
+          "id": "deck_18_card_01",
+          "index": 1,
+          "word": "Taco Salad",
+          "subtext": "",
+          "zh": "塔可沙拉",
+          "pic_crop_url": "data/cards/deck_18_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_18_card_01_word.jpg",
+          "pic_box_norm": [
+            7,
+            18,
+            230,
+            459
+          ],
+          "word_box_norm": [
+            27,
+            50,
+            259,
+            520
+          ]
+        },
+        {
+          "id": "deck_18_card_02",
+          "index": 2,
+          "word": "Tostada",
+          "subtext": "",
+          "zh": "墨西哥烤玉米餅",
+          "pic_crop_url": "data/cards/deck_18_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_18_card_02_word.jpg",
+          "pic_box_norm": [
+            12,
+            525,
+            232,
+            956
+          ],
+          "word_box_norm": [
+            29,
+            536,
+            266,
+            1000
+          ]
+        },
+        {
+          "id": "deck_18_card_03",
+          "index": 3,
+          "word": "Fish Taco",
+          "subtext": "(Soft Shell Taco)",
+          "zh": "魚肉塔可餅",
+          "pic_crop_url": "data/cards/deck_18_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_18_card_03_word.jpg",
+          "pic_box_norm": [
+            257,
+            22,
+            476,
+            461
+          ],
+          "word_box_norm": [
+            273,
+            43,
+            502,
+            516
+          ]
+        },
+        {
+          "id": "deck_18_card_04",
+          "index": 4,
+          "word": "Taco",
+          "subtext": "\"Beef Taco\" (Crispy Shelled Taco)",
+          "zh": "牛肉脆皮塔可餅",
+          "pic_crop_url": "data/cards/deck_18_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_18_card_04_word.jpg",
+          "pic_box_norm": [
+            259,
+            528,
+            476,
+            962
+          ],
+          "word_box_norm": [
+            277,
+            533,
+            504,
+            999
+          ]
+        },
+        {
+          "id": "deck_18_card_05",
+          "index": 5,
+          "word": "Burrito",
+          "subtext": "",
+          "zh": "墨西哥捲餅",
+          "pic_crop_url": "data/cards/deck_18_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_18_card_05_word.jpg",
+          "pic_box_norm": [
+            499,
+            10,
+            729,
+            458
+          ],
+          "word_box_norm": [
+            510,
+            31,
+            747,
+            507
+          ]
+        },
+        {
+          "id": "deck_18_card_06",
+          "index": 6,
+          "word": "Cheese Quesadilla",
+          "subtext": "",
+          "zh": "起司墨西哥餡餅",
+          "pic_crop_url": "data/cards/deck_18_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_18_card_06_word.jpg",
+          "pic_box_norm": [
+            502,
+            517,
+            724,
+            952
+          ],
+          "word_box_norm": [
+            510,
+            528,
+            743,
+            995
+          ]
+        },
+        {
+          "id": "deck_18_card_07",
+          "index": 7,
+          "word": "Bean Burrito",
+          "subtext": "",
+          "zh": "豆泥墨西哥捲餅",
+          "pic_crop_url": "data/cards/deck_18_card_07_pic.jpg",
+          "word_crop_url": "data/cards/deck_18_card_07_word.jpg",
+          "pic_box_norm": [
+            748,
+            11,
+            984,
+            455
+          ],
+          "word_box_norm": [
+            758,
+            25,
+            1000,
+            508
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_19",
+      "pair_num": 19,
+      "unit_number": 26,
+      "date": "2026-05-20",
+      "title_en": "Body & Face Features",
+      "title_zh": "身體與臉部特徵",
+      "pic_sheet_url": "data/raw/1Faq4wy6a2RK_YzAD9K9TSOOhxXn3u1-O.jpg",
+      "word_sheet_url": "data/raw/1c8DOxeCVktMhZ7m3VwrmhXj79Ogbycly.jpg",
+      "pic_aspect": 0.7946,
+      "word_aspect": 0.8269,
+      "card_count": 6,
+      "cards": [
+        {
+          "id": "deck_19_card_01",
+          "index": 1,
+          "word": "Freckles",
+          "subtext": "",
+          "zh": "雀斑",
+          "pic_crop_url": "data/cards/deck_19_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_19_card_01_word.jpg",
+          "pic_box_norm": [
+            87,
+            14,
+            366,
+            491
+          ],
+          "word_box_norm": [
+            54,
+            52,
+            338,
+            510
+          ]
+        },
+        {
+          "id": "deck_19_card_02",
+          "index": 2,
+          "word": "Toothless",
+          "subtext": "",
+          "zh": "沒牙齒的",
+          "pic_crop_url": "data/cards/deck_19_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_19_card_02_word.jpg",
+          "pic_box_norm": [
+            88,
+            504,
+            372,
+            978
+          ],
+          "word_box_norm": [
+            67,
+            514,
+            356,
+            974
+          ]
+        },
+        {
+          "id": "deck_19_card_03",
+          "index": 3,
+          "word": "Mouth",
+          "subtext": "",
+          "zh": "嘴巴",
+          "pic_crop_url": "data/cards/deck_19_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_19_card_03_word.jpg",
+          "pic_box_norm": [
+            377,
+            28,
+            658,
+            502
+          ],
+          "word_box_norm": [
+            363,
+            45,
+            643,
+            500
+          ]
+        },
+        {
+          "id": "deck_19_card_04",
+          "index": 4,
+          "word": "Throat",
+          "subtext": "(Sore Throat)",
+          "zh": "喉嚨",
+          "pic_crop_url": "data/cards/deck_19_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_19_card_04_word.jpg",
+          "pic_box_norm": [
+            377,
+            520,
+            654,
+            986
+          ],
+          "word_box_norm": [
+            372,
+            509,
+            649,
+            961
+          ]
+        },
+        {
+          "id": "deck_19_card_05",
+          "index": 5,
+          "word": "Tears",
+          "subtext": "",
+          "zh": "眼淚",
+          "pic_crop_url": "data/cards/deck_19_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_19_card_05_word.jpg",
+          "pic_box_norm": [
+            666,
+            19,
+            960,
+            498
+          ],
+          "word_box_norm": [
+            652,
+            37,
+            942,
+            491
+          ]
+        },
+        {
+          "id": "deck_19_card_06",
+          "index": 6,
+          "word": "Bones",
+          "subtext": "(Human Bones) (Wish Bone)",
+          "zh": "骨頭",
+          "pic_crop_url": "data/cards/deck_19_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_19_card_06_word.jpg",
+          "pic_box_norm": [
+            665,
+            526,
+            957,
+            1000
+          ],
+          "word_box_norm": [
+            654,
+            507,
+            950,
+            962
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_20",
+      "pair_num": 20,
+      "unit_number": 25,
+      "date": "2026-05-19",
+      "title_en": "Sub Sandwiches & Burgers",
+      "title_zh": "潛艇堡與三明治",
+      "pic_sheet_url": "data/raw/1QLaOGUZaua7wGq5Qbgg8_Y8bEBdsRW2_.jpg",
+      "word_sheet_url": "data/raw/12IbGm7f-YvPqGhV7bkjpdP1VIt0WwqLN.jpg",
+      "pic_aspect": 0.8313,
+      "word_aspect": 0.911,
+      "card_count": 5,
+      "cards": [
+        {
+          "id": "deck_20_card_01",
+          "index": 1,
+          "word": "Italian Submarine Sandwich",
+          "subtext": "",
+          "zh": "義式潛艇堡",
+          "pic_crop_url": "data/cards/deck_20_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_20_card_01_word.jpg",
+          "pic_box_norm": [
+            28,
+            0,
+            331,
+            486
+          ],
+          "word_box_norm": [
+            13,
+            45,
+            335,
+            517
+          ]
+        },
+        {
+          "id": "deck_20_card_02",
+          "index": 2,
+          "word": "Sub Sandwich",
+          "subtext": "",
+          "zh": "潛艇堡三明治",
+          "pic_crop_url": "data/cards/deck_20_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_20_card_02_word.jpg",
+          "pic_box_norm": [
+            31,
+            514,
+            338,
+            1000
+          ],
+          "word_box_norm": [
+            20,
+            511,
+            342,
+            985
+          ]
+        },
+        {
+          "id": "deck_20_card_03",
+          "index": 3,
+          "word": "Philly Cheese Steak",
+          "subtext": "",
+          "zh": "費城起司牛肉堡",
+          "pic_crop_url": "data/cards/deck_20_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_20_card_03_word.jpg",
+          "pic_box_norm": [
+            354,
+            8,
+            663,
+            509
+          ],
+          "word_box_norm": [
+            338,
+            38,
+            654,
+            515
+          ]
+        },
+        {
+          "id": "deck_20_card_04",
+          "index": 4,
+          "word": "Chicken Salad Melt",
+          "subtext": "",
+          "zh": "起司烤雞肉沙拉三明治",
+          "pic_crop_url": "data/cards/deck_20_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_20_card_04_word.jpg",
+          "pic_box_norm": [
+            364,
+            519,
+            669,
+            1000
+          ],
+          "word_box_norm": [
+            343,
+            505,
+            663,
+            982
+          ]
+        },
+        {
+          "id": "deck_20_card_05",
+          "index": 5,
+          "word": "Taiwanese Pork Burger",
+          "subtext": "",
+          "zh": "台式豬肉漢堡",
+          "pic_crop_url": "data/cards/deck_20_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_20_card_05_word.jpg",
+          "pic_box_norm": [
+            675,
+            9,
+            980,
+            505
+          ],
+          "word_box_norm": [
+            663,
+            33,
+            983,
+            509
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_21",
+      "pair_num": 21,
+      "unit_number": 24,
+      "date": "2026-05-13",
+      "title_en": "Holiday Feast & Roasts",
+      "title_zh": "節慶大餐與烤肉",
+      "pic_sheet_url": "data/raw/1eAh0wCGIamWseUfGCba5FGdLpIJGRf39.jpg",
+      "word_sheet_url": "data/raw/1MqVcdfAwOS-1wSYGKeVvqw0Wlf5yRG9i.jpg",
+      "pic_aspect": 1.0158,
+      "word_aspect": 0.9733,
+      "card_count": 4,
+      "cards": [
+        {
+          "id": "deck_21_card_01",
+          "index": 1,
+          "word": "Roast Chicken",
+          "subtext": "",
+          "zh": "烤全雞",
+          "pic_crop_url": "data/cards/deck_21_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_21_card_01_word.jpg",
+          "pic_box_norm": [
+            15,
+            0,
+            432,
+            525
+          ],
+          "word_box_norm": [
+            102,
+            0,
+            463,
+            490
+          ]
+        },
+        {
+          "id": "deck_21_card_02",
+          "index": 2,
+          "word": "Roast Turkey",
+          "subtext": "(Turkey Stuffing)",
+          "zh": "烤火雞 (火雞填料)",
+          "pic_crop_url": "data/cards/deck_21_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_21_card_02_word.jpg",
+          "pic_box_norm": [
+            23,
+            546,
+            407,
+            1000
+          ],
+          "word_box_norm": [
+            103,
+            526,
+            468,
+            1000
+          ]
+        },
+        {
+          "id": "deck_21_card_03",
+          "index": 3,
+          "word": "Gravy",
+          "subtext": "",
+          "zh": "肉汁醬",
+          "pic_crop_url": "data/cards/deck_21_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_21_card_03_word.jpg",
+          "pic_box_norm": [
+            514,
+            0,
+            908,
+            516
+          ],
+          "word_box_norm": [
+            539,
+            5,
+            907,
+            512
+          ]
+        },
+        {
+          "id": "deck_21_card_04",
+          "index": 4,
+          "word": "Jumbo Shrimp Cocktail",
+          "subtext": "[Shrimp Cocktail Sauce]",
+          "zh": "雞尾酒大蝦",
+          "pic_crop_url": "data/cards/deck_21_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_21_card_04_word.jpg",
+          "pic_box_norm": [
+            454,
+            611,
+            979,
+            985
+          ],
+          "word_box_norm": [
+            489,
+            554,
+            991,
+            926
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_22",
+      "pair_num": 22,
+      "unit_number": 23,
+      "date": "2026-05-08",
+      "title_en": "Sub Sandwiches & Burgers",
+      "title_zh": "潛艇堡與三明治",
+      "pic_sheet_url": "data/raw/10GfnTUvxd4r21Nd4uTbXjnt8dsT4mqUx.jpg",
+      "word_sheet_url": "data/raw/11X3mUFucu8eyOwrNyvCwXGdadoEvqrwQ.jpg",
+      "pic_aspect": 0.8312,
+      "word_aspect": 0.9108,
+      "card_count": 5,
+      "cards": [
+        {
+          "id": "deck_22_card_01",
+          "index": 1,
+          "word": "Italian Submarine Sandwich",
+          "subtext": "",
+          "zh": "義式潛艇堡",
+          "pic_crop_url": "data/cards/deck_22_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_22_card_01_word.jpg",
+          "pic_box_norm": [
+            27,
+            0,
+            330,
+            486
+          ],
+          "word_box_norm": [
+            12,
+            45,
+            335,
+            516
+          ]
+        },
+        {
+          "id": "deck_22_card_02",
+          "index": 2,
+          "word": "Sub Sandwich",
+          "subtext": "",
+          "zh": "潛艇堡三明治",
+          "pic_crop_url": "data/cards/deck_22_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_22_card_02_word.jpg",
+          "pic_box_norm": [
+            31,
+            514,
+            337,
+            1000
+          ],
+          "word_box_norm": [
+            19,
+            511,
+            342,
+            985
+          ]
+        },
+        {
+          "id": "deck_22_card_03",
+          "index": 3,
+          "word": "Philly Cheese Steak",
+          "subtext": "",
+          "zh": "費城起司牛肉堡",
+          "pic_crop_url": "data/cards/deck_22_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_22_card_03_word.jpg",
+          "pic_box_norm": [
+            353,
+            8,
+            664,
+            509
+          ],
+          "word_box_norm": [
+            337,
+            38,
+            656,
+            514
+          ]
+        },
+        {
+          "id": "deck_22_card_04",
+          "index": 4,
+          "word": "Chicken Salad Melt",
+          "subtext": "",
+          "zh": "融化起司雞肉沙拉三明治",
+          "pic_crop_url": "data/cards/deck_22_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_22_card_04_word.jpg",
+          "pic_box_norm": [
+            363,
+            519,
+            671,
+            1000
+          ],
+          "word_box_norm": [
+            342,
+            505,
+            665,
+            982
+          ]
+        },
+        {
+          "id": "deck_22_card_05",
+          "index": 5,
+          "word": "Taiwanese Pork Burger",
+          "subtext": "",
+          "zh": "台式豬肉漢堡",
+          "pic_crop_url": "data/cards/deck_22_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_22_card_05_word.jpg",
+          "pic_box_norm": [
+            675,
+            9,
+            993,
+            505
+          ],
+          "word_box_norm": [
+            665,
+            33,
+            996,
+            509
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_23",
+      "pair_num": 23,
+      "unit_number": 22,
+      "date": "2026-05-06",
+      "title_en": "Head & Face Parts",
+      "title_zh": "頭部與臉部部位",
+      "pic_sheet_url": "data/raw/15R8KAAzH3aoCIVadeSxsT4h2gZ0LhSlN.jpg",
+      "word_sheet_url": "data/raw/1P9ErYJFIxuiuWbXb5p3BESBp64QXPBPv.jpg",
+      "pic_aspect": 1.3347,
+      "word_aspect": 1.4069,
+      "card_count": 4,
+      "cards": [
+        {
+          "id": "deck_23_card_01",
+          "index": 1,
+          "word": "Eyebrows",
+          "subtext": "",
+          "zh": "眉毛",
+          "pic_crop_url": "data/cards/deck_23_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_23_card_01_word.jpg",
+          "pic_box_norm": [
+            61,
+            30,
+            516,
+            501
+          ],
+          "word_box_norm": [
+            47,
+            47,
+            520,
+            504
+          ]
+        },
+        {
+          "id": "deck_23_card_02",
+          "index": 2,
+          "word": "Forehead",
+          "subtext": "",
+          "zh": "額頭",
+          "pic_crop_url": "data/cards/deck_23_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_23_card_02_word.jpg",
+          "pic_box_norm": [
+            57,
+            503,
+            507,
+            971
+          ],
+          "word_box_norm": [
+            39,
+            503,
+            504,
+            959
+          ]
+        },
+        {
+          "id": "deck_23_card_03",
+          "index": 3,
+          "word": "Eyelashes",
+          "subtext": "",
+          "zh": "睫毛",
+          "pic_crop_url": "data/cards/deck_23_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_23_card_03_word.jpg",
+          "pic_box_norm": [
+            522,
+            15,
+            1000,
+            496
+          ],
+          "word_box_norm": [
+            518,
+            44,
+            1000,
+            501
+          ]
+        },
+        {
+          "id": "deck_23_card_04",
+          "index": 4,
+          "word": "Head",
+          "subtext": "",
+          "zh": "頭",
+          "pic_crop_url": "data/cards/deck_23_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_23_card_04_word.jpg",
+          "pic_box_norm": [
+            522,
+            500,
+            1000,
+            984
+          ],
+          "word_box_norm": [
+            516,
+            503,
+            1000,
+            963
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_24",
+      "pair_num": 24,
+      "unit_number": 21,
+      "date": "2026-04-29",
+      "title_en": "Barbecue & Meat Dishes",
+      "title_zh": "燒烤與肉類料理",
+      "pic_sheet_url": "data/raw/1tmJ2CBgOW1M68FavCY6Xs-vbZg2pt7kG.jpg",
+      "word_sheet_url": "data/raw/1yh-HhhnrD7ep52QI_JTOOCqCIUvbYa3D.jpg",
+      "pic_aspect": 1.3777,
+      "word_aspect": 1.3639,
+      "card_count": 4,
+      "cards": [
+        {
+          "id": "deck_24_card_01",
+          "index": 1,
+          "word": "Baked Chicken",
+          "subtext": "",
+          "zh": "烘烤雞肉",
+          "pic_crop_url": "data/cards/deck_24_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_24_card_01_word.jpg",
+          "pic_box_norm": [
+            0,
+            0,
+            483,
+            497
+          ],
+          "word_box_norm": [
+            0,
+            0,
+            491,
+            499
+          ]
+        },
+        {
+          "id": "deck_24_card_02",
+          "index": 2,
+          "word": "BBQ Chicken",
+          "subtext": "[Barbecue Chicken]",
+          "zh": "BBQ烤雞",
+          "pic_crop_url": "data/cards/deck_24_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_24_card_02_word.jpg",
+          "pic_box_norm": [
+            0,
+            515,
+            490,
+            1000
+          ],
+          "word_box_norm": [
+            0,
+            513,
+            487,
+            1000
+          ]
+        },
+        {
+          "id": "deck_24_card_03",
+          "index": 3,
+          "word": "Meatloaf",
+          "subtext": "",
+          "zh": "美式漢堡肉排",
+          "pic_crop_url": "data/cards/deck_24_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_24_card_03_word.jpg",
+          "pic_box_norm": [
+            504,
+            0,
+            1000,
+            504
+          ],
+          "word_box_norm": [
+            506,
+            0,
+            1000,
+            505
+          ]
+        },
+        {
+          "id": "deck_24_card_04",
+          "index": 4,
+          "word": "BBQ Ribs",
+          "subtext": "[Barbecue Pork Ribs]",
+          "zh": "美式烤豬肋排",
+          "pic_crop_url": "data/cards/deck_24_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_24_card_04_word.jpg",
+          "pic_box_norm": [
+            515,
+            513,
+            1000,
+            1000
+          ],
+          "word_box_norm": [
+            510,
+            514,
+            1000,
+            1000
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_25",
+      "pair_num": 25,
+      "unit_number": 20,
+      "date": "2026-04-24",
+      "title_en": "Eyes & Blood",
+      "title_zh": "眼睛與血液",
+      "pic_sheet_url": "data/raw/1E5m_cYOVA8D9FuKXEC65m3ZvfKE_6o6J.jpg",
+      "word_sheet_url": "data/raw/1zjul34H_jtzUV4CwIRPpEeaAlP_W5bx2.jpg",
+      "pic_aspect": 0.5625,
+      "word_aspect": 0.5625,
+      "card_count": 5,
+      "cards": [
+        {
+          "id": "deck_25_card_01",
+          "index": 1,
+          "word": "Blood",
+          "subtext": "",
+          "zh": "血液",
+          "pic_crop_url": "data/cards/deck_25_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_25_card_01_word.jpg",
+          "pic_box_norm": [
+            186,
+            14,
+            387,
+            497
+          ],
+          "word_box_norm": [
+            217,
+            0,
+            424,
+            486
+          ]
+        },
+        {
+          "id": "deck_25_card_02",
+          "index": 2,
+          "word": "Bloodshot Eyes",
+          "subtext": "",
+          "zh": "充血的眼睛",
+          "pic_crop_url": "data/cards/deck_25_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_25_card_02_word.jpg",
+          "pic_box_norm": [
+            192,
+            528,
+            388,
+            1000
+          ],
+          "word_box_norm": [
+            224,
+            499,
+            422,
+            972
+          ]
+        },
+        {
+          "id": "deck_25_card_03",
+          "index": 3,
+          "word": "Black-Eye",
+          "subtext": "",
+          "zh": "黑眼圈 (眼睛瘀青)",
+          "pic_crop_url": "data/cards/deck_25_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_25_card_03_word.jpg",
+          "pic_box_norm": [
+            405,
+            25,
+            606,
+            508
+          ],
+          "word_box_norm": [
+            429,
+            0,
+            630,
+            481
+          ]
+        },
+        {
+          "id": "deck_25_card_04",
+          "index": 4,
+          "word": "Eyes",
+          "subtext": "(Her eyes are hazel)",
+          "zh": "眼睛",
+          "pic_crop_url": "data/cards/deck_25_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_25_card_04_word.jpg",
+          "pic_box_norm": [
+            406,
+            527,
+            601,
+            1000
+          ],
+          "word_box_norm": [
+            429,
+            491,
+            630,
+            968
+          ]
+        },
+        {
+          "id": "deck_25_card_05",
+          "index": 5,
+          "word": "Eyeball",
+          "subtext": "",
+          "zh": "眼球",
+          "pic_crop_url": "data/cards/deck_25_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_25_card_05_word.jpg",
+          "pic_box_norm": [
+            616,
+            259,
+            826,
+            746
+          ],
+          "word_box_norm": [
+            649,
+            235,
+            866,
+            730
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_26",
+      "pair_num": 26,
+      "unit_number": 19,
+      "date": "2026-03-25",
+      "title_en": "Steaks & Grilled Meats",
+      "title_zh": "牛排與燒烤肉類",
+      "pic_sheet_url": "data/raw/1Tuok8jIlnmU5eqSllwRUTK4sSM-UlaQM.jpg",
+      "word_sheet_url": "data/raw/1LL37m3JgB1saBo0gUyulumIn7JOqXiNY.jpg",
+      "pic_aspect": 0.8082,
+      "word_aspect": 0.8601,
+      "card_count": 6,
+      "cards": [
+        {
+          "id": "deck_26_card_01",
+          "index": 1,
+          "word": "T-Bone Steak",
+          "subtext": "(Grilled)",
+          "zh": "丁骨牛排",
+          "pic_crop_url": "data/cards/deck_26_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_26_card_01_word.jpg",
+          "pic_box_norm": [
+            17,
+            0,
+            299,
+            473
+          ],
+          "word_box_norm": [
+            12,
+            32,
+            304,
+            481
+          ]
+        },
+        {
+          "id": "deck_26_card_02",
+          "index": 2,
+          "word": "Sirloin Steak",
+          "subtext": "(Grilled)",
+          "zh": "沙朗牛排",
+          "pic_crop_url": "data/cards/deck_26_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_26_card_02_word.jpg",
+          "pic_box_norm": [
+            37,
+            536,
+            309,
+            984
+          ],
+          "word_box_norm": [
+            22,
+            532,
+            312,
+            980
+          ]
+        },
+        {
+          "id": "deck_26_card_03",
+          "index": 3,
+          "word": "Grilled Chicken Breast",
+          "subtext": "(Filet)",
+          "zh": "烤雞胸肉",
+          "pic_crop_url": "data/cards/deck_26_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_26_card_03_word.jpg",
+          "pic_box_norm": [
+            351,
+            0,
+            627,
+            457
+          ],
+          "word_box_norm": [
+            356,
+            25,
+            635,
+            466
+          ]
+        },
+        {
+          "id": "deck_26_card_04",
+          "index": 4,
+          "word": "Filet Mignon Steak",
+          "subtext": "",
+          "zh": "菲力牛排",
+          "pic_crop_url": "data/cards/deck_26_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_26_card_04_word.jpg",
+          "pic_box_norm": [
+            366,
+            549,
+            636,
+            1000
+          ],
+          "word_box_norm": [
+            360,
+            534,
+            638,
+            973
+          ]
+        },
+        {
+          "id": "deck_26_card_05",
+          "index": 5,
+          "word": "Pork Chops",
+          "subtext": "(Grilled)",
+          "zh": "烤豬排",
+          "pic_crop_url": "data/cards/deck_26_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_26_card_05_word.jpg",
+          "pic_box_norm": [
+            698,
+            0,
+            995,
+            467
+          ],
+          "word_box_norm": [
+            696,
+            15,
+            994,
+            464
+          ]
+        },
+        {
+          "id": "deck_26_card_06",
+          "index": 6,
+          "word": "Turf and Surf",
+          "subtext": "(Lobster and Steak)",
+          "zh": "海陸大餐",
+          "pic_crop_url": "data/cards/deck_26_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_26_card_06_word.jpg",
+          "pic_box_norm": [
+            690,
+            539,
+            984,
+            1000
+          ],
+          "word_box_norm": [
+            701,
+            523,
+            999,
+            969
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_27",
+      "pair_num": 27,
+      "unit_number": 18,
+      "date": "2026-02-11",
+      "title_en": "Facial Hair & Body Features",
+      "title_zh": "臉部毛髮與身體特徵",
+      "pic_sheet_url": "data/raw/1Yvr_-M7fBjA1OkZcvlAQ5yGoIKSkhqbK.jpg",
+      "word_sheet_url": "data/raw/1zrlSKL8YOSVRV7gtx8dbg5RRGBR4lRtG.jpg",
+      "pic_aspect": 0.8631,
+      "word_aspect": 0.8949,
+      "card_count": 10,
+      "cards": [
+        {
+          "id": "deck_27_card_01",
+          "index": 1,
+          "word": "Face",
+          "subtext": "",
+          "zh": "臉",
+          "pic_crop_url": "data/cards/deck_27_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_27_card_01_word.jpg",
+          "pic_box_norm": [
+            42,
+            10,
+            234,
+            316
+          ],
+          "word_box_norm": [
+            56,
+            2,
+            260,
+            311
+          ]
+        },
+        {
+          "id": "deck_27_card_02",
+          "index": 2,
+          "word": "Albino",
+          "subtext": "",
+          "zh": "白化症者",
+          "pic_crop_url": "data/cards/deck_27_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_27_card_02_word.jpg",
+          "pic_box_norm": [
+            37,
+            365,
+            230,
+            673
+          ],
+          "word_box_norm": [
+            49,
+            350,
+            257,
+            663
+          ]
+        },
+        {
+          "id": "deck_27_card_03",
+          "index": 3,
+          "word": "Long Hair",
+          "subtext": "(Straight hair)",
+          "zh": "長髮",
+          "pic_crop_url": "data/cards/deck_27_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_27_card_03_word.jpg",
+          "pic_box_norm": [
+            31,
+            708,
+            226,
+            1000
+          ],
+          "word_box_norm": [
+            44,
+            690,
+            255,
+            1000
+          ]
+        },
+        {
+          "id": "deck_27_card_04",
+          "index": 4,
+          "word": "Facial Stubble",
+          "subtext": "(3-Day Beard)",
+          "zh": "鬍渣",
+          "pic_crop_url": "data/cards/deck_27_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_27_card_04_word.jpg",
+          "pic_box_norm": [
+            270,
+            8,
+            472,
+            324
+          ],
+          "word_box_norm": [
+            278,
+            6,
+            484,
+            319
+          ]
+        },
+        {
+          "id": "deck_27_card_05",
+          "index": 5,
+          "word": "Mustache",
+          "subtext": "",
+          "zh": "八字鬍 (上唇鬍)",
+          "pic_crop_url": "data/cards/deck_27_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_27_card_05_word.jpg",
+          "pic_box_norm": [
+            264,
+            364,
+            462,
+            676
+          ],
+          "word_box_norm": [
+            279,
+            347,
+            486,
+            658
+          ]
+        },
+        {
+          "id": "deck_27_card_06",
+          "index": 6,
+          "word": "Beard",
+          "subtext": "",
+          "zh": "絡腮鬍 (大鬍子)",
+          "pic_crop_url": "data/cards/deck_27_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_27_card_06_word.jpg",
+          "pic_box_norm": [
+            262,
+            721,
+            459,
+            1000
+          ],
+          "word_box_norm": [
+            269,
+            691,
+            477,
+            1000
+          ]
+        },
+        {
+          "id": "deck_27_card_07",
+          "index": 7,
+          "word": "Goatee",
+          "subtext": "",
+          "zh": "山羊鬍",
+          "pic_crop_url": "data/cards/deck_27_card_07_pic.jpg",
+          "word_crop_url": "data/cards/deck_27_card_07_word.jpg",
+          "pic_box_norm": [
+            486,
+            9,
+            693,
+            327
+          ],
+          "word_box_norm": [
+            511,
+            14,
+            720,
+            326
+          ]
+        },
+        {
+          "id": "deck_27_card_08",
+          "index": 8,
+          "word": "Side Burns",
+          "subtext": "",
+          "zh": "鬢角",
+          "pic_crop_url": "data/cards/deck_27_card_08_pic.jpg",
+          "word_crop_url": "data/cards/deck_27_card_08_word.jpg",
+          "pic_box_norm": [
+            474,
+            366,
+            681,
+            684
+          ],
+          "word_box_norm": [
+            509,
+            345,
+            716,
+            656
+          ]
+        },
+        {
+          "id": "deck_27_card_09",
+          "index": 9,
+          "word": "Pregnant",
+          "subtext": "",
+          "zh": "懷孕的",
+          "pic_crop_url": "data/cards/deck_27_card_09_pic.jpg",
+          "word_crop_url": "data/cards/deck_27_card_09_word.jpg",
+          "pic_box_norm": [
+            479,
+            713,
+            684,
+            1000
+          ],
+          "word_box_norm": [
+            507,
+            690,
+            717,
+            1000
+          ]
+        },
+        {
+          "id": "deck_27_card_10",
+          "index": 10,
+          "word": "Intestines",
+          "subtext": "",
+          "zh": "腸子",
+          "pic_crop_url": "data/cards/deck_27_card_10_pic.jpg",
+          "word_crop_url": "data/cards/deck_27_card_10_word.jpg",
+          "pic_box_norm": [
+            710,
+            0,
+            933,
+            315
+          ],
+          "word_box_norm": [
+            736,
+            12,
+            953,
+            325
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_28",
+      "pair_num": 28,
+      "unit_number": 17,
+      "date": "2026-01-28",
+      "title_en": "Body Parts & Organs",
+      "title_zh": "身體部位與器官",
+      "pic_sheet_url": "data/raw/1f-i9qpn67OEDNco0J30QuXOqQ_9eT79m.jpg",
+      "word_sheet_url": "data/raw/1nqjw2JCJfCbWnZjz04-rN9YPD9-a2_nz.jpg",
+      "pic_aspect": 0.6876,
+      "word_aspect": 0.8288,
+      "card_count": 5,
+      "cards": [
+        {
+          "id": "deck_28_card_01",
+          "index": 1,
+          "word": "Waist",
+          "subtext": "",
+          "zh": "腰部",
+          "pic_crop_url": "data/cards/deck_28_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_28_card_01_word.jpg",
+          "pic_box_norm": [
+            45,
+            0,
+            313,
+            512
+          ],
+          "word_box_norm": [
+            84,
+            83,
+            352,
+            536
+          ]
+        },
+        {
+          "id": "deck_28_card_02",
+          "index": 2,
+          "word": "Heart",
+          "subtext": "",
+          "zh": "心臟",
+          "pic_crop_url": "data/cards/deck_28_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_28_card_02_word.jpg",
+          "pic_box_norm": [
+            47,
+            550,
+            316,
+            1000
+          ],
+          "word_box_norm": [
+            99,
+            543,
+            360,
+            982
+          ]
+        },
+        {
+          "id": "deck_28_card_03",
+          "index": 3,
+          "word": "Lungs",
+          "subtext": "(breathing)",
+          "zh": "肺臟",
+          "pic_crop_url": "data/cards/deck_28_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_28_card_03_word.jpg",
+          "pic_box_norm": [
+            345,
+            0,
+            625,
+            522
+          ],
+          "word_box_norm": [
+            367,
+            54,
+            646,
+            523
+          ]
+        },
+        {
+          "id": "deck_28_card_04",
+          "index": 4,
+          "word": "Sweat",
+          "subtext": "(sweaty) (\"No\" sweat)",
+          "zh": "汗水",
+          "pic_crop_url": "data/cards/deck_28_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_28_card_04_word.jpg",
+          "pic_box_norm": [
+            341,
+            542,
+            613,
+            1000
+          ],
+          "word_box_norm": [
+            370,
+            538,
+            657,
+            997
+          ]
+        },
+        {
+          "id": "deck_28_card_05",
+          "index": 5,
+          "word": "Wrinkles",
+          "subtext": "",
+          "zh": "皺紋",
+          "pic_crop_url": "data/cards/deck_28_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_28_card_05_word.jpg",
+          "pic_box_norm": [
+            650,
+            0,
+            958,
+            532
+          ],
+          "word_box_norm": [
+            672,
+            31,
+            982,
+            521
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_29",
+      "pair_num": 29,
+      "unit_number": 16,
+      "date": "2026-01-23",
+      "title_en": "Fruits",
+      "title_zh": "常見水果",
+      "pic_sheet_url": "data/raw/1BMQq3bh57WWvZGRro0jT4lm-6KmULjpk.jpg",
+      "word_sheet_url": "data/raw/1CKzxOku61KB2X1kadbRPH41eYxxPKxI9.jpg",
+      "pic_aspect": 0.7721,
+      "word_aspect": 0.7689,
+      "card_count": 6,
+      "cards": [
+        {
+          "id": "deck_29_card_01",
+          "index": 1,
+          "word": "Pomegranate",
+          "subtext": "",
+          "zh": "石榴",
+          "pic_crop_url": "data/cards/deck_29_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_29_card_01_word.jpg",
+          "pic_box_norm": [
+            43,
+            19,
+            311,
+            489
+          ],
+          "word_box_norm": [
+            62,
+            12,
+            318,
+            473
+          ]
+        },
+        {
+          "id": "deck_29_card_02",
+          "index": 2,
+          "word": "Date",
+          "subtext": "",
+          "zh": "椰棗",
+          "pic_crop_url": "data/cards/deck_29_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_29_card_02_word.jpg",
+          "pic_box_norm": [
+            46,
+            540,
+            318,
+            1000
+          ],
+          "word_box_norm": [
+            60,
+            519,
+            321,
+            974
+          ]
+        },
+        {
+          "id": "deck_29_card_03",
+          "index": 3,
+          "word": "Avocado",
+          "subtext": "",
+          "zh": "酪梨",
+          "pic_crop_url": "data/cards/deck_29_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_29_card_03_word.jpg",
+          "pic_box_norm": [
+            355,
+            26,
+            615,
+            494
+          ],
+          "word_box_norm": [
+            362,
+            18,
+            619,
+            476
+          ]
+        },
+        {
+          "id": "deck_29_card_04",
+          "index": 4,
+          "word": "Persimmon",
+          "subtext": "",
+          "zh": "柿子",
+          "pic_crop_url": "data/cards/deck_29_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_29_card_04_word.jpg",
+          "pic_box_norm": [
+            348,
+            536,
+            613,
+            1000
+          ],
+          "word_box_norm": [
+            367,
+            517,
+            618,
+            967
+          ]
+        },
+        {
+          "id": "deck_29_card_05",
+          "index": 5,
+          "word": "Pear",
+          "subtext": "",
+          "zh": "西洋梨",
+          "pic_crop_url": "data/cards/deck_29_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_29_card_05_word.jpg",
+          "pic_box_norm": [
+            662,
+            27,
+            937,
+            495
+          ],
+          "word_box_norm": [
+            672,
+            12,
+            939,
+            471
+          ]
+        },
+        {
+          "id": "deck_29_card_06",
+          "index": 6,
+          "word": "Apricot",
+          "subtext": "",
+          "zh": "杏桃",
+          "pic_crop_url": "data/cards/deck_29_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_29_card_06_word.jpg",
+          "pic_box_norm": [
+            663,
+            529,
+            941,
+            997
+          ],
+          "word_box_norm": [
+            668,
+            508,
+            931,
+            960
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_30",
+      "pair_num": 30,
+      "unit_number": 15,
+      "date": "2026-01-21",
+      "title_en": "Berries",
+      "title_zh": "莓果類",
+      "pic_sheet_url": "data/raw/1vzDGWkr8He1K09CwOPpfTGOP2fvo3qWQ.jpg",
+      "word_sheet_url": "data/raw/1nMtpSg8utPt8RJY04B-xJeDjf0J3_msi.jpg",
+      "pic_aspect": 0.8223,
+      "word_aspect": 0.8098,
+      "card_count": 6,
+      "cards": [
+        {
+          "id": "deck_30_card_01",
+          "index": 1,
+          "word": "Cranberry",
+          "subtext": "",
+          "zh": "蔓越莓",
+          "pic_crop_url": "data/cards/deck_30_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_30_card_01_word.jpg",
+          "pic_box_norm": [
+            7,
+            13,
+            316,
+            504
+          ],
+          "word_box_norm": [
+            1,
+            0,
+            317,
+            512
+          ]
+        },
+        {
+          "id": "deck_30_card_02",
+          "index": 2,
+          "word": "Blueberry",
+          "subtext": "",
+          "zh": "藍莓",
+          "pic_crop_url": "data/cards/deck_30_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_30_card_02_word.jpg",
+          "pic_box_norm": [
+            9,
+            539,
+            314,
+            1000
+          ],
+          "word_box_norm": [
+            9,
+            529,
+            318,
+            1000
+          ]
+        },
+        {
+          "id": "deck_30_card_03",
+          "index": 3,
+          "word": "Blackberry",
+          "subtext": "",
+          "zh": "黑莓",
+          "pic_crop_url": "data/cards/deck_30_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_30_card_03_word.jpg",
+          "pic_box_norm": [
+            338,
+            0,
+            634,
+            487
+          ],
+          "word_box_norm": [
+            336,
+            0,
+            649,
+            508
+          ]
+        },
+        {
+          "id": "deck_30_card_04",
+          "index": 4,
+          "word": "Boysenberry",
+          "subtext": "",
+          "zh": "波森莓",
+          "pic_crop_url": "data/cards/deck_30_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_30_card_04_word.jpg",
+          "pic_box_norm": [
+            345,
+            537,
+            627,
+            1000
+          ],
+          "word_box_norm": [
+            341,
+            523,
+            652,
+            1000
+          ]
+        },
+        {
+          "id": "deck_30_card_05",
+          "index": 5,
+          "word": "Mulberry",
+          "subtext": "",
+          "zh": "桑椹",
+          "pic_crop_url": "data/cards/deck_30_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_30_card_05_word.jpg",
+          "pic_box_norm": [
+            664,
+            0,
+            962,
+            489
+          ],
+          "word_box_norm": [
+            667,
+            0,
+            976,
+            510
+          ]
+        },
+        {
+          "id": "deck_30_card_06",
+          "index": 6,
+          "word": "Raspberry",
+          "subtext": "",
+          "zh": "覆盆子",
+          "pic_crop_url": "data/cards/deck_30_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_30_card_06_word.jpg",
+          "pic_box_norm": [
+            671,
+            522,
+            968,
+            998
+          ],
+          "word_box_norm": [
+            671,
+            522,
+            978,
+            1000
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_31",
+      "pair_num": 31,
+      "unit_number": 14,
+      "date": "2026-01-09",
+      "title_en": "Body Parts & Muscles",
+      "title_zh": "身體部位與肌肉",
+      "pic_sheet_url": "data/raw/1AllE_lRXx0qedea_h6BB0lWvCl8hUA-v.jpg",
+      "word_sheet_url": "data/raw/1wgEG9e6oTQdtR6cp7z1IzjjmnbdMPB_r.jpg",
+      "pic_aspect": 0.564,
+      "word_aspect": 0.8713,
+      "card_count": 6,
+      "cards": [
+        {
+          "id": "deck_31_card_01",
+          "index": 1,
+          "word": "Legs",
+          "subtext": "",
+          "zh": "腿",
+          "pic_crop_url": "data/cards/deck_31_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_31_card_01_word.jpg",
+          "pic_box_norm": [
+            88,
+            0,
+            301,
+            444
+          ],
+          "word_box_norm": [
+            0,
+            43,
+            295,
+            492
+          ]
+        },
+        {
+          "id": "deck_31_card_02",
+          "index": 2,
+          "word": "Veins",
+          "subtext": "",
+          "zh": "靜脈",
+          "pic_crop_url": "data/cards/deck_31_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_31_card_02_word.jpg",
+          "pic_box_norm": [
+            97,
+            509,
+            308,
+            1000
+          ],
+          "word_box_norm": [
+            16,
+            545,
+            317,
+            992
+          ]
+        },
+        {
+          "id": "deck_31_card_03",
+          "index": 3,
+          "word": "Arms",
+          "subtext": "(Strong Arms / Weak Arms)",
+          "zh": "手臂",
+          "pic_crop_url": "data/cards/deck_31_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_31_card_03_word.jpg",
+          "pic_box_norm": [
+            340,
+            0,
+            547,
+            456
+          ],
+          "word_box_norm": [
+            358,
+            44,
+            642,
+            492
+          ]
+        },
+        {
+          "id": "deck_31_card_04",
+          "index": 4,
+          "word": "Shoulder",
+          "subtext": "",
+          "zh": "肩膀",
+          "pic_crop_url": "data/cards/deck_31_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_31_card_04_word.jpg",
+          "pic_box_norm": [
+            337,
+            508,
+            543,
+            1000
+          ],
+          "word_box_norm": [
+            349,
+            521,
+            638,
+            965
+          ]
+        },
+        {
+          "id": "deck_31_card_05",
+          "index": 5,
+          "word": "Back",
+          "subtext": "(upper/lower) \"Lats\"",
+          "zh": "背部",
+          "pic_crop_url": "data/cards/deck_31_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_31_card_05_word.jpg",
+          "pic_box_norm": [
+            581,
+            0,
+            794,
+            449
+          ],
+          "word_box_norm": [
+            700,
+            56,
+            994,
+            502
+          ]
+        },
+        {
+          "id": "deck_31_card_06",
+          "index": 6,
+          "word": "Forearm",
+          "subtext": "(Fist)",
+          "zh": "前臂",
+          "pic_crop_url": "data/cards/deck_31_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_31_card_06_word.jpg",
+          "pic_box_norm": [
+            588,
+            500,
+            809,
+            1000
+          ],
+          "word_box_norm": [
+            689,
+            546,
+            983,
+            980
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_32",
+      "pair_num": 32,
+      "unit_number": 13,
+      "date": "2025-12-31",
+      "title_en": "Hands & Feet",
+      "title_zh": "手部與足部",
+      "pic_sheet_url": "data/raw/1jUjE3Itytu7D6Kgt-GjpMou1FA4id1Zm.jpg",
+      "word_sheet_url": "data/raw/1eiVRrYRBSPzqJT5MUylWXFdXqZTBZ5-h.jpg",
+      "pic_aspect": 1.7778,
+      "word_aspect": 1.7778,
+      "card_count": 8,
+      "cards": [
+        {
+          "id": "deck_32_card_01",
+          "index": 1,
+          "word": "Fingers",
+          "subtext": "",
+          "zh": "手指",
+          "pic_crop_url": "data/cards/deck_32_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_32_card_01_word.jpg",
+          "pic_box_norm": [
+            22,
+            158,
+            320,
+            396
+          ],
+          "word_box_norm": [
+            0,
+            183,
+            290,
+            415
+          ]
+        },
+        {
+          "id": "deck_32_card_02",
+          "index": 2,
+          "word": "Hands",
+          "subtext": "",
+          "zh": "雙手",
+          "pic_crop_url": "data/cards/deck_32_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_32_card_02_word.jpg",
+          "pic_box_norm": [
+            31,
+            408,
+            321,
+            635
+          ],
+          "word_box_norm": [
+            0,
+            426,
+            290,
+            649
+          ]
+        },
+        {
+          "id": "deck_32_card_03",
+          "index": 3,
+          "word": "Ankle",
+          "subtext": "",
+          "zh": "腳踝",
+          "pic_crop_url": "data/cards/deck_32_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_32_card_03_word.jpg",
+          "pic_box_norm": [
+            31,
+            650,
+            319,
+            878
+          ],
+          "word_box_norm": [
+            13,
+            656,
+            294,
+            881
+          ]
+        },
+        {
+          "id": "deck_32_card_04",
+          "index": 4,
+          "word": "Palm",
+          "subtext": "",
+          "zh": "手掌",
+          "pic_crop_url": "data/cards/deck_32_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_32_card_04_word.jpg",
+          "pic_box_norm": [
+            363,
+            150,
+            673,
+            395
+          ],
+          "word_box_norm": [
+            341,
+            167,
+            652,
+            412
+          ]
+        },
+        {
+          "id": "deck_32_card_05",
+          "index": 5,
+          "word": "Thumb",
+          "subtext": "",
+          "zh": "大拇指",
+          "pic_crop_url": "data/cards/deck_32_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_32_card_05_word.jpg",
+          "pic_box_norm": [
+            361,
+            405,
+            660,
+            637
+          ],
+          "word_box_norm": [
+            345,
+            425,
+            641,
+            654
+          ]
+        },
+        {
+          "id": "deck_32_card_06",
+          "index": 6,
+          "word": "Heel",
+          "subtext": "(High heel shoes)",
+          "zh": "腳跟",
+          "pic_crop_url": "data/cards/deck_32_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_32_card_06_word.jpg",
+          "pic_box_norm": [
+            361,
+            644,
+            666,
+            875
+          ],
+          "word_box_norm": [
+            340,
+            660,
+            639,
+            897
+          ]
+        },
+        {
+          "id": "deck_32_card_07",
+          "index": 7,
+          "word": "Handlines",
+          "subtext": "(Telling your Fortune)",
+          "zh": "掌紋",
+          "pic_crop_url": "data/cards/deck_32_card_07_pic.jpg",
+          "word_crop_url": "data/cards/deck_32_card_07_word.jpg",
+          "pic_box_norm": [
+            693,
+            140,
+            1000,
+            393
+          ],
+          "word_box_norm": [
+            686,
+            149,
+            1000,
+            401
+          ]
+        },
+        {
+          "id": "deck_32_card_08",
+          "index": 8,
+          "word": "Wrist",
+          "subtext": "",
+          "zh": "手腕",
+          "pic_crop_url": "data/cards/deck_32_card_08_pic.jpg",
+          "word_crop_url": "data/cards/deck_32_card_08_word.jpg",
+          "pic_box_norm": [
+            671,
+            394,
+            1000,
+            638
+          ],
+          "word_box_norm": [
+            685,
+            422,
+            1000,
+            663
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_33",
+      "pair_num": 33,
+      "unit_number": 12,
+      "date": "2025-12-24",
+      "title_en": "Body Parts",
+      "title_zh": "身體部位",
+      "pic_sheet_url": "data/raw/1YR-yF2ZsIwF2T0vhEPWxQN9vfuPIs98M.jpg",
+      "word_sheet_url": "data/raw/1gWStUwRn2DtJcdULh5OSqLGQeCexuwQ1.jpg",
+      "pic_aspect": 0.564,
+      "word_aspect": 0.7416,
+      "card_count": 6,
+      "cards": [
+        {
+          "id": "deck_33_card_01",
+          "index": 1,
+          "word": "Lips",
+          "subtext": "(Don't give me Lip)",
+          "zh": "嘴唇",
+          "pic_crop_url": "data/cards/deck_33_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_33_card_01_word.jpg",
+          "pic_box_norm": [
+            128,
+            4,
+            323,
+            452
+          ],
+          "word_box_norm": [
+            86,
+            19,
+            311,
+            459
+          ]
+        },
+        {
+          "id": "deck_33_card_02",
+          "index": 2,
+          "word": "Brain",
+          "subtext": "(mind)",
+          "zh": "大腦",
+          "pic_crop_url": "data/cards/deck_33_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_33_card_02_word.jpg",
+          "pic_box_norm": [
+            152,
+            532,
+            326,
+            958
+          ],
+          "word_box_norm": [
+            94,
+            538,
+            317,
+            967
+          ]
+        },
+        {
+          "id": "deck_33_card_03",
+          "index": 3,
+          "word": "Belly",
+          "subtext": "(Stomach) \"Tummy\"",
+          "zh": "肚子",
+          "pic_crop_url": "data/cards/deck_33_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_33_card_03_word.jpg",
+          "pic_box_norm": [
+            354,
+            7,
+            541,
+            453
+          ],
+          "word_box_norm": [
+            356,
+            4,
+            597,
+            469
+          ]
+        },
+        {
+          "id": "deck_33_card_04",
+          "index": 4,
+          "word": "Belly Button",
+          "subtext": "",
+          "zh": "肚臍",
+          "pic_crop_url": "data/cards/deck_33_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_33_card_04_word.jpg",
+          "pic_box_norm": [
+            365,
+            546,
+            544,
+            976
+          ],
+          "word_box_norm": [
+            366,
+            525,
+            609,
+            977
+          ]
+        },
+        {
+          "id": "deck_33_card_05",
+          "index": 5,
+          "word": "Nipple",
+          "subtext": "",
+          "zh": "乳頭",
+          "pic_crop_url": "data/cards/deck_33_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_33_card_05_word.jpg",
+          "pic_box_norm": [
+            578,
+            0,
+            781,
+            433
+          ],
+          "word_box_norm": [
+            670,
+            0,
+            960,
+            460
+          ]
+        },
+        {
+          "id": "deck_33_card_06",
+          "index": 6,
+          "word": "Chest",
+          "subtext": "(Breasts)",
+          "zh": "胸部",
+          "pic_crop_url": "data/cards/deck_33_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_33_card_06_word.jpg",
+          "pic_box_norm": [
+            591,
+            510,
+            786,
+            946
+          ],
+          "word_box_norm": [
+            673,
+            535,
+            952,
+            1000
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_34",
+      "pair_num": 34,
+      "unit_number": 11,
+      "date": "2025-12-17",
+      "title_en": "Body Parts & Skin",
+      "title_zh": "身體部位與皮膚",
+      "pic_sheet_url": "data/raw/1G8mr_UW6JshXWr1rZqmClH3qzgWKayJC.jpg",
+      "word_sheet_url": "data/raw/1liIKfKRi-CGO1qa9Iiuv0Xm6rsw7y2-6.jpg",
+      "pic_aspect": 0.5625,
+      "word_aspect": 0.5625,
+      "card_count": 9,
+      "cards": [
+        {
+          "id": "deck_34_card_01",
+          "index": 1,
+          "word": "Skin",
+          "subtext": "",
+          "zh": "皮膚",
+          "pic_crop_url": "data/cards/deck_34_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_34_card_01_word.jpg",
+          "pic_box_norm": [
+            144,
+            0,
+            385,
+            303
+          ],
+          "word_box_norm": [
+            165,
+            0,
+            392,
+            304
+          ]
+        },
+        {
+          "id": "deck_34_card_02",
+          "index": 2,
+          "word": "Ear",
+          "subtext": "(Ear Hair)",
+          "zh": "耳朵",
+          "pic_crop_url": "data/cards/deck_34_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_34_card_02_word.jpg",
+          "pic_box_norm": [
+            150,
+            330,
+            391,
+            643
+          ],
+          "word_box_norm": [
+            172,
+            354,
+            399,
+            647
+          ]
+        },
+        {
+          "id": "deck_34_card_03",
+          "index": 3,
+          "word": "Ear Wax",
+          "subtext": "",
+          "zh": "耳垢",
+          "pic_crop_url": "data/cards/deck_34_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_34_card_03_word.jpg",
+          "pic_box_norm": [
+            148,
+            678,
+            387,
+            987
+          ],
+          "word_box_norm": [
+            166,
+            673,
+            394,
+            969
+          ]
+        },
+        {
+          "id": "deck_34_card_04",
+          "index": 4,
+          "word": "Bald",
+          "subtext": "(Shaved Head)",
+          "zh": "光頭",
+          "pic_crop_url": "data/cards/deck_34_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_34_card_04_word.jpg",
+          "pic_box_norm": [
+            396,
+            0,
+            635,
+            318
+          ],
+          "word_box_norm": [
+            410,
+            11,
+            638,
+            316
+          ]
+        },
+        {
+          "id": "deck_34_card_05",
+          "index": 5,
+          "word": "Tongue",
+          "subtext": "(Tasting)",
+          "zh": "舌頭",
+          "pic_crop_url": "data/cards/deck_34_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_34_card_05_word.jpg",
+          "pic_box_norm": [
+            399,
+            341,
+            628,
+            644
+          ],
+          "word_box_norm": [
+            417,
+            350,
+            642,
+            652
+          ]
+        },
+        {
+          "id": "deck_34_card_06",
+          "index": 6,
+          "word": "Nose Hair",
+          "subtext": "",
+          "zh": "鼻毛",
+          "pic_crop_url": "data/cards/deck_34_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_34_card_06_word.jpg",
+          "pic_box_norm": [
+            389,
+            671,
+            622,
+            984
+          ],
+          "word_box_norm": [
+            406,
+            673,
+            635,
+            979
+          ]
+        },
+        {
+          "id": "deck_34_card_07",
+          "index": 7,
+          "word": "Tooth",
+          "subtext": "",
+          "zh": "牙齒",
+          "pic_crop_url": "data/cards/deck_34_card_07_pic.jpg",
+          "word_crop_url": "data/cards/deck_34_card_07_word.jpg",
+          "pic_box_norm": [
+            651,
+            3,
+            889,
+            316
+          ],
+          "word_box_norm": [
+            652,
+            20,
+            883,
+            321
+          ]
+        },
+        {
+          "id": "deck_34_card_08",
+          "index": 8,
+          "word": "Butt",
+          "subtext": "\"Buttocks\" (Bottom/Rear)",
+          "zh": "屁股",
+          "pic_crop_url": "data/cards/deck_34_card_08_pic.jpg",
+          "word_crop_url": "data/cards/deck_34_card_08_word.jpg",
+          "pic_box_norm": [
+            645,
+            334,
+            882,
+            641
+          ],
+          "word_box_norm": [
+            655,
+            350,
+            892,
+            652
+          ]
+        },
+        {
+          "id": "deck_34_card_09",
+          "index": 9,
+          "word": "Light Skin / Dark Skin",
+          "subtext": "",
+          "zh": "淺色皮膚 / 深色皮膚",
+          "pic_crop_url": "data/cards/deck_34_card_09_pic.jpg",
+          "word_crop_url": "data/cards/deck_34_card_09_word.jpg",
+          "pic_box_norm": [
+            641,
+            657,
+            874,
+            957
+          ],
+          "word_box_norm": [
+            655,
+            676,
+            887,
+            971
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_35",
+      "pair_num": 35,
+      "unit_number": 10,
+      "date": "2025-11-21",
+      "title_en": "Opinions & Senses",
+      "title_zh": "想法與感官動詞",
+      "pic_sheet_url": "data/raw/1lA-X1q2bBwBmxopC5mYEozTpw4fkfEFN.jpg",
+      "word_sheet_url": "data/raw/1-C2lv7dFDIzoS-9SwiMgfZW88XZTckHV.jpg",
+      "pic_aspect": 0.5625,
+      "word_aspect": 0.5625,
+      "card_count": 6,
+      "cards": [
+        {
+          "id": "deck_35_card_01",
+          "index": 1,
+          "word": "Like",
+          "subtext": "(Likes)",
+          "zh": "喜歡",
+          "pic_crop_url": "data/cards/deck_35_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_35_card_01_word.jpg",
+          "pic_box_norm": [
+            275,
+            106,
+            401,
+            478
+          ],
+          "word_box_norm": [
+            244,
+            85,
+            393,
+            499
+          ]
+        },
+        {
+          "id": "deck_35_card_02",
+          "index": 2,
+          "word": "Looks Like",
+          "subtext": "(It's like...)",
+          "zh": "看起來像",
+          "pic_crop_url": "data/cards/deck_35_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_35_card_02_word.jpg",
+          "pic_box_norm": [
+            283,
+            540,
+            416,
+            911
+          ],
+          "word_box_norm": [
+            249,
+            566,
+            404,
+            973
+          ]
+        },
+        {
+          "id": "deck_35_card_03",
+          "index": 3,
+          "word": "Dislike",
+          "subtext": "",
+          "zh": "不喜歡",
+          "pic_crop_url": "data/cards/deck_35_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_35_card_03_word.jpg",
+          "pic_box_norm": [
+            467,
+            40,
+            614,
+            452
+          ],
+          "word_box_norm": [
+            416,
+            32,
+            575,
+            469
+          ]
+        },
+        {
+          "id": "deck_35_card_04",
+          "index": 4,
+          "word": "Thinks",
+          "subtext": "(Think)",
+          "zh": "思考 / 認為",
+          "pic_crop_url": "data/cards/deck_35_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_35_card_04_word.jpg",
+          "pic_box_norm": [
+            467,
+            506,
+            635,
+            918
+          ],
+          "word_box_norm": [
+            431,
+            542,
+            600,
+            974
+          ]
+        },
+        {
+          "id": "deck_35_card_05",
+          "index": 5,
+          "word": "I Don't Think So...",
+          "subtext": "(Good Thinking)",
+          "zh": "我不這麼認為⋯⋯ (好主意)",
+          "pic_crop_url": "data/cards/deck_35_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_35_card_05_word.jpg",
+          "pic_box_norm": [
+            695,
+            0,
+            885,
+            453
+          ],
+          "word_box_norm": [
+            625,
+            0,
+            819,
+            468
+          ]
+        },
+        {
+          "id": "deck_35_card_06",
+          "index": 6,
+          "word": "Listen",
+          "subtext": "(Hear)",
+          "zh": "聽 (聽見)",
+          "pic_crop_url": "data/cards/deck_35_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_35_card_06_word.jpg",
+          "pic_box_norm": [
+            718,
+            498,
+            911,
+            952
+          ],
+          "word_box_norm": [
+            646,
+            518,
+            842,
+            985
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_36",
+      "pair_num": 36,
+      "unit_number": 9,
+      "date": "2025-11-21",
+      "title_en": "Fried Foods & Side Dishes",
+      "title_zh": "炸物與常見配菜",
+      "pic_sheet_url": "data/raw/1DVplUbOvopPRfesgOqDpUJwU65-i2HK4.jpg",
+      "word_sheet_url": "data/raw/1GUaYVNq1b0861SI2L0QuamWYcAhNmqF5.jpg",
+      "pic_aspect": 0.5625,
+      "word_aspect": 0.5625,
+      "card_count": 6,
+      "cards": [
+        {
+          "id": "deck_36_card_01",
+          "index": 1,
+          "word": "Deep Fried Calamari",
+          "subtext": "",
+          "zh": "炸魷魚圈",
+          "pic_crop_url": "data/cards/deck_36_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_36_card_01_word.jpg",
+          "pic_box_norm": [
+            157,
+            43,
+            416,
+            388
+          ],
+          "word_box_norm": [
+            187,
+            72,
+            446,
+            420
+          ]
+        },
+        {
+          "id": "deck_36_card_02",
+          "index": 2,
+          "word": "Tater Tots",
+          "subtext": "",
+          "zh": "炸薯球",
+          "pic_crop_url": "data/cards/deck_36_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_36_card_02_word.jpg",
+          "pic_box_norm": [
+            176,
+            473,
+            386,
+            955
+          ],
+          "word_box_norm": [
+            210,
+            520,
+            406,
+            997
+          ]
+        },
+        {
+          "id": "deck_36_card_03",
+          "index": 3,
+          "word": "Beans & Franks",
+          "subtext": "",
+          "zh": "熱狗燉豆",
+          "pic_crop_url": "data/cards/deck_36_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_36_card_03_word.jpg",
+          "pic_box_norm": [
+            437,
+            0,
+            640,
+            467
+          ],
+          "word_box_norm": [
+            489,
+            0,
+            692,
+            489
+          ]
+        },
+        {
+          "id": "deck_36_card_04",
+          "index": 4,
+          "word": "Fish Sticks",
+          "subtext": "",
+          "zh": "炸魚條",
+          "pic_crop_url": "data/cards/deck_36_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_36_card_04_word.jpg",
+          "pic_box_norm": [
+            402,
+            509,
+            601,
+            976
+          ],
+          "word_box_norm": [
+            488,
+            514,
+            695,
+            1000
+          ]
+        },
+        {
+          "id": "deck_36_card_05",
+          "index": 5,
+          "word": "Mac 'N' Cheese",
+          "subtext": "",
+          "zh": "起司通心粉",
+          "pic_crop_url": "data/cards/deck_36_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_36_card_05_word.jpg",
+          "pic_box_norm": [
+            668,
+            0,
+            875,
+            456
+          ],
+          "word_box_norm": [
+            725,
+            0,
+            937,
+            455
+          ]
+        },
+        {
+          "id": "deck_36_card_06",
+          "index": 6,
+          "word": "Baked Beans",
+          "subtext": "",
+          "zh": "烤豆子",
+          "pic_crop_url": "data/cards/deck_36_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_36_card_06_word.jpg",
+          "pic_box_norm": [
+            677,
+            493,
+            889,
+            976
+          ],
+          "word_box_norm": [
+            732,
+            488,
+            950,
+            991
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_37",
+      "pair_num": 37,
+      "unit_number": 8,
+      "date": "2025-11-19",
+      "title_en": "Hot Dogs",
+      "title_zh": "各式熱狗",
+      "pic_sheet_url": "data/raw/1tDICo_tCKaeEUwhrAnnLzD8mQsJloAFG.jpg",
+      "word_sheet_url": "data/raw/15PkPQVfo1wcUMmSxk9baHGfwAmCi9zIc.jpg",
+      "pic_aspect": 0.5625,
+      "word_aspect": 0.5625,
+      "card_count": 4,
+      "cards": [
+        {
+          "id": "deck_37_card_01",
+          "index": 1,
+          "word": "Chilli Cheese Dog",
+          "subtext": "",
+          "zh": "起司肉醬熱狗",
+          "pic_crop_url": "data/cards/deck_37_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_37_card_01_word.jpg",
+          "pic_box_norm": [
+            336,
+            0,
+            539,
+            467
+          ],
+          "word_box_norm": [
+            295,
+            0,
+            487,
+            448
+          ]
+        },
+        {
+          "id": "deck_37_card_02",
+          "index": 2,
+          "word": "Chilli Dog",
+          "subtext": "",
+          "zh": "辣肉醬熱狗",
+          "pic_crop_url": "data/cards/deck_37_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_37_card_02_word.jpg",
+          "pic_box_norm": [
+            338,
+            520,
+            542,
+            1000
+          ],
+          "word_box_norm": [
+            308,
+            501,
+            495,
+            950
+          ]
+        },
+        {
+          "id": "deck_37_card_03",
+          "index": 3,
+          "word": "Hot Dog",
+          "subtext": "(mustard)",
+          "zh": "熱狗（加黃芥末醬）",
+          "pic_crop_url": "data/cards/deck_37_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_37_card_03_word.jpg",
+          "pic_box_norm": [
+            608,
+            0,
+            820,
+            461
+          ],
+          "word_box_norm": [
+            547,
+            0,
+            746,
+            443
+          ]
+        },
+        {
+          "id": "deck_37_card_04",
+          "index": 4,
+          "word": "Corn Dog",
+          "subtext": "(mustard and Ketchup)",
+          "zh": "美式熱狗棒",
+          "pic_crop_url": "data/cards/deck_37_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_37_card_04_word.jpg",
+          "pic_box_norm": [
+            614,
+            510,
+            828,
+            1000
+          ],
+          "word_box_norm": [
+            545,
+            487,
+            746,
+            953
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_38",
+      "pair_num": 38,
+      "unit_number": 7,
+      "date": "2025-11-19",
+      "title_en": "Fried Foods & Fries",
+      "title_zh": "炸物與薯條",
+      "pic_sheet_url": "data/raw/1V1-jczVi2c4Q28u1Ul_8iaDF0apVtIw4.jpg",
+      "word_sheet_url": "data/raw/1AUwe4P7zKNFxCXCE5f1eFykY61JgzI8c.jpg",
+      "pic_aspect": 0.5625,
+      "word_aspect": 0.5625,
+      "card_count": 7,
+      "cards": [
+        {
+          "id": "deck_38_card_01",
+          "index": 1,
+          "word": "French Fries",
+          "subtext": "(Chips)",
+          "zh": "薯條",
+          "pic_crop_url": "data/cards/deck_38_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_38_card_01_word.jpg",
+          "pic_box_norm": [
+            63,
+            0,
+            262,
+            470
+          ],
+          "word_box_norm": [
+            85,
+            10,
+            271,
+            459
+          ]
+        },
+        {
+          "id": "deck_38_card_02",
+          "index": 2,
+          "word": "Chilli Cheese Fries",
+          "subtext": "",
+          "zh": "起司肉醬薯條",
+          "pic_crop_url": "data/cards/deck_38_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_38_card_02_word.jpg",
+          "pic_box_norm": [
+            67,
+            574,
+            268,
+            1000
+          ],
+          "word_box_norm": [
+            84,
+            527,
+            267,
+            966
+          ]
+        },
+        {
+          "id": "deck_38_card_03",
+          "index": 3,
+          "word": "Fried Chicken",
+          "subtext": "",
+          "zh": "炸雞",
+          "pic_crop_url": "data/cards/deck_38_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_38_card_03_word.jpg",
+          "pic_box_norm": [
+            282,
+            12,
+            471,
+            474
+          ],
+          "word_box_norm": [
+            290,
+            13,
+            483,
+            474
+          ]
+        },
+        {
+          "id": "deck_38_card_04",
+          "index": 4,
+          "word": "Fish & Chips",
+          "subtext": "",
+          "zh": "炸魚薯條",
+          "pic_crop_url": "data/cards/deck_38_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_38_card_04_word.jpg",
+          "pic_box_norm": [
+            292,
+            548,
+            495,
+            1000
+          ],
+          "word_box_norm": [
+            290,
+            526,
+            474,
+            967
+          ]
+        },
+        {
+          "id": "deck_38_card_05",
+          "index": 5,
+          "word": "Buffalo Chicken Wings",
+          "subtext": "[Celery Sticks and Blue Cheese Dressing]",
+          "zh": "水牛城辣雞翅",
+          "pic_crop_url": "data/cards/deck_38_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_38_card_05_word.jpg",
+          "pic_box_norm": [
+            501,
+            0,
+            697,
+            443
+          ],
+          "word_box_norm": [
+            507,
+            13,
+            699,
+            475
+          ]
+        },
+        {
+          "id": "deck_38_card_06",
+          "index": 6,
+          "word": "Chicken Leg",
+          "subtext": "(Fried Chicken Leg)",
+          "zh": "炸雞腿",
+          "pic_crop_url": "data/cards/deck_38_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_38_card_06_word.jpg",
+          "pic_box_norm": [
+            502,
+            517,
+            711,
+            998
+          ],
+          "word_box_norm": [
+            497,
+            524,
+            686,
+            971
+          ]
+        },
+        {
+          "id": "deck_38_card_07",
+          "index": 7,
+          "word": "Onion Rings",
+          "subtext": "",
+          "zh": "洋蔥圈",
+          "pic_crop_url": "data/cards/deck_38_card_07_pic.jpg",
+          "word_crop_url": "data/cards/deck_38_card_07_word.jpg",
+          "pic_box_norm": [
+            742,
+            0,
+            951,
+            429
+          ],
+          "word_box_norm": [
+            710,
+            9,
+            917,
+            474
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_39",
+      "pair_num": 39,
+      "unit_number": 6,
+      "date": "2026-10-28",
+      "title_en": "Burgers & Nuggets",
+      "title_zh": "漢堡與雞塊",
+      "pic_sheet_url": "data/raw/1aqDNv4WOJr9BA7FmBoXHG23nbyMHUWrf.jpg",
+      "word_sheet_url": "data/raw/10YbHI39zYghFdeHFN0QsAppLhwA_iWs3.jpg",
+      "pic_aspect": 1.7778,
+      "word_aspect": 1.7778,
+      "card_count": 9,
+      "cards": [
+        {
+          "id": "deck_39_card_01",
+          "index": 1,
+          "word": "Bacon Cheese Burger",
+          "subtext": "",
+          "zh": "培根起司漢堡",
+          "pic_crop_url": "data/cards/deck_39_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_39_card_01_word.jpg",
+          "pic_box_norm": [
+            0,
+            185,
+            289,
+            413
+          ],
+          "word_box_norm": [
+            0,
+            171,
+            275,
+            393
+          ]
+        },
+        {
+          "id": "deck_39_card_02",
+          "index": 2,
+          "word": "Sloppy Joe",
+          "subtext": "",
+          "zh": "美式肉醬漢堡",
+          "pic_crop_url": "data/cards/deck_39_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_39_card_02_word.jpg",
+          "pic_box_norm": [
+            17,
+            424,
+            307,
+            647
+          ],
+          "word_box_norm": [
+            18,
+            413,
+            291,
+            622
+          ]
+        },
+        {
+          "id": "deck_39_card_03",
+          "index": 3,
+          "word": "Pulled Pork Sandwich",
+          "subtext": "(Burger)",
+          "zh": "手撕豬肉堡",
+          "pic_crop_url": "data/cards/deck_39_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_39_card_03_word.jpg",
+          "pic_box_norm": [
+            30,
+            668,
+            342,
+            896
+          ],
+          "word_box_norm": [
+            14,
+            666,
+            286,
+            874
+          ]
+        },
+        {
+          "id": "deck_39_card_04",
+          "index": 4,
+          "word": "BarBQ Chicken Burger",
+          "subtext": "",
+          "zh": "BBQ烤肉醬雞肉堡",
+          "pic_crop_url": "data/cards/deck_39_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_39_card_04_word.jpg",
+          "pic_box_norm": [
+            324,
+            155,
+            632,
+            396
+          ],
+          "word_box_norm": [
+            330,
+            170,
+            613,
+            388
+          ]
+        },
+        {
+          "id": "deck_39_card_05",
+          "index": 5,
+          "word": "Cheese Burger",
+          "subtext": "",
+          "zh": "起司漢堡",
+          "pic_crop_url": "data/cards/deck_39_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_39_card_05_word.jpg",
+          "pic_box_norm": [
+            327,
+            430,
+            638,
+            663
+          ],
+          "word_box_norm": [
+            335,
+            420,
+            605,
+            629
+          ]
+        },
+        {
+          "id": "deck_39_card_06",
+          "index": 6,
+          "word": "Double Cheese Burger",
+          "subtext": "",
+          "zh": "雙層起司漢堡",
+          "pic_crop_url": "data/cards/deck_39_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_39_card_06_word.jpg",
+          "pic_box_norm": [
+            359,
+            677,
+            653,
+            909
+          ],
+          "word_box_norm": [
+            347,
+            678,
+            617,
+            889
+          ]
+        },
+        {
+          "id": "deck_39_card_07",
+          "index": 7,
+          "word": "Fish Burger",
+          "subtext": "(Filet-O-Fish Burger)",
+          "zh": "鱈魚堡（麥香魚）",
+          "pic_crop_url": "data/cards/deck_39_card_07_pic.jpg",
+          "word_crop_url": "data/cards/deck_39_card_07_word.jpg",
+          "pic_box_norm": [
+            677,
+            151,
+            1000,
+            392
+          ],
+          "word_box_norm": [
+            689,
+            158,
+            990,
+            378
+          ]
+        },
+        {
+          "id": "deck_39_card_08",
+          "index": 8,
+          "word": "Chicken Nuggets",
+          "subtext": "(Chicken McNuggets)",
+          "zh": "麥克雞塊",
+          "pic_crop_url": "data/cards/deck_39_card_08_pic.jpg",
+          "word_crop_url": "data/cards/deck_39_card_08_word.jpg",
+          "pic_box_norm": [
+            691,
+            433,
+            1000,
+            670
+          ],
+          "word_box_norm": [
+            698,
+            411,
+            997,
+            627
+          ]
+        },
+        {
+          "id": "deck_39_card_09",
+          "index": 9,
+          "word": "Fried Chicken Burger",
+          "subtext": "(crispy chicken)",
+          "zh": "咔啦脆雞堡",
+          "pic_crop_url": "data/cards/deck_39_card_09_pic.jpg",
+          "word_crop_url": "data/cards/deck_39_card_09_word.jpg",
+          "pic_box_norm": [
+            671,
+            677,
+            1000,
+            925
+          ],
+          "word_box_norm": [
+            687,
+            675,
+            988,
+            889
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_40",
+      "pair_num": 40,
+      "unit_number": 5,
+      "date": "2025-10-24",
+      "title_en": "Coffee",
+      "title_zh": "咖啡飲品",
+      "pic_sheet_url": "data/raw/1C6pYb7tj0EsyCTSncwWavl9EEx4IbNHH.jpg",
+      "word_sheet_url": "data/raw/1GynA4g2Bp_GmSwjho55QNoX7pmpY7mtO.jpg",
+      "pic_aspect": 0.5625,
+      "word_aspect": 0.5625,
+      "card_count": 4,
+      "cards": [
+        {
+          "id": "deck_40_card_01",
+          "index": 1,
+          "word": "Espresso",
+          "subtext": "(Expresso)",
+          "zh": "義式濃縮咖啡",
+          "pic_crop_url": "data/cards/deck_40_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_40_card_01_word.jpg",
+          "pic_box_norm": [
+            348,
+            0,
+            559,
+            519
+          ],
+          "word_box_norm": [
+            279,
+            0,
+            477,
+            474
+          ]
+        },
+        {
+          "id": "deck_40_card_02",
+          "index": 2,
+          "word": "Coffee",
+          "subtext": "\"Coffè - Americano\" (Coffee Beans)",
+          "zh": "美式咖啡（咖啡豆）",
+          "pic_crop_url": "data/cards/deck_40_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_40_card_02_word.jpg",
+          "pic_box_norm": [
+            359,
+            549,
+            572,
+            1000
+          ],
+          "word_box_norm": [
+            284,
+            542,
+            481,
+            1000
+          ]
+        },
+        {
+          "id": "deck_40_card_03",
+          "index": 3,
+          "word": "Cappuccino",
+          "subtext": "(Less milk than Latte - with chocolate)",
+          "zh": "卡布奇諾",
+          "pic_crop_url": "data/cards/deck_40_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_40_card_03_word.jpg",
+          "pic_box_norm": [
+            582,
+            0,
+            818,
+            496
+          ],
+          "word_box_norm": [
+            517,
+            0,
+            724,
+            476
+          ]
+        },
+        {
+          "id": "deck_40_card_04",
+          "index": 4,
+          "word": "Latte",
+          "subtext": "(more milk than a Cappuccino)",
+          "zh": "拿鐵咖啡",
+          "pic_crop_url": "data/cards/deck_40_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_40_card_04_word.jpg",
+          "pic_box_norm": [
+            596,
+            517,
+            833,
+            1000
+          ],
+          "word_box_norm": [
+            524,
+            523,
+            734,
+            1000
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_41",
+      "pair_num": 41,
+      "unit_number": 4,
+      "date": "2025-10-22",
+      "title_en": "Sweet Breakfast & Drinks",
+      "title_zh": "甜點早餐與飲品",
+      "pic_sheet_url": "data/raw/1jRO85yGQ8ujLgqI0sIljxpj7p1MGDCFj.jpg",
+      "word_sheet_url": "data/raw/1MRaoYNDdH39MtYosfSw6HSL4JOGFl8ww.jpg",
+      "pic_aspect": 0.5625,
+      "word_aspect": 0.5625,
+      "card_count": 5,
+      "cards": [
+        {
+          "id": "deck_41_card_01",
+          "index": 1,
+          "word": "Pancakes",
+          "subtext": "(Pancakes and syrup) (\"Maple Syrup\")",
+          "zh": "美式鬆餅",
+          "pic_crop_url": "data/cards/deck_41_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_41_card_01_word.jpg",
+          "pic_box_norm": [
+            188,
+            0,
+            395,
+            468
+          ],
+          "word_box_norm": [
+            232,
+            5,
+            416,
+            462
+          ]
+        },
+        {
+          "id": "deck_41_card_02",
+          "index": 2,
+          "word": "Waffle",
+          "subtext": "",
+          "zh": "格子鬆餅",
+          "pic_crop_url": "data/cards/deck_41_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_41_card_02_word.jpg",
+          "pic_box_norm": [
+            195,
+            549,
+            407,
+            1000
+          ],
+          "word_box_norm": [
+            224,
+            536,
+            411,
+            993
+          ]
+        },
+        {
+          "id": "deck_41_card_03",
+          "index": 3,
+          "word": "Cinnamon Bun",
+          "subtext": "(\"Roll\")",
+          "zh": "肉桂捲",
+          "pic_crop_url": "data/cards/deck_41_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_41_card_03_word.jpg",
+          "pic_box_norm": [
+            425,
+            0,
+            635,
+            481
+          ],
+          "word_box_norm": [
+            450,
+            9,
+            642,
+            477
+          ]
+        },
+        {
+          "id": "deck_41_card_04",
+          "index": 4,
+          "word": "Orange Juice",
+          "subtext": "(Fresh squeezed \"Orange Juice\")",
+          "zh": "柳橙汁",
+          "pic_crop_url": "data/cards/deck_41_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_41_card_04_word.jpg",
+          "pic_box_norm": [
+            439,
+            530,
+            662,
+            1000
+          ],
+          "word_box_norm": [
+            437,
+            537,
+            632,
+            1000
+          ]
+        },
+        {
+          "id": "deck_41_card_05",
+          "index": 5,
+          "word": "Yogurt",
+          "subtext": "(Yoghurt) (\"Granola with Fresh Fruit\")",
+          "zh": "優格",
+          "pic_crop_url": "data/cards/deck_41_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_41_card_05_word.jpg",
+          "pic_box_norm": [
+            665,
+            0,
+            891,
+            488
+          ],
+          "word_box_norm": [
+            675,
+            0,
+            892,
+            479
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_42",
+      "pair_num": 42,
+      "unit_number": 3,
+      "date": "2025-10-15",
+      "title_en": "Vegetables",
+      "title_zh": "常見蔬菜",
+      "pic_sheet_url": "data/raw/1V9soCdPQLD6JwxnMUL8okdSbZ6fUsZTy.jpg",
+      "word_sheet_url": "data/raw/1Xe76Ver6Cue5WWuFnarXIY4x5l0oEdpf.jpg",
+      "pic_aspect": 1.7778,
+      "word_aspect": 1.7778,
+      "card_count": 16,
+      "cards": [
+        {
+          "id": "deck_42_card_01",
+          "index": 1,
+          "word": "Eggplant",
+          "subtext": "",
+          "zh": "茄子",
+          "pic_crop_url": "data/cards/deck_42_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_42_card_01_word.jpg",
+          "pic_box_norm": [
+            0,
+            94,
+            194,
+            234
+          ],
+          "word_box_norm": [
+            91,
+            161,
+            270,
+            282
+          ]
+        },
+        {
+          "id": "deck_42_card_02",
+          "index": 2,
+          "word": "Asparagus",
+          "subtext": "",
+          "zh": "蘆筍",
+          "pic_crop_url": "data/cards/deck_42_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_42_card_02_word.jpg",
+          "pic_box_norm": [
+            224,
+            86,
+            430,
+            228
+          ],
+          "word_box_norm": [
+            283,
+            152,
+            467,
+            279
+          ]
+        },
+        {
+          "id": "deck_42_card_03",
+          "index": 3,
+          "word": "Spring Onion",
+          "subtext": "(Green Onion)",
+          "zh": "青蔥",
+          "pic_crop_url": "data/cards/deck_42_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_42_card_03_word.jpg",
+          "pic_box_norm": [
+            231,
+            250,
+            441,
+            392
+          ],
+          "word_box_norm": [
+            293,
+            282,
+            482,
+            405
+          ]
+        },
+        {
+          "id": "deck_42_card_04",
+          "index": 4,
+          "word": "Summer Pumpkin",
+          "subtext": "",
+          "zh": "南瓜",
+          "pic_crop_url": "data/cards/deck_42_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_42_card_04_word.jpg",
+          "pic_box_norm": [
+            242,
+            418,
+            444,
+            553
+          ],
+          "word_box_norm": [
+            303,
+            434,
+            496,
+            559
+          ]
+        },
+        {
+          "id": "deck_42_card_05",
+          "index": 5,
+          "word": "Sweet Potato",
+          "subtext": "",
+          "zh": "地瓜 (番薯)",
+          "pic_crop_url": "data/cards/deck_42_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_42_card_05_word.jpg",
+          "pic_box_norm": [
+            233,
+            568,
+            437,
+            708
+          ],
+          "word_box_norm": [
+            277,
+            598,
+            456,
+            719
+          ]
+        },
+        {
+          "id": "deck_42_card_06",
+          "index": 6,
+          "word": "Loofah",
+          "subtext": "",
+          "zh": "絲瓜",
+          "pic_crop_url": "data/cards/deck_42_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_42_card_06_word.jpg",
+          "pic_box_norm": [
+            225,
+            731,
+            429,
+            872
+          ],
+          "word_box_norm": [
+            287,
+            763,
+            472,
+            888
+          ]
+        },
+        {
+          "id": "deck_42_card_07",
+          "index": 7,
+          "word": "Spinach",
+          "subtext": "",
+          "zh": "菠菜",
+          "pic_crop_url": "data/cards/deck_42_card_07_pic.jpg",
+          "word_crop_url": "data/cards/deck_42_card_07_word.jpg",
+          "pic_box_norm": [
+            484,
+            74,
+            702,
+            224
+          ],
+          "word_box_norm": [
+            528,
+            130,
+            732,
+            264
+          ]
+        },
+        {
+          "id": "deck_42_card_08",
+          "index": 8,
+          "word": "Bamboo Shoot",
+          "subtext": "",
+          "zh": "竹筍",
+          "pic_crop_url": "data/cards/deck_42_card_08_pic.jpg",
+          "word_crop_url": "data/cards/deck_42_card_08_word.jpg",
+          "pic_box_norm": [
+            499,
+            242,
+            727,
+            386
+          ],
+          "word_box_norm": [
+            544,
+            280,
+            763,
+            414
+          ]
+        },
+        {
+          "id": "deck_42_card_09",
+          "index": 9,
+          "word": "Bell Peppers",
+          "subtext": "",
+          "zh": "甜椒",
+          "pic_crop_url": "data/cards/deck_42_card_09_pic.jpg",
+          "word_crop_url": "data/cards/deck_42_card_09_word.jpg",
+          "pic_box_norm": [
+            505,
+            412,
+            741,
+            559
+          ],
+          "word_box_norm": [
+            524,
+            446,
+            724,
+            573
+          ]
+        },
+        {
+          "id": "deck_42_card_10",
+          "index": 10,
+          "word": "White Radish",
+          "subtext": "",
+          "zh": "白蘿蔔",
+          "pic_crop_url": "data/cards/deck_42_card_10_pic.jpg",
+          "word_crop_url": "data/cards/deck_42_card_10_word.jpg",
+          "pic_box_norm": [
+            497,
+            587,
+            716,
+            727
+          ],
+          "word_box_norm": [
+            502,
+            606,
+            697,
+            739
+          ]
+        },
+        {
+          "id": "deck_42_card_11",
+          "index": 11,
+          "word": "Bitter Melon",
+          "subtext": "",
+          "zh": "苦瓜",
+          "pic_crop_url": "data/cards/deck_42_card_11_pic.jpg",
+          "word_crop_url": "data/cards/deck_42_card_11_word.jpg",
+          "pic_box_norm": [
+            505,
+            742,
+            723,
+            889
+          ],
+          "word_box_norm": [
+            497,
+            760,
+            691,
+            895
+          ]
+        },
+        {
+          "id": "deck_42_card_12",
+          "index": 12,
+          "word": "String Beans",
+          "subtext": "(Green Beans)",
+          "zh": "四季豆",
+          "pic_crop_url": "data/cards/deck_42_card_12_pic.jpg",
+          "word_crop_url": "data/cards/deck_42_card_12_word.jpg",
+          "pic_box_norm": [
+            796,
+            41,
+            1000,
+            196
+          ],
+          "word_box_norm": [
+            778,
+            112,
+            998,
+            258
+          ]
+        },
+        {
+          "id": "deck_42_card_13",
+          "index": 13,
+          "word": "Cabbage",
+          "subtext": "",
+          "zh": "高麗菜 (包心菜)",
+          "pic_crop_url": "data/cards/deck_42_card_13_pic.jpg",
+          "word_crop_url": "data/cards/deck_42_card_13_word.jpg",
+          "pic_box_norm": [
+            802,
+            229,
+            1000,
+            379
+          ],
+          "word_box_norm": [
+            777,
+            301,
+            1000,
+            436
+          ]
+        },
+        {
+          "id": "deck_42_card_14",
+          "index": 14,
+          "word": "Chinese Cabbage",
+          "subtext": "",
+          "zh": "大白菜",
+          "pic_crop_url": "data/cards/deck_42_card_14_pic.jpg",
+          "word_crop_url": "data/cards/deck_42_card_14_word.jpg",
+          "pic_box_norm": [
+            792,
+            417,
+            1000,
+            562
+          ],
+          "word_box_norm": [
+            790,
+            451,
+            1000,
+            587
+          ]
+        },
+        {
+          "id": "deck_42_card_15",
+          "index": 15,
+          "word": "Taro",
+          "subtext": "",
+          "zh": "芋頭",
+          "pic_crop_url": "data/cards/deck_42_card_15_pic.jpg",
+          "word_crop_url": "data/cards/deck_42_card_15_word.jpg",
+          "pic_box_norm": [
+            776,
+            597,
+            1000,
+            748
+          ],
+          "word_box_norm": [
+            772,
+            598,
+            992,
+            735
+          ]
+        },
+        {
+          "id": "deck_42_card_16",
+          "index": 16,
+          "word": "Broccoli",
+          "subtext": "",
+          "zh": "青花菜",
+          "pic_crop_url": "data/cards/deck_42_card_16_pic.jpg",
+          "word_crop_url": "data/cards/deck_42_card_16_word.jpg",
+          "pic_box_norm": [
+            754,
+            763,
+            992,
+            915
+          ],
+          "word_box_norm": [
+            770,
+            784,
+            988,
+            925
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_43",
+      "pair_num": 43,
+      "unit_number": 2,
+      "date": "2025-10-15",
+      "title_en": "Bagels, Toast & Croissants",
+      "title_zh": "貝果、吐司與可頌",
+      "pic_sheet_url": "data/raw/1cD1hKNlPJa284feP7gyePyfoRu2KZimu.jpg",
+      "word_sheet_url": "data/raw/1q3pOoqzydO1XumvB9mw7PJnQnqT1lB4N.jpg",
+      "pic_aspect": 0.5625,
+      "word_aspect": 0.5625,
+      "card_count": 8,
+      "cards": [
+        {
+          "id": "deck_43_card_01",
+          "index": 1,
+          "word": "Cream Cheese Bagel",
+          "subtext": "(\"Sesame Bagel\")",
+          "zh": "奶油乳酪貝果",
+          "pic_crop_url": "data/cards/deck_43_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_43_card_01_word.jpg",
+          "pic_box_norm": [
+            140,
+            82,
+            269,
+            447
+          ],
+          "word_box_norm": [
+            113,
+            164,
+            238,
+            529
+          ]
+        },
+        {
+          "id": "deck_43_card_02",
+          "index": 2,
+          "word": "English Muffin",
+          "subtext": "(Butter)",
+          "zh": "英式瑪芬",
+          "pic_crop_url": "data/cards/deck_43_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_43_card_02_word.jpg",
+          "pic_box_norm": [
+            152,
+            522,
+            274,
+            889
+          ],
+          "word_box_norm": [
+            112,
+            579,
+            239,
+            949
+          ]
+        },
+        {
+          "id": "deck_43_card_03",
+          "index": 3,
+          "word": "French Toast",
+          "subtext": "(Powdered Sugar)",
+          "zh": "法式吐司",
+          "pic_crop_url": "data/cards/deck_43_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_43_card_03_word.jpg",
+          "pic_box_norm": [
+            280,
+            58,
+            425,
+            453
+          ],
+          "word_box_norm": [
+            268,
+            141,
+            420,
+            551
+          ]
+        },
+        {
+          "id": "deck_43_card_04",
+          "index": 4,
+          "word": "Breakfast Bagel",
+          "subtext": "",
+          "zh": "早餐貝果三明治",
+          "pic_crop_url": "data/cards/deck_43_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_43_card_04_word.jpg",
+          "pic_box_norm": [
+            281,
+            576,
+            480,
+            894
+          ],
+          "word_box_norm": [
+            277,
+            582,
+            432,
+            987
+          ]
+        },
+        {
+          "id": "deck_43_card_05",
+          "index": 5,
+          "word": "Breakfast Croissant",
+          "subtext": "",
+          "zh": "早餐可頌三明治",
+          "pic_crop_url": "data/cards/deck_43_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_43_card_05_word.jpg",
+          "pic_box_norm": [
+            471,
+            0,
+            645,
+            417
+          ],
+          "word_box_norm": [
+            453,
+            92,
+            625,
+            537
+          ]
+        },
+        {
+          "id": "deck_43_card_06",
+          "index": 6,
+          "word": "Toast",
+          "subtext": "",
+          "zh": "烤吐司",
+          "pic_crop_url": "data/cards/deck_43_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_43_card_06_word.jpg",
+          "pic_box_norm": [
+            488,
+            535,
+            659,
+            986
+          ],
+          "word_box_norm": [
+            470,
+            586,
+            663,
+            1000
+          ]
+        },
+        {
+          "id": "deck_43_card_07",
+          "index": 7,
+          "word": "Croissant",
+          "subtext": "(\"Taiwan Croissant\")",
+          "zh": "可頌 (牛角麵包)",
+          "pic_crop_url": "data/cards/deck_43_card_07_pic.jpg",
+          "word_crop_url": "data/cards/deck_43_card_07_word.jpg",
+          "pic_box_norm": [
+            678,
+            0,
+            892,
+            464
+          ],
+          "word_box_norm": [
+            675,
+            0,
+            888,
+            458
+          ]
+        },
+        {
+          "id": "deck_43_card_08",
+          "index": 8,
+          "word": "Bagel",
+          "subtext": "(\"Plain Bagel\")",
+          "zh": "原味貝果",
+          "pic_crop_url": "data/cards/deck_43_card_08_pic.jpg",
+          "word_crop_url": "data/cards/deck_43_card_08_word.jpg",
+          "pic_box_norm": [
+            710,
+            586,
+            942,
+            1000
+          ],
+          "word_box_norm": [
+            696,
+            551,
+            918,
+            1000
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deck_44",
+      "pair_num": 44,
+      "unit_number": 1,
+      "date": "2025-10-01",
+      "title_en": "Breakfast & Eggs",
+      "title_zh": "早餐與蛋料理",
+      "pic_sheet_url": "data/raw/1ad9cg6eK6KvPJy6lcPSG_6M0J7yOxtV5.jpg",
+      "word_sheet_url": "data/raw/1mlSaCZwxY9dTey25Qty4EKOv3x9bZyQQ.jpg",
+      "pic_aspect": 0.5625,
+      "word_aspect": 0.5625,
+      "card_count": 8,
+      "cards": [
+        {
+          "id": "deck_44_card_01",
+          "index": 1,
+          "word": "Bacon",
+          "subtext": "(Crispy Bacon) \"Turkey Bacon\"",
+          "zh": "培根",
+          "pic_crop_url": "data/cards/deck_44_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_44_card_01_word.jpg",
+          "pic_box_norm": [
+            238,
+            133,
+            365,
+            484
+          ],
+          "word_box_norm": [
+            197,
+            138,
+            362,
+            534
+          ]
+        },
+        {
+          "id": "deck_44_card_02",
+          "index": 2,
+          "word": "Poached Egg",
+          "subtext": "(\"egg whites\") (\"egg yolk\")",
+          "zh": "水波蛋",
+          "pic_crop_url": "data/cards/deck_44_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_44_card_02_word.jpg",
+          "pic_box_norm": [
+            249,
+            527,
+            384,
+            876
+          ],
+          "word_box_norm": [
+            199,
+            525,
+            348,
+            885
+          ]
+        },
+        {
+          "id": "deck_44_card_03",
+          "index": 3,
+          "word": "Eggs",
+          "subtext": "(Sunny side up)",
+          "zh": "太陽蛋 (單面荷包蛋)",
+          "pic_crop_url": "data/cards/deck_44_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_44_card_03_word.jpg",
+          "pic_box_norm": [
+            381,
+            112,
+            522,
+            483
+          ],
+          "word_box_norm": [
+            341,
+            94,
+            505,
+            496
+          ]
+        },
+        {
+          "id": "deck_44_card_04",
+          "index": 4,
+          "word": "Omelet",
+          "subtext": "(Omelette) (\"Cheese omelet\")",
+          "zh": "歐姆蛋 (煎蛋捲)",
+          "pic_crop_url": "data/cards/deck_44_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_44_card_04_word.jpg",
+          "pic_box_norm": [
+            383,
+            499,
+            548,
+            884
+          ],
+          "word_box_norm": [
+            356,
+            506,
+            505,
+            878
+          ]
+        },
+        {
+          "id": "deck_44_card_05",
+          "index": 5,
+          "word": "Canadian Bacon",
+          "subtext": "(Eggs - over easy)",
+          "zh": "加拿大培根 (火腿片)",
+          "pic_crop_url": "data/cards/deck_44_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_44_card_05_word.jpg",
+          "pic_box_norm": [
+            537,
+            61,
+            697,
+            465
+          ],
+          "word_box_norm": [
+            511,
+            79,
+            681,
+            490
+          ]
+        },
+        {
+          "id": "deck_44_card_06",
+          "index": 6,
+          "word": "Hard Boiled Eggs",
+          "subtext": "",
+          "zh": "水煮蛋",
+          "pic_crop_url": "data/cards/deck_44_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_44_card_06_word.jpg",
+          "pic_box_norm": [
+            539,
+            482,
+            736,
+            900
+          ],
+          "word_box_norm": [
+            525,
+            533,
+            694,
+            921
+          ]
+        },
+        {
+          "id": "deck_44_card_07",
+          "index": 7,
+          "word": "Scrambled Eggs",
+          "subtext": "",
+          "zh": "美式炒蛋",
+          "pic_crop_url": "data/cards/deck_44_card_07_pic.jpg",
+          "word_crop_url": "data/cards/deck_44_card_07_word.jpg",
+          "pic_box_norm": [
+            717,
+            18,
+            908,
+            451
+          ],
+          "word_box_norm": [
+            702,
+            36,
+            887,
+            459
+          ]
+        },
+        {
+          "id": "deck_44_card_08",
+          "index": 8,
+          "word": "Fried Egg",
+          "subtext": "",
+          "zh": "荷包蛋",
+          "pic_crop_url": "data/cards/deck_44_card_08_pic.jpg",
+          "word_crop_url": "data/cards/deck_44_card_08_word.jpg",
+          "pic_box_norm": [
+            707,
+            452,
+            938,
+            912
+          ],
+          "word_box_norm": [
+            713,
+            523,
+            902,
+            936
+          ]
+        }
+      ]
+    }
+  ]
+}

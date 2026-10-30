@@ -1,0 +1,4903 @@
+[
+  {
+    "cards": [
+      {
+        "pic_box": [
+          37,
+          5,
+          470,
+          474
+        ],
+        "subtext": "(Rescuer)",
+        "word": "Rescue Team",
+        "word_box": [
+          40,
+          17,
+          480,
+          496
+        ],
+        "zh": "搜救隊"
+      },
+      {
+        "pic_box": [
+          56,
+          499,
+          480,
+          960
+        ],
+        "subtext": "",
+        "word": "Rescue Dog",
+        "word_box": [
+          65,
+          526,
+          496,
+          996
+        ],
+        "zh": "搜救犬"
+      },
+      {
+        "pic_box": [
+          505,
+          0,
+          945,
+          471
+        ],
+        "subtext": "",
+        "word": "Fire Chief",
+        "word_box": [
+          497,
+          11,
+          934,
+          493
+        ],
+        "zh": "消防隊長"
+      },
+      {
+        "pic_box": [
+          503,
+          496,
+          943,
+          961
+        ],
+        "subtext": "(Firemen)",
+        "word": "Fireman",
+        "word_box": [
+          507,
+          523,
+          947,
+          997
+        ],
+        "zh": "消防員"
+      }
+    ],
+    "pair_num": 1,
+    "pic_file_id": "1OuxDAVVTiP9ZACsenzh14_ZYXbIF1I0J",
+    "topic_en": "Emergency & Rescue",
+    "topic_zh": "救援與消防",
+    "word_file_id": "1LYTwaW_8Qgv072Ju3vfxkRth6IqGgnut"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          16,
+          71,
+          232,
+          505
+        ],
+        "subtext": "",
+        "word": "Forensic Scientist",
+        "word_box": [
+          32,
+          14,
+          255,
+          474
+        ],
+        "zh": "法醫科學家"
+      },
+      {
+        "pic_box": [
+          21,
+          543,
+          235,
+          985
+        ],
+        "subtext": "(P.I. - Private Investigator)",
+        "word": "Detective",
+        "word_box": [
+          34,
+          507,
+          255,
+          970
+        ],
+        "zh": "偵探"
+      },
+      {
+        "pic_box": [
+          241,
+          54,
+          470,
+          502
+        ],
+        "subtext": "",
+        "word": "Biologist",
+        "word_box": [
+          274,
+          24,
+          495,
+          480
+        ],
+        "zh": "生物學家"
+      },
+      {
+        "pic_box": [
+          250,
+          531,
+          472,
+          968
+        ],
+        "subtext": "",
+        "word": "Scientist",
+        "word_box": [
+          273,
+          504,
+          494,
+          965
+        ],
+        "zh": "科學家"
+      },
+      {
+        "pic_box": [
+          488,
+          31,
+          720,
+          483
+        ],
+        "subtext": "",
+        "word": "Dental Assistant",
+        "word_box": [
+          509,
+          17,
+          732,
+          474
+        ],
+        "zh": "牙醫助理"
+      },
+      {
+        "pic_box": [
+          494,
+          521,
+          716,
+          959
+        ],
+        "subtext": "",
+        "word": "Dentist",
+        "word_box": [
+          506,
+          503,
+          728,
+          964
+        ],
+        "zh": "牙醫"
+      },
+      {
+        "pic_box": [
+          729,
+          5,
+          964,
+          458
+        ],
+        "subtext": "",
+        "word": "Coroner",
+        "word_box": [
+          740,
+          17,
+          971,
+          479
+        ],
+        "zh": "法醫 (驗屍官)"
+      },
+      {
+        "pic_box": [
+          742,
+          518,
+          971,
+          963
+        ],
+        "subtext": "",
+        "word": "Nurse",
+        "word_box": [
+          746,
+          507,
+          971,
+          967
+        ],
+        "zh": "護理師"
+      }
+    ],
+    "pair_num": 2,
+    "pic_file_id": "1mT0PNQ7KYdtHVTTR4l0uq2_XFvzSxxTv",
+    "topic_en": "Science & Medical Jobs",
+    "topic_zh": "科學與醫療職業",
+    "word_file_id": "1tnidVlylETFvwWwTClJxQhASre8XYrJZ"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          124,
+          98,
+          449,
+          905
+        ],
+        "subtext": "",
+        "word": "Colander",
+        "word_box": [
+          110,
+          101,
+          463,
+          963
+        ],
+        "zh": "濾水籃"
+      },
+      {
+        "pic_box": [
+          469,
+          86,
+          818,
+          916
+        ],
+        "subtext": "(Cooking... Baking... Kitchen...)",
+        "word": "Apron",
+        "word_box": [
+          484,
+          92,
+          853,
+          961
+        ],
+        "zh": "圍裙"
+      }
+    ],
+    "pair_num": 3,
+    "pic_file_id": "1EfNhMCs9mJ182pMEhu4BI7HM3vDyC0GV",
+    "topic_en": "Cooking & Kitchen Gear",
+    "topic_zh": "下廚與廚房用品",
+    "word_file_id": "1W3hiQXwvKZ7FaSW3YNrSakfWG5K1WIp5"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          238,
+          67,
+          522,
+          443
+        ],
+        "subtext": "",
+        "word": "Food Processor",
+        "word_box": [
+          199,
+          106,
+          472,
+          460
+        ],
+        "zh": "食物調理機"
+      },
+      {
+        "pic_box": [
+          295,
+          476,
+          501,
+          975
+        ],
+        "subtext": "",
+        "word": "Pasta Maker",
+        "word_box": [
+          276,
+          492,
+          473,
+          962
+        ],
+        "zh": "製麵機"
+      },
+      {
+        "pic_box": [
+          535,
+          0,
+          753,
+          465
+        ],
+        "subtext": "(Meat Temperature Gauge)",
+        "word": "Temperature Gauge",
+        "word_box": [
+          489,
+          2,
+          686,
+          479
+        ],
+        "zh": "料理溫度計"
+      },
+      {
+        "pic_box": [
+          531,
+          476,
+          747,
+          984
+        ],
+        "subtext": "(Salad Tongs)",
+        "word": "Tongs",
+        "word_box": [
+          488,
+          499,
+          683,
+          965
+        ],
+        "zh": "食物夾"
+      }
+    ],
+    "pair_num": 4,
+    "pic_file_id": "1CK_QrDgRkOuumf4GyCRUVxWWTevzH0Js",
+    "topic_en": "Kitchen Appliances & Tools",
+    "topic_zh": "廚房電器與工具",
+    "word_file_id": "1pq3spRRGcQtDxFqV7NrOVqDMjnn2rw4n"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          21,
+          23,
+          456,
+          502
+        ],
+        "subtext": "",
+        "word": "Chinese Bamboo Steamer",
+        "word_box": [
+          47,
+          17,
+          483,
+          517
+        ],
+        "zh": "中式竹蒸籠"
+      },
+      {
+        "pic_box": [
+          9,
+          529,
+          447,
+          1000
+        ],
+        "subtext": "",
+        "word": "Frying Pan",
+        "word_box": [
+          31,
+          535,
+          474,
+          1000
+        ],
+        "zh": "平底鍋"
+      },
+      {
+        "pic_box": [
+          489,
+          20,
+          967,
+          508
+        ],
+        "subtext": "",
+        "word": "Instant Noodles",
+        "word_box": [
+          508,
+          20,
+          974,
+          529
+        ],
+        "zh": "泡麵"
+      },
+      {
+        "pic_box": [
+          480,
+          533,
+          946,
+          1000
+        ],
+        "subtext": "",
+        "word": "Deep Frier",
+        "word_box": [
+          504,
+          542,
+          965,
+          1000
+        ],
+        "zh": "油炸鍋"
+      }
+    ],
+    "pair_num": 5,
+    "pic_file_id": "1ghelMe81Sr8rQ8LC7w0O2BzyiYeSVFZR",
+    "topic_en": "Cooking & Kitchenware",
+    "topic_zh": "烹飪與鍋具",
+    "word_file_id": "1PgcQ_t6WyyaFhP8ZvcM0kqiwJ3dbF4Dc"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          38,
+          20,
+          333,
+          470
+        ],
+        "subtext": "(baking paper)",
+        "word": "Confectioner's Paper",
+        "word_box": [
+          33,
+          20,
+          319,
+          472
+        ],
+        "zh": "烘焙紙"
+      },
+      {
+        "pic_box": [
+          2,
+          508,
+          317,
+          1000
+        ],
+        "subtext": "",
+        "word": "Pizza Pan",
+        "word_box": [
+          23,
+          501,
+          319,
+          986
+        ],
+        "zh": "披薩烤盤"
+      },
+      {
+        "pic_box": [
+          351,
+          24,
+          650,
+          483
+        ],
+        "subtext": "",
+        "word": "Rolling Pin",
+        "word_box": [
+          347,
+          14,
+          633,
+          474
+        ],
+        "zh": "擀麵棍"
+      },
+      {
+        "pic_box": [
+          328,
+          511,
+          646,
+          1000
+        ],
+        "subtext": "",
+        "word": "Cake Pan",
+        "word_box": [
+          345,
+          506,
+          646,
+          1000
+        ],
+        "zh": "蛋糕烤模"
+      },
+      {
+        "pic_box": [
+          666,
+          3,
+          995,
+          471
+        ],
+        "subtext": "(cookie sheet)",
+        "word": "Cookie Pan",
+        "word_box": [
+          666,
+          0,
+          980,
+          463
+        ],
+        "zh": "餅乾烤盤"
+      },
+      {
+        "pic_box": [
+          666,
+          504,
+          1000,
+          1000
+        ],
+        "subtext": "(Baking Timer)",
+        "word": "Cooking Timer",
+        "word_box": [
+          675,
+          505,
+          1000,
+          1000
+        ],
+        "zh": "廚房計時器"
+      }
+    ],
+    "pair_num": 6,
+    "pic_file_id": "1qoHl11TIAbb6lA8szQPrHS3ydoMW07lC",
+    "topic_en": "Baking Tools & Pans",
+    "topic_zh": "烘焙工具與烤盤",
+    "word_file_id": "14v-tM5gHzE7jbGYfKILXm0oyA8V7_tne"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          61,
+          29,
+          472,
+          506
+        ],
+        "subtext": "",
+        "word": "Salt & Pepper Shaker",
+        "word_box": [
+          77,
+          31,
+          474,
+          480
+        ],
+        "zh": "鹽與胡椒罐"
+      },
+      {
+        "pic_box": [
+          80,
+          554,
+          486,
+          1000
+        ],
+        "subtext": "",
+        "word": "Garlic Press",
+        "word_box": [
+          85,
+          518,
+          475,
+          967
+        ],
+        "zh": "壓蒜器"
+      },
+      {
+        "pic_box": [
+          532,
+          13,
+          954,
+          495
+        ],
+        "subtext": "(Dinner Rolls)",
+        "word": "Bread Basket",
+        "word_box": [
+          528,
+          36,
+          922,
+          480
+        ],
+        "zh": "麵包籃 (餐包)"
+      },
+      {
+        "pic_box": [
+          552,
+          543,
+          964,
+          1000
+        ],
+        "subtext": "",
+        "word": "Meat Tenderizer",
+        "word_box": [
+          530,
+          502,
+          935,
+          952
+        ],
+        "zh": "肉槌"
+      }
+    ],
+    "pair_num": 7,
+    "pic_file_id": "1-Mb98xQWVdJX5LyQNnCu-abaDXc5b5CL",
+    "topic_en": "Kitchen & Dining Tools",
+    "topic_zh": "餐桌與廚房工具",
+    "word_file_id": "1fyQ2s8YTvY9a9V6CIUnGZBr1RjM28CIj"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          19,
+          28,
+          328,
+          502
+        ],
+        "subtext": "(Spice rack)",
+        "word": "Spices",
+        "word_box": [
+          53,
+          16,
+          343,
+          497
+        ],
+        "zh": "香料 (香料架)"
+      },
+      {
+        "pic_box": [
+          31,
+          523,
+          333,
+          987
+        ],
+        "subtext": "(Paper napkin \"Dinner napkin\")",
+        "word": "Napkin",
+        "word_box": [
+          63,
+          518,
+          346,
+          987
+        ],
+        "zh": "餐巾 (紙餐巾)"
+      },
+      {
+        "pic_box": [
+          333,
+          25,
+          636,
+          497
+        ],
+        "subtext": "(dish Towel)",
+        "word": "Kitchen Towel",
+        "word_box": [
+          356,
+          12,
+          641,
+          494
+        ],
+        "zh": "廚房毛巾 (擦碗巾)"
+      },
+      {
+        "pic_box": [
+          338,
+          517,
+          639,
+          984
+        ],
+        "subtext": "",
+        "word": "Paper Towels",
+        "word_box": [
+          360,
+          513,
+          647,
+          988
+        ],
+        "zh": "廚房紙巾"
+      },
+      {
+        "pic_box": [
+          643,
+          25,
+          945,
+          496
+        ],
+        "subtext": "",
+        "word": "Corkscrew",
+        "word_box": [
+          658,
+          4,
+          945,
+          490
+        ],
+        "zh": "紅酒開瓶器"
+      },
+      {
+        "pic_box": [
+          653,
+          510,
+          956,
+          978
+        ],
+        "subtext": "",
+        "word": "Cork",
+        "word_box": [
+          662,
+          508,
+          954,
+          988
+        ],
+        "zh": "軟木塞"
+      }
+    ],
+    "pair_num": 8,
+    "pic_file_id": "1N2F-MKi3LQGGYWu1OyFUxRZSrM3GSujn",
+    "topic_en": "Kitchen Supplies & Towels",
+    "topic_zh": "廚房用品與紙巾",
+    "word_file_id": "1Bw-GKFXKz0Vt5ZOexPwIaRJPlx4ge14P"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          2,
+          22,
+          315,
+          501
+        ],
+        "subtext": "",
+        "word": "Motorcycle Cop",
+        "word_box": [
+          14,
+          51,
+          306,
+          503
+        ],
+        "zh": "機車警察"
+      },
+      {
+        "pic_box": [
+          14,
+          517,
+          322,
+          972
+        ],
+        "subtext": "(Chief of Police)",
+        "word": "Police Chief",
+        "word_box": [
+          20,
+          521,
+          309,
+          969
+        ],
+        "zh": "警察局長"
+      },
+      {
+        "pic_box": [
+          321,
+          9,
+          637,
+          495
+        ],
+        "subtext": "(Police)",
+        "word": "S.W.A.T.",
+        "word_box": [
+          336,
+          50,
+          634,
+          506
+        ],
+        "zh": "霹靂小組（特警隊）"
+      },
+      {
+        "pic_box": [
+          334,
+          513,
+          639,
+          972
+        ],
+        "subtext": "(policeman)",
+        "word": "Helicopter",
+        "word_box": [
+          341,
+          523,
+          638,
+          974
+        ],
+        "zh": "直升機警察"
+      },
+      {
+        "pic_box": [
+          658,
+          1,
+          993,
+          488
+        ],
+        "subtext": "(Policeman) (Policemen)",
+        "word": "Police",
+        "word_box": [
+          663,
+          41,
+          982,
+          505
+        ],
+        "zh": "警察"
+      },
+      {
+        "pic_box": [
+          660,
+          505,
+          989,
+          971
+        ],
+        "subtext": "",
+        "word": "Highway Patrolman",
+        "word_box": [
+          662,
+          517,
+          982,
+          973
+        ],
+        "zh": "國道警察（公路巡警）"
+      }
+    ],
+    "pair_num": 9,
+    "pic_file_id": "1oPwo6HTgfKkqaI_-9Pn1NMK-9GSwiEp6",
+    "topic_en": "Police Officers",
+    "topic_zh": "警察與執法人員",
+    "word_file_id": "1otTDdjgVv51RHcjVMVQRkaWYZQLJ_ZvT"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          7,
+          54,
+          178,
+          490
+        ],
+        "subtext": "",
+        "word": "Measuring Spoons",
+        "word_box": [
+          21,
+          50,
+          232,
+          523
+        ],
+        "zh": "量匙"
+      },
+      {
+        "pic_box": [
+          11,
+          488,
+          183,
+          929
+        ],
+        "subtext": "",
+        "word": "Electric Peeler",
+        "word_box": [
+          29,
+          509,
+          242,
+          996
+        ],
+        "zh": "電動削皮器"
+      },
+      {
+        "pic_box": [
+          178,
+          49,
+          356,
+          491
+        ],
+        "subtext": "",
+        "word": "Nut Cracker",
+        "word_box": [
+          230,
+          46,
+          430,
+          509
+        ],
+        "zh": "胡桃鉗（堅果夾）"
+      },
+      {
+        "pic_box": [
+          179,
+          500,
+          363,
+          946
+        ],
+        "subtext": "",
+        "word": "Measuring Cup",
+        "word_box": [
+          232,
+          505,
+          435,
+          972
+        ],
+        "zh": "量杯"
+      },
+      {
+        "pic_box": [
+          352,
+          41,
+          535,
+          487
+        ],
+        "subtext": "",
+        "word": "Knife Sharpener",
+        "word_box": [
+          427,
+          51,
+          616,
+          505
+        ],
+        "zh": "磨刀器"
+      },
+      {
+        "pic_box": [
+          359,
+          480,
+          546,
+          929
+        ],
+        "subtext": "",
+        "word": "Magnetic Knife Holder",
+        "word_box": [
+          431,
+          505,
+          626,
+          969
+        ],
+        "zh": "磁吸刀架"
+      },
+      {
+        "pic_box": [
+          531,
+          22,
+          723,
+          475
+        ],
+        "subtext": "",
+        "word": "Steak Knife",
+        "word_box": [
+          622,
+          53,
+          813,
+          506
+        ],
+        "zh": "牛排刀"
+      },
+      {
+        "pic_box": [
+          537,
+          473,
+          734,
+          929
+        ],
+        "subtext": "",
+        "word": "Chopsticks",
+        "word_box": [
+          622,
+          506,
+          819,
+          963
+        ],
+        "zh": "筷子"
+      },
+      {
+        "pic_box": [
+          725,
+          248,
+          926,
+          704
+        ],
+        "subtext": "",
+        "word": "Butter Knife",
+        "word_box": [
+          811,
+          264,
+          998,
+          702
+        ],
+        "zh": "奶油刀"
+      }
+    ],
+    "pair_num": 10,
+    "pic_file_id": "1XhFew1buqMZAfORWkSDxqf7aOZPWVl7B",
+    "topic_en": "Kitchen Utensils & Knives",
+    "topic_zh": "廚房用具與刀具",
+    "word_file_id": "10GJ0-kqo2Y4Kt63b48w29UrrDHllIwmI"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          0,
+          355,
+          291,
+          643
+        ],
+        "subtext": "",
+        "word": "Potato Peeler",
+        "word_box": [
+          10,
+          348,
+          297,
+          645
+        ],
+        "zh": "馬鈴薯削皮器"
+      },
+      {
+        "pic_box": [
+          334,
+          38,
+          645,
+          340
+        ],
+        "subtext": "(Salad Spoons)",
+        "word": "Salad Bowl",
+        "word_box": [
+          299,
+          30,
+          598,
+          336
+        ],
+        "zh": "沙拉碗（與沙拉匙）"
+      },
+      {
+        "pic_box": [
+          155,
+          663,
+          452,
+          955
+        ],
+        "subtext": "(Baking Whisk \"Egg Whisk\")",
+        "word": "Whisk",
+        "word_box": [
+          211,
+          668,
+          504,
+          974
+        ],
+        "zh": "打蛋器"
+      },
+      {
+        "pic_box": [
+          503,
+          662,
+          814,
+          959
+        ],
+        "subtext": "(Chopping Board)",
+        "word": "Cutting Board",
+        "word_box": [
+          555,
+          684,
+          849,
+          989
+        ],
+        "zh": "砧板（切菜板）"
+      },
+      {
+        "pic_box": [
+          678,
+          348,
+          1000,
+          650
+        ],
+        "subtext": "(potato masher)",
+        "word": "Masher",
+        "word_box": [
+          709,
+          348,
+          1000,
+          650
+        ],
+        "zh": "壓泥器（馬鈴薯壓泥器）"
+      }
+    ],
+    "pair_num": 11,
+    "pic_file_id": "1TXaYopcu8mfeNHLy9Vu0cXKdUk90Q9vc",
+    "topic_en": "Kitchen #1",
+    "topic_zh": "廚房用具 (一)",
+    "word_file_id": "13jNk9fep1Et2zMoyaO05tpuvaRDYQDin"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          10,
+          542,
+          326,
+          1000
+        ],
+        "subtext": "",
+        "word": "Can",
+        "word_box": [
+          36,
+          521,
+          331,
+          967
+        ],
+        "zh": "罐頭（鐵罐）"
+      },
+      {
+        "pic_box": [
+          336,
+          0,
+          650,
+          498
+        ],
+        "subtext": "",
+        "word": "Bottle Opener",
+        "word_box": [
+          353,
+          53,
+          652,
+          505
+        ],
+        "zh": "開瓶器"
+      },
+      {
+        "pic_box": [
+          334,
+          541,
+          643,
+          1000
+        ],
+        "subtext": "",
+        "word": "Pizza Cutter",
+        "word_box": [
+          351,
+          524,
+          650,
+          971
+        ],
+        "zh": "披薩刀（披薩滾輪刀）"
+      },
+      {
+        "pic_box": [
+          663,
+          0,
+          978,
+          505
+        ],
+        "subtext": "",
+        "word": "Bottle",
+        "word_box": [
+          664,
+          56,
+          962,
+          507
+        ],
+        "zh": "瓶子"
+      },
+      {
+        "pic_box": [
+          659,
+          547,
+          974,
+          1000
+        ],
+        "subtext": "",
+        "word": "Can Opener",
+        "word_box": [
+          661,
+          534,
+          958,
+          982
+        ],
+        "zh": "開罐器"
+      }
+    ],
+    "pair_num": 12,
+    "pic_file_id": "1AORu2mg6o7buPRJQZR8VPpwBNYLItmeu",
+    "topic_en": "Kitchen #1",
+    "topic_zh": "廚房用具 (一)",
+    "word_file_id": "1r4gAUbcc3XwSOYcXKu6-EMdBC0ut2McV"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          31,
+          0,
+          342,
+          464
+        ],
+        "subtext": "",
+        "word": "Bicep",
+        "word_box": [
+          45,
+          5,
+          340,
+          466
+        ],
+        "zh": "二頭肌"
+      },
+      {
+        "pic_box": [
+          46,
+          489,
+          344,
+          956
+        ],
+        "subtext": "(cast)",
+        "word": "Broken Arm",
+        "word_box": [
+          49,
+          493,
+          341,
+          962
+        ],
+        "zh": "手臂骨折"
+      },
+      {
+        "pic_box": [
+          365,
+          0,
+          655,
+          465
+        ],
+        "subtext": "(Backbone)",
+        "word": "Spine",
+        "word_box": [
+          366,
+          12,
+          650,
+          470
+        ],
+        "zh": "脊椎"
+      },
+      {
+        "pic_box": [
+          369,
+          493,
+          653,
+          951
+        ],
+        "subtext": "(Punk Hair)",
+        "word": "Mohawk",
+        "word_box": [
+          368,
+          494,
+          655,
+          954
+        ],
+        "zh": "莫霍克龐克頭"
+      },
+      {
+        "pic_box": [
+          673,
+          0,
+          968,
+          455
+        ],
+        "subtext": "",
+        "word": "Skeleton",
+        "word_box": [
+          676,
+          20,
+          972,
+          477
+        ],
+        "zh": "骨骼與骷髏"
+      }
+    ],
+    "pair_num": 13,
+    "pic_file_id": "1GeLM0aIF3n5vd1FNkhJpDIHQlbskEZig",
+    "topic_en": "Body & Bones",
+    "topic_zh": "身體與骨骼",
+    "word_file_id": "1aHB52dJ1N6uSYmqyQ2u9N9Sr0yxyJWeE"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          33,
+          13,
+          327,
+          472
+        ],
+        "subtext": "\"BO\" Body Odor",
+        "word": "Armpit",
+        "word_box": [
+          33,
+          44,
+          329,
+          502
+        ],
+        "zh": "腋下"
+      },
+      {
+        "pic_box": [
+          34,
+          530,
+          329,
+          990
+        ],
+        "subtext": "",
+        "word": "Neck",
+        "word_box": [
+          31,
+          532,
+          329,
+          991
+        ],
+        "zh": "脖子"
+      },
+      {
+        "pic_box": [
+          353,
+          21,
+          637,
+          475
+        ],
+        "subtext": "",
+        "word": "Thighs",
+        "word_box": [
+          348,
+          48,
+          637,
+          504
+        ],
+        "zh": "大腿"
+      },
+      {
+        "pic_box": [
+          349,
+          526,
+          637,
+          986
+        ],
+        "subtext": "\"Muscular\" (In Shape)",
+        "word": "Muscles",
+        "word_box": [
+          351,
+          529,
+          643,
+          986
+        ],
+        "zh": "肌肉"
+      },
+      {
+        "pic_box": [
+          673,
+          17,
+          963,
+          466
+        ],
+        "subtext": "(Pop a pimple)",
+        "word": "Pimple",
+        "word_box": [
+          662,
+          40,
+          965,
+          499
+        ],
+        "zh": "青春痘"
+      },
+      {
+        "pic_box": [
+          674,
+          526,
+          965,
+          979
+        ],
+        "subtext": "",
+        "word": "Calfs",
+        "word_box": [
+          663,
+          528,
+          971,
+          985
+        ],
+        "zh": "小腿肚"
+      }
+    ],
+    "pair_num": 14,
+    "pic_file_id": "19qjX1P0ch3wbLfDqofZYnm0bgY4v_Cmr",
+    "topic_en": "Body Parts & Muscles",
+    "topic_zh": "身體部位與肌肉",
+    "word_file_id": "1Rs6A02K-1B6kA0oyaCx-t2dqPwxZoaoc"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          36,
+          0,
+          338,
+          478
+        ],
+        "subtext": "",
+        "word": "Beef Stew",
+        "word_box": [
+          13,
+          47,
+          303,
+          491
+        ],
+        "zh": "燉牛肉"
+      },
+      {
+        "pic_box": [
+          35,
+          518,
+          327,
+          1000
+        ],
+        "subtext": "",
+        "word": "Roast Beef",
+        "word_box": [
+          23,
+          527,
+          309,
+          959
+        ],
+        "zh": "烤牛肉"
+      },
+      {
+        "pic_box": [
+          372,
+          4,
+          657,
+          487
+        ],
+        "subtext": "(Texas)",
+        "word": "Smoked Brisket",
+        "word_box": [
+          334,
+          49,
+          620,
+          489
+        ],
+        "zh": "煙燻牛胸肉"
+      },
+      {
+        "pic_box": [
+          359,
+          517,
+          645,
+          997
+        ],
+        "subtext": "(Grilled)",
+        "word": "Sauteed Carrots",
+        "word_box": [
+          341,
+          526,
+          626,
+          963
+        ],
+        "zh": "香煎紅蘿蔔"
+      },
+      {
+        "pic_box": [
+          684,
+          513,
+          978,
+          987
+        ],
+        "subtext": "(Chilli Beans) (Chilli Con Carne)",
+        "word": "Chilli",
+        "word_box": [
+          663,
+          522,
+          967,
+          965
+        ],
+        "zh": "辣味肉醬豆"
+      }
+    ],
+    "pair_num": 15,
+    "pic_file_id": "1k0VwDPxUCspdaQurJcUorQeg_P1g95qu",
+    "topic_en": "Beef Dishes & Sides",
+    "topic_zh": "牛肉料理與配菜",
+    "word_file_id": "19-4RSiQWeo8sHXdIf4h3ZXsvR3F4fWAh"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          28,
+          4,
+          302,
+          517
+        ],
+        "subtext": "",
+        "word": "Corn Beef Sandwich",
+        "word_box": [
+          45,
+          20,
+          303,
+          481
+        ],
+        "zh": "鹹牛肉三明治"
+      },
+      {
+        "pic_box": [
+          33,
+          530,
+          306,
+          1000
+        ],
+        "subtext": "",
+        "word": "Pastrami Sandwich",
+        "word_box": [
+          51,
+          509,
+          310,
+          967
+        ],
+        "zh": "煙燻鹹牛肉三明治"
+      },
+      {
+        "pic_box": [
+          325,
+          143,
+          684,
+          512
+        ],
+        "subtext": "(Sauerkraut)",
+        "word": "Reuben Sandwich",
+        "word_box": [
+          318,
+          137,
+          673,
+          479
+        ],
+        "zh": "魯賓三明治"
+      },
+      {
+        "pic_box": [
+          328,
+          533,
+          682,
+          894
+        ],
+        "subtext": "(Sandwich)",
+        "word": "French Dip",
+        "word_box": [
+          318,
+          508,
+          672,
+          845
+        ],
+        "zh": "法式沾汁牛肉三明治"
+      },
+      {
+        "pic_box": [
+          696,
+          255,
+          964,
+          755
+        ],
+        "subtext": "",
+        "word": "Philly Cheese Steak",
+        "word_box": [
+          693,
+          250,
+          968,
+          728
+        ],
+        "zh": "費城起司牛肉堡"
+      }
+    ],
+    "pair_num": 16,
+    "pic_file_id": "1WyV2WsZ4WVAgwfUyNlbsMUjRFMPfBx8b",
+    "topic_en": "Deli Beef Sandwiches",
+    "topic_zh": "經典牛肉三明治",
+    "word_file_id": "16PEefwF3o53p_zLY81hb3CdlKD1IgIxN"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          14,
+          0,
+          329,
+          493
+        ],
+        "subtext": "",
+        "word": "Nachos",
+        "word_box": [
+          21,
+          15,
+          310,
+          466
+        ],
+        "zh": "墨西哥玉米片"
+      },
+      {
+        "pic_box": [
+          30,
+          513,
+          336,
+          1000
+        ],
+        "subtext": "",
+        "word": "Spanish Rice",
+        "word_box": [
+          26,
+          513,
+          313,
+          972
+        ],
+        "zh": "西班牙風味飯"
+      },
+      {
+        "pic_box": [
+          333,
+          0,
+          639,
+          483
+        ],
+        "subtext": "",
+        "word": "Enchiladas",
+        "word_box": [
+          354,
+          17,
+          632,
+          463
+        ],
+        "zh": "安琪拉達捲餅"
+      },
+      {
+        "pic_box": [
+          350,
+          501,
+          653,
+          1000
+        ],
+        "subtext": "",
+        "word": "Refried Beans",
+        "word_box": [
+          348,
+          520,
+          628,
+          976
+        ],
+        "zh": "墨西哥炸豆泥"
+      },
+      {
+        "pic_box": [
+          646,
+          0,
+          960,
+          463
+        ],
+        "subtext": "",
+        "word": "Jalapeno Poppers",
+        "word_box": [
+          675,
+          23,
+          966,
+          471
+        ],
+        "zh": "炸起司墨西哥辣椒"
+      },
+      {
+        "pic_box": [
+          664,
+          501,
+          973,
+          1000
+        ],
+        "subtext": "(Meat Burrito)",
+        "word": "Beef Burrito",
+        "word_box": [
+          670,
+          516,
+          965,
+          972
+        ],
+        "zh": "牛肉墨西哥捲餅"
+      }
+    ],
+    "pair_num": 17,
+    "pic_file_id": "1PXGu4v2nVX6YfRDZs_QmM-aDzfYNxUNE",
+    "topic_en": "Mexican Food #1",
+    "topic_zh": "墨西哥料理 (一)",
+    "word_file_id": "1wSa5yCA77UaIGGdGKWg32FijRHS10FB4"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          11,
+          26,
+          226,
+          451
+        ],
+        "subtext": "",
+        "word": "Taco Salad",
+        "word_box": [
+          31,
+          59,
+          255,
+          511
+        ],
+        "zh": "塔可沙拉"
+      },
+      {
+        "pic_box": [
+          16,
+          533,
+          228,
+          948
+        ],
+        "subtext": "",
+        "word": "Tostada",
+        "word_box": [
+          34,
+          545,
+          261,
+          995
+        ],
+        "zh": "墨西哥烤玉米餅"
+      },
+      {
+        "pic_box": [
+          261,
+          30,
+          472,
+          453
+        ],
+        "subtext": "(Soft Shell Taco)",
+        "word": "Fish Taco",
+        "word_box": [
+          277,
+          52,
+          498,
+          507
+        ],
+        "zh": "魚肉塔可餅"
+      },
+      {
+        "pic_box": [
+          263,
+          536,
+          472,
+          954
+        ],
+        "subtext": "\"Beef Taco\" (Crispy Shelled Taco)",
+        "word": "Taco",
+        "word_box": [
+          281,
+          542,
+          500,
+          990
+        ],
+        "zh": "牛肉脆皮塔可餅"
+      },
+      {
+        "pic_box": [
+          503,
+          19,
+          725,
+          449
+        ],
+        "subtext": "",
+        "word": "Burrito",
+        "word_box": [
+          515,
+          40,
+          742,
+          498
+        ],
+        "zh": "墨西哥捲餅"
+      },
+      {
+        "pic_box": [
+          506,
+          525,
+          720,
+          944
+        ],
+        "subtext": "",
+        "word": "Cheese Quesadilla",
+        "word_box": [
+          514,
+          537,
+          739,
+          986
+        ],
+        "zh": "起司墨西哥餡餅"
+      },
+      {
+        "pic_box": [
+          753,
+          20,
+          979,
+          446
+        ],
+        "subtext": "",
+        "word": "Bean Burrito",
+        "word_box": [
+          763,
+          34,
+          997,
+          499
+        ],
+        "zh": "豆泥墨西哥捲餅"
+      }
+    ],
+    "pair_num": 18,
+    "pic_file_id": "1WXv2C4q_1XxM7L98SgyEUXI3wqLhZyBX",
+    "topic_en": "Tacos & Burritos",
+    "topic_zh": "塔可與墨西哥捲餅",
+    "word_file_id": "1no2Xg6y44oUYmsgQjASP-KzrPC2x6TxS"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          92,
+          23,
+          361,
+          482
+        ],
+        "subtext": "",
+        "word": "Freckles",
+        "word_box": [
+          59,
+          61,
+          333,
+          501
+        ],
+        "zh": "雀斑"
+      },
+      {
+        "pic_box": [
+          93,
+          513,
+          367,
+          969
+        ],
+        "subtext": "",
+        "word": "Toothless",
+        "word_box": [
+          73,
+          523,
+          350,
+          965
+        ],
+        "zh": "沒牙齒的"
+      },
+      {
+        "pic_box": [
+          382,
+          37,
+          653,
+          493
+        ],
+        "subtext": "",
+        "word": "Mouth",
+        "word_box": [
+          368,
+          54,
+          638,
+          491
+        ],
+        "zh": "嘴巴"
+      },
+      {
+        "pic_box": [
+          382,
+          529,
+          649,
+          977
+        ],
+        "subtext": "(Sore Throat)",
+        "word": "Throat",
+        "word_box": [
+          377,
+          518,
+          644,
+          952
+        ],
+        "zh": "喉嚨"
+      },
+      {
+        "pic_box": [
+          672,
+          28,
+          954,
+          489
+        ],
+        "subtext": "",
+        "word": "Tears",
+        "word_box": [
+          658,
+          46,
+          936,
+          482
+        ],
+        "zh": "眼淚"
+      },
+      {
+        "pic_box": [
+          671,
+          535,
+          951,
+          991
+        ],
+        "subtext": "(Human Bones) (Wish Bone)",
+        "word": "Bones",
+        "word_box": [
+          660,
+          516,
+          944,
+          953
+        ],
+        "zh": "骨頭"
+      }
+    ],
+    "pair_num": 19,
+    "pic_file_id": "1Faq4wy6a2RK_YzAD9K9TSOOhxXn3u1-O",
+    "topic_en": "Body & Face Features",
+    "topic_zh": "身體與臉部特徵",
+    "word_file_id": "1c8DOxeCVktMhZ7m3VwrmhXj79Ogbycly"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          34,
+          4,
+          325,
+          477
+        ],
+        "subtext": "",
+        "word": "Italian Submarine Sandwich",
+        "word_box": [
+          19,
+          54,
+          329,
+          508
+        ],
+        "zh": "義式潛艇堡"
+      },
+      {
+        "pic_box": [
+          37,
+          523,
+          332,
+          997
+        ],
+        "subtext": "",
+        "word": "Sub Sandwich",
+        "word_box": [
+          26,
+          520,
+          336,
+          976
+        ],
+        "zh": "潛艇堡三明治"
+      },
+      {
+        "pic_box": [
+          360,
+          18,
+          657,
+          499
+        ],
+        "subtext": "",
+        "word": "Philly Cheese Steak",
+        "word_box": [
+          344,
+          47,
+          648,
+          506
+        ],
+        "zh": "費城起司牛肉堡"
+      },
+      {
+        "pic_box": [
+          370,
+          528,
+          663,
+          1000
+        ],
+        "subtext": "",
+        "word": "Chicken Salad Melt",
+        "word_box": [
+          349,
+          514,
+          657,
+          973
+        ],
+        "zh": "起司烤雞肉沙拉三明治"
+      },
+      {
+        "pic_box": [
+          681,
+          19,
+          974,
+          495
+        ],
+        "subtext": "",
+        "word": "Taiwanese Pork Burger",
+        "word_box": [
+          669,
+          42,
+          977,
+          500
+        ],
+        "zh": "台式豬肉漢堡"
+      }
+    ],
+    "pair_num": 20,
+    "pic_file_id": "1QLaOGUZaua7wGq5Qbgg8_Y8bEBdsRW2_",
+    "topic_en": "Sub Sandwiches & Burgers",
+    "topic_zh": "潛艇堡與三明治",
+    "word_file_id": "12IbGm7f-YvPqGhV7bkjpdP1VIt0WwqLN"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          23,
+          0,
+          424,
+          515
+        ],
+        "subtext": "",
+        "word": "Roast Chicken",
+        "word_box": [
+          109,
+          0,
+          456,
+          480
+        ],
+        "zh": "烤全雞"
+      },
+      {
+        "pic_box": [
+          30,
+          555,
+          400,
+          1000
+        ],
+        "subtext": "(Turkey Stuffing)",
+        "word": "Roast Turkey",
+        "word_box": [
+          110,
+          535,
+          461,
+          1000
+        ],
+        "zh": "烤火雞 (火雞填料)"
+      },
+      {
+        "pic_box": [
+          522,
+          6,
+          900,
+          506
+        ],
+        "subtext": "",
+        "word": "Gravy",
+        "word_box": [
+          546,
+          15,
+          900,
+          502
+        ],
+        "zh": "肉汁醬"
+      },
+      {
+        "pic_box": [
+          464,
+          618,
+          969,
+          978
+        ],
+        "subtext": "[Shrimp Cocktail Sauce]",
+        "word": "Jumbo Shrimp Cocktail",
+        "word_box": [
+          499,
+          561,
+          981,
+          919
+        ],
+        "zh": "雞尾酒大蝦"
+      }
+    ],
+    "pair_num": 21,
+    "pic_file_id": "1eAh0wCGIamWseUfGCba5FGdLpIJGRf39",
+    "topic_en": "Holiday Feast & Roasts",
+    "topic_zh": "節慶大餐與烤肉",
+    "word_file_id": "1MqVcdfAwOS-1wSYGKeVvqw0Wlf5yRG9i"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          33,
+          3,
+          324,
+          477
+        ],
+        "subtext": "",
+        "word": "Italian Submarine Sandwich",
+        "word_box": [
+          18,
+          54,
+          329,
+          507
+        ],
+        "zh": "義式潛艇堡"
+      },
+      {
+        "pic_box": [
+          37,
+          523,
+          331,
+          997
+        ],
+        "subtext": "",
+        "word": "Sub Sandwich",
+        "word_box": [
+          25,
+          520,
+          336,
+          976
+        ],
+        "zh": "潛艇堡三明治"
+      },
+      {
+        "pic_box": [
+          359,
+          18,
+          658,
+          499
+        ],
+        "subtext": "",
+        "word": "Philly Cheese Steak",
+        "word_box": [
+          343,
+          47,
+          650,
+          505
+        ],
+        "zh": "費城起司牛肉堡"
+      },
+      {
+        "pic_box": [
+          369,
+          528,
+          665,
+          1000
+        ],
+        "subtext": "",
+        "word": "Chicken Salad Melt",
+        "word_box": [
+          348,
+          514,
+          659,
+          973
+        ],
+        "zh": "融化起司雞肉沙拉三明治"
+      },
+      {
+        "pic_box": [
+          681,
+          19,
+          987,
+          495
+        ],
+        "subtext": "",
+        "word": "Taiwanese Pork Burger",
+        "word_box": [
+          671,
+          42,
+          990,
+          500
+        ],
+        "zh": "台式豬肉漢堡"
+      }
+    ],
+    "pair_num": 22,
+    "pic_file_id": "10GfnTUvxd4r21Nd4uTbXjnt8dsT4mqUx",
+    "topic_en": "Sub Sandwiches & Burgers",
+    "topic_zh": "潛艇堡與三明治",
+    "word_file_id": "11X3mUFucu8eyOwrNyvCwXGdadoEvqrwQ"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          70,
+          39,
+          507,
+          492
+        ],
+        "subtext": "",
+        "word": "Eyebrows",
+        "word_box": [
+          56,
+          56,
+          511,
+          495
+        ],
+        "zh": "眉毛"
+      },
+      {
+        "pic_box": [
+          66,
+          512,
+          498,
+          962
+        ],
+        "subtext": "",
+        "word": "Forehead",
+        "word_box": [
+          48,
+          512,
+          495,
+          950
+        ],
+        "zh": "額頭"
+      },
+      {
+        "pic_box": [
+          531,
+          24,
+          997,
+          487
+        ],
+        "subtext": "",
+        "word": "Eyelashes",
+        "word_box": [
+          527,
+          53,
+          996,
+          492
+        ],
+        "zh": "睫毛"
+      },
+      {
+        "pic_box": [
+          531,
+          509,
+          997,
+          975
+        ],
+        "subtext": "",
+        "word": "Head",
+        "word_box": [
+          525,
+          512,
+          997,
+          954
+        ],
+        "zh": "頭"
+      }
+    ],
+    "pair_num": 23,
+    "pic_file_id": "15R8KAAzH3aoCIVadeSxsT4h2gZ0LhSlN",
+    "topic_en": "Head & Face Parts",
+    "topic_zh": "頭部與臉部部位",
+    "word_file_id": "1P9ErYJFIxuiuWbXb5p3BESBp64QXPBPv"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          0,
+          5,
+          474,
+          487
+        ],
+        "subtext": "",
+        "word": "Baked Chicken",
+        "word_box": [
+          0,
+          0,
+          481,
+          489
+        ],
+        "zh": "烘烤雞肉"
+      },
+      {
+        "pic_box": [
+          2,
+          525,
+          480,
+          1000
+        ],
+        "subtext": "[Barbecue Chicken]",
+        "word": "BBQ Chicken",
+        "word_box": [
+          0,
+          523,
+          477,
+          1000
+        ],
+        "zh": "BBQ烤雞"
+      },
+      {
+        "pic_box": [
+          514,
+          2,
+          1000,
+          494
+        ],
+        "subtext": "",
+        "word": "Meatloaf",
+        "word_box": [
+          516,
+          0,
+          1000,
+          495
+        ],
+        "zh": "美式漢堡肉排"
+      },
+      {
+        "pic_box": [
+          525,
+          523,
+          1000,
+          1000
+        ],
+        "subtext": "[Barbecue Pork Ribs]",
+        "word": "BBQ Ribs",
+        "word_box": [
+          520,
+          524,
+          1000,
+          1000
+        ],
+        "zh": "美式烤豬肋排"
+      }
+    ],
+    "pair_num": 24,
+    "pic_file_id": "1tmJ2CBgOW1M68FavCY6Xs-vbZg2pt7kG",
+    "topic_en": "Barbecue & Meat Dishes",
+    "topic_zh": "燒烤與肉類料理",
+    "word_file_id": "1yh-HhhnrD7ep52QI_JTOOCqCIUvbYa3D"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          190,
+          23,
+          383,
+          488
+        ],
+        "subtext": "",
+        "word": "Blood",
+        "word_box": [
+          221,
+          6,
+          420,
+          477
+        ],
+        "zh": "血液"
+      },
+      {
+        "pic_box": [
+          196,
+          537,
+          384,
+          991
+        ],
+        "subtext": "",
+        "word": "Bloodshot Eyes",
+        "word_box": [
+          228,
+          508,
+          418,
+          963
+        ],
+        "zh": "充血的眼睛"
+      },
+      {
+        "pic_box": [
+          409,
+          34,
+          602,
+          499
+        ],
+        "subtext": "",
+        "word": "Black-Eye",
+        "word_box": [
+          433,
+          4,
+          626,
+          472
+        ],
+        "zh": "黑眼圈 (眼睛瘀青)"
+      },
+      {
+        "pic_box": [
+          410,
+          536,
+          597,
+          993
+        ],
+        "subtext": "(Her eyes are hazel)",
+        "word": "Eyes",
+        "word_box": [
+          433,
+          500,
+          626,
+          959
+        ],
+        "zh": "眼睛"
+      },
+      {
+        "pic_box": [
+          620,
+          268,
+          822,
+          737
+        ],
+        "subtext": "",
+        "word": "Eyeball",
+        "word_box": [
+          653,
+          245,
+          862,
+          720
+        ],
+        "zh": "眼球"
+      }
+    ],
+    "pair_num": 25,
+    "pic_file_id": "1E5m_cYOVA8D9FuKXEC65m3ZvfKE_6o6J",
+    "topic_en": "Eyes & Blood",
+    "topic_zh": "眼睛與血液",
+    "word_file_id": "1zjul34H_jtzUV4CwIRPpEeaAlP_W5bx2"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          22,
+          7,
+          294,
+          464
+        ],
+        "subtext": "(Grilled)",
+        "word": "T-Bone Steak",
+        "word_box": [
+          18,
+          41,
+          298,
+          472
+        ],
+        "zh": "丁骨牛排"
+      },
+      {
+        "pic_box": [
+          42,
+          545,
+          304,
+          975
+        ],
+        "subtext": "(Grilled)",
+        "word": "Sirloin Steak",
+        "word_box": [
+          28,
+          541,
+          306,
+          971
+        ],
+        "zh": "沙朗牛排"
+      },
+      {
+        "pic_box": [
+          356,
+          0,
+          622,
+          448
+        ],
+        "subtext": "(Filet)",
+        "word": "Grilled Chicken Breast",
+        "word_box": [
+          361,
+          33,
+          630,
+          458
+        ],
+        "zh": "烤雞胸肉"
+      },
+      {
+        "pic_box": [
+          371,
+          558,
+          631,
+          991
+        ],
+        "subtext": "",
+        "word": "Filet Mignon Steak",
+        "word_box": [
+          365,
+          542,
+          633,
+          965
+        ],
+        "zh": "菲力牛排"
+      },
+      {
+        "pic_box": [
+          704,
+          0,
+          989,
+          458
+        ],
+        "subtext": "(Grilled)",
+        "word": "Pork Chops",
+        "word_box": [
+          702,
+          24,
+          988,
+          455
+        ],
+        "zh": "烤豬排"
+      },
+      {
+        "pic_box": [
+          696,
+          548,
+          978,
+          995
+        ],
+        "subtext": "(Lobster and Steak)",
+        "word": "Turf and Surf",
+        "word_box": [
+          707,
+          532,
+          993,
+          960
+        ],
+        "zh": "海陸大餐"
+      }
+    ],
+    "pair_num": 26,
+    "pic_file_id": "1Tuok8jIlnmU5eqSllwRUTK4sSM-UlaQM",
+    "topic_en": "Steaks & Grilled Meats",
+    "topic_zh": "牛排與燒烤肉類",
+    "word_file_id": "1LL37m3JgB1saBo0gUyulumIn7JOqXiNY"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          46,
+          16,
+          230,
+          310
+        ],
+        "subtext": "",
+        "word": "Face",
+        "word_box": [
+          60,
+          8,
+          256,
+          305
+        ],
+        "zh": "臉"
+      },
+      {
+        "pic_box": [
+          41,
+          371,
+          226,
+          667
+        ],
+        "subtext": "",
+        "word": "Albino",
+        "word_box": [
+          53,
+          356,
+          253,
+          657
+        ],
+        "zh": "白化症者"
+      },
+      {
+        "pic_box": [
+          35,
+          714,
+          222,
+          1000
+        ],
+        "subtext": "(Straight hair)",
+        "word": "Long Hair",
+        "word_box": [
+          48,
+          696,
+          251,
+          999
+        ],
+        "zh": "長髮"
+      },
+      {
+        "pic_box": [
+          274,
+          14,
+          468,
+          318
+        ],
+        "subtext": "(3-Day Beard)",
+        "word": "Facial Stubble",
+        "word_box": [
+          282,
+          12,
+          480,
+          313
+        ],
+        "zh": "鬍渣"
+      },
+      {
+        "pic_box": [
+          268,
+          370,
+          458,
+          670
+        ],
+        "subtext": "",
+        "word": "Mustache",
+        "word_box": [
+          283,
+          353,
+          482,
+          652
+        ],
+        "zh": "八字鬍 (上唇鬍)"
+      },
+      {
+        "pic_box": [
+          266,
+          726,
+          455,
+          1000
+        ],
+        "subtext": "",
+        "word": "Beard",
+        "word_box": [
+          273,
+          697,
+          473,
+          1000
+        ],
+        "zh": "絡腮鬍 (大鬍子)"
+      },
+      {
+        "pic_box": [
+          490,
+          15,
+          689,
+          321
+        ],
+        "subtext": "",
+        "word": "Goatee",
+        "word_box": [
+          515,
+          20,
+          716,
+          320
+        ],
+        "zh": "山羊鬍"
+      },
+      {
+        "pic_box": [
+          478,
+          372,
+          677,
+          678
+        ],
+        "subtext": "",
+        "word": "Side Burns",
+        "word_box": [
+          513,
+          351,
+          712,
+          650
+        ],
+        "zh": "鬢角"
+      },
+      {
+        "pic_box": [
+          483,
+          719,
+          680,
+          1000
+        ],
+        "subtext": "",
+        "word": "Pregnant",
+        "word_box": [
+          511,
+          696,
+          713,
+          1000
+        ],
+        "zh": "懷孕的"
+      },
+      {
+        "pic_box": [
+          714,
+          0,
+          929,
+          309
+        ],
+        "subtext": "",
+        "word": "Intestines",
+        "word_box": [
+          740,
+          18,
+          949,
+          319
+        ],
+        "zh": "腸子"
+      }
+    ],
+    "pair_num": 27,
+    "pic_file_id": "1Yvr_-M7fBjA1OkZcvlAQ5yGoIKSkhqbK",
+    "topic_en": "Facial Hair & Body Features",
+    "topic_zh": "臉部毛髮與身體特徵",
+    "word_file_id": "1zrlSKL8YOSVRV7gtx8dbg5RRGBR4lRtG"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          50,
+          0,
+          308,
+          502
+        ],
+        "subtext": "",
+        "word": "Waist",
+        "word_box": [
+          89,
+          92,
+          347,
+          527
+        ],
+        "zh": "腰部"
+      },
+      {
+        "pic_box": [
+          52,
+          559,
+          311,
+          1000
+        ],
+        "subtext": "",
+        "word": "Heart",
+        "word_box": [
+          104,
+          551,
+          355,
+          974
+        ],
+        "zh": "心臟"
+      },
+      {
+        "pic_box": [
+          350,
+          0,
+          620,
+          512
+        ],
+        "subtext": "(breathing)",
+        "word": "Lungs",
+        "word_box": [
+          372,
+          63,
+          641,
+          514
+        ],
+        "zh": "肺臟"
+      },
+      {
+        "pic_box": [
+          346,
+          551,
+          608,
+          1000
+        ],
+        "subtext": "(sweaty) (\"No\" sweat)",
+        "word": "Sweat",
+        "word_box": [
+          376,
+          547,
+          651,
+          988
+        ],
+        "zh": "汗水"
+      },
+      {
+        "pic_box": [
+          656,
+          0,
+          952,
+          522
+        ],
+        "subtext": "",
+        "word": "Wrinkles",
+        "word_box": [
+          678,
+          40,
+          976,
+          512
+        ],
+        "zh": "皺紋"
+      }
+    ],
+    "pair_num": 28,
+    "pic_file_id": "1f-i9qpn67OEDNco0J30QuXOqQ_9eT79m",
+    "topic_en": "Body Parts & Organs",
+    "topic_zh": "身體部位與器官",
+    "word_file_id": "1nqjw2JCJfCbWnZjz04-rN9YPD9-a2_nz"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          48,
+          28,
+          306,
+          480
+        ],
+        "subtext": "",
+        "word": "Pomegranate",
+        "word_box": [
+          67,
+          21,
+          313,
+          464
+        ],
+        "zh": "石榴"
+      },
+      {
+        "pic_box": [
+          51,
+          549,
+          313,
+          996
+        ],
+        "subtext": "",
+        "word": "Date",
+        "word_box": [
+          65,
+          528,
+          316,
+          965
+        ],
+        "zh": "椰棗"
+      },
+      {
+        "pic_box": [
+          360,
+          35,
+          610,
+          485
+        ],
+        "subtext": "",
+        "word": "Avocado",
+        "word_box": [
+          367,
+          27,
+          614,
+          467
+        ],
+        "zh": "酪梨"
+      },
+      {
+        "pic_box": [
+          353,
+          545,
+          608,
+          995
+        ],
+        "subtext": "",
+        "word": "Persimmon",
+        "word_box": [
+          372,
+          526,
+          613,
+          958
+        ],
+        "zh": "柿子"
+      },
+      {
+        "pic_box": [
+          667,
+          36,
+          932,
+          486
+        ],
+        "subtext": "",
+        "word": "Pear",
+        "word_box": [
+          677,
+          21,
+          934,
+          462
+        ],
+        "zh": "西洋梨"
+      },
+      {
+        "pic_box": [
+          668,
+          538,
+          936,
+          988
+        ],
+        "subtext": "",
+        "word": "Apricot",
+        "word_box": [
+          673,
+          517,
+          926,
+          951
+        ],
+        "zh": "杏桃"
+      }
+    ],
+    "pair_num": 29,
+    "pic_file_id": "1BMQq3bh57WWvZGRro0jT4lm-6KmULjpk",
+    "topic_en": "Fruits",
+    "topic_zh": "常見水果",
+    "word_file_id": "1CKzxOku61KB2X1kadbRPH41eYxxPKxI9"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          13,
+          22,
+          310,
+          495
+        ],
+        "subtext": "",
+        "word": "Cranberry",
+        "word_box": [
+          7,
+          0,
+          311,
+          502
+        ],
+        "zh": "蔓越莓"
+      },
+      {
+        "pic_box": [
+          15,
+          548,
+          308,
+          1000
+        ],
+        "subtext": "",
+        "word": "Blueberry",
+        "word_box": [
+          15,
+          538,
+          312,
+          1000
+        ],
+        "zh": "藍莓"
+      },
+      {
+        "pic_box": [
+          344,
+          8,
+          628,
+          478
+        ],
+        "subtext": "",
+        "word": "Blackberry",
+        "word_box": [
+          342,
+          2,
+          643,
+          498
+        ],
+        "zh": "黑莓"
+      },
+      {
+        "pic_box": [
+          350,
+          546,
+          622,
+          998
+        ],
+        "subtext": "",
+        "word": "Boysenberry",
+        "word_box": [
+          347,
+          532,
+          646,
+          1000
+        ],
+        "zh": "波森莓"
+      },
+      {
+        "pic_box": [
+          670,
+          9,
+          956,
+          480
+        ],
+        "subtext": "",
+        "word": "Mulberry",
+        "word_box": [
+          673,
+          0,
+          970,
+          500
+        ],
+        "zh": "桑椹"
+      },
+      {
+        "pic_box": [
+          677,
+          531,
+          962,
+          989
+        ],
+        "subtext": "",
+        "word": "Raspberry",
+        "word_box": [
+          677,
+          531,
+          972,
+          1000
+        ],
+        "zh": "覆盆子"
+      }
+    ],
+    "pair_num": 30,
+    "pic_file_id": "1vzDGWkr8He1K09CwOPpfTGOP2fvo3qWQ",
+    "topic_en": "Berries",
+    "topic_zh": "莓果類",
+    "word_file_id": "1nMtpSg8utPt8RJY04B-xJeDjf0J3_msi"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          92,
+          0,
+          297,
+          435
+        ],
+        "subtext": "",
+        "word": "Legs",
+        "word_box": [
+          1,
+          52,
+          289,
+          483
+        ],
+        "zh": "腿"
+      },
+      {
+        "pic_box": [
+          101,
+          519,
+          304,
+          995
+        ],
+        "subtext": "",
+        "word": "Veins",
+        "word_box": [
+          22,
+          554,
+          311,
+          983
+        ],
+        "zh": "靜脈"
+      },
+      {
+        "pic_box": [
+          344,
+          0,
+          543,
+          447
+        ],
+        "subtext": "(Strong Arms / Weak Arms)",
+        "word": "Arms",
+        "word_box": [
+          363,
+          53,
+          637,
+          483
+        ],
+        "zh": "手臂"
+      },
+      {
+        "pic_box": [
+          341,
+          517,
+          539,
+          991
+        ],
+        "subtext": "",
+        "word": "Shoulder",
+        "word_box": [
+          355,
+          530,
+          632,
+          956
+        ],
+        "zh": "肩膀"
+      },
+      {
+        "pic_box": [
+          585,
+          0,
+          790,
+          440
+        ],
+        "subtext": "(upper/lower) \"Lats\"",
+        "word": "Back",
+        "word_box": [
+          706,
+          65,
+          988,
+          493
+        ],
+        "zh": "背部"
+      },
+      {
+        "pic_box": [
+          592,
+          510,
+          805,
+          996
+        ],
+        "subtext": "(Fist)",
+        "word": "Forearm",
+        "word_box": [
+          695,
+          554,
+          977,
+          972
+        ],
+        "zh": "前臂"
+      }
+    ],
+    "pair_num": 31,
+    "pic_file_id": "1AllE_lRXx0qedea_h6BB0lWvCl8hUA-v",
+    "topic_en": "Body Parts & Muscles",
+    "topic_zh": "身體部位與肌肉",
+    "word_file_id": "1wgEG9e6oTQdtR6cp7z1IzjjmnbdMPB_r"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          28,
+          163,
+          314,
+          391
+        ],
+        "subtext": "",
+        "word": "Fingers",
+        "word_box": [
+          0,
+          187,
+          284,
+          411
+        ],
+        "zh": "手指"
+      },
+      {
+        "pic_box": [
+          37,
+          412,
+          315,
+          631
+        ],
+        "subtext": "",
+        "word": "Hands",
+        "word_box": [
+          5,
+          430,
+          284,
+          645
+        ],
+        "zh": "雙手"
+      },
+      {
+        "pic_box": [
+          37,
+          654,
+          313,
+          874
+        ],
+        "subtext": "",
+        "word": "Ankle",
+        "word_box": [
+          18,
+          660,
+          289,
+          877
+        ],
+        "zh": "腳踝"
+      },
+      {
+        "pic_box": [
+          369,
+          155,
+          667,
+          390
+        ],
+        "subtext": "",
+        "word": "Palm",
+        "word_box": [
+          347,
+          172,
+          646,
+          407
+        ],
+        "zh": "手掌"
+      },
+      {
+        "pic_box": [
+          367,
+          409,
+          654,
+          633
+        ],
+        "subtext": "",
+        "word": "Thumb",
+        "word_box": [
+          351,
+          429,
+          635,
+          650
+        ],
+        "zh": "大拇指"
+      },
+      {
+        "pic_box": [
+          367,
+          648,
+          660,
+          871
+        ],
+        "subtext": "(High heel shoes)",
+        "word": "Heel",
+        "word_box": [
+          346,
+          665,
+          633,
+          892
+        ],
+        "zh": "腳跟"
+      },
+      {
+        "pic_box": [
+          699,
+          145,
+          1000,
+          388
+        ],
+        "subtext": "(Telling your Fortune)",
+        "word": "Handlines",
+        "word_box": [
+          692,
+          154,
+          1000,
+          396
+        ],
+        "zh": "掌紋"
+      },
+      {
+        "pic_box": [
+          677,
+          399,
+          995,
+          633
+        ],
+        "subtext": "",
+        "word": "Wrist",
+        "word_box": [
+          691,
+          427,
+          998,
+          658
+        ],
+        "zh": "手腕"
+      }
+    ],
+    "pair_num": 32,
+    "pic_file_id": "1jUjE3Itytu7D6Kgt-GjpMou1FA4id1Zm",
+    "topic_en": "Hands & Feet",
+    "topic_zh": "手部與足部",
+    "word_file_id": "1eiVRrYRBSPzqJT5MUylWXFdXqZTBZ5-h"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          132,
+          13,
+          319,
+          443
+        ],
+        "subtext": "(Don't give me Lip)",
+        "word": "Lips",
+        "word_box": [
+          90,
+          27,
+          307,
+          451
+        ],
+        "zh": "嘴唇"
+      },
+      {
+        "pic_box": [
+          155,
+          540,
+          323,
+          950
+        ],
+        "subtext": "(mind)",
+        "word": "Brain",
+        "word_box": [
+          98,
+          546,
+          313,
+          959
+        ],
+        "zh": "大腦"
+      },
+      {
+        "pic_box": [
+          358,
+          16,
+          537,
+          444
+        ],
+        "subtext": "(Stomach) \"Tummy\"",
+        "word": "Belly",
+        "word_box": [
+          361,
+          13,
+          592,
+          460
+        ],
+        "zh": "肚子"
+      },
+      {
+        "pic_box": [
+          368,
+          554,
+          541,
+          968
+        ],
+        "subtext": "",
+        "word": "Belly Button",
+        "word_box": [
+          371,
+          534,
+          604,
+          968
+        ],
+        "zh": "肚臍"
+      },
+      {
+        "pic_box": [
+          582,
+          0,
+          777,
+          425
+        ],
+        "subtext": "",
+        "word": "Nipple",
+        "word_box": [
+          676,
+          0,
+          954,
+          451
+        ],
+        "zh": "乳頭"
+      },
+      {
+        "pic_box": [
+          595,
+          518,
+          782,
+          938
+        ],
+        "subtext": "(Breasts)",
+        "word": "Chest",
+        "word_box": [
+          678,
+          544,
+          947,
+          1000
+        ],
+        "zh": "胸部"
+      }
+    ],
+    "pair_num": 33,
+    "pic_file_id": "1YR-yF2ZsIwF2T0vhEPWxQN9vfuPIs98M",
+    "topic_en": "Body Parts",
+    "topic_zh": "身體部位",
+    "word_file_id": "1gWStUwRn2DtJcdULh5OSqLGQeCexuwQ1"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          149,
+          0,
+          380,
+          297
+        ],
+        "subtext": "",
+        "word": "Skin",
+        "word_box": [
+          169,
+          5,
+          388,
+          298
+        ],
+        "zh": "皮膚"
+      },
+      {
+        "pic_box": [
+          155,
+          336,
+          386,
+          637
+        ],
+        "subtext": "(Ear Hair)",
+        "word": "Ear",
+        "word_box": [
+          176,
+          360,
+          395,
+          641
+        ],
+        "zh": "耳朵"
+      },
+      {
+        "pic_box": [
+          153,
+          684,
+          382,
+          981
+        ],
+        "subtext": "",
+        "word": "Ear Wax",
+        "word_box": [
+          170,
+          679,
+          390,
+          963
+        ],
+        "zh": "耳垢"
+      },
+      {
+        "pic_box": [
+          401,
+          0,
+          630,
+          312
+        ],
+        "subtext": "(Shaved Head)",
+        "word": "Bald",
+        "word_box": [
+          414,
+          17,
+          634,
+          310
+        ],
+        "zh": "光頭"
+      },
+      {
+        "pic_box": [
+          403,
+          347,
+          624,
+          638
+        ],
+        "subtext": "(Tasting)",
+        "word": "Tongue",
+        "word_box": [
+          421,
+          356,
+          638,
+          646
+        ],
+        "zh": "舌頭"
+      },
+      {
+        "pic_box": [
+          393,
+          677,
+          618,
+          978
+        ],
+        "subtext": "",
+        "word": "Nose Hair",
+        "word_box": [
+          410,
+          679,
+          631,
+          973
+        ],
+        "zh": "鼻毛"
+      },
+      {
+        "pic_box": [
+          656,
+          9,
+          884,
+          310
+        ],
+        "subtext": "",
+        "word": "Tooth",
+        "word_box": [
+          656,
+          26,
+          879,
+          315
+        ],
+        "zh": "牙齒"
+      },
+      {
+        "pic_box": [
+          650,
+          340,
+          877,
+          635
+        ],
+        "subtext": "\"Buttocks\" (Bottom/Rear)",
+        "word": "Butt",
+        "word_box": [
+          660,
+          356,
+          887,
+          646
+        ],
+        "zh": "屁股"
+      },
+      {
+        "pic_box": [
+          645,
+          663,
+          870,
+          951
+        ],
+        "subtext": "",
+        "word": "Light Skin / Dark Skin",
+        "word_box": [
+          659,
+          682,
+          883,
+          965
+        ],
+        "zh": "淺色皮膚 / 深色皮膚"
+      }
+    ],
+    "pair_num": 34,
+    "pic_file_id": "1G8mr_UW6JshXWr1rZqmClH3qzgWKayJC",
+    "topic_en": "Body Parts & Skin",
+    "topic_zh": "身體部位與皮膚",
+    "word_file_id": "1liIKfKRi-CGO1qa9Iiuv0Xm6rsw7y2-6"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          277,
+          113,
+          399,
+          471
+        ],
+        "subtext": "(Likes)",
+        "word": "Like",
+        "word_box": [
+          247,
+          93,
+          390,
+          491
+        ],
+        "zh": "喜歡"
+      },
+      {
+        "pic_box": [
+          286,
+          547,
+          413,
+          904
+        ],
+        "subtext": "(It's like...)",
+        "word": "Looks Like",
+        "word_box": [
+          252,
+          574,
+          401,
+          965
+        ],
+        "zh": "看起來像"
+      },
+      {
+        "pic_box": [
+          470,
+          48,
+          611,
+          444
+        ],
+        "subtext": "",
+        "word": "Dislike",
+        "word_box": [
+          419,
+          40,
+          572,
+          461
+        ],
+        "zh": "不喜歡"
+      },
+      {
+        "pic_box": [
+          470,
+          514,
+          632,
+          910
+        ],
+        "subtext": "(Think)",
+        "word": "Thinks",
+        "word_box": [
+          434,
+          550,
+          597,
+          966
+        ],
+        "zh": "思考 / 認為"
+      },
+      {
+        "pic_box": [
+          699,
+          6,
+          881,
+          444
+        ],
+        "subtext": "(Good Thinking)",
+        "word": "I Don't Think So...",
+        "word_box": [
+          629,
+          0,
+          815,
+          459
+        ],
+        "zh": "我不這麼認為⋯⋯ (好主意)"
+      },
+      {
+        "pic_box": [
+          722,
+          507,
+          907,
+          943
+        ],
+        "subtext": "(Hear)",
+        "word": "Listen",
+        "word_box": [
+          650,
+          527,
+          838,
+          976
+        ],
+        "zh": "聽 (聽見)"
+      }
+    ],
+    "pair_num": 35,
+    "pic_file_id": "1lA-X1q2bBwBmxopC5mYEozTpw4fkfEFN",
+    "topic_en": "Opinions & Senses",
+    "topic_zh": "想法與感官動詞",
+    "word_file_id": "1-C2lv7dFDIzoS-9SwiMgfZW88XZTckHV"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          162,
+          50,
+          411,
+          381
+        ],
+        "subtext": "",
+        "word": "Deep Fried Calamari",
+        "word_box": [
+          192,
+          79,
+          441,
+          413
+        ],
+        "zh": "炸魷魚圈"
+      },
+      {
+        "pic_box": [
+          180,
+          482,
+          382,
+          946
+        ],
+        "subtext": "",
+        "word": "Tater Tots",
+        "word_box": [
+          214,
+          529,
+          402,
+          988
+        ],
+        "zh": "炸薯球"
+      },
+      {
+        "pic_box": [
+          441,
+          0,
+          636,
+          458
+        ],
+        "subtext": "",
+        "word": "Beans & Franks",
+        "word_box": [
+          493,
+          9,
+          688,
+          480
+        ],
+        "zh": "熱狗燉豆"
+      },
+      {
+        "pic_box": [
+          406,
+          518,
+          597,
+          967
+        ],
+        "subtext": "",
+        "word": "Fish Sticks",
+        "word_box": [
+          492,
+          523,
+          691,
+          991
+        ],
+        "zh": "炸魚條"
+      },
+      {
+        "pic_box": [
+          672,
+          0,
+          871,
+          447
+        ],
+        "subtext": "",
+        "word": "Mac 'N' Cheese",
+        "word_box": [
+          729,
+          0,
+          933,
+          446
+        ],
+        "zh": "起司通心粉"
+      },
+      {
+        "pic_box": [
+          681,
+          502,
+          885,
+          967
+        ],
+        "subtext": "",
+        "word": "Baked Beans",
+        "word_box": [
+          736,
+          498,
+          946,
+          981
+        ],
+        "zh": "烤豆子"
+      }
+    ],
+    "pair_num": 36,
+    "pic_file_id": "1DVplUbOvopPRfesgOqDpUJwU65-i2HK4",
+    "topic_en": "Fried Foods & Side Dishes",
+    "topic_zh": "炸物與常見配菜",
+    "word_file_id": "1GUaYVNq1b0861SI2L0QuamWYcAhNmqF5"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          340,
+          0,
+          535,
+          458
+        ],
+        "subtext": "",
+        "word": "Chilli Cheese Dog",
+        "word_box": [
+          299,
+          0,
+          483,
+          439
+        ],
+        "zh": "起司肉醬熱狗"
+      },
+      {
+        "pic_box": [
+          342,
+          529,
+          538,
+          1000
+        ],
+        "subtext": "",
+        "word": "Chilli Dog",
+        "word_box": [
+          312,
+          510,
+          491,
+          941
+        ],
+        "zh": "辣肉醬熱狗"
+      },
+      {
+        "pic_box": [
+          612,
+          0,
+          816,
+          452
+        ],
+        "subtext": "(mustard)",
+        "word": "Hot Dog",
+        "word_box": [
+          551,
+          0,
+          742,
+          434
+        ],
+        "zh": "熱狗（加黃芥末醬）"
+      },
+      {
+        "pic_box": [
+          618,
+          520,
+          824,
+          999
+        ],
+        "subtext": "(mustard and Ketchup)",
+        "word": "Corn Dog",
+        "word_box": [
+          549,
+          496,
+          742,
+          944
+        ],
+        "zh": "美式熱狗棒"
+      }
+    ],
+    "pair_num": 37,
+    "pic_file_id": "1tDICo_tCKaeEUwhrAnnLzD8mQsJloAFG",
+    "topic_en": "Hot Dogs",
+    "topic_zh": "各式熱狗",
+    "word_file_id": "15PkPQVfo1wcUMmSxk9baHGfwAmCi9zIc"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          67,
+          6,
+          258,
+          461
+        ],
+        "subtext": "(Chips)",
+        "word": "French Fries",
+        "word_box": [
+          89,
+          19,
+          267,
+          450
+        ],
+        "zh": "薯條"
+      },
+      {
+        "pic_box": [
+          71,
+          582,
+          264,
+          1000
+        ],
+        "subtext": "",
+        "word": "Chilli Cheese Fries",
+        "word_box": [
+          88,
+          535,
+          263,
+          958
+        ],
+        "zh": "起司肉醬薯條"
+      },
+      {
+        "pic_box": [
+          286,
+          21,
+          467,
+          465
+        ],
+        "subtext": "",
+        "word": "Fried Chicken",
+        "word_box": [
+          294,
+          22,
+          479,
+          465
+        ],
+        "zh": "炸雞"
+      },
+      {
+        "pic_box": [
+          296,
+          557,
+          491,
+          1000
+        ],
+        "subtext": "",
+        "word": "Fish & Chips",
+        "word_box": [
+          294,
+          534,
+          470,
+          959
+        ],
+        "zh": "炸魚薯條"
+      },
+      {
+        "pic_box": [
+          505,
+          0,
+          693,
+          434
+        ],
+        "subtext": "[Celery Sticks and Blue Cheese Dressing]",
+        "word": "Buffalo Chicken Wings",
+        "word_box": [
+          511,
+          22,
+          695,
+          466
+        ],
+        "zh": "水牛城辣雞翅"
+      },
+      {
+        "pic_box": [
+          506,
+          526,
+          707,
+          989
+        ],
+        "subtext": "(Fried Chicken Leg)",
+        "word": "Chicken Leg",
+        "word_box": [
+          501,
+          533,
+          682,
+          962
+        ],
+        "zh": "炸雞腿"
+      },
+      {
+        "pic_box": [
+          746,
+          0,
+          947,
+          421
+        ],
+        "subtext": "",
+        "word": "Onion Rings",
+        "word_box": [
+          714,
+          18,
+          913,
+          465
+        ],
+        "zh": "洋蔥圈"
+      }
+    ],
+    "pair_num": 38,
+    "pic_file_id": "1V1-jczVi2c4Q28u1Ul_8iaDF0apVtIw4",
+    "topic_en": "Fried Foods & Fries",
+    "topic_zh": "炸物與薯條",
+    "word_file_id": "1AUwe4P7zKNFxCXCE5f1eFykY61JgzI8c"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          3,
+          189,
+          283,
+          409
+        ],
+        "subtext": "",
+        "word": "Bacon Cheese Burger",
+        "word_box": [
+          0,
+          175,
+          270,
+          389
+        ],
+        "zh": "培根起司漢堡"
+      },
+      {
+        "pic_box": [
+          23,
+          428,
+          301,
+          643
+        ],
+        "subtext": "",
+        "word": "Sloppy Joe",
+        "word_box": [
+          23,
+          417,
+          286,
+          618
+        ],
+        "zh": "美式肉醬漢堡"
+      },
+      {
+        "pic_box": [
+          36,
+          672,
+          336,
+          892
+        ],
+        "subtext": "(Burger)",
+        "word": "Pulled Pork Sandwich",
+        "word_box": [
+          19,
+          670,
+          281,
+          870
+        ],
+        "zh": "手撕豬肉堡"
+      },
+      {
+        "pic_box": [
+          330,
+          160,
+          626,
+          391
+        ],
+        "subtext": "",
+        "word": "BarBQ Chicken Burger",
+        "word_box": [
+          335,
+          174,
+          608,
+          384
+        ],
+        "zh": "BBQ烤肉醬雞肉堡"
+      },
+      {
+        "pic_box": [
+          333,
+          434,
+          632,
+          659
+        ],
+        "subtext": "",
+        "word": "Cheese Burger",
+        "word_box": [
+          340,
+          424,
+          600,
+          625
+        ],
+        "zh": "起司漢堡"
+      },
+      {
+        "pic_box": [
+          365,
+          681,
+          647,
+          905
+        ],
+        "subtext": "",
+        "word": "Double Cheese Burger",
+        "word_box": [
+          352,
+          682,
+          612,
+          885
+        ],
+        "zh": "雙層起司漢堡"
+      },
+      {
+        "pic_box": [
+          683,
+          156,
+          999,
+          387
+        ],
+        "subtext": "(Filet-O-Fish Burger)",
+        "word": "Fish Burger",
+        "word_box": [
+          695,
+          162,
+          984,
+          374
+        ],
+        "zh": "鱈魚堡（麥香魚）"
+      },
+      {
+        "pic_box": [
+          697,
+          438,
+          1000,
+          665
+        ],
+        "subtext": "(Chicken McNuggets)",
+        "word": "Chicken Nuggets",
+        "word_box": [
+          704,
+          415,
+          991,
+          623
+        ],
+        "zh": "麥克雞塊"
+      },
+      {
+        "pic_box": [
+          677,
+          682,
+          999,
+          920
+        ],
+        "subtext": "(crispy chicken)",
+        "word": "Fried Chicken Burger",
+        "word_box": [
+          693,
+          679,
+          982,
+          885
+        ],
+        "zh": "咔啦脆雞堡"
+      }
+    ],
+    "pair_num": 39,
+    "pic_file_id": "1aqDNv4WOJr9BA7FmBoXHG23nbyMHUWrf",
+    "topic_en": "Burgers & Nuggets",
+    "topic_zh": "漢堡與雞塊",
+    "word_file_id": "10YbHI39zYghFdeHFN0QsAppLhwA_iWs3"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          352,
+          0,
+          555,
+          509
+        ],
+        "subtext": "(Expresso)",
+        "word": "Espresso",
+        "word_box": [
+          283,
+          4,
+          473,
+          465
+        ],
+        "zh": "義式濃縮咖啡"
+      },
+      {
+        "pic_box": [
+          363,
+          558,
+          568,
+          1000
+        ],
+        "subtext": "\"Coffè - Americano\" (Coffee Beans)",
+        "word": "Coffee",
+        "word_box": [
+          288,
+          551,
+          477,
+          1000
+        ],
+        "zh": "美式咖啡（咖啡豆）"
+      },
+      {
+        "pic_box": [
+          587,
+          0,
+          813,
+          486
+        ],
+        "subtext": "(Less milk than Latte - with chocolate)",
+        "word": "Cappuccino",
+        "word_box": [
+          521,
+          0,
+          720,
+          467
+        ],
+        "zh": "卡布奇諾"
+      },
+      {
+        "pic_box": [
+          601,
+          526,
+          828,
+          1000
+        ],
+        "subtext": "(more milk than a Cappuccino)",
+        "word": "Latte",
+        "word_box": [
+          528,
+          532,
+          730,
+          1000
+        ],
+        "zh": "拿鐵咖啡"
+      }
+    ],
+    "pair_num": 40,
+    "pic_file_id": "1C6pYb7tj0EsyCTSncwWavl9EEx4IbNHH",
+    "topic_en": "Coffee",
+    "topic_zh": "咖啡飲品",
+    "word_file_id": "1GynA4g2Bp_GmSwjho55QNoX7pmpY7mtO"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          192,
+          0,
+          391,
+          459
+        ],
+        "subtext": "(Pancakes and syrup) (\"Maple Syrup\")",
+        "word": "Pancakes",
+        "word_box": [
+          236,
+          14,
+          412,
+          453
+        ],
+        "zh": "美式鬆餅"
+      },
+      {
+        "pic_box": [
+          199,
+          558,
+          403,
+          1000
+        ],
+        "subtext": "",
+        "word": "Waffle",
+        "word_box": [
+          228,
+          545,
+          407,
+          984
+        ],
+        "zh": "格子鬆餅"
+      },
+      {
+        "pic_box": [
+          429,
+          0,
+          631,
+          472
+        ],
+        "subtext": "(\"Roll\")",
+        "word": "Cinnamon Bun",
+        "word_box": [
+          454,
+          18,
+          638,
+          468
+        ],
+        "zh": "肉桂捲"
+      },
+      {
+        "pic_box": [
+          443,
+          539,
+          658,
+          1000
+        ],
+        "subtext": "(Fresh squeezed \"Orange Juice\")",
+        "word": "Orange Juice",
+        "word_box": [
+          441,
+          546,
+          628,
+          991
+        ],
+        "zh": "柳橙汁"
+      },
+      {
+        "pic_box": [
+          669,
+          0,
+          887,
+          478
+        ],
+        "subtext": "(Yoghurt) (\"Granola with Fresh Fruit\")",
+        "word": "Yogurt",
+        "word_box": [
+          679,
+          5,
+          888,
+          470
+        ],
+        "zh": "優格"
+      }
+    ],
+    "pair_num": 41,
+    "pic_file_id": "1jRO85yGQ8ujLgqI0sIljxpj7p1MGDCFj",
+    "topic_en": "Sweet Breakfast & Drinks",
+    "topic_zh": "甜點早餐與飲品",
+    "word_file_id": "1MRaoYNDdH39MtYosfSw6HSL4JOGFl8ww"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          3,
+          97,
+          190,
+          231
+        ],
+        "subtext": "",
+        "word": "Eggplant",
+        "word_box": [
+          94,
+          163,
+          267,
+          280
+        ],
+        "zh": "茄子"
+      },
+      {
+        "pic_box": [
+          228,
+          89,
+          426,
+          225
+        ],
+        "subtext": "",
+        "word": "Asparagus",
+        "word_box": [
+          287,
+          154,
+          463,
+          277
+        ],
+        "zh": "蘆筍"
+      },
+      {
+        "pic_box": [
+          235,
+          253,
+          437,
+          389
+        ],
+        "subtext": "(Green Onion)",
+        "word": "Spring Onion",
+        "word_box": [
+          297,
+          284,
+          478,
+          403
+        ],
+        "zh": "青蔥"
+      },
+      {
+        "pic_box": [
+          246,
+          421,
+          440,
+          550
+        ],
+        "subtext": "",
+        "word": "Summer Pumpkin",
+        "word_box": [
+          307,
+          436,
+          492,
+          557
+        ],
+        "zh": "南瓜"
+      },
+      {
+        "pic_box": [
+          237,
+          571,
+          433,
+          705
+        ],
+        "subtext": "",
+        "word": "Sweet Potato",
+        "word_box": [
+          280,
+          600,
+          453,
+          717
+        ],
+        "zh": "地瓜 (番薯)"
+      },
+      {
+        "pic_box": [
+          229,
+          734,
+          425,
+          869
+        ],
+        "subtext": "",
+        "word": "Loofah",
+        "word_box": [
+          291,
+          765,
+          468,
+          886
+        ],
+        "zh": "絲瓜"
+      },
+      {
+        "pic_box": [
+          488,
+          77,
+          698,
+          221
+        ],
+        "subtext": "",
+        "word": "Spinach",
+        "word_box": [
+          532,
+          133,
+          728,
+          261
+        ],
+        "zh": "菠菜"
+      },
+      {
+        "pic_box": [
+          503,
+          245,
+          723,
+          383
+        ],
+        "subtext": "",
+        "word": "Bamboo Shoot",
+        "word_box": [
+          548,
+          283,
+          759,
+          411
+        ],
+        "zh": "竹筍"
+      },
+      {
+        "pic_box": [
+          510,
+          415,
+          736,
+          556
+        ],
+        "subtext": "",
+        "word": "Bell Peppers",
+        "word_box": [
+          528,
+          448,
+          720,
+          571
+        ],
+        "zh": "甜椒"
+      },
+      {
+        "pic_box": [
+          501,
+          590,
+          712,
+          724
+        ],
+        "subtext": "",
+        "word": "White Radish",
+        "word_box": [
+          506,
+          609,
+          693,
+          736
+        ],
+        "zh": "白蘿蔔"
+      },
+      {
+        "pic_box": [
+          509,
+          745,
+          719,
+          886
+        ],
+        "subtext": "",
+        "word": "Bitter Melon",
+        "word_box": [
+          501,
+          763,
+          687,
+          892
+        ],
+        "zh": "苦瓜"
+      },
+      {
+        "pic_box": [
+          800,
+          44,
+          1000,
+          193
+        ],
+        "subtext": "(Green Beans)",
+        "word": "String Beans",
+        "word_box": [
+          782,
+          115,
+          994,
+          255
+        ],
+        "zh": "四季豆"
+      },
+      {
+        "pic_box": [
+          806,
+          232,
+          1000,
+          376
+        ],
+        "subtext": "",
+        "word": "Cabbage",
+        "word_box": [
+          781,
+          304,
+          1000,
+          433
+        ],
+        "zh": "高麗菜 (包心菜)"
+      },
+      {
+        "pic_box": [
+          796,
+          420,
+          1000,
+          559
+        ],
+        "subtext": "",
+        "word": "Chinese Cabbage",
+        "word_box": [
+          794,
+          454,
+          1000,
+          584
+        ],
+        "zh": "大白菜"
+      },
+      {
+        "pic_box": [
+          780,
+          600,
+          1000,
+          745
+        ],
+        "subtext": "",
+        "word": "Taro",
+        "word_box": [
+          776,
+          601,
+          988,
+          732
+        ],
+        "zh": "芋頭"
+      },
+      {
+        "pic_box": [
+          759,
+          766,
+          987,
+          912
+        ],
+        "subtext": "",
+        "word": "Broccoli",
+        "word_box": [
+          774,
+          787,
+          984,
+          922
+        ],
+        "zh": "青花菜"
+      }
+    ],
+    "pair_num": 42,
+    "pic_file_id": "1V9soCdPQLD6JwxnMUL8okdSbZ6fUsZTy",
+    "topic_en": "Vegetables",
+    "topic_zh": "常見蔬菜",
+    "word_file_id": "1Xe76Ver6Cue5WWuFnarXIY4x5l0oEdpf"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          142,
+          89,
+          267,
+          440
+        ],
+        "subtext": "(\"Sesame Bagel\")",
+        "word": "Cream Cheese Bagel",
+        "word_box": [
+          115,
+          171,
+          236,
+          522
+        ],
+        "zh": "奶油乳酪貝果"
+      },
+      {
+        "pic_box": [
+          154,
+          529,
+          272,
+          882
+        ],
+        "subtext": "(Butter)",
+        "word": "English Muffin",
+        "word_box": [
+          114,
+          586,
+          237,
+          942
+        ],
+        "zh": "英式瑪芬"
+      },
+      {
+        "pic_box": [
+          283,
+          66,
+          422,
+          445
+        ],
+        "subtext": "(Powdered Sugar)",
+        "word": "French Toast",
+        "word_box": [
+          271,
+          149,
+          417,
+          543
+        ],
+        "zh": "法式吐司"
+      },
+      {
+        "pic_box": [
+          285,
+          582,
+          476,
+          888
+        ],
+        "subtext": "",
+        "word": "Breakfast Bagel",
+        "word_box": [
+          280,
+          590,
+          429,
+          979
+        ],
+        "zh": "早餐貝果三明治"
+      },
+      {
+        "pic_box": [
+          474,
+          0,
+          642,
+          409
+        ],
+        "subtext": "",
+        "word": "Breakfast Croissant",
+        "word_box": [
+          456,
+          101,
+          622,
+          528
+        ],
+        "zh": "早餐可頌三明治"
+      },
+      {
+        "pic_box": [
+          491,
+          544,
+          656,
+          977
+        ],
+        "subtext": "",
+        "word": "Toast",
+        "word_box": [
+          474,
+          594,
+          659,
+          1000
+        ],
+        "zh": "烤吐司"
+      },
+      {
+        "pic_box": [
+          682,
+          0,
+          888,
+          455
+        ],
+        "subtext": "(\"Taiwan Croissant\")",
+        "word": "Croissant",
+        "word_box": [
+          679,
+          0,
+          884,
+          449
+        ],
+        "zh": "可頌 (牛角麵包)"
+      },
+      {
+        "pic_box": [
+          714,
+          594,
+          938,
+          1000
+        ],
+        "subtext": "(\"Plain Bagel\")",
+        "word": "Bagel",
+        "word_box": [
+          700,
+          560,
+          914,
+          1000
+        ],
+        "zh": "原味貝果"
+      }
+    ],
+    "pair_num": 43,
+    "pic_file_id": "1cD1hKNlPJa284feP7gyePyfoRu2KZimu",
+    "topic_en": "Bagels, Toast & Croissants",
+    "topic_zh": "貝果、吐司與可頌",
+    "word_file_id": "1q3pOoqzydO1XumvB9mw7PJnQnqT1lB4N"
+  },
+  {
+    "cards": [
+      {
+        "pic_box": [
+          240,
+          140,
+          363,
+          477
+        ],
+        "subtext": "(Crispy Bacon) \"Turkey Bacon\"",
+        "word": "Bacon",
+        "word_box": [
+          200,
+          146,
+          359,
+          526
+        ],
+        "zh": "培根"
+      },
+      {
+        "pic_box": [
+          252,
+          534,
+          381,
+          869
+        ],
+        "subtext": "(\"egg whites\") (\"egg yolk\")",
+        "word": "Poached Egg",
+        "word_box": [
+          202,
+          532,
+          345,
+          878
+        ],
+        "zh": "水波蛋"
+      },
+      {
+        "pic_box": [
+          384,
+          119,
+          519,
+          476
+        ],
+        "subtext": "(Sunny side up)",
+        "word": "Eggs",
+        "word_box": [
+          344,
+          102,
+          502,
+          488
+        ],
+        "zh": "太陽蛋 (單面荷包蛋)"
+      },
+      {
+        "pic_box": [
+          386,
+          506,
+          545,
+          877
+        ],
+        "subtext": "(Omelette) (\"Cheese omelet\")",
+        "word": "Omelet",
+        "word_box": [
+          359,
+          513,
+          502,
+          871
+        ],
+        "zh": "歐姆蛋 (煎蛋捲)"
+      },
+      {
+        "pic_box": [
+          540,
+          69,
+          694,
+          457
+        ],
+        "subtext": "(Eggs - over easy)",
+        "word": "Canadian Bacon",
+        "word_box": [
+          514,
+          87,
+          678,
+          482
+        ],
+        "zh": "加拿大培根 (火腿片)"
+      },
+      {
+        "pic_box": [
+          543,
+          490,
+          732,
+          892
+        ],
+        "subtext": "",
+        "word": "Hard Boiled Eggs",
+        "word_box": [
+          528,
+          540,
+          691,
+          914
+        ],
+        "zh": "水煮蛋"
+      },
+      {
+        "pic_box": [
+          721,
+          26,
+          904,
+          443
+        ],
+        "subtext": "",
+        "word": "Scrambled Eggs",
+        "word_box": [
+          706,
+          44,
+          883,
+          451
+        ],
+        "zh": "美式炒蛋"
+      },
+      {
+        "pic_box": [
+          711,
+          461,
+          934,
+          903
+        ],
+        "subtext": "",
+        "word": "Fried Egg",
+        "word_box": [
+          717,
+          531,
+          898,
+          928
+        ],
+        "zh": "荷包蛋"
+      }
+    ],
+    "pair_num": 44,
+    "pic_file_id": "1ad9cg6eK6KvPJy6lcPSG_6M0J7yOxtV5",
+    "topic_en": "Breakfast & Eggs",
+    "topic_zh": "早餐與蛋料理",
+    "word_file_id": "1mlSaCZwxY9dTey25Qty4EKOv3x9bZyQQ"
+  }
+]
