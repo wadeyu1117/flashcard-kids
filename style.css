@@ -1070,29 +1070,172 @@ button {
   z-index: 200;
 }
 
-/* Responsive adjustments */
-@media (max-width: 720px) {
+/* Responsive adjustments (RWD for Tablet & Mobile + Safe Area Insets) */
+.top-bar {
+  padding-top: max(10px, env(safe-area-inset-top));
+  padding-left: max(16px, env(safe-area-inset-left));
+  padding-right: max(16px, env(safe-area-inset-right));
+}
+
+.main-stage {
+  padding-bottom: max(16px, env(safe-area-inset-bottom));
+}
+
+/* Tablet Portrait & Landscape (641px - 1024px) */
+@media (max-width: 1024px) {
+  .unit-name {
+    max-width: 190px;
+  }
+  .ctrl-btn {
+    padding: 11px 15px;
+    font-size: 0.96rem;
+  }
+}
+
+/* Mobile Phones (<= 680px) */
+@media (max-width: 680px) {
   .top-bar {
+    flex-wrap: wrap;
     padding: 8px 12px;
+    gap: 8px;
+  }
+  .brand-group {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  .unit-picker-btn {
+    width: 100%;
+    padding: 6px 10px;
+  }
+  .unit-picker-text {
+    flex: 1;
+    min-width: 0;
+  }
+  .unit-name {
+    max-width: 100%;
+    font-size: 0.92rem;
+  }
+  .right-actions {
+    flex-shrink: 0;
   }
   .hide-sm {
     display: none;
   }
-  .unit-name {
-    max-width: 140px;
+  .action-pill {
+    padding: 7px 11px;
+  }
+  .mode-tabs {
+    order: 3;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .mode-tab {
+    flex: 1;
+    justify-content: center;
+    padding: 7px 8px;
     font-size: 0.9rem;
+  }
+
+  /* Compact Sub-toolbar on Mobile */
+  .sub-toolbar {
+    margin-top: 6px;
+    padding: 0 10px;
+    gap: 6px;
+  }
+  .filter-pills, .view-options {
+    width: 100%;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  .filter-pill, .toggle-chip {
+    flex: 1;
+    text-align: center;
+    padding: 5px 8px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+
+  /* Main Stage & Single Card on Mobile */
+  .main-stage {
+    padding: 6px 10px max(12px, env(safe-area-inset-bottom));
+  }
+  .progress-row {
+    margin-bottom: 4px;
+    font-size: 0.88rem;
   }
   .side-nav-btn {
     display: none;
   }
-  .quiz-options-grid {
-    grid-template-columns: 1fr;
+  .card-stage-wrapper {
+    min-height: 290px;
+    max-height: 50dvh;
+    margin: 2px 0 8px;
+  }
+  .flashcard-container, .flashcard-inner {
+    min-height: 290px;
+    height: 46dvh;
+  }
+  .flashcard-face {
+    padding: 10px 12px;
+    border-radius: 18px;
+  }
+  .word-main {
+    font-size: 1.45rem;
+  }
+  .word-zh {
+    font-size: 0.96rem;
+  }
+
+  /* Thumb-friendly 2-row Mobile Grid for Bottom Controls */
+  .bottom-controls {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    width: 100%;
+  }
+  .ctrl-btn {
+    padding: 10px 6px;
+    font-size: 0.85rem;
+    border-radius: 14px;
+    gap: 4px;
+  }
+  .ctrl-icon {
+    font-size: 1.05rem;
+  }
+  #btn-speak-normal { order: 1; }
+  #btn-speak-slow   { order: 2; }
+  #btn-star-card    { order: 3; }
+  #btn-master-card  { order: 4; }
+  #btn-prev-bottom  { order: 5; grid-column: span 1; }
+  #btn-flip-card    { order: 6; grid-column: span 2; font-size: 0.98rem; }
+  #btn-next-bottom  { order: 7; grid-column: span 1; }
+
+  /* Sheet & Quiz Mobile */
+  .sheet-toolbar {
+    padding: 8px 12px;
+    gap: 8px;
+  }
+  .sheet-instruction {
+    font-size: 0.86rem;
   }
   .sheet-stage.side-by-side .sheet-board {
     max-width: 100%;
   }
-  .ctrl-btn {
-    padding: 10px 13px;
-    font-size: 0.9rem;
+  .quiz-options-grid {
+    grid-template-columns: 1fr;
+    gap: 9px;
+  }
+  .quiz-option-btn {
+    padding: 11px 14px;
+  }
+  .quiz-opt-en {
+    font-size: 1.1rem;
+  }
+  .modal-header {
+    padding: 12px 14px;
+  }
+  .unit-search {
+    width: 100%;
+    min-width: 0;
   }
 }
