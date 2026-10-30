@@ -1108,8 +1108,8 @@ button {
   }
 }
 
-/* Mobile Phones (<= 680px) */
-@media (max-width: 680px) {
+/* Mobile Phones & Portrait Tablets (<= 860px) */
+@media (max-width: 860px) {
   .top-bar {
     flex-wrap: wrap;
     padding: max(6px, env(safe-area-inset-top)) 10px 6px;
