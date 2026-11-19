@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-30 19:35:08",
+  "updated_at": "2026-11-19 11:14:04",
   "folder_id": "1lZgQD2gynBy4saiiZObBVLOnY8vjxfDP",
   "new_files_downloaded": 0,
-  "total_decks": 44,
-  "total_cards": 265,
+  "total_decks": 45,
+  "total_cards": 271,
   "audio_tracks": [
     {
       "id": "1xrdtQTR4aT7I0qwNVXsJSAH7lA_mZ6xn",
@@ -49,6 +49,159 @@
     }
   ],
   "decks": [
+    {
+      "id": "deck_45",
+      "pair_num": 45,
+      "unit_number": 45,
+      "date": "2026-11-18",
+      "title_en": "Kitchen & Cleaning Supplies",
+      "title_zh": "廚房與清潔用品",
+      "pic_sheet_url": "data/raw/1vEVN-ILppEiCNPMdGA2CPBQklSvZ_7wx.jpg",
+      "word_sheet_url": "data/raw/1Og5fmKRm74eVVtaGI_uue9Q8V_cA9WTI.jpg",
+      "pic_aspect": 0.8139,
+      "word_aspect": 0.85,
+      "card_count": 6,
+      "cards": [
+        {
+          "id": "deck_45_card_01",
+          "index": 1,
+          "word": "Mop",
+          "subtext": "(Sponge mop)",
+          "zh": "拖把（海綿拖把）",
+          "pic_crop_url": "data/cards/deck_45_card_01_pic.jpg",
+          "word_crop_url": "data/cards/deck_45_card_01_word.jpg",
+          "tts_url": "data/tts/mop_b72087.mp3",
+          "tts_slow_url": "data/tts/mop_b72087_slow.mp3",
+          "pic_box_norm": [
+            10,
+            0,
+            314,
+            502
+          ],
+          "word_box_norm": [
+            0,
+            0,
+            312,
+            499
+          ]
+        },
+        {
+          "id": "deck_45_card_02",
+          "index": 2,
+          "word": "Steel Wool",
+          "subtext": "",
+          "zh": "鋼絲絨（鋼刷球）",
+          "pic_crop_url": "data/cards/deck_45_card_02_pic.jpg",
+          "word_crop_url": "data/cards/deck_45_card_02_word.jpg",
+          "tts_url": "data/tts/steel_wool_67b101.mp3",
+          "tts_slow_url": "data/tts/steel_wool_67b101_slow.mp3",
+          "pic_box_norm": [
+            18,
+            515,
+            317,
+            1000
+          ],
+          "word_box_norm": [
+            17,
+            513,
+            329,
+            998
+          ]
+        },
+        {
+          "id": "deck_45_card_03",
+          "index": 3,
+          "word": "Sponge",
+          "subtext": "",
+          "zh": "海綿",
+          "pic_crop_url": "data/cards/deck_45_card_03_pic.jpg",
+          "word_crop_url": "data/cards/deck_45_card_03_word.jpg",
+          "tts_url": "data/tts/sponge_f55c10.mp3",
+          "tts_slow_url": "data/tts/sponge_f55c10_slow.mp3",
+          "pic_box_norm": [
+            327,
+            0,
+            636,
+            501
+          ],
+          "word_box_norm": [
+            338,
+            2,
+            648,
+            493
+          ]
+        },
+        {
+          "id": "deck_45_card_04",
+          "index": 4,
+          "word": "Kitchen Cleaner",
+          "subtext": "",
+          "zh": "廚房清潔劑",
+          "pic_crop_url": "data/cards/deck_45_card_04_pic.jpg",
+          "word_crop_url": "data/cards/deck_45_card_04_word.jpg",
+          "tts_url": "data/tts/kitchen_cleaner_0bc0a4.mp3",
+          "tts_slow_url": "data/tts/kitchen_cleaner_0bc0a4_slow.mp3",
+          "pic_box_norm": [
+            331,
+            508,
+            639,
+            1000
+          ],
+          "word_box_norm": [
+            349,
+            508,
+            648,
+            986
+          ]
+        },
+        {
+          "id": "deck_45_card_05",
+          "index": 5,
+          "word": "Rubber Gloves",
+          "subtext": "",
+          "zh": "橡膠手套",
+          "pic_crop_url": "data/cards/deck_45_card_05_pic.jpg",
+          "word_crop_url": "data/cards/deck_45_card_05_word.jpg",
+          "tts_url": "data/tts/rubber_gloves_abce72.mp3",
+          "tts_slow_url": "data/tts/rubber_gloves_abce72_slow.mp3",
+          "pic_box_norm": [
+            656,
+            0,
+            978,
+            495
+          ],
+          "word_box_norm": [
+            665,
+            3,
+            972,
+            487
+          ]
+        },
+        {
+          "id": "deck_45_card_06",
+          "index": 6,
+          "word": "Dish Soap",
+          "subtext": "",
+          "zh": "洗碗精",
+          "pic_crop_url": "data/cards/deck_45_card_06_pic.jpg",
+          "word_crop_url": "data/cards/deck_45_card_06_word.jpg",
+          "tts_url": "data/tts/dish_soap_e94dee.mp3",
+          "tts_slow_url": "data/tts/dish_soap_e94dee_slow.mp3",
+          "pic_box_norm": [
+            656,
+            502,
+            971,
+            1000
+          ],
+          "word_box_norm": [
+            667,
+            501,
+            972,
+            981
+          ]
+        }
+      ]
+    },
     {
       "id": "deck_01",
       "pair_num": 1,

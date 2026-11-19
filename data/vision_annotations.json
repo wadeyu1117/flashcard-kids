@@ -4899,5 +4899,117 @@
     "topic_en": "Breakfast & Eggs",
     "topic_zh": "早餐與蛋料理",
     "word_file_id": "1mlSaCZwxY9dTey25Qty4EKOv3x9bZyQQ"
+  },
+  {
+    "pair_num": 45,
+    "deck_id": "deck_45",
+    "pic_file_id": "1vEVN-ILppEiCNPMdGA2CPBQklSvZ_7wx",
+    "word_file_id": "1Og5fmKRm74eVVtaGI_uue9Q8V_cA9WTI",
+    "topic_en": "Kitchen & Cleaning Supplies",
+    "topic_zh": "廚房與清潔用品",
+    "cards": [
+      {
+        "word": "Mop",
+        "subtext": "(Sponge mop)",
+        "zh": "拖把（海綿拖把）",
+        "pic_box": [
+          16,
+          0,
+          308,
+          492
+        ],
+        "word_box": [
+          0,
+          0,
+          306,
+          489
+        ]
+      },
+      {
+        "word": "Steel Wool",
+        "subtext": "",
+        "zh": "鋼絲絨（鋼刷球）",
+        "pic_box": [
+          24,
+          525,
+          311,
+          1000
+        ],
+        "word_box": [
+          23,
+          522,
+          323,
+          989
+        ]
+      },
+      {
+        "word": "Sponge",
+        "subtext": "",
+        "zh": "海綿",
+        "pic_box": [
+          333,
+          0,
+          630,
+          491
+        ],
+        "word_box": [
+          344,
+          11,
+          642,
+          484
+        ]
+      },
+      {
+        "word": "Kitchen Cleaner",
+        "subtext": "",
+        "zh": "廚房清潔劑",
+        "pic_box": [
+          337,
+          518,
+          633,
+          1000
+        ],
+        "word_box": [
+          355,
+          517,
+          642,
+          977
+        ]
+      },
+      {
+        "word": "Rubber Gloves",
+        "subtext": "",
+        "zh": "橡膠手套",
+        "pic_box": [
+          662,
+          0,
+          972,
+          485
+        ],
+        "word_box": [
+          671,
+          12,
+          966,
+          478
+        ]
+      },
+      {
+        "word": "Dish Soap",
+        "subtext": "",
+        "zh": "洗碗精",
+        "pic_box": [
+          662,
+          512,
+          965,
+          1000
+        ],
+        "word_box": [
+          673,
+          510,
+          966,
+          972
+        ]
+      }
+    ]
   }
 ]

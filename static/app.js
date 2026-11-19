@@ -408,7 +408,7 @@
     } else if (currentFilter === "random") {
       activeCards = shuffleArray(allCardsFlat);
       elUnitBadge.textContent = `🔀 全部字卡隨機抽考`;
-      elUnitTitle.textContent = `全部 44 個單元 (${activeCards.length} 張)`;
+      elUnitTitle.textContent = `全部 ${catalog.decks.length} 個單元 (${activeCards.length} 張)`;
     }
 
     currentCardIndex = 0;

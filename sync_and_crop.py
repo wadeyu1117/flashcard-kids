@@ -10,6 +10,7 @@ import hashlib
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 import urllib.parse
@@ -19,11 +20,9 @@ from datetime import datetime
 import cv2
 import numpy as np
 
-sys.path.insert(0, "/usr/local/google/home/wadeyu/.gemini/config/skills/gki_test_workflow/scripts")
-from upload_mtt_and_time import get_gcloud_mtls_session
-
 FOLDER_ID = "1lZgQD2gynBy4saiiZObBVLOnY8vjxfDP"
-APP_DIR = "/usr/local/google/home/wadeyu/web_apps/flashcard_kids"
+GDRIVE_CLI = "/google/bin/releases/gemini-agents-gdrive/gdrive"
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(APP_DIR, "data")
 RAW_DIR = os.path.join(DATA_DIR, "raw")
 CARDS_DIR = os.path.join(DATA_DIR, "cards")
@@ -91,7 +90,41 @@ def ensure_tts_files(words):
 
 
 def fetch_drive_manifest():
-    """Fetches all non-trashed files from the target Google Drive folder."""
+    """Fetches all non-trashed files from the target Google Drive folder, preserving prior order."""
+    existing = []
+    if os.path.exists(MANIFEST_PATH):
+        with open(MANIFEST_PATH, "r", encoding="utf-8") as f:
+            existing = json.load(f)
+    existing_by_id = {x["id"]: x for x in existing}
+
+    if os.path.exists(GDRIVE_CLI):
+        out = subprocess.check_output(
+            [GDRIVE_CLI, "readonly", "ls", FOLDER_ID, "--max", "500", "--json"],
+            text=True,
+        )
+        live = json.loads(out)
+        live_ids = {x["id"] for x in live}
+        merged = [x for x in existing if x["id"] in live_ids]
+        new_items = [x for x in live if x["id"] not in existing_by_id]
+        # Fetch detailed createdTime for any newly added items
+        for it in new_items:
+            try:
+                info_out = subprocess.check_output(
+                    [GDRIVE_CLI, "readonly", "info", it["id"], "--json"],
+                    text=True,
+                )
+                info_obj = json.loads(info_out)
+                it["createdTime"] = info_obj.get("createdTime", it.get("modifiedTime", ""))
+            except Exception:
+                it["createdTime"] = it.get("modifiedTime", "")
+        new_items.sort(key=lambda x: (x.get("createdTime", ""), x.get("name", "")))
+        merged.extend(new_items)
+        with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
+            json.dump(merged, f, indent=2, ensure_ascii=False)
+        return merged
+
+    sys.path.insert(0, "/usr/local/google/home/wadeyu/.gemini/config/skills/gki_test_workflow/scripts")
+    from upload_mtt_and_time import get_gcloud_mtls_session
     session = get_gcloud_mtls_session()
     files = []
     page_token = None
@@ -118,7 +151,7 @@ def fetch_drive_manifest():
 
 
 def download_missing_files(files):
-    """Downloads any new image or audio files from Google Drive in parallel."""
+    """Downloads any new image or audio files from Google Drive."""
     def _dl(item):
         fid = item["id"]
         name = item["name"]
@@ -134,6 +167,12 @@ def download_missing_files(files):
         if os.path.exists(out_path) and os.path.getsize(out_path) > 1000:
             return fid, out_path, False
 
+        if os.path.exists(GDRIVE_CLI):
+            subprocess.check_call([GDRIVE_CLI, "readonly", "download", fid, "--out", out_path])
+            return fid, out_path, True
+
+        sys.path.insert(0, "/usr/local/google/home/wadeyu/.gemini/config/skills/gki_test_workflow/scripts")
+        from upload_mtt_and_time import get_gcloud_mtls_session
         s = get_gcloud_mtls_session()
         r = s.get(f"https://www.mtls.googleapis.com/drive/v3/files/{fid}?alt=media", timeout=60)
         r.raise_for_status()
@@ -158,7 +197,6 @@ def refine_card_box_opencv(img, box_norm):
     """
     h, w = img.shape[:2]
     ymin, xmin, ymax, xmax = box_norm
-    # Add a small 1.2% safety margin so handwritten text near edges is never clipped
     pad_y = int(round((ymax - ymin) * 0.02))
     pad_x = int(round((xmax - xmin) * 0.02))
     ymin = max(0, ymin - pad_y)
@@ -180,7 +218,6 @@ def classify_pic_vs_word_fallback(img_a, img_b):
     """
     def _sat_score(img):
         hsv = cv2.cvtColor(cv2.resize(img, (400, 400)), cv2.COLOR_BGR2HSV)
-        # Look at pixels that are not wooden desk
         s = hsv[:, :, 1].astype(np.float32)
         v = hsv[:, :, 2].astype(np.float32)
         return float(np.std(s) + np.percentile(s, 85) * 0.5 - np.mean(v > 200) * 20)
@@ -223,7 +260,6 @@ def auto_detect_cards_fallback(img):
         xmax = int(round((x + bw) * 1000.0 / sw))
         boxes.append([ymin, xmin, ymax, xmax])
 
-    # Sort row-by-row (top to bottom, left to right)
     boxes.sort(key=lambda b: (b[0] // 180, b[1]))
     return boxes
 
@@ -239,12 +275,10 @@ def extract_date_info(item_a, item_b):
         if nm.startswith("PXL_") and len(nm) >= 12 and nm[4:12].isdigit():
             d = nm[4:12]
             return f"{d[:4]}-{d[4:6]}-{d[6:8]}"
-        # Check millisecond epoch filename like 1760529895946.jpg
         stem = os.path.splitext(nm)[0].split("~")[0]
         if len(stem) == 13 and stem.isdigit():
             try:
                 ts = int(stem) / 1000.0
-                # Some filenames have shifted timestamps, only use if reasonable year
                 dt = datetime.fromtimestamp(ts)
                 if 2024 <= dt.year <= 2027:
                     return dt.strftime("%Y-%m-%d")
@@ -274,7 +308,6 @@ def build_catalog(sync_from_drive=True):
             annotations_by_file_id[ann["pic_file_id"]] = ann
             annotations_by_file_id[ann["word_file_id"]] = ann
 
-    # Separate audio files and image files
     audio_tracks = []
     img_files = []
     for item in files:
@@ -282,7 +315,6 @@ def build_catalog(sync_from_drive=True):
         name = item.get("name", "")
         if "audio" in mime or name.lower().endswith(".mp3"):
             safe_name = f"{item['id']}_{name}"
-            # Friendly title
             clean_title = os.path.splitext(name)[0].replace("_", " ").strip()
             audio_tracks.append({
                 "id": item["id"],
@@ -301,7 +333,6 @@ def build_catalog(sync_from_drive=True):
         item_a = img_files[idx]
         item_b = img_files[idx + 1]
         pair_num = idx // 2 + 1
-        deck_id = f"deck_{pair_num:02d}"
         date_str = extract_date_info(item_a, item_b)
 
         ann = (
@@ -309,6 +340,8 @@ def build_catalog(sync_from_drive=True):
             or annotations_by_file_id.get(item_b["id"])
             or annotations_by_pair.get(pair_num)
         )
+        stable_pair_num = ann["pair_num"] if ann and "pair_num" in ann else pair_num
+        deck_id = ann.get("deck_id", f"deck_{stable_pair_num:02d}") if ann else f"deck_{pair_num:02d}"
 
         path_a = os.path.join(RAW_DIR, f"{item_a['id']}.jpg")
         path_b = os.path.join(RAW_DIR, f"{item_b['id']}.jpg")
@@ -325,8 +358,8 @@ def build_catalog(sync_from_drive=True):
             else:
                 pic_img, word_img = img_b, img_a
                 pic_id, word_id = item_b["id"], item_a["id"]
-            topic_en = ann.get("topic_en", f"Unit {pair_num}")
-            topic_zh = ann.get("topic_zh", f"第 {pair_num} 單元")
+            topic_en = ann.get("topic_en", f"Unit {stable_pair_num}")
+            topic_zh = ann.get("topic_zh", f"第 {stable_pair_num} 單元")
             raw_cards = ann.get("cards", [])
         else:
             which_pic, _ = classify_pic_vs_word_fallback(img_a, img_b)
@@ -390,11 +423,15 @@ def build_catalog(sync_from_drive=True):
                 "word_box_norm": w_box_norm,
             })
 
+        # Original pairs 1..44 were ordered newest->oldest (unit 44..1);
+        # new pairs >= 45 are appended chronologically (unit 45, 46, ...).
+        unit_num = (45 - stable_pair_num) if stable_pair_num <= 44 else stable_pair_num
+
         total_cards += len(deck_cards)
         decks.append({
             "id": deck_id,
-            "pair_num": pair_num,
-            "unit_number": len(img_files) // 2 - pair_num + 1,  # 1 = oldest, 44 = newest
+            "pair_num": stable_pair_num,
+            "unit_number": unit_num,
             "date": date_str,
             "title_en": topic_en,
             "title_zh": topic_zh,
@@ -405,6 +442,9 @@ def build_catalog(sync_from_drive=True):
             "card_count": len(deck_cards),
             "cards": deck_cards,
         })
+
+    # Display newest-first (highest unit_number at index 0)
+    decks.sort(key=lambda d: d["unit_number"], reverse=True)
 
     all_words = [c["word"] for d in decks for c in d["cards"] if c.get("word")]
     ensure_tts_files(all_words)
@@ -420,20 +460,6 @@ def build_catalog(sync_from_drive=True):
     }
     with open(CATALOG_PATH, "w", encoding="utf-8") as f:
         json.dump(catalog, f, indent=2, ensure_ascii=False)
-
-    # If a GitHub remote is configured, auto-commit and push new changes
-    if new_downloads > 0 and os.path.isdir(os.path.join(APP_DIR, ".git")):
-        try:
-            import subprocess
-            subprocess.run(["git", "-C", APP_DIR, "add", "-A"], check=False, timeout=30)
-            subprocess.run(
-                ["git", "-C", APP_DIR, "commit", "-m", f"Auto-sync {new_downloads} new Drive file(s)"],
-                check=False,
-                timeout=30,
-            )
-            subprocess.run(["git", "-C", APP_DIR, "push", "origin", "main"], check=False, timeout=60)
-        except Exception as e:
-            print(f"[GitPush] Warning: {e}")
 
     return catalog
 
