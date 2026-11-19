@@ -696,9 +696,11 @@
     showToast("🔄 正在從 Google Drive 檢查並同步最新字卡...", 10000);
 
     try {
+      const prevDeckCount = catalog ? catalog.total_decks || 0 : 0;
+      const prevCardCount = catalog ? catalog.total_cards || 0 : 0;
       let data = null;
       if (location.hostname.endsWith("github.io")) {
-        const r = await fetch("data/catalog.json?t=" + Date.now());
+        const r = await fetch("data/catalog.json?t=" + Date.now(), { cache: "no-store" });
         const cat = await r.json();
         data = { status: "ok", catalog: cat };
       } else {
@@ -706,16 +708,22 @@
         data = await resp.json();
       }
       if (data.status === "ok" && data.catalog) {
+        const isNewOnPages =
+          data.catalog.total_decks > prevDeckCount || data.catalog.total_cards > prevCardCount;
         catalog = data.catalog;
         rebuildFlatCards();
         initAudioTracks();
-        selectDeck(currentDeckIndex);
+        selectDeck(isNewOnPages ? 0 : currentDeckIndex);
         renderUnitModalGrid(elUnitSearch.value);
         const newCnt = catalog.new_files_downloaded || 0;
-        if (newCnt > 0) {
+        if (isNewOnPages && catalog.decks && catalog.decks[0]) {
+          showToast(
+            `🎉 同步成功！已載入最新單元 #${catalog.decks[0].unit_number}：${catalog.decks[0].title_zh}（共 ${catalog.total_decks} 個單元）`
+          );
+        } else if (newCnt > 0) {
           showToast(`🎉 同步成功！新增了 ${newCnt} 個檔案，目前共 ${catalog.total_decks} 個單元。`);
         } else {
-          showToast(`✅ 已是最新狀態！共 ${catalog.total_decks} 個單元、${catalog.total_cards} 張字卡。`);
+          showToast(`✅ 已是最新狀態！共 ${catalog.total_decks} 個單元、${catalog.total_cards} 張字卡（背景每 5 分鐘自動巡檢 Google Drive）。`);
         }
       } else {
         showToast("⚠️ 同步發生問題：" + (data.message || "未知錯誤"));

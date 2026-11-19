@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-Google Drive Sync & Smart Card Cropper for Kids Flashcard App.
+Google Drive Sync, Gemini Vision OCR & Smart Card Cropper for Kids Flashcard App.
 Syncs photos and MP3s from Google Drive folder 1lZgQD2gynBy4saiiZObBVLOnY8vjxfDP,
-pairs front/back flashcard sheet photos, refines/detects individual white cards,
-crops individual card images, and builds data/catalog.json.
+auto-recognizes handwritten English flashcards + Taiwan Traditional Chinese meanings via Gemini Vision,
+crops individual card images, generates normal & slow TTS MP3s, builds data/catalog.json,
+and optionally pushes updates directly to GitHub Pages.
 """
 
+import base64
 import hashlib
 import json
 import os
@@ -13,6 +15,7 @@ import re
 import subprocess
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -22,6 +25,8 @@ import numpy as np
 
 FOLDER_ID = "1lZgQD2gynBy4saiiZObBVLOnY8vjxfDP"
 GDRIVE_CLI = "/google/bin/releases/gemini-agents-gdrive/gdrive"
+CRED_PATH = os.path.expanduser("~/.config/flashcard_autosync/credentials.json")
+
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(APP_DIR, "data")
 RAW_DIR = os.path.join(DATA_DIR, "raw")
@@ -32,10 +37,27 @@ MANIFEST_PATH = os.path.join(DATA_DIR, "drive_manifest.json")
 ANNOTATIONS_PATH = os.path.join(DATA_DIR, "vision_annotations.json")
 CATALOG_PATH = os.path.join(DATA_DIR, "catalog.json")
 
+VISION_MODELS = [
+    "gemini-3-flash-preview",
+    "gemini-3.5-flash",
+    "gemini-flash-latest",
+    "gemini-3.1-flash-lite",
+]
+
 
 def ensure_dirs():
     for d in (DATA_DIR, RAW_DIR, CARDS_DIR, AUDIO_DIR, TTS_DIR):
         os.makedirs(d, exist_ok=True)
+
+
+def load_credentials():
+    if os.path.exists(CRED_PATH):
+        try:
+            with open(CRED_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
 
 
 def word_to_tts_slug(word: str) -> str:
@@ -97,57 +119,33 @@ def fetch_drive_manifest():
             existing = json.load(f)
     existing_by_id = {x["id"]: x for x in existing}
 
-    if os.path.exists(GDRIVE_CLI):
-        out = subprocess.check_output(
-            [GDRIVE_CLI, "readonly", "ls", FOLDER_ID, "--max", "500", "--json"],
-            text=True,
-        )
-        live = json.loads(out)
-        live_ids = {x["id"] for x in live}
-        merged = [x for x in existing if x["id"] in live_ids]
-        new_items = [x for x in live if x["id"] not in existing_by_id]
-        # Fetch detailed createdTime for any newly added items
-        for it in new_items:
-            try:
-                info_out = subprocess.check_output(
-                    [GDRIVE_CLI, "readonly", "info", it["id"], "--json"],
-                    text=True,
-                )
-                info_obj = json.loads(info_out)
-                it["createdTime"] = info_obj.get("createdTime", it.get("modifiedTime", ""))
-            except Exception:
-                it["createdTime"] = it.get("modifiedTime", "")
-        new_items.sort(key=lambda x: (x.get("createdTime", ""), x.get("name", "")))
-        merged.extend(new_items)
-        with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
-            json.dump(merged, f, indent=2, ensure_ascii=False)
-        return merged
+    out = subprocess.check_output(
+        [GDRIVE_CLI, "readonly", "ls", FOLDER_ID, "--max", "500", "--json"],
+        text=True,
+        timeout=45,
+    )
+    live = json.loads(out)
+    live_ids = {x["id"] for x in live}
+    merged = [x for x in existing if x["id"] in live_ids]
+    new_items = [x for x in live if x["id"] not in existing_by_id]
 
-    sys.path.insert(0, "/usr/local/google/home/wadeyu/.gemini/config/skills/gki_test_workflow/scripts")
-    from upload_mtt_and_time import get_gcloud_mtls_session
-    session = get_gcloud_mtls_session()
-    files = []
-    page_token = None
-    while True:
-        params = {
-            "q": f"'{FOLDER_ID}' in parents and trashed = false",
-            "fields": "nextPageToken, files(id, name, mimeType, createdTime, modifiedTime, size, imageMediaMetadata)",
-            "pageSize": 100,
-            "orderBy": "createdTime asc",
-        }
-        if page_token:
-            params["pageToken"] = page_token
-        resp = session.get("https://www.mtls.googleapis.com/drive/v3/files", params=params, timeout=30)
-        resp.raise_for_status()
-        data = resp.json()
-        files.extend(data.get("files", []))
-        page_token = data.get("nextPageToken")
-        if not page_token:
-            break
+    for it in new_items:
+        try:
+            info_out = subprocess.check_output(
+                [GDRIVE_CLI, "readonly", "info", it["id"], "--json"],
+                text=True,
+                timeout=20,
+            )
+            info_obj = json.loads(info_out)
+            it["createdTime"] = info_obj.get("createdTime", it.get("modifiedTime", ""))
+        except Exception:
+            it["createdTime"] = it.get("modifiedTime", "")
 
+    new_items.sort(key=lambda x: (x.get("createdTime", ""), x.get("name", "")))
+    merged.extend(new_items)
     with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
-        json.dump(files, f, indent=2, ensure_ascii=False)
-    return files
+        json.dump(merged, f, indent=2, ensure_ascii=False)
+    return merged, len(new_items)
 
 
 def download_missing_files(files):
@@ -167,21 +165,11 @@ def download_missing_files(files):
         if os.path.exists(out_path) and os.path.getsize(out_path) > 1000:
             return fid, out_path, False
 
-        if os.path.exists(GDRIVE_CLI):
-            subprocess.check_call([GDRIVE_CLI, "readonly", "download", fid, "--out", out_path])
-            return fid, out_path, True
-
-        sys.path.insert(0, "/usr/local/google/home/wadeyu/.gemini/config/skills/gki_test_workflow/scripts")
-        from upload_mtt_and_time import get_gcloud_mtls_session
-        s = get_gcloud_mtls_session()
-        r = s.get(f"https://www.mtls.googleapis.com/drive/v3/files/{fid}?alt=media", timeout=60)
-        r.raise_for_status()
-        with open(out_path, "wb") as f:
-            f.write(r.content)
+        subprocess.check_call([GDRIVE_CLI, "readonly", "download", fid, "--out", out_path], timeout=90)
         return fid, out_path, True
 
     downloaded_count = 0
-    with ThreadPoolExecutor(max_workers=8) as ex:
+    with ThreadPoolExecutor(max_workers=6) as ex:
         futs = [ex.submit(_dl, item) for item in files]
         for fut in as_completed(futs):
             _, _, is_new = fut.result()
@@ -190,11 +178,143 @@ def download_missing_files(files):
     return downloaded_count
 
 
+def detect_white_cards_opencv(img):
+    """Detects individual white flashcards on wooden desk in [ymin, xmin, ymax, xmax] (0..1000)."""
+    h, w = img.shape[:2]
+    lab = cv2.cvtColor(img, cv2.COLOR_BGR2LAB)
+    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+    L = lab[:, :, 0].astype(np.float32)
+    B = lab[:, :, 2].astype(np.float32)
+    S = hsv[:, :, 1].astype(np.float32)
+    mask = ((L > 150) & (S < 65) & (B < 145)).astype(np.uint8) * 255
+    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, np.ones((9, 9), np.uint8))
+    cnts, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    boxes = []
+    for c in cnts:
+        x, y, bw, bh = cv2.boundingRect(c)
+        if bw * bh < (w * h * 0.03):
+            continue
+        ymin = int(round(y * 1000.0 / h))
+        xmin = int(round(x * 1000.0 / w))
+        ymax = int(round((y + bh) * 1000.0 / h))
+        xmax = int(round((x + bw) * 1000.0 / w))
+        boxes.append([ymin, xmin, ymax, xmax])
+    boxes.sort(key=lambda b: (b[0] // 200, b[1]))
+    return boxes
+
+
+def annotate_pair_with_gemini(img_a, img_b, id_a, id_b, pair_num):
+    """Uses Gemini Vision to recognize handwritten English words, Chinese meanings, and card boxes."""
+    creds = load_credentials()
+    api_key = creds.get("gemini_api_key") or os.environ.get("GEMINI_API_KEY", "")
+    if not api_key:
+        return None
+
+    def _encode_jpg(img, max_dim=1280):
+        h, w = img.shape[:2]
+        scale = min(1.0, max_dim / float(max(h, w)))
+        resized = cv2.resize(img, (int(w * scale), int(h * scale))) if scale < 1.0 else img
+        _, buf = cv2.imencode(".jpg", resized, [int(cv2.IMWRITE_JPEG_QUALITY), 86])
+        return base64.b64encode(buf.tobytes()).decode("ascii")
+
+    b64_a = _encode_jpg(img_a)
+    b64_b = _encode_jpg(img_b)
+
+    prompt = (
+        "You are analyzing a pair of English flashcard sheet photos on a wooden desk for a Taiwanese "
+        "elementary school student.\n"
+        "Image A and Image B are the two sides (Picture side vs Handwritten English Word side) of the "
+        "SAME grid of cards laid out in matching positions (top-to-bottom rows, left-to-right columns).\n\n"
+        "Return ONLY valid JSON with this exact object schema:\n"
+        "{\n"
+        '  "which_is_pic": "A" or "B",\n'
+        '  "topic_en": "Concise English topic title",\n'
+        '  "topic_zh": "Concise Traditional Chinese (Taiwan) topic title",\n'
+        '  "cards": [\n'
+        "    {\n"
+        '      "word": "Main English word/phrase in Title Case",\n'
+        '      "subtext": "Optional parenthetical/secondary English note on the card, or empty string",\n'
+        '      "zh": "Natural Traditional Chinese (Taiwan) meaning matching both picture and word",\n'
+        '      "pic_box": [ymin, xmin, ymax, xmax],\n'
+        '      "word_box": [ymin, xmin, ymax, xmax]\n'
+        "    }\n"
+        "  ]\n"
+        "}\n"
+        "Coordinates [ymin, xmin, ymax, xmax] must be integers normalized 0..1000 tightly bounding each "
+        "entire white index card on the Picture sheet (pic_box) and Word sheet (word_box), ordered row-by-row "
+        "from top-left to bottom-right."
+    )
+
+    payload = {
+        "contents": [{
+            "parts": [
+                {"text": "Image A:"},
+                {"inline_data": {"mime_type": "image/jpeg", "data": b64_a}},
+                {"text": "Image B:"},
+                {"inline_data": {"mime_type": "image/jpeg", "data": b64_b}},
+                {"text": prompt},
+            ]
+        }],
+        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.1},
+    }
+
+    parsed = None
+    for model in VISION_MODELS:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"},
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                res = json.loads(resp.read().decode("utf-8"))
+                txt = res["candidates"][0]["content"]["parts"][0]["text"]
+                data = json.loads(txt)
+                if isinstance(data, list) and data:
+                    data = data[0]
+                if isinstance(data, dict) and data.get("cards"):
+                    parsed = data
+                    print(f"[Vision] Recognized {len(data['cards'])} cards using {model}: {data.get('topic_zh')}")
+                    break
+        except Exception as e:
+            print(f"[Vision] {model} warning: {e}")
+
+    if not parsed:
+        return None
+
+    which_pic = str(parsed.get("which_is_pic", "A")).strip().upper()
+    if which_pic == "A":
+        pic_id, word_id = id_a, id_b
+        pic_img, word_img = img_a, img_b
+    else:
+        pic_id, word_id = id_b, id_a
+        pic_img, word_img = img_b, img_a
+
+    cards = parsed["cards"]
+    cv_pic = detect_white_cards_opencv(pic_img)
+    cv_word = detect_white_cards_opencv(word_img)
+
+    # Snap to OpenCV tight white-card contours when card counts match cleanly
+    if len(cv_pic) == len(cards):
+        for i, c in enumerate(cards):
+            c["pic_box"] = cv_pic[i]
+    if len(cv_word) == len(cards):
+        for i, c in enumerate(cards):
+            c["word_box"] = cv_word[i]
+
+    return {
+        "pair_num": pair_num,
+        "deck_id": f"deck_{pair_num:02d}",
+        "pic_file_id": pic_id,
+        "word_file_id": word_id,
+        "topic_en": parsed.get("topic_en", f"Unit {pair_num}"),
+        "topic_zh": parsed.get("topic_zh", f"第 {pair_num} 單元"),
+        "cards": cards,
+    }
+
+
 def refine_card_box_opencv(img, box_norm):
-    """
-    Given an image and a normalized box [ymin, xmin, ymax, xmax] (0..1000),
-    snaps or pads the box cleanly so the cropped card is crisp and complete.
-    """
     h, w = img.shape[:2]
     ymin, xmin, ymax, xmax = box_norm
     pad_y = int(round((ymax - ymin) * 0.02))
@@ -212,60 +332,16 @@ def refine_card_box_opencv(img, box_norm):
 
 
 def classify_pic_vs_word_fallback(img_a, img_b):
-    """
-    Fallback classifier for brand-new photo pairs not yet in vision_annotations.json:
-    Picture cards have higher color saturation variance than handwritten black-on-white word cards.
-    """
     def _sat_score(img):
         hsv = cv2.cvtColor(cv2.resize(img, (400, 400)), cv2.COLOR_BGR2HSV)
         s = hsv[:, :, 1].astype(np.float32)
         v = hsv[:, :, 2].astype(np.float32)
         return float(np.std(s) + np.percentile(s, 85) * 0.5 - np.mean(v > 200) * 20)
 
-    if _sat_score(img_a) >= _sat_score(img_b):
-        return "a", "b"
-    return "b", "a"
-
-
-def auto_detect_cards_fallback(img):
-    """
-    Fallback OpenCV card detector for brand-new photo pairs uploaded in the future.
-    Returns list of [ymin, xmin, ymax, xmax] in 0..1000 normalized coordinates.
-    """
-    h, w = img.shape[:2]
-    scale = 1000.0 / w
-    sh, sw = int(round(h * scale)), 1000
-    small = cv2.resize(img, (sw, sh), interpolation=cv2.INTER_AREA)
-
-    lab = cv2.cvtColor(small, cv2.COLOR_BGR2LAB)
-    hsv = cv2.cvtColor(small, cv2.COLOR_BGR2HSV)
-    L = lab[:, :, 0].astype(np.float32)
-    B = lab[:, :, 2].astype(np.float32)
-    S = hsv[:, :, 1].astype(np.float32)
-    woodness = S * 0.7 + np.maximum(0, B - 128) * 1.8 - (L - 128) * 0.5
-    wood_u8 = np.clip(woodness + 50, 0, 255).astype(np.uint8)
-    _, mask_not_wood = cv2.threshold(wood_u8, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
-    eroded = cv2.erode(mask_not_wood, np.ones((7, 7), np.uint8), iterations=1)
-    cnts, _ = cv2.findContours(eroded, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-
-    boxes = []
-    img_area = sw * sh
-    for c in cnts:
-        x, y, bw, bh = cv2.boundingRect(c)
-        if bw * bh < img_area * 0.03:
-            continue
-        ymin = int(round(y * 1000.0 / sh))
-        xmin = int(round(x * 1000.0 / sw))
-        ymax = int(round((y + bh) * 1000.0 / sh))
-        xmax = int(round((x + bw) * 1000.0 / sw))
-        boxes.append([ymin, xmin, ymax, xmax])
-
-    boxes.sort(key=lambda b: (b[0] // 180, b[1]))
-    return boxes
+    return ("a", "b") if _sat_score(img_a) >= _sat_score(img_b) else ("b", "a")
 
 
 def extract_date_info(item_a, item_b):
-    """Extracts human-readable date (YYYY-MM-DD) from EXIF or filename."""
     for it in (item_a, item_b):
         exif_t = it.get("imageMediaMetadata", {}).get("time", "")
         if exif_t and len(exif_t) >= 10:
@@ -287,17 +363,69 @@ def extract_date_info(item_a, item_b):
     return item_a.get("createdTime", "")[:10]
 
 
-def build_catalog(sync_from_drive=True):
-    """Main pipeline: optionally syncs from Drive, crops cards, and writes catalog.json."""
+def update_html_deck_count(total_decks):
+    for rel in ("index.html", os.path.join("static", "index.html")):
+        p = os.path.join(APP_DIR, rel)
+        if os.path.exists(p):
+            with open(p, "r", encoding="utf-8") as f:
+                html = f.read()
+            updated = re.sub(
+                r'(<span id="modal-deck-count">)\d+(</span>)',
+                rf"\g<1>{total_decks}\g<2>",
+                html,
+            )
+            if updated != html:
+                with open(p, "w", encoding="utf-8") as f:
+                    f.write(updated)
+
+
+def push_to_github_if_changed(commit_msg):
+    if not os.path.isdir(os.path.join(APP_DIR, ".git")):
+        return False
+    status = subprocess.check_output(["git", "-C", APP_DIR, "status", "--porcelain"], text=True).strip()
+    if not status:
+        return False
+
+    creds = load_credentials()
+    gh_token = creds.get("github_token") or os.environ.get("GITHUB_TOKEN", "")
+    gh_user = creds.get("github_user", "wadeyu1117")
+    if not gh_token:
+        print("[GitPush] No github_token configured; skipping push.")
+        return False
+
+    subprocess.check_call(["git", "-C", APP_DIR, "add", "-A"], timeout=30)
+    subprocess.check_call(["git", "-C", APP_DIR, "commit", "-m", commit_msg], timeout=30)
+    b64 = base64.b64encode(f"{gh_user}:{gh_token}".encode("utf-8")).decode("ascii")
+    subprocess.check_call(
+        [
+            "git",
+            "-C",
+            APP_DIR,
+            "-c",
+            f"http.https://github.com/.extraheader=AUTHORIZATION: basic {b64}",
+            "push",
+            "origin",
+            "main",
+        ],
+        timeout=90,
+    )
+    print(f"[GitPush] Successfully pushed to GitHub Pages: {commit_msg}")
+    return True
+
+
+def build_catalog(sync_from_drive=True, push_changes=False):
+    """Main pipeline: syncs from Drive, OCRs new pairs via Gemini, crops cards, and writes catalog.json."""
     ensure_dirs()
+    new_manifest_items = 0
     new_downloads = 0
     if sync_from_drive:
-        files = fetch_drive_manifest()
+        files, new_manifest_items = fetch_drive_manifest()
         new_downloads = download_missing_files(files)
     else:
         with open(MANIFEST_PATH, "r", encoding="utf-8") as f:
             files = json.load(f)
 
+    ann_list = []
     annotations_by_pair = {}
     annotations_by_file_id = {}
     if os.path.exists(ANNOTATIONS_PATH):
@@ -307,6 +435,9 @@ def build_catalog(sync_from_drive=True):
             annotations_by_pair[ann["pair_num"]] = ann
             annotations_by_file_id[ann["pic_file_id"]] = ann
             annotations_by_file_id[ann["word_file_id"]] = ann
+
+    max_pair_num = max([a.get("pair_num", 0) for a in ann_list], default=44)
+    annotations_dirty = False
 
     audio_tracks = []
     img_files = []
@@ -328,6 +459,7 @@ def build_catalog(sync_from_drive=True):
 
     decks = []
     total_cards = 0
+    newly_added_topics = []
 
     for idx in range(0, len(img_files) - 1, 2):
         item_a = img_files[idx]
@@ -335,20 +467,33 @@ def build_catalog(sync_from_drive=True):
         pair_num = idx // 2 + 1
         date_str = extract_date_info(item_a, item_b)
 
-        ann = (
-            annotations_by_file_id.get(item_a["id"])
-            or annotations_by_file_id.get(item_b["id"])
-            or annotations_by_pair.get(pair_num)
-        )
-        stable_pair_num = ann["pair_num"] if ann and "pair_num" in ann else pair_num
-        deck_id = ann.get("deck_id", f"deck_{stable_pair_num:02d}") if ann else f"deck_{pair_num:02d}"
-
         path_a = os.path.join(RAW_DIR, f"{item_a['id']}.jpg")
         path_b = os.path.join(RAW_DIR, f"{item_b['id']}.jpg")
         img_a = cv2.imread(path_a)
         img_b = cv2.imread(path_b)
         if img_a is None or img_b is None:
             continue
+
+        ann = (
+            annotations_by_file_id.get(item_a["id"])
+            or annotations_by_file_id.get(item_b["id"])
+            or (annotations_by_pair.get(pair_num) if pair_num <= 44 else None)
+        )
+
+        # Brand-new pair uploaded to Google Drive -> auto-annotate with Gemini Vision!
+        if ann is None:
+            max_pair_num += 1
+            ann = annotate_pair_with_gemini(img_a, img_b, item_a["id"], item_b["id"], max_pair_num)
+            if ann is not None:
+                ann_list.append(ann)
+                annotations_by_pair[ann["pair_num"]] = ann
+                annotations_by_file_id[ann["pic_file_id"]] = ann
+                annotations_by_file_id[ann["word_file_id"]] = ann
+                annotations_dirty = True
+                newly_added_topics.append(f"Unit #{ann['pair_num']} {ann['topic_zh']}")
+
+        stable_pair_num = ann["pair_num"] if ann and "pair_num" in ann else max(pair_num, max_pair_num)
+        deck_id = ann.get("deck_id", f"deck_{stable_pair_num:02d}") if ann else f"deck_{stable_pair_num:02d}"
 
         if ann:
             pic_id = ann["pic_file_id"]
@@ -371,8 +516,8 @@ def build_catalog(sync_from_drive=True):
                 pic_img, word_img = img_b, img_a
             topic_en = f"New Unit ({date_str})"
             topic_zh = f"最新字卡 ({date_str})"
-            boxes_p = auto_detect_cards_fallback(pic_img)
-            boxes_w = auto_detect_cards_fallback(word_img)
+            boxes_p = detect_white_cards_opencv(pic_img)
+            boxes_w = detect_white_cards_opencv(word_img)
             n_cards = min(len(boxes_p), len(boxes_w))
             raw_cards = [
                 {
@@ -399,11 +544,11 @@ def build_catalog(sync_from_drive=True):
             px0, py0, px1, py1, p_box_norm = refine_card_box_opencv(pic_img, c["pic_box"])
             wx0, wy0, wx1, wy1, w_box_norm = refine_card_box_opencv(word_img, c["word_box"])
 
-            if not os.path.exists(pic_crop_path) or new_downloads > 0:
+            if not os.path.exists(pic_crop_path) or new_downloads > 0 or annotations_dirty:
                 crop_p = pic_img[py0:py1, px0:px1]
                 cv2.imwrite(pic_crop_path, crop_p, [int(cv2.IMWRITE_JPEG_QUALITY), 92])
 
-            if not os.path.exists(word_crop_path) or new_downloads > 0:
+            if not os.path.exists(word_crop_path) or new_downloads > 0 or annotations_dirty:
                 crop_w = word_img[wy0:wy1, wx0:wx1]
                 cv2.imwrite(word_crop_path, crop_w, [int(cv2.IMWRITE_JPEG_QUALITY), 92])
 
@@ -423,10 +568,7 @@ def build_catalog(sync_from_drive=True):
                 "word_box_norm": w_box_norm,
             })
 
-        # Original pairs 1..44 were ordered newest->oldest (unit 44..1);
-        # new pairs >= 45 are appended chronologically (unit 45, 46, ...).
         unit_num = (45 - stable_pair_num) if stable_pair_num <= 44 else stable_pair_num
-
         total_cards += len(deck_cards)
         decks.append({
             "id": deck_id,
@@ -443,14 +585,26 @@ def build_catalog(sync_from_drive=True):
             "cards": deck_cards,
         })
 
-    # Display newest-first (highest unit_number at index 0)
-    decks.sort(key=lambda d: d["unit_number"], reverse=True)
+    if annotations_dirty:
+        with open(ANNOTATIONS_PATH, "w", encoding="utf-8") as f:
+            json.dump(ann_list, f, indent=2, ensure_ascii=False)
 
+    decks.sort(key=lambda d: d["unit_number"], reverse=True)
     all_words = [c["word"] for d in decks for c in d["cards"] if c.get("word")]
-    ensure_tts_files(all_words)
+    new_tts = ensure_tts_files(all_words)
+
+    has_meaningful_update = (new_manifest_items > 0 or new_downloads > 0 or annotations_dirty or new_tts > 0)
+    prev_updated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    if not has_meaningful_update and os.path.exists(CATALOG_PATH):
+        try:
+            prev_cat = json.load(open(CATALOG_PATH, "r", encoding="utf-8"))
+            if prev_cat.get("total_decks") == len(decks) and prev_cat.get("total_cards") == total_cards:
+                prev_updated_at = prev_cat.get("updated_at", prev_updated_at)
+        except Exception:
+            pass
 
     catalog = {
-        "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S") if has_meaningful_update else prev_updated_at,
         "folder_id": FOLDER_ID,
         "new_files_downloaded": new_downloads,
         "total_decks": len(decks),
@@ -461,13 +615,20 @@ def build_catalog(sync_from_drive=True):
     with open(CATALOG_PATH, "w", encoding="utf-8") as f:
         json.dump(catalog, f, indent=2, ensure_ascii=False)
 
+    update_html_deck_count(len(decks))
+
+    if push_changes and has_meaningful_update:
+        summary = ", ".join(newly_added_topics) if newly_added_topics else f"{new_downloads} new Drive file(s)"
+        push_to_github_if_changed(f"Auto-sync Google Drive flashcards: {summary}")
+
     return catalog
 
 
 if __name__ == "__main__":
     do_sync = "--no-drive" not in sys.argv
+    do_push = "--push" in sys.argv
     t0 = time.time()
-    cat = build_catalog(sync_from_drive=do_sync)
+    cat = build_catalog(sync_from_drive=do_sync, push_changes=do_push)
     print(
         f"Catalog built in {time.time() - t0:.1f}s: "
         f"{cat['total_decks']} decks, {cat['total_cards']} cards, "
